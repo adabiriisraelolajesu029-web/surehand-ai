@@ -1,0 +1,64 @@
+# Render Blueprint: one web service (API + frontend) and two scheduled jobs that call it.
+# Deploy: push this project to GitHub -> Render dashboard -> New -> Blueprint -> pick the repo.
+# Then fill in the secrets marked sync:false in the dashboard (they are never stored in git).
+services:
+  - type: web
+    name: surehand-ai
+    runtime: node
+    plan: starter            # a persistent disk needs a paid instance; free instances lose files on every deploy
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    disk:
+      name: surehand-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: DATA_DIR
+        value: /var/data
+      - key: FOOTBALL_API_PROVIDER
+        value: football-data
+      - key: FOOTBALL_API_BASE_URL
+        value: https://api.football-data.org/v4
+      - key: FOOTBALL_LEAGUE_IDS
+        value: PL,PD,SA,BL1,FL1
+      - key: ANTHROPIC_MODEL
+        value: claude-sonnet-5-5
+      - key: FOOTBALL_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ADMIN_TOKEN
+        generateValue: true   # Render creates a long random token; copy it into the two jobs below
+
+  # Morning run: fetch fixtures, analyse, lock predictions before kickoff. 06:00 UTC = 07:00 WAT.
+  - type: cron
+    name: surehand-daily-analysis
+    runtime: node
+    plan: starter
+    schedule: "0 6 * * *"
+    buildCommand: "true"
+    startCommand: 'curl -fsS -X POST -H "Authorization: Bearer $ADMIN_TOKEN" "$SUREHAND_URL/api/jobs/daily-analysis"'
+    envVars:
+      - key: SUREHAND_URL
+        sync: false           # e.g. https://surehand-ai.onrender.com
+      - key: ADMIN_TOKEN
+        sync: false
+
+  # Night run: attach final scores and scorers to locked predictions so the accuracy page fills in. 23:30 UTC.
+  - type: cron
+    name: surehand-results-sync
+    runtime: node
+    plan: starter
+    schedule: "30 23 * * *"
+    buildCommand: "true"
+    startCommand: 'curl -fsS -X POST -H "Authorization: Bearer $ADMIN_TOKEN" "$SUREHAND_URL/api/results/sync"'
+    envVars:
+      - key: SUREHAND_URL
+        sync: false
+      - key: ADMIN_TOKEN
+        sync: false
+
+  # Lineup refresh (only useful with a provider that reports lineups, e.g. API-Football on a paid plan):
+  # add a cron here calling POST $SUREHAND_URL/api/jobs/daily-analysis?mode=lineups every 20 minutes (schedule "*/20 10-22 * * *").
