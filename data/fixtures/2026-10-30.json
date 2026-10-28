@@ -1,0 +1,102 @@
+[
+ {
+  "id": "559644",
+  "kickoffUtc": "2026-10-30T18:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "533",
+   "name": "Le Havre AC",
+   "short": "HAC"
+  },
+  "away": {
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  }
+ },
+ {
+  "id": "559646",
+  "kickoffUtc": "2026-10-30T18:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "522",
+   "name": "OGC Nice",
+   "short": "NIC"
+  },
+  "away": {
+   "id": "529",
+   "name": "Stade Rennais FC 1901",
+   "short": "REN"
+  }
+ },
+ {
+  "id": "565846",
+  "kickoffUtc": "2026-10-30T19:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "719",
+   "name": "SV 07 Elversberg",
+   "short": "ELV"
+  },
+  "away": {
+   "id": "15",
+   "name": "1. FSV Mainz 05",
+   "short": "M05"
+  }
+ },
+ {
+  "id": "564737",
+  "kickoffUtc": "2026-10-30T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "94",
+   "name": "Villarreal CF",
+   "short": "VIL"
+  },
+  "away": {
+   "id": "80",
+   "name": "RCD Espanyol de Barcelona",
+   "short": "ESP"
+  }
+ },
+ {
+  "id": "559639",
+  "kickoffUtc": "2026-10-30T20:05:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "521",
+   "name": "Lille OSC",
+   "short": "LIL"
+  },
+  "away": {
+   "id": "546",
+   "name": "Racing Club de Lens",
+   "short": "RCL"
+  }
+ }
+]

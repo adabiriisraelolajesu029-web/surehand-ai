@@ -1,0 +1,102 @@
+[
+ {
+  "id": "558541",
+  "kickoffUtc": "2026-11-02T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "471",
+   "name": "US Sassuolo Calcio",
+   "short": "SAS"
+  },
+  "away": {
+   "id": "99",
+   "name": "ACF Fiorentina",
+   "short": "FIO"
+  }
+ },
+ {
+  "id": "559641",
+  "kickoffUtc": "2026-11-02T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "525",
+   "name": "FC Lorient",
+   "short": "FCL"
+  },
+  "away": {
+   "id": "512",
+   "name": "Stade Brestois 29",
+   "short": "BRE"
+  }
+ },
+ {
+  "id": "558545",
+  "kickoffUtc": "2026-11-02T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "102",
+   "name": "Atalanta BC",
+   "short": "ATA"
+  },
+  "away": {
+   "id": "112",
+   "name": "Parma Calcio 1913",
+   "short": "PAR"
+  }
+ },
+ {
+  "id": "560622",
+  "kickoffUtc": "2026-11-02T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "67",
+   "name": "Newcastle United FC",
+   "short": "NEW"
+  },
+  "away": {
+   "id": "62",
+   "name": "Everton FC",
+   "short": "EVE"
+  }
+ },
+ {
+  "id": "564731",
+  "kickoffUtc": "2026-11-02T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "560",
+   "name": "RC Deportivo La Coruña",
+   "short": "DEP"
+  },
+  "away": {
+   "id": "79",
+   "name": "CA Osasuna",
+   "short": "OSA"
+  }
+ }
+]

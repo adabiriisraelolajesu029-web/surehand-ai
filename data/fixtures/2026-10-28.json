@@ -20,26 +20,6 @@
   }
  },
  {
-  "id": "558553",
-  "kickoffUtc": "2026-10-28T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "112",
-   "name": "Parma Calcio 1913",
-   "short": "PAR"
-  },
-  "away": {
-   "id": "115",
-   "name": "Udinese Calcio",
-   "short": "UDI"
-  }
- },
- {
   "id": "558550",
   "kickoffUtc": "2026-10-28T17:30:00.000Z",
   "status": "scheduled",
@@ -60,8 +40,8 @@
   }
  },
  {
-  "id": "558554",
-  "kickoffUtc": "2026-10-28T19:45:00.000Z",
+  "id": "558553",
+  "kickoffUtc": "2026-10-28T17:30:00.000Z",
   "status": "scheduled",
   "league": {
    "id": "SA",
@@ -69,14 +49,14 @@
    "country": "Italy"
   },
   "home": {
-   "id": "5911",
-   "name": "AC Monza",
-   "short": "MON"
+   "id": "112",
+   "name": "Parma Calcio 1913",
+   "short": "PAR"
   },
   "away": {
-   "id": "113",
-   "name": "SSC Napoli",
-   "short": "NAP"
+   "id": "115",
+   "name": "Udinese Calcio",
+   "short": "UDI"
   }
  },
  {
@@ -97,6 +77,26 @@
    "id": "109",
    "name": "Juventus FC",
    "short": "JUV"
+  }
+ },
+ {
+  "id": "558554",
+  "kickoffUtc": "2026-10-28T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "5911",
+   "name": "AC Monza",
+   "short": "MON"
+  },
+  "away": {
+   "id": "113",
+   "name": "SSC Napoli",
+   "short": "NAP"
   }
  }
 ]
