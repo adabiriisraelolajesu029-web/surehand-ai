@@ -1,0 +1,216 @@
+{
+ "fixtureId": "558552",
+ "kickoffUtc": "2026-10-28T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558552",
+   "kickoffUtc": "2026-10-28T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "107",
+    "name": "Genoa CFC",
+    "short": "GEN"
+   },
+   "away": {
+    "id": "109",
+    "name": "Juventus FC",
+    "short": "JUV"
+   }
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Venezia FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "AS Roma",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "ACF Fiorentina",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Parma Calcio 1913",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Frosinone Calcio",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "US Lecce",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SS Lazio",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Atalanta BC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 2,
+     "d": 1,
+     "l": 5,
+     "gf": 6,
+     "ga": 13
+    },
+    "home": null,
+    "away": null
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 4,
+     "d": 2,
+     "l": 2,
+     "gf": 11,
+     "ga": 8
+    },
+    "home": null,
+    "away": null
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-06",
+    "homeId": "109",
+    "awayId": "107",
+    "home": "Juventus FC",
+    "away": "Genoa CFC",
+    "hg": 2,
+    "ag": 0
+   },
+   {
+    "date": "2025-08-31",
+    "homeId": "107",
+    "awayId": "109",
+    "home": "Genoa CFC",
+    "away": "Juventus FC",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2025-03-29",
+    "homeId": "109",
+    "awayId": "107",
+    "home": "Juventus FC",
+    "away": "Genoa CFC",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2024-09-28",
+    "homeId": "107",
+    "awayId": "109",
+    "home": "Genoa CFC",
+    "away": "Juventus FC",
+    "hg": 0,
+    "ag": 3
+   },
+   {
+    "date": "2024-03-17",
+    "homeId": "109",
+    "awayId": "107",
+    "home": "Juventus FC",
+    "away": "Genoa CFC",
+    "hg": 0,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "67743",
+    "name": "Milutin Osmajić",
+    "team": "Genoa CFC",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "1106",
+    "name": "Bremer",
+    "team": "Juventus FC",
+    "pos": "Defence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8990",
+    "name": "Edon Zhegrova",
+    "team": "Juventus FC",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": null,
+ "dataSnapshotAt": "2026-10-28T02:17:48.950Z",
+ "lockedAt": null,
+ "result": null
+}

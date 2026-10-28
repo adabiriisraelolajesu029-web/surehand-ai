@@ -1,0 +1,226 @@
+{
+ "fixtureId": "558553",
+ "kickoffUtc": "2026-10-28T17:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558553",
+   "kickoffUtc": "2026-10-28T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "112",
+    "name": "Parma Calcio 1913",
+    "short": "PAR"
+   },
+   "away": {
+    "id": "115",
+    "name": "Udinese Calcio",
+    "short": "UDI"
+   }
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "SS Lazio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Genoa CFC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Como 1907",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "AC Milan",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "A",
+     "gf": 3,
+     "ga": 5,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 1,
+     "d": 1,
+     "l": 6,
+     "gf": 5,
+     "ga": 15
+    },
+    "home": null,
+    "away": null
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 1,
+     "d": 1,
+     "l": 6,
+     "gf": 9,
+     "ga": 18
+    },
+    "home": null,
+    "away": null
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-18",
+    "homeId": "115",
+    "awayId": "112",
+    "home": "Udinese Calcio",
+    "away": "Parma Calcio 1913",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2025-11-29",
+    "homeId": "112",
+    "awayId": "115",
+    "home": "Parma Calcio 1913",
+    "away": "Udinese Calcio",
+    "hg": 0,
+    "ag": 2
+   },
+   {
+    "date": "2025-03-01",
+    "homeId": "115",
+    "awayId": "112",
+    "home": "Udinese Calcio",
+    "away": "Parma Calcio 1913",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2024-09-16",
+    "homeId": "112",
+    "awayId": "115",
+    "home": "Parma Calcio 1913",
+    "away": "Udinese Calcio",
+    "hg": 2,
+    "ag": 3
+   },
+   {
+    "date": "2021-02-21",
+    "homeId": "112",
+    "awayId": "115",
+    "home": "Parma Calcio 1913",
+    "away": "Udinese Calcio",
+    "hg": 2,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "299423",
+    "name": "Simone Lontani",
+    "team": "Parma Calcio 1913",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "165857",
+    "name": "José Romero",
+    "team": "Parma Calcio 1913",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "7567",
+    "name": "Jurgen Ekkelenkamp",
+    "team": "Udinese Calcio",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "822",
+    "name": "Hassane Kamara",
+    "team": "Udinese Calcio",
+    "pos": "Defence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": null,
+ "dataSnapshotAt": "2026-10-28T02:17:11.928Z",
+ "lockedAt": null,
+ "result": null
+}

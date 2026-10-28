@@ -1,0 +1,236 @@
+{
+ "fixtureId": "558551",
+ "kickoffUtc": "2026-10-29T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558551",
+   "kickoffUtc": "2026-10-29T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "99",
+    "name": "ACF Fiorentina",
+    "short": "FIO"
+   },
+   "away": {
+    "id": "102",
+    "name": "Atalanta BC",
+    "short": "ATA"
+   }
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Como 1907",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Genoa CFC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "SSC Napoli",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Venezia FC",
+     "venue": "A",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Frosinone Calcio",
+     "venue": "H",
+     "gf": 4,
+     "ga": 4,
+     "res": "D"
+    },
+    {
+     "opp": "AC Milan",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Venezia FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Juventus FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 1,
+     "d": 1,
+     "l": 6,
+     "gf": 9,
+     "ga": 19
+    },
+    "home": null,
+    "away": null
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 3,
+     "d": 1,
+     "l": 4,
+     "gf": 14,
+     "ga": 15
+    },
+    "home": null,
+    "away": null
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-22",
+    "homeId": "99",
+    "awayId": "102",
+    "home": "ACF Fiorentina",
+    "away": "Atalanta BC",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2025-11-30",
+    "homeId": "102",
+    "awayId": "99",
+    "home": "Atalanta BC",
+    "away": "ACF Fiorentina",
+    "hg": 2,
+    "ag": 0
+   },
+   {
+    "date": "2025-03-30",
+    "homeId": "99",
+    "awayId": "102",
+    "home": "ACF Fiorentina",
+    "away": "Atalanta BC",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2024-09-15",
+    "homeId": "102",
+    "awayId": "99",
+    "home": "Atalanta BC",
+    "away": "ACF Fiorentina",
+    "hg": 3,
+    "ag": 2
+   },
+   {
+    "date": "2024-06-02",
+    "homeId": "102",
+    "awayId": "99",
+    "home": "Atalanta BC",
+    "away": "ACF Fiorentina",
+    "hg": 2,
+    "ag": 3
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "250304",
+    "name": "Franco Mastantuono",
+    "team": "ACF Fiorentina",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "157538",
+    "name": "Mateo Pellegrino",
+    "team": "ACF Fiorentina",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "227048",
+    "name": "Álex Jiménez",
+    "team": "ACF Fiorentina",
+    "pos": "Defence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "120679",
+    "name": "Nikola Krstović",
+    "team": "Atalanta BC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "81440",
+    "name": "Éderson",
+    "team": "Atalanta BC",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": null,
+ "dataSnapshotAt": "2026-10-28T02:18:32.360Z",
+ "lockedAt": null,
+ "result": null
+}

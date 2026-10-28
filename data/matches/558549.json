@@ -1,0 +1,237 @@
+{
+ "fixtureId": "558549",
+ "kickoffUtc": "2026-10-28T17:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558549",
+   "kickoffUtc": "2026-10-28T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "98",
+    "name": "AC Milan",
+    "short": "MIL"
+   },
+   "away": {
+    "id": "103",
+    "name": "Bologna FC 1909",
+    "short": "BOL"
+   }
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Udinese Calcio",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Atalanta BC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SS Lazio",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "SSC Napoli",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 5,
+     "d": 3,
+     "l": 0,
+     "gf": 16,
+     "ga": 7
+    },
+    "home": null,
+    "away": null
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 2,
+     "d": 2,
+     "l": 4,
+     "gf": 8,
+     "ga": 10
+    },
+    "home": null,
+    "away": null
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-02-03",
+    "homeId": "103",
+    "awayId": "98",
+    "home": "Bologna FC 1909",
+    "away": "AC Milan",
+    "hg": 0,
+    "ag": 3
+   },
+   {
+    "date": "2025-09-14",
+    "homeId": "98",
+    "awayId": "103",
+    "home": "AC Milan",
+    "away": "Bologna FC 1909",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2025-05-09",
+    "homeId": "98",
+    "awayId": "103",
+    "home": "AC Milan",
+    "away": "Bologna FC 1909",
+    "hg": 3,
+    "ag": 1
+   },
+   {
+    "date": "2025-02-27",
+    "homeId": "103",
+    "awayId": "98",
+    "home": "Bologna FC 1909",
+    "away": "AC Milan",
+    "hg": 2,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "3368",
+    "name": "Adrien Rabiot",
+    "team": "AC Milan",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "182192",
+    "name": "Diego Moreira",
+    "team": "AC Milan",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "192142",
+    "name": "Alphadjo Cisse",
+    "team": "AC Milan",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "101431",
+    "name": "Gonçalo Ramos",
+    "team": "AC Milan",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "145",
+    "name": "Christian Pulisic",
+    "team": "AC Milan",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "2040",
+    "name": "Federico Bernardeschi",
+    "team": "Bologna FC 1909",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": null,
+ "dataSnapshotAt": "2026-10-28T02:16:17.984Z",
+ "lockedAt": null,
+ "result": null
+}

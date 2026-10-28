@@ -1,0 +1,102 @@
+[
+ {
+  "id": "558549",
+  "kickoffUtc": "2026-10-28T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "98",
+   "name": "AC Milan",
+   "short": "MIL"
+  },
+  "away": {
+   "id": "103",
+   "name": "Bologna FC 1909",
+   "short": "BOL"
+  }
+ },
+ {
+  "id": "558550",
+  "kickoffUtc": "2026-10-28T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "454",
+   "name": "Venezia FC",
+   "short": "VEN"
+  },
+  "away": {
+   "id": "108",
+   "name": "FC Internazionale Milano",
+   "short": "INT"
+  }
+ },
+ {
+  "id": "558553",
+  "kickoffUtc": "2026-10-28T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "112",
+   "name": "Parma Calcio 1913",
+   "short": "PAR"
+  },
+  "away": {
+   "id": "115",
+   "name": "Udinese Calcio",
+   "short": "UDI"
+  }
+ },
+ {
+  "id": "558554",
+  "kickoffUtc": "2026-10-28T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "5911",
+   "name": "AC Monza",
+   "short": "MON"
+  },
+  "away": {
+   "id": "113",
+   "name": "SSC Napoli",
+   "short": "NAP"
+  }
+ },
+ {
+  "id": "558552",
+  "kickoffUtc": "2026-10-28T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "107",
+   "name": "Genoa CFC",
+   "short": "GEN"
+  },
+  "away": {
+   "id": "109",
+   "name": "Juventus FC",
+   "short": "JUV"
+  }
+ }
+]

@@ -1,0 +1,226 @@
+{
+ "fixtureId": "558554",
+ "kickoffUtc": "2026-10-28T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558554",
+   "kickoffUtc": "2026-10-28T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "5911",
+    "name": "AC Monza",
+    "short": "MON"
+   },
+   "away": {
+    "id": "113",
+    "name": "SSC Napoli",
+    "short": "NAP"
+   }
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Torino FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SS Lazio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "AS Roma",
+     "venue": "H",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    },
+    {
+     "opp": "Venezia FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Frosinone Calcio",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "ACF Fiorentina",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Bologna FC 1909",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 2,
+     "d": 1,
+     "l": 5,
+     "gf": 15,
+     "ga": 18
+    },
+    "home": null,
+    "away": null
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 3,
+     "d": 2,
+     "l": 3,
+     "gf": 13,
+     "ga": 10
+    },
+    "home": null,
+    "away": null
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2025-04-19",
+    "homeId": "5911",
+    "awayId": "113",
+    "home": "AC Monza",
+    "away": "SSC Napoli",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2024-09-29",
+    "homeId": "113",
+    "awayId": "5911",
+    "home": "SSC Napoli",
+    "away": "AC Monza",
+    "hg": 2,
+    "ag": 0
+   },
+   {
+    "date": "2024-04-07",
+    "homeId": "5911",
+    "awayId": "113",
+    "home": "AC Monza",
+    "away": "SSC Napoli",
+    "hg": 2,
+    "ag": 4
+   },
+   {
+    "date": "2023-12-29",
+    "homeId": "113",
+    "awayId": "5911",
+    "home": "SSC Napoli",
+    "away": "AC Monza",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2023-05-14",
+    "homeId": "5911",
+    "awayId": "113",
+    "home": "AC Monza",
+    "away": "SSC Napoli",
+    "hg": 2,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "252836",
+    "name": "Gustavo Varela",
+    "team": "AC Monza",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 7,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "265567",
+    "name": "Jay Robinson",
+    "team": "AC Monza",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "3654",
+    "name": "Kevin De Bruyne",
+    "team": "SSC Napoli",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "152770",
+    "name": "Rasmus Højlund",
+    "team": "SSC Napoli",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": null,
+ "dataSnapshotAt": "2026-10-28T02:17:30.486Z",
+ "lockedAt": null,
+ "result": null
+}
