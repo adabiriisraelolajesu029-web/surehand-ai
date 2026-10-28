@@ -1,9 +1,28 @@
-import { state, isDemo } from "../api.js";
+import { state, isDemo, isStatic } from "../api.js";
 import { html, mount } from "../ui.js";
 
 const dot = (on) => html`<span class="status-dot ${on ? "on" : "off"}"></span>`;
 
+function staticPage(root) {
+  const idx = state.index || {};
+  mount(root, html`
+    <div class="page-head"><div><h1>How SureHand AI works</h1><p>What powers these predictions, and what it can and cannot see.</p></div>
+      <span class="tag green">LIVE DATA</span></div>
+    <div class="card"><table><tbody>
+      <tr><td style="width:28px">${dot(true)}</td><td><b>Data source</b></td><td class="muted">football-data.org: fixtures, results, league tables and top scorers for the Premier League, La Liga, Serie A, Bundesliga and Ligue 1. Last published: ${idx.updatedAt ? new Date(idx.updatedAt).toLocaleString() : "unknown"}.</td></tr>
+      <tr><td>${dot(true)}</td><td><b>Prediction engine</b></td><td class="muted">A statistical model (Poisson goal model), not AI. It turns each team's season scoring and conceding rates into expected goals, then into win/draw/loss chances, likely scorelines and each top scorer's chance to score.</td></tr>
+      <tr><td>${dot(false)}</td><td><b>Injuries, suspensions, lineups</b></td><td class="muted">Not available from the free data source. The model cannot know who is missing, so scorer picks carry lower confidence.</td></tr>
+    </tbody></table></div>
+    <section class="block"><h2>Data integrity rules</h2><div class="card"><ul class="small muted" style="margin:0;padding-left:18px;display:grid;gap:6px">
+      <li>Every number comes from the data source or is calculated from it. Nothing is invented; missing data is shown as unavailable or lowers confidence.</li>
+      <li>Predictions are saved before kickoff and never changed. The project's public history shows when each one was saved.</li>
+      <li>Updates run on a schedule a few times a day, so lineups and late news are not reflected.</li>
+      <li>Predictions are estimates, never guarantees.</li>
+    </ul></div></section>`);
+}
+
 export function data(root) {
+  if (isStatic()) return staticPage(root);
   const s = state.health?.services;
   const rows = [
     ["Backend API", !!state.health, state.health ? "Reachable" : "Not reachable — run the backend (see README)"],

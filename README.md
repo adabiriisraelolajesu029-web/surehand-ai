@@ -16,6 +16,23 @@ Football analytics dashboard: match outcome, anytime goalscorer and correct-scor
 
 No live fixtures, player statistics, injuries or AI predictions are produced until the services above are connected and tested. The Poisson numbers in demo mode come from invented ratings and are not real analysis.
 
+## Free hosting on GitHub (no server, no cost)
+
+This is the default way to run SureHand AI when you have no budget. Everything runs on GitHub's free tools for a public repository:
+
+- **`.github/workflows/predictions.yml`** runs three times a day. It fetches fixtures and league stats from football-data.org (free token), calculates predictions with the statistical model (`backend/services/statModel.js`, a Poisson goal model, **not AI**), attaches final results, and commits the JSON files in `data/`.
+- **GitHub Pages** publishes `frontend/` plus `data/` as the website. The page reads the JSON files, so no backend is needed.
+- Predictions are written once, before kickoff, and never recalculated. Git history shows when each was saved.
+
+One-time setup:
+1. Repository **Settings → Secrets and variables → Actions → New repository secret**: name `FOOTBALL_API_KEY`, value = your football-data.org token.
+2. **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+3. **Actions** tab → "Update predictions and publish site" → **Run workflow**. The first run takes several minutes (the free API allows 10 requests/minute). Your site appears at `https://<username>.github.io/<repo>/`.
+
+Limits: no injuries/lineups (free data source), scheduled runs can start 10-30 minutes late, and GitHub may pause scheduled workflows after ~60 days without repository activity (re-enable them in the Actions tab).
+
+The Express backend, Claude-written predictions and `render.yaml` below are an optional paid upgrade path.
+
 ## Run it
 
 ```bash

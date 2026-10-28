@@ -9,8 +9,18 @@ import { DEMO_SNAPSHOT_AT, DEMO_TRACKED, getDemoDaily, getDemoFixtures, getDemoM
 
 const BASE = (window.SUREHAND_CONFIG && window.SUREHAND_CONFIG.apiBase) || "/api";
 
-export const state = { mode: "demo", reason: "Checking backend…", health: null };
+// Modes: "live" (backend API), "static" (pre-generated JSON files under ./data, e.g. GitHub Pages), "demo" (fictional data).
+export const state = { mode: "demo", reason: "Checking backend…", health: null, index: null };
 export const isDemo = () => state.mode === "demo";
+export const isStatic = () => state.mode === "static";
+
+/** Fetch a pre-generated data file. null when it does not exist; throws on other failures. */
+async function sjson(path) {
+  const res = await fetch(`data/${path}`, { cache: "no-cache" });
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`Couldn't load ${path} (${res.status})`);
+  return res.json();
+}
 
 async function http(path, opts = {}) {
   const ctl = new AbortController();
@@ -30,7 +40,12 @@ export async function init() {
     if (h.services.footballApiConfigured) { state.mode = "live"; state.reason = "Connected to backend"; }
     else { state.mode = "demo"; state.reason = "Backend reachable, but no football statistics API is connected yet."; }
   } catch {
-    state.mode = "demo"; state.health = null; state.reason = "Backend not reachable.";
+    state.health = null;
+    try { // no backend: look for pre-generated data files published with the site
+      const idx = await sjson("index.json");
+      if (idx) { state.mode = "static"; state.index = idx; state.reason = "Reading published data files."; return state; }
+    } catch { /* fall through to demo */ }
+    state.mode = "demo"; state.reason = "Backend not reachable and no published data found.";
   }
   return state;
 }
@@ -40,6 +55,11 @@ const wrapLive = (b) => ({ data: b.data, source: "live", updatedAt: b.meta.fetch
 
 export async function getFixtures({ date } = {}) {
   if (isDemo()) return { data: getDemoFixtures(), source: "demo", updatedAt: demoMeta.fetchedAt };
+  if (isStatic()) { // every published day; the page filters by the viewer's local date
+    const idx = state.index || {};
+    const days = await Promise.all((idx.dates || []).map((d) => sjson(`fixtures/${d}.json`)));
+    return { data: days.flat().filter(Boolean), source: "static", updatedAt: idx.updatedAt };
+  }
   return wrapLive(await http(`/fixtures?date=${encodeURIComponent(date || "")}`));
 }
 
@@ -49,6 +69,11 @@ export async function getMatch(id) {
     const m = getDemoMatch(id);
     if (!m) throw new Error("Demo match not found");
     return { data: m, source: "demo", updatedAt: demoMeta.fetchedAt };
+  }
+  if (isStatic()) {
+    const m = await sjson(`matches/${encodeURIComponent(id)}.json`);
+    if (!m) throw new Error("No data has been published for this match yet.");
+    return { data: { ...m.context, players: m.players, prediction: m.prediction, lockedAt: m.lockedAt }, source: "static", updatedAt: m.dataSnapshotAt };
   }
   const analysis = wrapLive(await http(`/matches/${encodeURIComponent(id)}/analysis`, { timeout: 60000 }));
   let prediction = null, lockedAt = null;
@@ -63,6 +88,13 @@ export async function getMatch(id) {
 /** Flat list of MatchDetail objects that have predictions, for the Daily page. */
 export async function getDaily({ date } = {}) {
   if (isDemo()) return { data: getDemoDaily(), source: "demo", updatedAt: demoMeta.fetchedAt };
+  if (isStatic()) { // the viewer's local "today"; if nothing is published for it, the next day that has data
+    const idx = state.index || {}, dates = idx.dates || [];
+    const t = new Date(), today = `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, "0")}-${String(t.getDate()).padStart(2, "0")}`;
+    const day = dates.includes(today) ? today : dates.find((d) => d > today) || dates[dates.length - 1];
+    const rows = day ? (await sjson(`daily/${day}.json`)) || [] : [];
+    return { data: rows.filter((r) => new Date(r.fixture.kickoffUtc) > Date.now() - 6 * 3600e3), source: "static", updatedAt: idx.updatedAt };
+  }
   const r = wrapLive(await http(`/predictions/daily?date=${encodeURIComponent(date || "")}`));
   // Backend returns locked prediction records; the Daily page needs the fixture too.
   const fixtures = (await getFixtures({ date })).data;
@@ -72,5 +104,9 @@ export async function getDaily({ date } = {}) {
 
 export async function getAccuracy() {
   if (isDemo()) return { data: { tracked: DEMO_TRACKED }, source: "demo", updatedAt: demoMeta.fetchedAt };
+  if (isStatic()) {
+    const a = (await sjson("accuracy.json")) || { outcome: { n: 0, hit: 0 }, correctScore: { n: 0, hit: 0 }, goalscorer: { n: 0, hit: 0 }, tracked: [] };
+    return { data: a, source: "static", updatedAt: a.updatedAt || (state.index || {}).updatedAt };
+  }
   return wrapLive(await http("/accuracy"));
 }

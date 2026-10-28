@@ -68,7 +68,12 @@ export function attachResult(fixtureId, result) {
 
 /** Accuracy is computed from locked predictions with results, per category. */
 export function computeAccuracy() {
-  const done = listLatest().filter((p) => p.result); // latest locked stage per fixture; earlier stages are kept but not double-counted
+  return accuracyOf(listLatest()); // latest locked stage per fixture; earlier stages are kept but not double-counted
+}
+
+/** Pure: accuracy from any list of { prediction, result } records (also used by the static site generator). */
+export function accuracyOf(records) {
+  const done = records.filter((p) => p.result);
   const out = { settled: done.length, outcome: { n: 0, hit: 0 }, correctScore: { n: 0, hit: 0 }, goalscorer: { n: 0, hit: 0 } };
   for (const p of done) {
     const { home, away } = p.result;

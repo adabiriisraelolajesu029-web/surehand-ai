@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
-    "analyze:daily": "node jobs/dailyAnalysis.js"
+    "analyze:daily": "node jobs/dailyAnalysis.js",
+    "generate:static": "node jobs/staticGenerate.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.0",

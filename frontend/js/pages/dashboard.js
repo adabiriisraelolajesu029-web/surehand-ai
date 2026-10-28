@@ -11,6 +11,8 @@ export async function dashboard(root) {
 
   if (!filters.date) filters.date = localDateKey(new Date().toISOString());
   const dates = [...new Set(all.map((f) => localDateKey(f.kickoffUtc)))].sort();
+  const fromList = res.source !== "live"; // demo and static data come as a fixed set of days
+  if (fromList && dates.length && !dates.includes(filters.date)) filters.date = dates.find((d) => d >= filters.date) || dates[dates.length - 1];
   const leagues = [...new Map(all.map((f) => [f.league.id, f.league])).values()];
   const countries = [...new Set(all.map((f) => f.league.country))].sort();
 
@@ -35,7 +37,7 @@ export async function dashboard(root) {
 
     <form class="filters" id="filters" aria-label="Filter matches">
       <div class="field"><label for="f-date">Date</label>
-        ${demo
+        ${fromList
           ? html`<select id="f-date">${dates.map((d) => html`<option value="${d}" ${d === filters.date ? "selected" : ""}>${fmtDay(d + "T12:00:00")}</option>`)}</select>`
           : html`<input id="f-date" type="date" value="${filters.date}" />`}</div>
       <div class="field"><label for="f-league">League</label>

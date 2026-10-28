@@ -1,0 +1,82 @@
+# Free hosting + daily predictions: runs on GitHub, costs nothing for a public repository.
+#  - generate: fetch fixtures/stats, lock new predictions, attach results, commit the JSON under /data
+#  - deploy:   publish /frontend + /data to GitHub Pages
+# One-time setup (see README): add the repository secret FOOTBALL_API_KEY, and set
+# Settings -> Pages -> Source = "GitHub Actions".
+name: Update predictions and publish site
+
+on:
+  schedule:            # UTC. GitHub may start scheduled runs 10-30 minutes late.
+    - cron: "0 5 * * *"     # 06:00 WAT: today's and tomorrow's matches
+    - cron: "0 11 * * *"    # 12:00 WAT: picks up newly listed fixtures
+    - cron: "30 23 * * *"   # 00:30 WAT: attaches final results
+  workflow_dispatch:   # "Run workflow" button
+  push:
+    branches: [main]
+    paths: ["frontend/**", ".github/workflows/predictions.yml"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: predictions
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        working-directory: backend
+        run: npm install --omit=dev --no-audit --no-fund
+      - name: Generate predictions and settle results
+        working-directory: backend
+        env:
+          FOOTBALL_API_PROVIDER: football-data
+          FOOTBALL_API_BASE_URL: https://api.football-data.org/v4
+          FOOTBALL_LEAGUE_IDS: PL,PD,SA,BL1,FL1
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
+        run: node jobs/staticGenerate.js
+      - name: Commit data
+        run: |
+          git config user.name "surehand-bot"
+          git config user.email "surehand-bot@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Update predictions data"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+  deploy:
+    needs: generate
+    if: ${{ !cancelled() && (needs.generate.result == 'success' || needs.generate.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main   # includes the data commit made above
+      - name: Assemble site
+        run: |
+          mkdir -p _site/data
+          cp -r frontend/. _site/
+          if [ -d data ]; then cp -r data/. _site/data/; fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

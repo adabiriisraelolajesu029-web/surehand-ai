@@ -1,4 +1,4 @@
-import { init, isDemo, state } from "./api.js";
+import { init, isDemo, isStatic, state } from "./api.js";
 import { html, mount, stateCard, skeletons } from "./ui.js";
 import { dashboard } from "./pages/dashboard.js";
 import { match } from "./pages/match.js";
@@ -18,6 +18,7 @@ const routes = [
 ];
 
 function banner() {
+  if (isStatic()) return mount(bannerEl, html`<div class="banner live" role="status"><div class="wrap"><strong>LIVE DATA</strong><span>Predictions come from a statistical model (not AI) using this season's league results from football-data.org. They are estimates, not guarantees. <a href="#/data" style="text-decoration:underline">How it works</a></span></div></div>`);
   mount(bannerEl, isDemo()
     ? html`<div class="banner" role="status"><div class="wrap"><strong>DEMO DATA</strong><span>Fictional clubs, players and numbers for previewing the interface. ${state.reason} <a href="#/data" style="text-decoration:underline">Integration status</a></span></div></div>`
     : html`<div class="banner live" role="status"><div class="wrap"><strong>LIVE</strong><span>Connected to the SureHand backend.</span></div></div>`);

@@ -19,8 +19,8 @@ export async function match(root, id) {
     <div class="row spread" style="margin-top:10px">${updatedAt(res.updatedAt, res.source)}${m.lockedAt ? html`<span class="tag green">Locked ${fmtDateTime(m.lockedAt)}</span>` : html`<span class="tag">Not locked</span>`}</div>
 
     <section class="block"><h2>Predictions</h2>${p ? predictions(m) : stateCard("No prediction yet", "No prediction has been generated and locked for this match. Analysis below is still available.")}</section>
-    ${m.form ? html`<section class="block"><h2>Recent form</h2>${form(m)}</section>` : ""}
-    ${m.stats ? html`<section class="block"><h2>Goals &amp; home/away performance</h2>${stats(m)}</section>` : ""}
+    ${m.form?.home?.length || m.form?.away?.length ? html`<section class="block"><h2>Recent form</h2>${form(m)}</section>` : ""}
+    ${m.stats?.home?.overall?.p && m.stats?.away?.overall?.p && m.stats.home.home && m.stats.home.away && m.stats.away.home && m.stats.away.away ? html`<section class="block"><h2>Goals &amp; home/away performance</h2>${stats(m)}</section>` : ""}
     ${m.h2h ? html`<section class="block"><h2>Head to head</h2>${h2h(m)}</section>` : ""}
     <section class="block"><h2>Player intelligence</h2>${players(m)}</section>
   `);

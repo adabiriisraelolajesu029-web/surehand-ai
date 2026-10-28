@@ -132,8 +132,13 @@ export async function getMatchContext(fixtureId) {
       const overall = row("TOTAL");
       return overall ? { overall, home: row("HOME"), away: row("AWAY") } : null;
     };
+    // League-wide scoring averages (home teams / away teams) from the full table, used by the statistical model.
+    const sum = (type, k) => (table.find((t) => t.type === type)?.table || []).reduce((a, r) => a + (r[k] || 0), 0);
+    const hp = sum("HOME", "playedGames"), ap = sum("AWAY", "playedGames");
+    const leagueAvg = hp > 0 && ap > 0 ? { homeGoals: sum("HOME", "goalsFor") / hp, awayGoals: sum("AWAY", "goalsFor") / ap } : null;
     const ctx = {
       fixture: fx,
+      ...(leagueAvg ? { leagueAvg } : {}),
       form: { home: form(fx.home.id), away: form(fx.away.id) },
       stats: { home: splits(fx.home.id), away: splits(fx.away.id), sample: "League matches this season to date" },
     };
