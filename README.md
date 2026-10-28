@@ -29,6 +29,8 @@ One-time setup:
 2. **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 3. **Actions** tab → "Update predictions and publish site" → **Run workflow**. The first run takes several minutes (the free API allows 10 requests/minute). Your site appears at `https://<username>.github.io/<repo>/`.
 
+Fixtures for the next 5 days are listed for all five leagues; a prediction is made and locked about 36 hours before kickoff (`PREDICT_WINDOW_HOURS`), so matches further ahead show "no prediction yet".
+
 Limits: no injuries/lineups (free data source), scheduled runs can start 10-30 minutes late, and GitHub may pause scheduled workflows after ~60 days without repository activity (re-enable them in the Actions tab).
 
 The Express backend, Claude-written predictions and `render.yaml` below are an optional paid upgrade path.

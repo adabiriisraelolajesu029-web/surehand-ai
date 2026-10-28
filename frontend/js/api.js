@@ -72,7 +72,14 @@ export async function getMatch(id) {
   }
   if (isStatic()) {
     const m = await sjson(`matches/${encodeURIComponent(id)}.json`);
-    if (!m) throw new Error("No data has been published for this match yet.");
+    if (!m) { // listed fixture whose prediction window has not opened yet
+      const idx = state.index || {};
+      for (const d of idx.dates || []) {
+        const fx = ((await sjson(`fixtures/${d}.json`)) || []).find((f) => f.id === String(id));
+        if (fx) return { data: { fixture: fx, prediction: null, lockedAt: null }, source: "static", updatedAt: idx.updatedAt };
+      }
+      throw new Error("No data has been published for this match.");
+    }
     return { data: { ...m.context, players: m.players, prediction: m.prediction, lockedAt: m.lockedAt }, source: "static", updatedAt: m.dataSnapshotAt };
   }
   const analysis = wrapLive(await http(`/matches/${encodeURIComponent(id)}/analysis`, { timeout: 60000 }));

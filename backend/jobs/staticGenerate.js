@@ -9,7 +9,7 @@ import { accuracyOf } from "../services/store.js";
 /**
  * Free, serverless pipeline for GitHub Actions + GitHub Pages.
  *
- *   fixtures (today + tomorrow, UTC) -> context + player data -> statistical prediction -> locked JSON file
+ *   fixtures (today + next 5 days, UTC) -> (only matches within 36h of kickoff) context + player data -> statistical prediction -> locked JSON file
  *   finished matches -> results attached -> accuracy recomputed -> index written
  *
  * Output goes to <repo>/data (or STATIC_DATA_DIR). The workflow commits it, so git history is the audit trail.
@@ -18,9 +18,10 @@ import { accuracyOf } from "../services/store.js";
  */
 const here = path.dirname(fileURLToPath(import.meta.url));
 const OUT = process.env.STATIC_DATA_DIR || path.join(here, "..", "..", "data");
-const DAYS_AHEAD = Number(process.env.FOOTBALL_DAYS_AHEAD ?? 1);
+const DAYS_AHEAD = Number(process.env.FOOTBALL_DAYS_AHEAD ?? 5); // fixtures listed this many days ahead
+const PREDICT_WINDOW_MS = Number(process.env.PREDICT_WINDOW_HOURS ?? 36) * 3_600_000; // predictions are made/locked this long before kickoff
 const KEEP_DAYS_BACK = 3; // how many past days stay listed on the site (files are never deleted)
-const KEEP_DAYS_FWD = 3;
+const KEEP_DAYS_FWD = Math.max(6, DAYS_AHEAD + 1);
 const MIN_LEAD_MS = 5 * 60_000; // only predict matches that start at least 5 minutes from now
 const SETTLE_AFTER_MS = 150 * 60_000; // results are fetched 2.5h after kickoff
 const SETTLE_WINDOW_MS = 5 * 86_400_000; // give up on unfinished matches after 5 days (postponed etc.)
@@ -49,7 +50,9 @@ export async function run(now = new Date()) {
       const mfile = file("matches", `${fx.id}.json`);
       const existing = readJson(mfile);
       if (existing?.prediction) { summary.skipped++; continue; } // locked: never touched
-      if (fx.status !== "scheduled" || new Date(fx.kickoffUtc) - now < MIN_LEAD_MS) { summary.skipped++; continue; }
+      const lead = new Date(fx.kickoffUtc) - now;
+      // Too late, or too early: predicting days ahead would lock numbers that go stale before kickoff.
+      if (fx.status !== "scheduled" || lead < MIN_LEAD_MS || lead > PREDICT_WINDOW_MS) { summary.skipped++; continue; }
       try {
         const snapshotAt = new Date().toISOString();
         const [ctx, players] = await Promise.all([football.getMatchContext(fx.id), football.getPlayerIntel(fx.id)]);
