@@ -1,5 +1,5 @@
 # Free hosting + daily predictions: runs on GitHub, costs nothing for a public repository.
-#  - generate: fetch fixtures/stats, lock new predictions, attach results, commit the JSON under /data
+#  - generate (also runs on pushes, so no button is needed): fetch fixtures/stats, lock new predictions, attach results, commit the JSON under /data
 #  - deploy:   publish /frontend + /data to GitHub Pages
 # One-time setup (see README): add the repository secret FOOTBALL_API_KEY, and set
 # Settings -> Pages -> Source = "GitHub Actions".
@@ -26,7 +26,6 @@ concurrency:
 
 jobs:
   generate:
-    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
