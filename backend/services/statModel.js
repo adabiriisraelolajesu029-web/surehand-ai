@@ -53,8 +53,9 @@ export function predict({ context, players }) {
   const awayAtt = shrink(A.away.gf / A.away.p, A.away.p, avgA * rA.att);   // away team's scoring away
   const awayDef = shrink(A.away.ga / A.away.p, A.away.p, avgH * rA.def);   // away team's conceding away
 
-  const lh = clamp((homeAtt * awayDef) / avgH, 0.2, 4);
-  const la = clamp((awayAtt * homeDef) / avgA, 0.2, 4);
+  // Caps keep a small or lopsided sample from producing absurd certainty.
+  const lh = clamp((homeAtt * awayDef) / avgH, 0.25, 3.0);
+  const la = clamp((awayAtt * homeDef) / avgA, 0.25, 3.0);
 
   const M = scoreMatrix(lh, la);
   let homeWin = 0, draw = 0, awayWin = 0;
@@ -114,8 +115,8 @@ export function predict({ context, players }) {
     if (!(teamGoals > 0)) continue;
     for (const pl of players?.[side] || []) {
       if (!(pl.goals > 0) || pl.status === "injured" || pl.status === "suspended") continue;
-      const share = clamp(pl.goals / teamGoals, 0, 0.6);
-      const prob = 1 - Math.exp(-lambda * share);
+      const share = clamp(pl.goals / teamGoals, 0, 0.5);
+      const prob = Math.min(0.7, 1 - Math.exp(-lambda * share)); // even elite scorers rarely exceed ~70%
       const known = Boolean(pl.status || pl.lineup);
       picks.push({
         playerId: String(pl.id), name: pl.name, team: team.name, probability: round(prob),

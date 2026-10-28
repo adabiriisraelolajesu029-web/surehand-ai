@@ -3,7 +3,7 @@ import { config } from "../../config.js";
 /**
  * football-data.org (v4) adapter, built for the FREE tier.
  *
- * Free tier gives: fixtures, results, league tables (incl. home/away splits) and top scorers for
+ * Free tier gives: fixtures, results, the overall league table and top scorers for
  * the top competitions in the current season, at 10 requests/minute.
  * It does NOT give injuries, suspensions, lineups, minutes or shot data. Those fields are simply
  * omitted (never guessed) and the UI / prompt treat availability as unknown.
@@ -105,17 +105,43 @@ async function rawMatch(id) {
 }
 
 const finishedMatches = (code) => cached(`fin:${code}`, HOUR, async () => (await call(`competitions/${code}/matches`, { status: "FINISHED" })).matches || []);
-const standings = (code) => cached(`st:${code}`, 6 * HOUR, async () => (await call(`competitions/${code}/standings`)).standings || []);
+
+/**
+ * Home/away records per team and league scoring averages, built from the season's finished matches.
+ * (The free tier's standings only include the overall table, not separate home/away tables.)
+ */
+function buildRecords(fin) {
+  const zero = () => ({ p: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0 });
+  const add = (r, gf, ga) => { r.p++; r.gf += gf; r.ga += ga; if (gf > ga) r.w++; else if (gf < ga) r.l++; else r.d++; };
+  const teams = new Map();
+  const get = (id) => { if (!teams.has(id)) teams.set(id, { home: zero(), away: zero() }); return teams.get(id); };
+  let homeGoals = 0, awayGoals = 0, n = 0;
+  for (const g of fin) {
+    const ft = g.score?.fullTime;
+    if (ft?.home == null || ft?.away == null) continue;
+    n++; homeGoals += ft.home; awayGoals += ft.away;
+    add(get(String(g.homeTeam.id)).home, ft.home, ft.away);
+    add(get(String(g.awayTeam.id)).away, ft.away, ft.home);
+  }
+  const splitsOf = (teamId) => {
+    const t = teams.get(String(teamId));
+    if (!t || t.home.p + t.away.p === 0) return null;
+    const overall = { p: t.home.p + t.away.p, w: t.home.w + t.away.w, d: t.home.d + t.away.d, l: t.home.l + t.away.l, gf: t.home.gf + t.away.gf, ga: t.home.ga + t.away.ga };
+    return { overall, home: t.home, away: t.away };
+  };
+  return { splitsOf, leagueAvg: n > 0 ? { homeGoals: homeGoals / n, awayGoals: awayGoals / n } : null };
+}
 const scorers = (code) => cached(`sc:${code}`, 6 * HOUR, async () => (await call(`competitions/${code}/scorers`, { limit: 60 })).scorers || []);
 
 export async function getMatchContext(fixtureId) {
   const m = await rawMatch(fixtureId);
   const fx = toFixture(m), code = m.competition.code;
   return cached(`ctx:${fixtureId}`, 3 * HOUR, async () => {
-    const [fin, table, h2h] = await Promise.all([
-      finishedMatches(code), standings(code),
+    const [fin, h2h] = await Promise.all([
+      finishedMatches(code),
       call(`matches/${fixtureId}/head2head`, { limit: 5 }, { optional: true }),
     ]);
+    const { splitsOf, leagueAvg } = buildRecords(fin);
     const form = (teamId) => fin
       .filter((g) => String(g.homeTeam.id) === teamId || String(g.awayTeam.id) === teamId)
       .sort((a, b) => b.utcDate.localeCompare(a.utcDate)).slice(0, 5)
@@ -124,23 +150,11 @@ export async function getMatchContext(fixtureId) {
         const gf = isHome ? g.score.fullTime.home : g.score.fullTime.away, ga = isHome ? g.score.fullTime.away : g.score.fullTime.home;
         return { opp: isHome ? g.awayTeam.name : g.homeTeam.name, venue: isHome ? "H" : "A", gf, ga, res: gf > ga ? "W" : gf < ga ? "L" : "D" };
       });
-    const splits = (teamId) => {
-      const row = (type) => {
-        const r = table.find((s) => s.type === type)?.table?.find((x) => String(x.team.id) === teamId);
-        return r ? { p: r.playedGames, w: r.won, d: r.draw, l: r.lost, gf: r.goalsFor, ga: r.goalsAgainst } : null;
-      };
-      const overall = row("TOTAL");
-      return overall ? { overall, home: row("HOME"), away: row("AWAY") } : null;
-    };
-    // League-wide scoring averages (home teams / away teams) from the full table, used by the statistical model.
-    const sum = (type, k) => (table.find((t) => t.type === type)?.table || []).reduce((a, r) => a + (r[k] || 0), 0);
-    const hp = sum("HOME", "playedGames"), ap = sum("AWAY", "playedGames");
-    const leagueAvg = hp > 0 && ap > 0 ? { homeGoals: sum("HOME", "goalsFor") / hp, awayGoals: sum("AWAY", "goalsFor") / ap } : null;
     const ctx = {
       fixture: fx,
       ...(leagueAvg ? { leagueAvg } : {}),
       form: { home: form(fx.home.id), away: form(fx.away.id) },
-      stats: { home: splits(fx.home.id), away: splits(fx.away.id), sample: "League matches this season to date" },
+      stats: { home: splitsOf(fx.home.id), away: splitsOf(fx.away.id), sample: "League matches this season to date" },
     };
     // Head-to-head is omitted entirely if the plan does not provide it (the UI hides the block).
     if (h2h?.matches) {
