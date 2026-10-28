@@ -100,26 +100,6 @@
   }
  },
  {
-  "id": "565840",
-  "kickoffUtc": "2026-10-31T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "6",
-   "name": "FC Schalke 04",
-   "short": "S04"
-  },
-  "away": {
-   "id": "721",
-   "name": "RB Leipzig",
-   "short": "RBL"
-  }
- },
- {
   "id": "565843",
   "kickoffUtc": "2026-10-31T14:30:00.000Z",
   "status": "scheduled",
@@ -157,6 +137,26 @@
    "id": "10",
    "name": "VfB Stuttgart",
    "short": "VFB"
+  }
+ },
+ {
+  "id": "565840",
+  "kickoffUtc": "2026-10-31T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "6",
+   "name": "FC Schalke 04",
+   "short": "S04"
+  },
+  "away": {
+   "id": "721",
+   "name": "RB Leipzig",
+   "short": "RBL"
   }
  },
  {
@@ -200,26 +200,6 @@
   }
  },
  {
-  "id": "560625",
-  "kickoffUtc": "2026-10-31T15:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "1076",
-   "name": "Coventry City FC",
-   "short": "COV"
-  },
-  "away": {
-   "id": "71",
-   "name": "Sunderland AFC",
-   "short": "SUN"
-  }
- },
- {
   "id": "560623",
   "kickoffUtc": "2026-10-31T15:00:00.000Z",
   "status": "scheduled",
@@ -257,6 +237,26 @@
    "id": "349",
    "name": "Ipswich Town FC",
    "short": "IPS"
+  }
+ },
+ {
+  "id": "560625",
+  "kickoffUtc": "2026-10-31T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "1076",
+   "name": "Coventry City FC",
+   "short": "COV"
+  },
+  "away": {
+   "id": "71",
+   "name": "Sunderland AFC",
+   "short": "SUN"
   }
  },
  {
@@ -360,26 +360,6 @@
   }
  },
  {
-  "id": "559643",
-  "kickoffUtc": "2026-10-31T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "531",
-   "name": "ES Troyes AC",
-   "short": "ETR"
-  },
-  "away": {
-   "id": "535",
-   "name": "Le Mans FC",
-   "short": "LMF"
-  }
- },
- {
   "id": "558548",
   "kickoffUtc": "2026-10-31T19:45:00.000Z",
   "status": "scheduled",
@@ -397,6 +377,26 @@
    "id": "108",
    "name": "FC Internazionale Milano",
    "short": "INT"
+  }
+ },
+ {
+  "id": "559643",
+  "kickoffUtc": "2026-10-31T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "531",
+   "name": "ES Troyes AC",
+   "short": "ETR"
+  },
+  "away": {
+   "id": "535",
+   "name": "Le Mans FC",
+   "short": "LMF"
   }
  },
  {

@@ -40,6 +40,26 @@
   }
  },
  {
+  "id": "558544",
+  "kickoffUtc": "2026-11-01T14:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "470",
+   "name": "Frosinone Calcio",
+   "short": "FRO"
+  },
+  "away": {
+   "id": "586",
+   "name": "Torino FC",
+   "short": "TOR"
+  }
+ },
+ {
   "id": "558546",
   "kickoffUtc": "2026-11-01T14:00:00.000Z",
   "status": "scheduled",
@@ -77,26 +97,6 @@
    "id": "519",
    "name": "AJ Auxerre",
    "short": "AJA"
-  }
- },
- {
-  "id": "558544",
-  "kickoffUtc": "2026-11-01T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "470",
-   "name": "Frosinone Calcio",
-   "short": "FRO"
-  },
-  "away": {
-   "id": "586",
-   "name": "Torino FC",
-   "short": "TOR"
   }
  },
  {
@@ -140,26 +140,6 @@
   }
  },
  {
-  "id": "559642",
-  "kickoffUtc": "2026-11-01T16:15:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "1045",
-   "name": "Paris FC",
-   "short": "PFC"
-  },
-  "away": {
-   "id": "548",
-   "name": "AS Monaco FC",
-   "short": "ASM"
-  }
- },
- {
   "id": "559640",
   "kickoffUtc": "2026-11-01T16:15:00.000Z",
   "status": "scheduled",
@@ -180,23 +160,23 @@
   }
  },
  {
-  "id": "560631",
-  "kickoffUtc": "2026-11-01T16:30:00.000Z",
+  "id": "559642",
+  "kickoffUtc": "2026-11-01T16:15:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
   },
   "home": {
-   "id": "64",
-   "name": "Liverpool FC",
-   "short": "LIV"
+   "id": "1045",
+   "name": "Paris FC",
+   "short": "PFC"
   },
   "away": {
-   "id": "57",
-   "name": "Arsenal FC",
-   "short": "ARS"
+   "id": "548",
+   "name": "AS Monaco FC",
+   "short": "ASM"
   }
  },
  {
@@ -217,6 +197,26 @@
    "id": "7",
    "name": "Hamburger SV",
    "short": "HSV"
+  }
+ },
+ {
+  "id": "560631",
+  "kickoffUtc": "2026-11-01T16:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "64",
+   "name": "Liverpool FC",
+   "short": "LIV"
+  },
+  "away": {
+   "id": "57",
+   "name": "Arsenal FC",
+   "short": "ARS"
   }
  },
  {
