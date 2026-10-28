@@ -22,6 +22,10 @@
     "short": "USL"
    }
   },
+  "leagueAvg": {
+   "homeGoals": 1.6024096385542168,
+   "awayGoals": 1.5180722891566265
+  },
   "form": {
    "home": [
     {
@@ -108,8 +112,22 @@
      "gf": 17,
      "ga": 13
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 4,
+     "w": 3,
+     "d": 0,
+     "l": 1,
+     "gf": 9,
+     "ga": 5
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 2,
+     "l": 1,
+     "gf": 8,
+     "ga": 8
+    }
    },
    "away": {
     "overall": {
@@ -120,8 +138,22 @@
      "gf": 9,
      "ga": 14
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 0,
+     "l": 3,
+     "gf": 4,
+     "ga": 10
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 0,
+     "l": 2,
+     "gf": 5,
+     "ga": 4
+    }
    },
    "sample": "League matches this season to date"
   },
@@ -202,8 +234,113 @@
    }
   ]
  },
- "prediction": null,
- "dataSnapshotAt": "2026-10-28T02:18:15.509Z",
- "lockedAt": null,
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.569,
+   "draw": 0.22,
+   "awayWin": 0.211,
+   "pick": "H",
+   "confidence": 0.524,
+   "reasoning": "Poisson model: expected goals Frosinone Calcio 1.93 vs US Lecce 1.09, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Frosinone Calcio at home: 3W-0D-1L, 9 scored and 5 conceded in 4 games.",
+    "US Lecce away: 2W-0D-2L, 5 scored and 4 conceded in 4 games.",
+    "League averages this season: home teams 1.60 goals per game, away teams 1.52.",
+    "Recent league form (newest first): Frosinone Calcio DWLWD, US Lecce LWLLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Frosinone Calcio has 4 home games and US Lecce 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "169216",
+    "name": "Antonio Raimondo",
+    "team": "Frosinone Calcio",
+    "probability": 0.549,
+    "confidence": 0.36,
+    "reasoning": "7 of Frosinone Calcio's 17 league goals this season (41%), applied to the 1.93 goals the model expects from them here.",
+    "evidence": [
+     "Antonio Raimondo: 7 league goals in 8 appearances this season.",
+     "Frosinone Calcio have scored 17 league goals in 8 games; the model expects 1.93 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "211564",
+    "name": "Giorgi Kvernadze",
+    "team": "Frosinone Calcio",
+    "probability": 0.289,
+    "confidence": 0.208,
+    "reasoning": "3 of Frosinone Calcio's 17 league goals this season (18%), applied to the 1.93 goals the model expects from them here.",
+    "evidence": [
+     "Giorgi Kvernadze: 3 league goals in 8 appearances this season.",
+     "Frosinone Calcio have scored 17 league goals in 8 games; the model expects 1.93 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "40786",
+    "name": "Giacomo Calò",
+    "team": "Frosinone Calcio",
+    "probability": 0.289,
+    "confidence": 0.208,
+    "reasoning": "3 of Frosinone Calcio's 17 league goals this season (18%), applied to the 1.93 goals the model expects from them here.",
+    "evidence": [
+     "Giacomo Calò: 3 league goals in 8 appearances this season.",
+     "Frosinone Calcio have scored 17 league goals in 8 games; the model expects 1.93 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-1",
+    "probability": 0.102
+   },
+   "alternatives": [
+    {
+     "score": "2-1",
+     "probability": 0.099
+    },
+    {
+     "score": "1-0",
+     "probability": 0.094
+    },
+    {
+     "score": "2-0",
+     "probability": 0.091
+    }
+   ],
+   "confidence": 0.205,
+   "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.93 (Frosinone Calcio) and 1.09 (US Lecce).",
+    "Top scorelines: 1-1 (10.2%), 2-1 (9.9%), 1-0 (9.4%), 2-0 (9.1%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Frosinone Calcio has 4 home games and US Lecce 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-28T02:24:38.322Z",
+ "lockedAt": "2026-10-28T02:24:55.840Z",
  "result": null
 }

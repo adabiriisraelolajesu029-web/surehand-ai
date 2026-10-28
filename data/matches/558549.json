@@ -22,6 +22,10 @@
     "short": "BOL"
    }
   },
+  "leagueAvg": {
+   "homeGoals": 1.6024096385542168,
+   "awayGoals": 1.5180722891566265
+  },
   "form": {
    "home": [
     {
@@ -108,8 +112,22 @@
      "gf": 16,
      "ga": 7
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 3,
+     "w": 3,
+     "d": 0,
+     "l": 0,
+     "gf": 8,
+     "ga": 2
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 3,
+     "l": 0,
+     "gf": 8,
+     "ga": 5
+    }
    },
    "away": {
     "overall": {
@@ -120,8 +138,22 @@
      "gf": 8,
      "ga": 10
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 4,
+     "w": 0,
+     "d": 2,
+     "l": 2,
+     "gf": 4,
+     "ga": 7
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 0,
+     "l": 2,
+     "gf": 4,
+     "ga": 3
+    }
    },
    "sample": "League matches this season to date"
   },
@@ -230,8 +262,113 @@
    }
   ]
  },
- "prediction": null,
- "dataSnapshotAt": "2026-10-28T02:16:17.984Z",
- "lockedAt": null,
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.612,
+   "draw": 0.262,
+   "awayWin": 0.125,
+   "pick": "H",
+   "confidence": 0.563,
+   "reasoning": "Poisson model: expected goals AC Milan 1.47 vs Bologna FC 1909 0.50, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "AC Milan at home: 3W-0D-0L, 8 scored and 2 conceded in 3 games.",
+    "Bologna FC 1909 away: 2W-0D-2L, 4 scored and 3 conceded in 4 games.",
+    "League averages this season: home teams 1.60 goals per game, away teams 1.52.",
+    "Recent league form (newest first): AC Milan WWDWD, Bologna FC 1909 WLWDL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Milan has 3 home games and Bologna FC 1909 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "3368",
+    "name": "Adrien Rabiot",
+    "team": "AC Milan",
+    "probability": 0.308,
+    "confidence": 0.221,
+    "reasoning": "4 of AC Milan's 16 league goals this season (25%), applied to the 1.47 goals the model expects from them here.",
+    "evidence": [
+     "Adrien Rabiot: 4 league goals in 7 appearances this season.",
+     "AC Milan have scored 16 league goals in 8 games; the model expects 1.47 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "182192",
+    "name": "Diego Moreira",
+    "team": "AC Milan",
+    "probability": 0.241,
+    "confidence": 0.173,
+    "reasoning": "3 of AC Milan's 16 league goals this season (19%), applied to the 1.47 goals the model expects from them here.",
+    "evidence": [
+     "Diego Moreira: 3 league goals in 7 appearances this season.",
+     "AC Milan have scored 16 league goals in 8 games; the model expects 1.47 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "192142",
+    "name": "Alphadjo Cisse",
+    "team": "AC Milan",
+    "probability": 0.168,
+    "confidence": 0.121,
+    "reasoning": "2 of AC Milan's 16 league goals this season (13%), applied to the 1.47 goals the model expects from them here.",
+    "evidence": [
+     "Alphadjo Cisse: 2 league goals in 8 appearances this season.",
+     "AC Milan have scored 16 league goals in 8 games; the model expects 1.47 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.205
+   },
+   "alternatives": [
+    {
+     "score": "2-0",
+     "probability": 0.15
+    },
+    {
+     "score": "0-0",
+     "probability": 0.139
+    },
+    {
+     "score": "1-1",
+     "probability": 0.103
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.47 (AC Milan) and 0.50 (Bologna FC 1909).",
+    "Top scorelines: 1-0 (20.5%), 2-0 (15.0%), 0-0 (13.9%), 1-1 (10.3%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Milan has 3 home games and Bologna FC 1909 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-28T02:22:46.839Z",
+ "lockedAt": "2026-10-28T02:23:17.779Z",
  "result": null
 }

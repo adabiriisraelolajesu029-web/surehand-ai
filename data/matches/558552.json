@@ -22,6 +22,10 @@
     "short": "JUV"
    }
   },
+  "leagueAvg": {
+   "homeGoals": 1.6024096385542168,
+   "awayGoals": 1.5180722891566265
+  },
   "form": {
    "home": [
     {
@@ -108,8 +112,22 @@
      "gf": 6,
      "ga": 13
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 8
+    },
+    "away": {
+     "p": 3,
+     "w": 0,
+     "d": 0,
+     "l": 3,
+     "gf": 1,
+     "ga": 5
+    }
    },
    "away": {
     "overall": {
@@ -120,8 +138,22 @@
      "gf": 11,
      "ga": 8
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 5,
+     "ga": 4
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 6,
+     "ga": 4
+    }
    },
    "sample": "League matches this season to date"
   },
@@ -209,8 +241,113 @@
    }
   ]
  },
- "prediction": null,
- "dataSnapshotAt": "2026-10-28T02:17:48.950Z",
- "lockedAt": null,
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.141,
+   "draw": 0.261,
+   "awayWin": 0.598,
+   "pick": "A",
+   "confidence": 0.55,
+   "reasoning": "Poisson model: expected goals Genoa CFC 0.57 vs Juventus FC 1.49, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Genoa CFC at home: 2W-1D-2L, 5 scored and 8 conceded in 5 games.",
+    "Juventus FC away: 2W-1D-1L, 6 scored and 4 conceded in 4 games.",
+    "League averages this season: home teams 1.60 goals per game, away teams 1.52.",
+    "Recent league form (newest first): Genoa CFC WLWLD, Juventus FC WLDWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Genoa CFC has 5 home games and Juventus FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "67743",
+    "name": "Milutin Osmajić",
+    "team": "Genoa CFC",
+    "probability": 0.247,
+    "confidence": 0.178,
+    "reasoning": "3 of Genoa CFC's 6 league goals this season (50%), applied to the 0.57 goals the model expects from them here.",
+    "evidence": [
+     "Milutin Osmajić: 3 league goals in 7 appearances this season.",
+     "Genoa CFC have scored 6 league goals in 8 games; the model expects 0.57 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "1106",
+    "name": "Bremer",
+    "team": "Juventus FC",
+    "probability": 0.237,
+    "confidence": 0.171,
+    "reasoning": "2 of Juventus FC's 11 league goals this season (18%), applied to the 1.49 goals the model expects from them here.",
+    "evidence": [
+     "Bremer: 2 league goals in 8 appearances this season.",
+     "Juventus FC have scored 11 league goals in 8 games; the model expects 1.49 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "8990",
+    "name": "Edon Zhegrova",
+    "team": "Juventus FC",
+    "probability": 0.237,
+    "confidence": 0.171,
+    "reasoning": "2 of Juventus FC's 11 league goals this season (18%), applied to the 1.49 goals the model expects from them here.",
+    "evidence": [
+     "Edon Zhegrova: 2 league goals in 7 appearances this season.",
+     "Juventus FC have scored 11 league goals in 8 games; the model expects 1.49 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-1",
+    "probability": 0.19
+   },
+   "alternatives": [
+    {
+     "score": "0-2",
+     "probability": 0.142
+    },
+    {
+     "score": "0-0",
+     "probability": 0.128
+    },
+    {
+     "score": "1-1",
+     "probability": 0.108
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.57 (Genoa CFC) and 1.49 (Juventus FC).",
+    "Top scorelines: 0-1 (19.0%), 0-2 (14.2%), 0-0 (12.8%), 1-1 (10.8%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Genoa CFC has 5 home games and Juventus FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-28T02:24:12.417Z",
+ "lockedAt": "2026-10-28T02:24:31.334Z",
  "result": null
 }

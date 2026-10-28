@@ -1,1 +1,647 @@
-[]
+[
+ {
+  "fixture": {
+   "id": "558549",
+   "kickoffUtc": "2026-10-28T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "98",
+    "name": "AC Milan",
+    "short": "MIL"
+   },
+   "away": {
+    "id": "103",
+    "name": "Bologna FC 1909",
+    "short": "BOL"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.612,
+    "draw": 0.262,
+    "awayWin": 0.125,
+    "pick": "H",
+    "confidence": 0.563,
+    "reasoning": "Poisson model: expected goals AC Milan 1.47 vs Bologna FC 1909 0.50, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "AC Milan at home: 3W-0D-0L, 8 scored and 2 conceded in 3 games.",
+     "Bologna FC 1909 away: 2W-0D-2L, 4 scored and 3 conceded in 4 games.",
+     "League averages this season: home teams 1.60 goals per game, away teams 1.52.",
+     "Recent league form (newest first): AC Milan WWDWD, Bologna FC 1909 WLWDL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: AC Milan has 3 home games and Bologna FC 1909 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "3368",
+     "name": "Adrien Rabiot",
+     "team": "AC Milan",
+     "probability": 0.308,
+     "confidence": 0.221,
+     "reasoning": "4 of AC Milan's 16 league goals this season (25%), applied to the 1.47 goals the model expects from them here.",
+     "evidence": [
+      "Adrien Rabiot: 4 league goals in 7 appearances this season.",
+      "AC Milan have scored 16 league goals in 8 games; the model expects 1.47 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "182192",
+     "name": "Diego Moreira",
+     "team": "AC Milan",
+     "probability": 0.241,
+     "confidence": 0.173,
+     "reasoning": "3 of AC Milan's 16 league goals this season (19%), applied to the 1.47 goals the model expects from them here.",
+     "evidence": [
+      "Diego Moreira: 3 league goals in 7 appearances this season.",
+      "AC Milan have scored 16 league goals in 8 games; the model expects 1.47 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "192142",
+     "name": "Alphadjo Cisse",
+     "team": "AC Milan",
+     "probability": 0.168,
+     "confidence": 0.121,
+     "reasoning": "2 of AC Milan's 16 league goals this season (13%), applied to the 1.47 goals the model expects from them here.",
+     "evidence": [
+      "Alphadjo Cisse: 2 league goals in 8 appearances this season.",
+      "AC Milan have scored 16 league goals in 8 games; the model expects 1.47 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-0",
+     "probability": 0.205
+    },
+    "alternatives": [
+     {
+      "score": "2-0",
+      "probability": 0.15
+     },
+     {
+      "score": "0-0",
+      "probability": 0.139
+     },
+     {
+      "score": "1-1",
+      "probability": 0.103
+     }
+    ],
+    "confidence": 0.3,
+    "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.47 (AC Milan) and 0.50 (Bologna FC 1909).",
+     "Top scorelines: 1-0 (20.5%), 2-0 (15.0%), 0-0 (13.9%), 1-1 (10.3%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: AC Milan has 3 home games and Bologna FC 1909 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-28T02:23:17.779Z"
+ },
+ {
+  "fixture": {
+   "id": "558550",
+   "kickoffUtc": "2026-10-28T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "454",
+    "name": "Venezia FC",
+    "short": "VEN"
+   },
+   "away": {
+    "id": "108",
+    "name": "FC Internazionale Milano",
+    "short": "INT"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.042,
+    "draw": 0.1,
+    "awayWin": 0.858,
+    "pick": "A",
+    "confidence": 0.789,
+    "reasoning": "Poisson model: expected goals Venezia FC 0.55 vs FC Internazionale Milano 3.00, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Venezia FC at home: 1W-0D-3L, 3 scored and 8 conceded in 4 games.",
+     "FC Internazionale Milano away: 2W-1D-0L, 6 scored and 3 conceded in 3 games.",
+     "League averages this season: home teams 1.60 goals per game, away teams 1.52.",
+     "Recent league form (newest first): Venezia FC LWLLL, FC Internazionale Milano WWWDW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Venezia FC has 4 home games and FC Internazionale Milano 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "8685",
+     "name": "Marcus Thuram-Ulien",
+     "team": "FC Internazionale Milano",
+     "probability": 0.479,
+     "confidence": 0.345,
+     "reasoning": "5 of FC Internazionale Milano's 23 league goals this season (22%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Marcus Thuram-Ulien: 5 league goals in 8 appearances this season.",
+      "FC Internazionale Milano have scored 23 league goals in 8 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "3220",
+     "name": "Lautaro Martínez",
+     "team": "FC Internazionale Milano",
+     "probability": 0.407,
+     "confidence": 0.293,
+     "reasoning": "4 of FC Internazionale Milano's 23 league goals this season (17%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Lautaro Martínez: 4 league goals in 6 appearances this season.",
+      "FC Internazionale Milano have scored 23 league goals in 8 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "1754",
+     "name": "Hakan Çalhanoğlu",
+     "team": "FC Internazionale Milano",
+     "probability": 0.324,
+     "confidence": 0.233,
+     "reasoning": "3 of FC Internazionale Milano's 23 league goals this season (13%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Hakan Çalhanoğlu: 3 league goals in 6 appearances this season.",
+      "FC Internazionale Milano have scored 23 league goals in 8 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-2",
+     "probability": 0.13
+    },
+    "alternatives": [
+     {
+      "score": "0-3",
+      "probability": 0.13
+     },
+     {
+      "score": "0-4",
+      "probability": 0.097
+     },
+     {
+      "score": "0-1",
+      "probability": 0.086
+     }
+    ],
+    "confidence": 0.259,
+    "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.55 (Venezia FC) and 3.00 (FC Internazionale Milano).",
+     "Top scorelines: 0-2 (13.0%), 0-3 (13.0%), 0-4 (9.7%), 0-1 (8.6%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Venezia FC has 4 home games and FC Internazionale Milano 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-28T02:23:54.243Z"
+ },
+ {
+  "fixture": {
+   "id": "558552",
+   "kickoffUtc": "2026-10-28T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "107",
+    "name": "Genoa CFC",
+    "short": "GEN"
+   },
+   "away": {
+    "id": "109",
+    "name": "Juventus FC",
+    "short": "JUV"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.141,
+    "draw": 0.261,
+    "awayWin": 0.598,
+    "pick": "A",
+    "confidence": 0.55,
+    "reasoning": "Poisson model: expected goals Genoa CFC 0.57 vs Juventus FC 1.49, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Genoa CFC at home: 2W-1D-2L, 5 scored and 8 conceded in 5 games.",
+     "Juventus FC away: 2W-1D-1L, 6 scored and 4 conceded in 4 games.",
+     "League averages this season: home teams 1.60 goals per game, away teams 1.52.",
+     "Recent league form (newest first): Genoa CFC WLWLD, Juventus FC WLDWL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Genoa CFC has 5 home games and Juventus FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "67743",
+     "name": "Milutin Osmajić",
+     "team": "Genoa CFC",
+     "probability": 0.247,
+     "confidence": 0.178,
+     "reasoning": "3 of Genoa CFC's 6 league goals this season (50%), applied to the 0.57 goals the model expects from them here.",
+     "evidence": [
+      "Milutin Osmajić: 3 league goals in 7 appearances this season.",
+      "Genoa CFC have scored 6 league goals in 8 games; the model expects 0.57 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "1106",
+     "name": "Bremer",
+     "team": "Juventus FC",
+     "probability": 0.237,
+     "confidence": 0.171,
+     "reasoning": "2 of Juventus FC's 11 league goals this season (18%), applied to the 1.49 goals the model expects from them here.",
+     "evidence": [
+      "Bremer: 2 league goals in 8 appearances this season.",
+      "Juventus FC have scored 11 league goals in 8 games; the model expects 1.49 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "8990",
+     "name": "Edon Zhegrova",
+     "team": "Juventus FC",
+     "probability": 0.237,
+     "confidence": 0.171,
+     "reasoning": "2 of Juventus FC's 11 league goals this season (18%), applied to the 1.49 goals the model expects from them here.",
+     "evidence": [
+      "Edon Zhegrova: 2 league goals in 7 appearances this season.",
+      "Juventus FC have scored 11 league goals in 8 games; the model expects 1.49 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-1",
+     "probability": 0.19
+    },
+    "alternatives": [
+     {
+      "score": "0-2",
+      "probability": 0.142
+     },
+     {
+      "score": "0-0",
+      "probability": 0.128
+     },
+     {
+      "score": "1-1",
+      "probability": 0.108
+     }
+    ],
+    "confidence": 0.3,
+    "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.57 (Genoa CFC) and 1.49 (Juventus FC).",
+     "Top scorelines: 0-1 (19.0%), 0-2 (14.2%), 0-0 (12.8%), 1-1 (10.8%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Genoa CFC has 5 home games and Juventus FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-28T02:24:31.334Z"
+ },
+ {
+  "fixture": {
+   "id": "558553",
+   "kickoffUtc": "2026-10-28T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "112",
+    "name": "Parma Calcio 1913",
+    "short": "PAR"
+   },
+   "away": {
+    "id": "115",
+    "name": "Udinese Calcio",
+    "short": "UDI"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.241,
+    "draw": 0.233,
+    "awayWin": 0.525,
+    "pick": "A",
+    "confidence": 0.483,
+    "reasoning": "Poisson model: expected goals Parma Calcio 1913 1.13 vs Udinese Calcio 1.78, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Parma Calcio 1913 at home: 1W-1D-2L, 3 scored and 6 conceded in 4 games.",
+     "Udinese Calcio away: 1W-0D-2L, 7 scored and 9 conceded in 3 games.",
+     "League averages this season: home teams 1.60 goals per game, away teams 1.52.",
+     "Recent league form (newest first): Parma Calcio 1913 LLLWL, Udinese Calcio LLLLL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Parma Calcio 1913 has 4 home games and Udinese Calcio 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "7567",
+     "name": "Jurgen Ekkelenkamp",
+     "team": "Udinese Calcio",
+     "probability": 0.447,
+     "confidence": 0.322,
+     "reasoning": "3 of Udinese Calcio's 9 league goals this season (33%), applied to the 1.78 goals the model expects from them here.",
+     "evidence": [
+      "Jurgen Ekkelenkamp: 3 league goals in 8 appearances this season.",
+      "Udinese Calcio have scored 9 league goals in 8 games; the model expects 1.78 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "299423",
+     "name": "Simone Lontani",
+     "team": "Parma Calcio 1913",
+     "probability": 0.364,
+     "confidence": 0.262,
+     "reasoning": "2 of Parma Calcio 1913's 5 league goals this season (40%), applied to the 1.13 goals the model expects from them here.",
+     "evidence": [
+      "Simone Lontani: 2 league goals in 8 appearances this season.",
+      "Parma Calcio 1913 have scored 5 league goals in 8 games; the model expects 1.13 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "165857",
+     "name": "José Romero",
+     "team": "Parma Calcio 1913",
+     "probability": 0.364,
+     "confidence": 0.262,
+     "reasoning": "2 of Parma Calcio 1913's 5 league goals this season (40%), applied to the 1.13 goals the model expects from them here.",
+     "evidence": [
+      "José Romero: 2 league goals in 8 appearances this season.",
+      "Parma Calcio 1913 have scored 5 league goals in 8 games; the model expects 1.13 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-1",
+     "probability": 0.11
+    },
+    "alternatives": [
+     {
+      "score": "1-2",
+      "probability": 0.098
+     },
+     {
+      "score": "0-1",
+      "probability": 0.097
+     },
+     {
+      "score": "0-2",
+      "probability": 0.086
+     }
+    ],
+    "confidence": 0.219,
+    "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.13 (Parma Calcio 1913) and 1.78 (Udinese Calcio).",
+     "Top scorelines: 1-1 (11.0%), 1-2 (9.8%), 0-1 (9.7%), 0-2 (8.6%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Parma Calcio 1913 has 4 home games and Udinese Calcio 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-28T02:23:35.293Z"
+ },
+ {
+  "fixture": {
+   "id": "558554",
+   "kickoffUtc": "2026-10-28T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "5911",
+    "name": "AC Monza",
+    "short": "MON"
+   },
+   "away": {
+    "id": "113",
+    "name": "SSC Napoli",
+    "short": "NAP"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.403,
+    "draw": 0.224,
+    "awayWin": 0.373,
+    "pick": "H",
+    "confidence": 0.371,
+    "reasoning": "Poisson model: expected goals AC Monza 1.77 vs SSC Napoli 1.70, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "AC Monza at home: 2W-0D-1L, 8 scored and 4 conceded in 3 games.",
+     "SSC Napoli away: 1W-1D-2L, 5 scored and 5 conceded in 4 games.",
+     "League averages this season: home teams 1.60 goals per game, away teams 1.52.",
+     "Recent league form (newest first): AC Monza LWLWL, SSC Napoli DLWDW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: AC Monza has 3 home games and SSC Napoli 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "252836",
+     "name": "Gustavo Varela",
+     "team": "AC Monza",
+     "probability": 0.563,
+     "confidence": 0.36,
+     "reasoning": "7 of AC Monza's 15 league goals this season (47%), applied to the 1.77 goals the model expects from them here.",
+     "evidence": [
+      "Gustavo Varela: 7 league goals in 7 appearances this season.",
+      "AC Monza have scored 15 league goals in 8 games; the model expects 1.77 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "3654",
+     "name": "Kevin De Bruyne",
+     "team": "SSC Napoli",
+     "probability": 0.324,
+     "confidence": 0.234,
+     "reasoning": "3 of SSC Napoli's 13 league goals this season (23%), applied to the 1.70 goals the model expects from them here.",
+     "evidence": [
+      "Kevin De Bruyne: 3 league goals in 8 appearances this season.",
+      "SSC Napoli have scored 13 league goals in 8 games; the model expects 1.70 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "152770",
+     "name": "Rasmus Højlund",
+     "team": "SSC Napoli",
+     "probability": 0.23,
+     "confidence": 0.166,
+     "reasoning": "2 of SSC Napoli's 13 league goals this season (15%), applied to the 1.70 goals the model expects from them here.",
+     "evidence": [
+      "Rasmus Højlund: 2 league goals in 8 appearances this season.",
+      "SSC Napoli have scored 13 league goals in 8 games; the model expects 1.70 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-1",
+     "probability": 0.094
+    },
+    "alternatives": [
+     {
+      "score": "2-1",
+      "probability": 0.083
+     },
+     {
+      "score": "1-2",
+      "probability": 0.079
+     },
+     {
+      "score": "2-2",
+      "probability": 0.07
+     }
+    ],
+    "confidence": 0.187,
+    "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.77 (AC Monza) and 1.70 (SSC Napoli).",
+     "Top scorelines: 1-1 (9.4%), 2-1 (8.3%), 1-2 (7.9%), 2-2 (7.0%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: AC Monza has 3 home games and SSC Napoli 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-28T02:24:12.417Z"
+ }
+]

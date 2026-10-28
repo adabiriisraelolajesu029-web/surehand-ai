@@ -22,6 +22,10 @@
     "short": "UDI"
    }
   },
+  "leagueAvg": {
+   "homeGoals": 1.6024096385542168,
+   "awayGoals": 1.5180722891566265
+  },
   "form": {
    "home": [
     {
@@ -108,8 +112,22 @@
      "gf": 5,
      "ga": 15
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 3,
+     "ga": 6
+    },
+    "away": {
+     "p": 4,
+     "w": 0,
+     "d": 0,
+     "l": 4,
+     "gf": 2,
+     "ga": 9
+    }
    },
    "away": {
     "overall": {
@@ -120,8 +138,22 @@
      "gf": 9,
      "ga": 18
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 5,
+     "w": 0,
+     "d": 1,
+     "l": 4,
+     "gf": 2,
+     "ga": 9
+    },
+    "away": {
+     "p": 3,
+     "w": 1,
+     "d": 0,
+     "l": 2,
+     "gf": 7,
+     "ga": 9
+    }
    },
    "sample": "League matches this season to date"
   },
@@ -219,8 +251,113 @@
    }
   ]
  },
- "prediction": null,
- "dataSnapshotAt": "2026-10-28T02:17:11.928Z",
- "lockedAt": null,
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.241,
+   "draw": 0.233,
+   "awayWin": 0.525,
+   "pick": "A",
+   "confidence": 0.483,
+   "reasoning": "Poisson model: expected goals Parma Calcio 1913 1.13 vs Udinese Calcio 1.78, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Parma Calcio 1913 at home: 1W-1D-2L, 3 scored and 6 conceded in 4 games.",
+    "Udinese Calcio away: 1W-0D-2L, 7 scored and 9 conceded in 3 games.",
+    "League averages this season: home teams 1.60 goals per game, away teams 1.52.",
+    "Recent league form (newest first): Parma Calcio 1913 LLLWL, Udinese Calcio LLLLL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Parma Calcio 1913 has 4 home games and Udinese Calcio 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "7567",
+    "name": "Jurgen Ekkelenkamp",
+    "team": "Udinese Calcio",
+    "probability": 0.447,
+    "confidence": 0.322,
+    "reasoning": "3 of Udinese Calcio's 9 league goals this season (33%), applied to the 1.78 goals the model expects from them here.",
+    "evidence": [
+     "Jurgen Ekkelenkamp: 3 league goals in 8 appearances this season.",
+     "Udinese Calcio have scored 9 league goals in 8 games; the model expects 1.78 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "299423",
+    "name": "Simone Lontani",
+    "team": "Parma Calcio 1913",
+    "probability": 0.364,
+    "confidence": 0.262,
+    "reasoning": "2 of Parma Calcio 1913's 5 league goals this season (40%), applied to the 1.13 goals the model expects from them here.",
+    "evidence": [
+     "Simone Lontani: 2 league goals in 8 appearances this season.",
+     "Parma Calcio 1913 have scored 5 league goals in 8 games; the model expects 1.13 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "165857",
+    "name": "José Romero",
+    "team": "Parma Calcio 1913",
+    "probability": 0.364,
+    "confidence": 0.262,
+    "reasoning": "2 of Parma Calcio 1913's 5 league goals this season (40%), applied to the 1.13 goals the model expects from them here.",
+    "evidence": [
+     "José Romero: 2 league goals in 8 appearances this season.",
+     "Parma Calcio 1913 have scored 5 league goals in 8 games; the model expects 1.13 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-1",
+    "probability": 0.11
+   },
+   "alternatives": [
+    {
+     "score": "1-2",
+     "probability": 0.098
+    },
+    {
+     "score": "0-1",
+     "probability": 0.097
+    },
+    {
+     "score": "0-2",
+     "probability": 0.086
+    }
+   ],
+   "confidence": 0.219,
+   "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.13 (Parma Calcio 1913) and 1.78 (Udinese Calcio).",
+    "Top scorelines: 1-1 (11.0%), 1-2 (9.8%), 0-1 (9.7%), 0-2 (8.6%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Parma Calcio 1913 has 4 home games and Udinese Calcio 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-28T02:23:17.780Z",
+ "lockedAt": "2026-10-28T02:23:35.293Z",
  "result": null
 }

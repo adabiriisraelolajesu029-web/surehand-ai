@@ -22,6 +22,10 @@
     "short": "NAP"
    }
   },
+  "leagueAvg": {
+   "homeGoals": 1.6024096385542168,
+   "awayGoals": 1.5180722891566265
+  },
   "form": {
    "home": [
     {
@@ -108,8 +112,22 @@
      "gf": 15,
      "ga": 18
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 3,
+     "w": 2,
+     "d": 0,
+     "l": 1,
+     "gf": 8,
+     "ga": 4
+    },
+    "away": {
+     "p": 5,
+     "w": 0,
+     "d": 1,
+     "l": 4,
+     "gf": 7,
+     "ga": 14
+    }
    },
    "away": {
     "overall": {
@@ -120,8 +138,22 @@
      "gf": 13,
      "ga": 10
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 8,
+     "ga": 5
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 5
+    }
    },
    "sample": "League matches this season to date"
   },
@@ -219,8 +251,113 @@
    }
   ]
  },
- "prediction": null,
- "dataSnapshotAt": "2026-10-28T02:17:30.486Z",
- "lockedAt": null,
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.403,
+   "draw": 0.224,
+   "awayWin": 0.373,
+   "pick": "H",
+   "confidence": 0.371,
+   "reasoning": "Poisson model: expected goals AC Monza 1.77 vs SSC Napoli 1.70, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "AC Monza at home: 2W-0D-1L, 8 scored and 4 conceded in 3 games.",
+    "SSC Napoli away: 1W-1D-2L, 5 scored and 5 conceded in 4 games.",
+    "League averages this season: home teams 1.60 goals per game, away teams 1.52.",
+    "Recent league form (newest first): AC Monza LWLWL, SSC Napoli DLWDW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Monza has 3 home games and SSC Napoli 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "252836",
+    "name": "Gustavo Varela",
+    "team": "AC Monza",
+    "probability": 0.563,
+    "confidence": 0.36,
+    "reasoning": "7 of AC Monza's 15 league goals this season (47%), applied to the 1.77 goals the model expects from them here.",
+    "evidence": [
+     "Gustavo Varela: 7 league goals in 7 appearances this season.",
+     "AC Monza have scored 15 league goals in 8 games; the model expects 1.77 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "3654",
+    "name": "Kevin De Bruyne",
+    "team": "SSC Napoli",
+    "probability": 0.324,
+    "confidence": 0.234,
+    "reasoning": "3 of SSC Napoli's 13 league goals this season (23%), applied to the 1.70 goals the model expects from them here.",
+    "evidence": [
+     "Kevin De Bruyne: 3 league goals in 8 appearances this season.",
+     "SSC Napoli have scored 13 league goals in 8 games; the model expects 1.70 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "152770",
+    "name": "Rasmus Højlund",
+    "team": "SSC Napoli",
+    "probability": 0.23,
+    "confidence": 0.166,
+    "reasoning": "2 of SSC Napoli's 13 league goals this season (15%), applied to the 1.70 goals the model expects from them here.",
+    "evidence": [
+     "Rasmus Højlund: 2 league goals in 8 appearances this season.",
+     "SSC Napoli have scored 13 league goals in 8 games; the model expects 1.70 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-1",
+    "probability": 0.094
+   },
+   "alternatives": [
+    {
+     "score": "2-1",
+     "probability": 0.083
+    },
+    {
+     "score": "1-2",
+     "probability": 0.079
+    },
+    {
+     "score": "2-2",
+     "probability": 0.07
+    }
+   ],
+   "confidence": 0.187,
+   "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.77 (AC Monza) and 1.70 (SSC Napoli).",
+    "Top scorelines: 1-1 (9.4%), 2-1 (8.3%), 1-2 (7.9%), 2-2 (7.0%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Monza has 3 home games and SSC Napoli 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-28T02:23:54.244Z",
+ "lockedAt": "2026-10-28T02:24:12.417Z",
  "result": null
 }

@@ -22,6 +22,10 @@
     "short": "INT"
    }
   },
+  "leagueAvg": {
+   "homeGoals": 1.6024096385542168,
+   "awayGoals": 1.5180722891566265
+  },
   "form": {
    "home": [
     {
@@ -108,8 +112,22 @@
      "gf": 6,
      "ga": 17
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 0,
+     "l": 3,
+     "gf": 3,
+     "ga": 8
+    },
+    "away": {
+     "p": 4,
+     "w": 0,
+     "d": 0,
+     "l": 4,
+     "gf": 3,
+     "ga": 9
+    }
    },
    "away": {
     "overall": {
@@ -120,8 +138,22 @@
      "gf": 23,
      "ga": 10
     },
-    "home": null,
-    "away": null
+    "home": {
+     "p": 5,
+     "w": 5,
+     "d": 0,
+     "l": 0,
+     "gf": 17,
+     "ga": 7
+    },
+    "away": {
+     "p": 3,
+     "w": 2,
+     "d": 1,
+     "l": 0,
+     "gf": 6,
+     "ga": 3
+    }
    },
    "sample": "League matches this season to date"
   },
@@ -260,8 +292,113 @@
    }
   ]
  },
- "prediction": null,
- "dataSnapshotAt": "2026-10-28T02:16:54.108Z",
- "lockedAt": null,
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.042,
+   "draw": 0.1,
+   "awayWin": 0.858,
+   "pick": "A",
+   "confidence": 0.789,
+   "reasoning": "Poisson model: expected goals Venezia FC 0.55 vs FC Internazionale Milano 3.00, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Venezia FC at home: 1W-0D-3L, 3 scored and 8 conceded in 4 games.",
+    "FC Internazionale Milano away: 2W-1D-0L, 6 scored and 3 conceded in 3 games.",
+    "League averages this season: home teams 1.60 goals per game, away teams 1.52.",
+    "Recent league form (newest first): Venezia FC LWLLL, FC Internazionale Milano WWWDW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Venezia FC has 4 home games and FC Internazionale Milano 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "8685",
+    "name": "Marcus Thuram-Ulien",
+    "team": "FC Internazionale Milano",
+    "probability": 0.479,
+    "confidence": 0.345,
+    "reasoning": "5 of FC Internazionale Milano's 23 league goals this season (22%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Marcus Thuram-Ulien: 5 league goals in 8 appearances this season.",
+     "FC Internazionale Milano have scored 23 league goals in 8 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "3220",
+    "name": "Lautaro Martínez",
+    "team": "FC Internazionale Milano",
+    "probability": 0.407,
+    "confidence": 0.293,
+    "reasoning": "4 of FC Internazionale Milano's 23 league goals this season (17%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Lautaro Martínez: 4 league goals in 6 appearances this season.",
+     "FC Internazionale Milano have scored 23 league goals in 8 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "1754",
+    "name": "Hakan Çalhanoğlu",
+    "team": "FC Internazionale Milano",
+    "probability": 0.324,
+    "confidence": 0.233,
+    "reasoning": "3 of FC Internazionale Milano's 23 league goals this season (13%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Hakan Çalhanoğlu: 3 league goals in 6 appearances this season.",
+     "FC Internazionale Milano have scored 23 league goals in 8 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.13
+   },
+   "alternatives": [
+    {
+     "score": "0-3",
+     "probability": 0.13
+    },
+    {
+     "score": "0-4",
+     "probability": 0.097
+    },
+    {
+     "score": "0-1",
+     "probability": 0.086
+    }
+   ],
+   "confidence": 0.259,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.55 (Venezia FC) and 3.00 (FC Internazionale Milano).",
+    "Top scorelines: 0-2 (13.0%), 0-3 (13.0%), 0-4 (9.7%), 0-1 (8.6%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Venezia FC has 4 home games and FC Internazionale Milano 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-28T02:23:35.293Z",
+ "lockedAt": "2026-10-28T02:23:54.243Z",
  "result": null
 }
