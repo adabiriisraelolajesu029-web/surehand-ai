@@ -60,66 +60,6 @@
   }
  },
  {
-  "id": "565843",
-  "kickoffUtc": "2026-10-31T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "12",
-   "name": "SV Werder Bremen",
-   "short": "SVW"
-  },
-  "away": {
-   "id": "2",
-   "name": "TSG 1899 Hoffenheim",
-   "short": "TSG"
-  }
- },
- {
-  "id": "565847",
-  "kickoffUtc": "2026-10-31T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "3",
-   "name": "Bayer 04 Leverkusen",
-   "short": "B04"
-  },
-  "away": {
-   "id": "10",
-   "name": "VfB Stuttgart",
-   "short": "VFB"
-  }
- },
- {
-  "id": "565840",
-  "kickoffUtc": "2026-10-31T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "6",
-   "name": "FC Schalke 04",
-   "short": "S04"
-  },
-  "away": {
-   "id": "721",
-   "name": "RB Leipzig",
-   "short": "RBL"
-  }
- },
- {
   "id": "565842",
   "kickoffUtc": "2026-10-31T14:30:00.000Z",
   "status": "scheduled",
@@ -160,63 +100,63 @@
   }
  },
  {
-  "id": "560623",
-  "kickoffUtc": "2026-10-31T15:00:00.000Z",
+  "id": "565840",
+  "kickoffUtc": "2026-10-31T14:30:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
   },
   "home": {
-   "id": "65",
-   "name": "Manchester City FC",
-   "short": "MCI"
+   "id": "6",
+   "name": "FC Schalke 04",
+   "short": "S04"
   },
   "away": {
-   "id": "397",
-   "name": "Brighton & Hove Albion FC",
-   "short": "BHA"
+   "id": "721",
+   "name": "RB Leipzig",
+   "short": "RBL"
   }
  },
  {
-  "id": "560629",
-  "kickoffUtc": "2026-10-31T15:00:00.000Z",
+  "id": "565843",
+  "kickoffUtc": "2026-10-31T14:30:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
   },
   "home": {
-   "id": "322",
-   "name": "Hull City AFC",
-   "short": "HUL"
+   "id": "12",
+   "name": "SV Werder Bremen",
+   "short": "SVW"
   },
   "away": {
-   "id": "349",
-   "name": "Ipswich Town FC",
-   "short": "IPS"
+   "id": "2",
+   "name": "TSG 1899 Hoffenheim",
+   "short": "TSG"
   }
  },
  {
-  "id": "560625",
-  "kickoffUtc": "2026-10-31T15:00:00.000Z",
+  "id": "565847",
+  "kickoffUtc": "2026-10-31T14:30:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
   },
   "home": {
-   "id": "1076",
-   "name": "Coventry City FC",
-   "short": "COV"
+   "id": "3",
+   "name": "Bayer 04 Leverkusen",
+   "short": "B04"
   },
   "away": {
-   "id": "71",
-   "name": "Sunderland AFC",
-   "short": "SUN"
+   "id": "10",
+   "name": "VfB Stuttgart",
+   "short": "VFB"
   }
  },
  {
@@ -260,6 +200,66 @@
   }
  },
  {
+  "id": "560625",
+  "kickoffUtc": "2026-10-31T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "1076",
+   "name": "Coventry City FC",
+   "short": "COV"
+  },
+  "away": {
+   "id": "71",
+   "name": "Sunderland AFC",
+   "short": "SUN"
+  }
+ },
+ {
+  "id": "560623",
+  "kickoffUtc": "2026-10-31T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "65",
+   "name": "Manchester City FC",
+   "short": "MCI"
+  },
+  "away": {
+   "id": "397",
+   "name": "Brighton & Hove Albion FC",
+   "short": "BHA"
+  }
+ },
+ {
+  "id": "560629",
+  "kickoffUtc": "2026-10-31T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "322",
+   "name": "Hull City AFC",
+   "short": "HUL"
+  },
+  "away": {
+   "id": "349",
+   "name": "Ipswich Town FC",
+   "short": "IPS"
+  }
+ },
+ {
   "id": "564735",
   "kickoffUtc": "2026-10-31T15:15:00.000Z",
   "status": "scheduled",
@@ -297,6 +297,26 @@
    "id": "100",
    "name": "AS Roma",
    "short": "ROM"
+  }
+ },
+ {
+  "id": "565845",
+  "kickoffUtc": "2026-10-31T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "5",
+   "name": "FC Bayern München",
+   "short": "FCB"
+  },
+  "away": {
+   "id": "4",
+   "name": "Borussia Dortmund",
+   "short": "BVB"
   }
  },
  {
@@ -340,23 +360,23 @@
   }
  },
  {
-  "id": "565845",
-  "kickoffUtc": "2026-10-31T17:30:00.000Z",
+  "id": "559643",
+  "kickoffUtc": "2026-10-31T19:45:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
   },
   "home": {
-   "id": "5",
-   "name": "FC Bayern München",
-   "short": "FCB"
+   "id": "531",
+   "name": "ES Troyes AC",
+   "short": "ETR"
   },
   "away": {
-   "id": "4",
-   "name": "Borussia Dortmund",
-   "short": "BVB"
+   "id": "535",
+   "name": "Le Mans FC",
+   "short": "LMF"
   }
  },
  {
@@ -380,23 +400,23 @@
   }
  },
  {
-  "id": "559643",
-  "kickoffUtc": "2026-10-31T19:45:00.000Z",
+  "id": "560628",
+  "kickoffUtc": "2026-10-31T20:00:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
   },
   "home": {
-   "id": "531",
-   "name": "ES Troyes AC",
-   "short": "ETR"
+   "id": "58",
+   "name": "Aston Villa FC",
+   "short": "AVL"
   },
   "away": {
-   "id": "535",
-   "name": "Le Mans FC",
-   "short": "LMF"
+   "id": "63",
+   "name": "Fulham FC",
+   "short": "FUL"
   }
  },
  {
@@ -417,26 +437,6 @@
    "id": "263",
    "name": "Deportivo Alavés",
    "short": "ALA"
-  }
- },
- {
-  "id": "560628",
-  "kickoffUtc": "2026-10-31T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "58",
-   "name": "Aston Villa FC",
-   "short": "AVL"
-  },
-  "away": {
-   "id": "63",
-   "name": "Fulham FC",
-   "short": "FUL"
   }
  }
 ]

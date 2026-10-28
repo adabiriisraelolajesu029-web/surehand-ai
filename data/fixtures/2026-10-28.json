@@ -20,26 +20,6 @@
   }
  },
  {
-  "id": "558550",
-  "kickoffUtc": "2026-10-28T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "454",
-   "name": "Venezia FC",
-   "short": "VEN"
-  },
-  "away": {
-   "id": "108",
-   "name": "FC Internazionale Milano",
-   "short": "INT"
-  }
- },
- {
   "id": "558553",
   "kickoffUtc": "2026-10-28T17:30:00.000Z",
   "status": "scheduled",
@@ -57,6 +37,26 @@
    "id": "115",
    "name": "Udinese Calcio",
    "short": "UDI"
+  }
+ },
+ {
+  "id": "558550",
+  "kickoffUtc": "2026-10-28T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "454",
+   "name": "Venezia FC",
+   "short": "VEN"
+  },
+  "away": {
+   "id": "108",
+   "name": "FC Internazionale Milano",
+   "short": "INT"
   }
  },
  {
