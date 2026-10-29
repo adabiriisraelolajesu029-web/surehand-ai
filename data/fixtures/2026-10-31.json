@@ -60,6 +60,46 @@
   }
  },
  {
+  "id": "565839",
+  "kickoffUtc": "2026-10-31T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "18",
+   "name": "Borussia Mönchengladbach",
+   "short": "BMG"
+  },
+  "away": {
+   "id": "29",
+   "name": "SC Paderborn 07",
+   "short": "SCP"
+  }
+ },
+ {
+  "id": "565842",
+  "kickoffUtc": "2026-10-31T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "16",
+   "name": "FC Augsburg",
+   "short": "FCA"
+  },
+  "away": {
+   "id": "17",
+   "name": "SC Freiburg",
+   "short": "SCF"
+  }
+ },
+ {
   "id": "565843",
   "kickoffUtc": "2026-10-31T14:30:00.000Z",
   "status": "scheduled",
@@ -120,43 +160,43 @@
   }
  },
  {
-  "id": "565839",
-  "kickoffUtc": "2026-10-31T14:30:00.000Z",
+  "id": "560624",
+  "kickoffUtc": "2026-10-31T15:00:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
   },
   "home": {
-   "id": "18",
-   "name": "Borussia Mönchengladbach",
-   "short": "BMG"
+   "id": "1044",
+   "name": "AFC Bournemouth",
+   "short": "BOU"
   },
   "away": {
-   "id": "29",
-   "name": "SC Paderborn 07",
-   "short": "SCP"
+   "id": "341",
+   "name": "Leeds United FC",
+   "short": "LEE"
   }
  },
  {
-  "id": "565842",
-  "kickoffUtc": "2026-10-31T14:30:00.000Z",
+  "id": "560630",
+  "kickoffUtc": "2026-10-31T15:00:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
   },
   "home": {
-   "id": "16",
-   "name": "FC Augsburg",
-   "short": "FCA"
+   "id": "402",
+   "name": "Brentford FC",
+   "short": "BRE"
   },
   "away": {
-   "id": "17",
-   "name": "SC Freiburg",
-   "short": "SCF"
+   "id": "351",
+   "name": "Nottingham Forest FC",
+   "short": "NOT"
   }
  },
  {
@@ -220,46 +260,6 @@
   }
  },
  {
-  "id": "560624",
-  "kickoffUtc": "2026-10-31T15:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "1044",
-   "name": "AFC Bournemouth",
-   "short": "BOU"
-  },
-  "away": {
-   "id": "341",
-   "name": "Leeds United FC",
-   "short": "LEE"
-  }
- },
- {
-  "id": "560630",
-  "kickoffUtc": "2026-10-31T15:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "402",
-   "name": "Brentford FC",
-   "short": "BRE"
-  },
-  "away": {
-   "id": "351",
-   "name": "Nottingham Forest FC",
-   "short": "NOT"
-  }
- },
- {
   "id": "564735",
   "kickoffUtc": "2026-10-31T15:15:00.000Z",
   "status": "scheduled",
@@ -297,6 +297,26 @@
    "id": "100",
    "name": "AS Roma",
    "short": "ROM"
+  }
+ },
+ {
+  "id": "565845",
+  "kickoffUtc": "2026-10-31T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "5",
+   "name": "FC Bayern München",
+   "short": "FCB"
+  },
+  "away": {
+   "id": "4",
+   "name": "Borussia Dortmund",
+   "short": "BVB"
   }
  },
  {
@@ -340,26 +360,6 @@
   }
  },
  {
-  "id": "565845",
-  "kickoffUtc": "2026-10-31T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "5",
-   "name": "FC Bayern München",
-   "short": "FCB"
-  },
-  "away": {
-   "id": "4",
-   "name": "Borussia Dortmund",
-   "short": "BVB"
-  }
- },
- {
   "id": "559643",
   "kickoffUtc": "2026-10-31T19:45:00.000Z",
   "status": "scheduled",
@@ -400,26 +400,6 @@
   }
  },
  {
-  "id": "564732",
-  "kickoffUtc": "2026-10-31T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PD",
-   "name": "Primera Division",
-   "country": "Spain"
-  },
-  "home": {
-   "id": "81",
-   "name": "FC Barcelona",
-   "short": "FCB"
-  },
-  "away": {
-   "id": "263",
-   "name": "Deportivo Alavés",
-   "short": "ALA"
-  }
- },
- {
   "id": "560628",
   "kickoffUtc": "2026-10-31T20:00:00.000Z",
   "status": "scheduled",
@@ -437,6 +417,26 @@
    "id": "63",
    "name": "Fulham FC",
    "short": "FUL"
+  }
+ },
+ {
+  "id": "564732",
+  "kickoffUtc": "2026-10-31T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "81",
+   "name": "FC Barcelona",
+   "short": "FCB"
+  },
+  "away": {
+   "id": "263",
+   "name": "Deportivo Alavés",
+   "short": "ALA"
   }
  }
 ]

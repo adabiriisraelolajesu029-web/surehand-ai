@@ -2,7 +2,7 @@
  {
   "id": "558558",
   "kickoffUtc": "2026-10-29T17:30:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "SA",
    "name": "Serie A",
@@ -22,7 +22,7 @@
  {
   "id": "558551",
   "kickoffUtc": "2026-10-29T19:45:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "SA",
    "name": "Serie A",

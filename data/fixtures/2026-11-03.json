@@ -1,1 +1,182 @@
-[]
+[
+ {
+  "id": "575377",
+  "kickoffUtc": "2026-11-03T17:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "1887",
+   "name": "FK Shakhtar Donetsk",
+   "short": "SHD"
+  },
+  "away": {
+   "id": "498",
+   "name": "Sporting Clube de Portugal",
+   "short": "SPO"
+  }
+ },
+ {
+  "id": "575378",
+  "kickoffUtc": "2026-11-03T17:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "610",
+   "name": "Galatasaray SK",
+   "short": "GAL"
+  },
+  "away": {
+   "id": "10",
+   "name": "VfB Stuttgart",
+   "short": "VFB"
+  }
+ },
+ {
+  "id": "575379",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "675",
+   "name": "Feyenoord Rotterdam",
+   "short": "FEY"
+  },
+  "away": {
+   "id": "108",
+   "name": "FC Internazionale Milano",
+   "short": "INT"
+  }
+ },
+ {
+  "id": "575385",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "2016",
+   "name": "LASK Linz",
+   "short": "LIN"
+  },
+  "away": {
+   "id": "7509",
+   "name": "ŠK Slovan Bratislava",
+   "short": "SBA"
+  }
+ },
+ {
+  "id": "575381",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "78",
+   "name": "Club Atlético de Madrid",
+   "short": "ATL"
+  },
+  "away": {
+   "id": "5",
+   "name": "FC Bayern München",
+   "short": "FCB"
+  }
+ },
+ {
+  "id": "575383",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "66",
+   "name": "Manchester United FC",
+   "short": "MUN"
+  },
+  "away": {
+   "id": "100",
+   "name": "AS Roma",
+   "short": "ROM"
+  }
+ },
+ {
+  "id": "575384",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "5721",
+   "name": "FK Bodø/Glimt",
+   "short": "FK"
+  },
+  "away": {
+   "id": "521",
+   "name": "Lille OSC",
+   "short": "LIL"
+  }
+ },
+ {
+  "id": "575380",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "81",
+   "name": "FC Barcelona",
+   "short": "FCB"
+  },
+  "away": {
+   "id": "58",
+   "name": "Aston Villa FC",
+   "short": "AVL"
+  }
+ },
+ {
+  "id": "575382",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "94",
+   "name": "Villarreal CF",
+   "short": "VIL"
+  },
+  "away": {
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  }
+ }
+]

@@ -1,22 +1,33 @@
 {
- "settled": 5,
+ "settled": 6,
  "outcome": {
-  "n": 5,
-  "hit": 1,
-  "rate": 0.2
+  "n": 6,
+  "hit": 2,
+  "rate": 0.3333333333333333
  },
  "correctScore": {
-  "n": 5,
+  "n": 6,
   "hit": 1,
-  "rate": 0.2
+  "rate": 0.16666666666666666
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-10-29T17:22:25.078Z",
+ "updatedAt": "2026-10-29T22:09:06.088Z",
  "tracked": [
+  {
+   "match": "Frosinone Calcio v US Lecce",
+   "lockedAt": "2026-10-28T02:24:55.840Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 5,
+    "away": 1
+   },
+   "scorers": []
+  },
   {
    "match": "Genoa CFC v Juventus FC",
    "lockedAt": "2026-10-28T02:24:31.334Z",
