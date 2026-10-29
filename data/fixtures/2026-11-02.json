@@ -60,26 +60,6 @@
   }
  },
  {
-  "id": "564731",
-  "kickoffUtc": "2026-11-02T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PD",
-   "name": "Primera Division",
-   "country": "Spain"
-  },
-  "home": {
-   "id": "560",
-   "name": "RC Deportivo La Coruña",
-   "short": "DEP"
-  },
-  "away": {
-   "id": "79",
-   "name": "CA Osasuna",
-   "short": "OSA"
-  }
- },
- {
   "id": "560622",
   "kickoffUtc": "2026-11-02T20:00:00.000Z",
   "status": "scheduled",
@@ -97,6 +77,26 @@
    "id": "62",
    "name": "Everton FC",
    "short": "EVE"
+  }
+ },
+ {
+  "id": "564731",
+  "kickoffUtc": "2026-11-02T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "560",
+   "name": "RC Deportivo La Coruña",
+   "short": "DEP"
+  },
+  "away": {
+   "id": "79",
+   "name": "CA Osasuna",
+   "short": "OSA"
   }
  }
 ]

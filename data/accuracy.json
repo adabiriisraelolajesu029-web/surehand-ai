@@ -1,20 +1,76 @@
 {
- "settled": 0,
+ "settled": 5,
  "outcome": {
-  "n": 0,
-  "hit": 0,
-  "rate": null
+  "n": 5,
+  "hit": 1,
+  "rate": 0.2
  },
  "correctScore": {
-  "n": 0,
-  "hit": 0,
-  "rate": null
+  "n": 5,
+  "hit": 1,
+  "rate": 0.2
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-10-28T17:04:11.039Z",
- "tracked": []
+ "updatedAt": "2026-10-29T02:35:25.339Z",
+ "tracked": [
+  {
+   "match": "Genoa CFC v Juventus FC",
+   "lockedAt": "2026-10-28T02:24:31.334Z",
+   "pick": "A",
+   "score": "0-1",
+   "actual": {
+    "home": 2,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "AC Monza v SSC Napoli",
+   "lockedAt": "2026-10-28T02:24:12.417Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 1,
+    "away": 4
+   },
+   "scorers": []
+  },
+  {
+   "match": "AC Milan v Bologna FC 1909",
+   "lockedAt": "2026-10-28T02:23:17.779Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 2,
+    "away": 4
+   },
+   "scorers": []
+  },
+  {
+   "match": "Venezia FC v FC Internazionale Milano",
+   "lockedAt": "2026-10-28T02:23:54.243Z",
+   "pick": "A",
+   "score": "0-2",
+   "actual": {
+    "home": 0,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "Parma Calcio 1913 v Udinese Calcio",
+   "lockedAt": "2026-10-28T02:23:35.293Z",
+   "pick": "A",
+   "score": "1-1",
+   "actual": {
+    "home": 0,
+    "away": 0
+   },
+   "scorers": []
+  }
+ ]
 }
