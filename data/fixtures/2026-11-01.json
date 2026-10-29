@@ -260,26 +260,6 @@
   }
  },
  {
-  "id": "558547",
-  "kickoffUtc": "2026-11-01T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "109",
-   "name": "Juventus FC",
-   "short": "JUV"
-  },
-  "away": {
-   "id": "113",
-   "name": "SSC Napoli",
-   "short": "NAP"
-  }
- },
- {
   "id": "559645",
   "kickoffUtc": "2026-11-01T19:45:00.000Z",
   "status": "scheduled",
@@ -297,6 +277,26 @@
    "id": "511",
    "name": "Toulouse FC",
    "short": "TOU"
+  }
+ },
+ {
+  "id": "558547",
+  "kickoffUtc": "2026-11-01T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "109",
+   "name": "Juventus FC",
+   "short": "JUV"
+  },
+  "away": {
+   "id": "113",
+   "name": "SSC Napoli",
+   "short": "NAP"
   }
  },
  {
