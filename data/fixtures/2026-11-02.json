@@ -20,26 +20,6 @@
   }
  },
  {
-  "id": "558545",
-  "kickoffUtc": "2026-11-02T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "102",
-   "name": "Atalanta BC",
-   "short": "ATA"
-  },
-  "away": {
-   "id": "112",
-   "name": "Parma Calcio 1913",
-   "short": "PAR"
-  }
- },
- {
   "id": "559641",
   "kickoffUtc": "2026-11-02T19:45:00.000Z",
   "status": "scheduled",
@@ -57,6 +37,26 @@
    "id": "512",
    "name": "Stade Brestois 29",
    "short": "BRE"
+  }
+ },
+ {
+  "id": "558545",
+  "kickoffUtc": "2026-11-02T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "102",
+   "name": "Atalanta BC",
+   "short": "ATA"
+  },
+  "away": {
+   "id": "112",
+   "name": "Parma Calcio 1913",
+   "short": "PAR"
   }
  },
  {

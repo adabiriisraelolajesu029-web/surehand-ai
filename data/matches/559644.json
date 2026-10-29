@@ -1,0 +1,383 @@
+{
+ "fixtureId": "559644",
+ "kickoffUtc": "2026-10-30T18:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559644",
+   "kickoffUtc": "2026-10-30T18:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "533",
+    "name": "Le Havre AC",
+    "short": "HAC"
+   },
+   "away": {
+    "id": "524",
+    "name": "Paris Saint-Germain FC",
+    "short": "PSG"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.625,
+   "awayGoals": 1.3472222222222223
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Olympique de Marseille",
+     "venue": "A",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "AJ Auxerre",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Lille OSC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Toulouse FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Angers SCO",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Olympique Lyonnais",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "RC Strasbourg Alsace",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Le Mans FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Olympique de Marseille",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Stade Brestois 29",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 0,
+     "d": 2,
+     "l": 6,
+     "gf": 8,
+     "ga": 15
+    },
+    "home": {
+     "p": 4,
+     "w": 0,
+     "d": 1,
+     "l": 3,
+     "gf": 2,
+     "ga": 6
+    },
+    "away": {
+     "p": 4,
+     "w": 0,
+     "d": 1,
+     "l": 3,
+     "gf": 6,
+     "ga": 9
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 5,
+     "d": 2,
+     "l": 1,
+     "gf": 16,
+     "ga": 9
+    },
+    "home": {
+     "p": 3,
+     "w": 2,
+     "d": 0,
+     "l": 1,
+     "gf": 6,
+     "ga": 3
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 2,
+     "l": 0,
+     "gf": 10,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-02-28",
+    "homeId": "533",
+    "awayId": "524",
+    "home": "Le Havre AC",
+    "away": "Paris Saint-Germain FC",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2025-11-22",
+    "homeId": "524",
+    "awayId": "533",
+    "home": "Paris Saint-Germain FC",
+    "away": "Le Havre AC",
+    "hg": 3,
+    "ag": 0
+   },
+   {
+    "date": "2025-04-19",
+    "homeId": "524",
+    "awayId": "533",
+    "home": "Paris Saint-Germain FC",
+    "away": "Le Havre AC",
+    "hg": 2,
+    "ag": 1
+   },
+   {
+    "date": "2024-08-16",
+    "homeId": "533",
+    "awayId": "524",
+    "home": "Le Havre AC",
+    "away": "Paris Saint-Germain FC",
+    "hg": 1,
+    "ag": 4
+   },
+   {
+    "date": "2024-04-27",
+    "homeId": "524",
+    "awayId": "533",
+    "home": "Paris Saint-Germain FC",
+    "away": "Le Havre AC",
+    "hg": 3,
+    "ag": 3
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "4072",
+    "name": "Josh Maja",
+    "team": "Le Havre AC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "215579",
+    "name": "Mbwana Samatta",
+    "team": "Le Havre AC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "276430",
+    "name": "Rayan Fofana",
+    "team": "Le Havre AC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "33154",
+    "name": "Ferrán Torres",
+    "team": "Paris Saint-Germain FC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "3225",
+    "name": "Marquinhos",
+    "team": "Paris Saint-Germain FC",
+    "pos": "Defence",
+    "apps": 6,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "178722",
+    "name": "Vitinha",
+    "team": "Paris Saint-Germain FC",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.081,
+   "draw": 0.164,
+   "awayWin": 0.755,
+   "pick": "A",
+   "confidence": 0.695,
+   "reasoning": "Poisson model: expected goals Le Havre AC 0.59 vs Paris Saint-Germain FC 2.28, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Le Havre AC at home: 0W-1D-3L, 2 scored and 6 conceded in 4 games.",
+    "Paris Saint-Germain FC away: 3W-2D-0L, 10 scored and 6 conceded in 5 games.",
+    "League averages this season: home teams 1.63 goals per game, away teams 1.35.",
+    "Recent league form (newest first): Le Havre AC LLLLD, Paris Saint-Germain FC WWWWW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Le Havre AC has 4 home games and Paris Saint-Germain FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "33154",
+    "name": "Ferrán Torres",
+    "team": "Paris Saint-Germain FC",
+    "probability": 0.434,
+    "confidence": 0.312,
+    "reasoning": "4 of Paris Saint-Germain FC's 16 league goals this season (25%), applied to the 2.28 goals the model expects from them here.",
+    "evidence": [
+     "Ferrán Torres: 4 league goals in 8 appearances this season.",
+     "Paris Saint-Germain FC have scored 16 league goals in 8 games; the model expects 2.28 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "3225",
+    "name": "Marquinhos",
+    "team": "Paris Saint-Germain FC",
+    "probability": 0.347,
+    "confidence": 0.25,
+    "reasoning": "3 of Paris Saint-Germain FC's 16 league goals this season (19%), applied to the 2.28 goals the model expects from them here.",
+    "evidence": [
+     "Marquinhos: 3 league goals in 6 appearances this season.",
+     "Paris Saint-Germain FC have scored 16 league goals in 8 games; the model expects 2.28 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "4072",
+    "name": "Josh Maja",
+    "team": "Le Havre AC",
+    "probability": 0.2,
+    "confidence": 0.144,
+    "reasoning": "3 of Le Havre AC's 8 league goals this season (38%), applied to the 0.59 goals the model expects from them here.",
+    "evidence": [
+     "Josh Maja: 3 league goals in 8 appearances this season.",
+     "Le Havre AC have scored 8 league goals in 8 games; the model expects 0.59 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.147
+   },
+   "alternatives": [
+    {
+     "score": "0-1",
+     "probability": 0.129
+    },
+    {
+     "score": "0-3",
+     "probability": 0.111
+    },
+    {
+     "score": "1-2",
+     "probability": 0.087
+    }
+   ],
+   "confidence": 0.294,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.59 (Le Havre AC) and 2.28 (Paris Saint-Germain FC).",
+    "Top scorelines: 0-2 (14.7%), 0-1 (12.9%), 0-3 (11.1%), 1-2 (8.7%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Le Havre AC has 4 home games and Paris Saint-Germain FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-29T11:15:52.086Z",
+ "lockedAt": "2026-10-29T11:16:22.611Z",
+ "result": null
+}

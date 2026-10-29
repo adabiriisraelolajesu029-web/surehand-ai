@@ -1,25 +1,5 @@
 [
  {
-  "id": "559646",
-  "kickoffUtc": "2026-10-30T18:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "522",
-   "name": "OGC Nice",
-   "short": "NIC"
-  },
-  "away": {
-   "id": "529",
-   "name": "Stade Rennais FC 1901",
-   "short": "REN"
-  }
- },
- {
   "id": "559644",
   "kickoffUtc": "2026-10-30T18:00:00.000Z",
   "status": "scheduled",
@@ -37,6 +17,26 @@
    "id": "524",
    "name": "Paris Saint-Germain FC",
    "short": "PSG"
+  }
+ },
+ {
+  "id": "559646",
+  "kickoffUtc": "2026-10-30T18:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "522",
+   "name": "OGC Nice",
+   "short": "NIC"
+  },
+  "away": {
+   "id": "529",
+   "name": "Stade Rennais FC 1901",
+   "short": "REN"
   }
  },
  {
