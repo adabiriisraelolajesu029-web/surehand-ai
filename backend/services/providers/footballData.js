@@ -13,8 +13,8 @@ import { config } from "../../config.js";
  */
 
 // Accept API-Football numeric ids (the earlier default) or football-data codes.
-const ID_TO_CODE = { 39: "PL", 140: "PD", 135: "SA", 78: "BL1", 61: "FL1" };
-const DEFAULT_CODES = ["PL", "PD", "SA", "BL1", "FL1"];
+const ID_TO_CODE = { 39: "PL", 140: "PD", 135: "SA", 78: "BL1", 61: "FL1", 2: "CL" };
+const DEFAULT_CODES = ["PL", "PD", "SA", "BL1", "FL1", "CL"];
 const codes = () => {
   const c = config.football.leagues.map((x) => ID_TO_CODE[x] || String(x).toUpperCase());
   return c.length ? c : DEFAULT_CODES; // "all" is not possible on the free tier

@@ -41,7 +41,7 @@ jobs:
         env:
           FOOTBALL_API_PROVIDER: football-data
           FOOTBALL_API_BASE_URL: https://api.football-data.org/v4
-          FOOTBALL_LEAGUE_IDS: PL,PD,SA,BL1,FL1
+          FOOTBALL_LEAGUE_IDS: PL,PD,SA,BL1,FL1,CL
           FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}
         run: node jobs/staticGenerate.js
       - name: Commit data

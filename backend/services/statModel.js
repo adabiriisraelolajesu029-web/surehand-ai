@@ -81,6 +81,7 @@ export function predict({ context, players }) {
   const commonUncertainty = [
     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
     sampleWarn,
+    ...(f.league?.id === "CL" ? ["Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough."] : []),
   ];
 
   const outcome = {

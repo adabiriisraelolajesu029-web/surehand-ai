@@ -22,7 +22,7 @@ services:
       - key: FOOTBALL_API_BASE_URL
         value: https://api.football-data.org/v4
       - key: FOOTBALL_LEAGUE_IDS
-        value: PL,PD,SA,BL1,FL1
+        value: PL,PD,SA,BL1,FL1,CL
       - key: ANTHROPIC_MODEL
         value: claude-sonnet-5-5
       - key: FOOTBALL_API_KEY
