@@ -1,0 +1,298 @@
+{
+ "fixtureId": "560627",
+ "kickoffUtc": "2026-10-31T17:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "560627",
+   "kickoffUtc": "2026-10-31T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "73",
+    "name": "Tottenham Hotspur FC",
+    "short": "TOT"
+   },
+   "away": {
+    "id": "354",
+    "name": "Crystal Palace FC",
+    "short": "CRY"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.5125,
+   "awayGoals": 1.2625
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Chelsea FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Coventry City FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Manchester United FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Aston Villa FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Everton FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Newcastle United FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Brighton & Hove Albion FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "Nottingham Forest FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Leeds United FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Ipswich Town FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 2,
+     "d": 3,
+     "l": 3,
+     "gf": 8,
+     "ga": 10
+    },
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 6
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 2,
+     "l": 1,
+     "gf": 3,
+     "ga": 4
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 2,
+     "d": 1,
+     "l": 5,
+     "gf": 9,
+     "ga": 19
+    },
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 0,
+     "l": 3,
+     "gf": 6,
+     "ga": 10
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 3,
+     "ga": 9
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-03-05",
+    "homeId": "73",
+    "awayId": "354",
+    "home": "Tottenham Hotspur FC",
+    "away": "Crystal Palace FC",
+    "hg": 1,
+    "ag": 3
+   },
+   {
+    "date": "2025-12-28",
+    "homeId": "354",
+    "awayId": "73",
+    "home": "Crystal Palace FC",
+    "away": "Tottenham Hotspur FC",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2025-05-11",
+    "homeId": "73",
+    "awayId": "354",
+    "home": "Tottenham Hotspur FC",
+    "away": "Crystal Palace FC",
+    "hg": 0,
+    "ag": 2
+   },
+   {
+    "date": "2024-10-27",
+    "homeId": "354",
+    "awayId": "73",
+    "home": "Crystal Palace FC",
+    "away": "Tottenham Hotspur FC",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2024-03-02",
+    "homeId": "73",
+    "awayId": "354",
+    "home": "Tottenham Hotspur FC",
+    "away": "Crystal Palace FC",
+    "hg": 3,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [],
+  "away": [
+   {
+    "id": "137068",
+    "name": "Tyrick Mitchell",
+    "team": "Crystal Palace FC",
+    "pos": "Defence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.596,
+   "draw": 0.222,
+   "awayWin": 0.182,
+   "pick": "H",
+   "confidence": 0.548,
+   "reasoning": "Poisson model: expected goals Tottenham Hotspur FC 1.87 vs Crystal Palace FC 0.93, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Tottenham Hotspur FC at home: 1W-1D-2L, 5 scored and 6 conceded in 4 games.",
+    "Crystal Palace FC away: 1W-1D-2L, 3 scored and 9 conceded in 4 games.",
+    "League averages this season: home teams 1.51 goals per game, away teams 1.26.",
+    "Recent league form (newest first): Tottenham Hotspur FC WWDLD, Crystal Palace FC LLWDL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Tottenham Hotspur FC has 4 home games and Crystal Palace FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "137068",
+    "name": "Tyrick Mitchell",
+    "team": "Crystal Palace FC",
+    "probability": 0.186,
+    "confidence": 0.134,
+    "reasoning": "2 of Crystal Palace FC's 9 league goals this season (22%), applied to the 0.93 goals the model expects from them here.",
+    "evidence": [
+     "Tyrick Mitchell: 2 league goals in 8 appearances this season.",
+     "Crystal Palace FC have scored 9 league goals in 8 games; the model expects 0.93 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.114
+   },
+   "alternatives": [
+    {
+     "score": "2-0",
+     "probability": 0.107
+    },
+    {
+     "score": "1-1",
+     "probability": 0.106
+    },
+    {
+     "score": "2-1",
+     "probability": 0.099
+    }
+   ],
+   "confidence": 0.228,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.87 (Tottenham Hotspur FC) and 0.93 (Crystal Palace FC).",
+    "Top scorelines: 1-0 (11.4%), 2-0 (10.7%), 1-1 (10.6%), 2-1 (9.9%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Tottenham Hotspur FC has 4 home games and Crystal Palace FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-30T11:12:54.318Z",
+ "lockedAt": "2026-10-30T11:13:12.488Z",
+ "result": null
+}

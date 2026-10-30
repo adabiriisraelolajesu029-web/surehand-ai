@@ -1,0 +1,425 @@
+{
+ "fixtureId": "558548",
+ "kickoffUtc": "2026-10-31T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558548",
+   "kickoffUtc": "2026-10-31T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "98",
+    "name": "AC Milan",
+    "short": "MIL"
+   },
+   "away": {
+    "id": "108",
+    "name": "FC Internazionale Milano",
+    "short": "INT"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6111111111111112,
+   "awayGoals": 1.5444444444444445
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Bologna FC 1909",
+     "venue": "H",
+     "gf": 2,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Udinese Calcio",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Atalanta BC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Venezia FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "ACF Fiorentina",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Bologna FC 1909",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Parma Calcio 1913",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "AS Roma",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 9,
+     "w": 5,
+     "d": 3,
+     "l": 1,
+     "gf": 18,
+     "ga": 11
+    },
+    "home": {
+     "p": 4,
+     "w": 3,
+     "d": 0,
+     "l": 1,
+     "gf": 10,
+     "ga": 6
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 3,
+     "l": 0,
+     "gf": 8,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 9,
+     "w": 8,
+     "d": 1,
+     "l": 0,
+     "gf": 25,
+     "ga": 10
+    },
+    "home": {
+     "p": 5,
+     "w": 5,
+     "d": 0,
+     "l": 0,
+     "gf": 17,
+     "ga": 7
+    },
+    "away": {
+     "p": 4,
+     "w": 3,
+     "d": 1,
+     "l": 0,
+     "gf": 8,
+     "ga": 3
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-03-08",
+    "homeId": "98",
+    "awayId": "108",
+    "home": "AC Milan",
+    "away": "FC Internazionale Milano",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2025-11-23",
+    "homeId": "108",
+    "awayId": "98",
+    "home": "FC Internazionale Milano",
+    "away": "AC Milan",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2025-02-02",
+    "homeId": "98",
+    "awayId": "108",
+    "home": "AC Milan",
+    "away": "FC Internazionale Milano",
+    "hg": 1,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "192142",
+    "name": "Alphadjo Cisse",
+    "team": "AC Milan",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "3368",
+    "name": "Adrien Rabiot",
+    "team": "AC Milan",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "182192",
+    "name": "Diego Moreira",
+    "team": "AC Milan",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "101431",
+    "name": "Gonçalo Ramos",
+    "team": "AC Milan",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "145",
+    "name": "Christian Pulisic",
+    "team": "AC Milan",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "8685",
+    "name": "Marcus Thuram-Ulien",
+    "team": "FC Internazionale Milano",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "3220",
+    "name": "Lautaro Martínez",
+    "team": "FC Internazionale Milano",
+    "pos": "Offence",
+    "apps": 6,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "1754",
+    "name": "Hakan Çalhanoğlu",
+    "team": "FC Internazionale Milano",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "2097",
+    "name": "Piotr Zieliński",
+    "team": "FC Internazionale Milano",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "215433",
+    "name": "Francesco Esposito",
+    "team": "FC Internazionale Milano",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "167689",
+    "name": "Carlos Augusto Lobaton",
+    "team": "FC Internazionale Milano",
+    "pos": "Defence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "152738",
+    "name": "Ange-Yoan Bonny",
+    "team": "FC Internazionale Milano",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.245,
+   "draw": 0.212,
+   "awayWin": 0.543,
+   "pick": "A",
+   "confidence": 0.521,
+   "reasoning": "Poisson model: expected goals AC Milan 1.33 vs FC Internazionale Milano 2.06, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "AC Milan at home: 3W-0D-1L, 10 scored and 6 conceded in 4 games.",
+    "FC Internazionale Milano away: 3W-1D-0L, 8 scored and 3 conceded in 4 games.",
+    "League averages this season: home teams 1.61 goals per game, away teams 1.54.",
+    "Recent league form (newest first): AC Milan LWWDW, FC Internazionale Milano WWWWD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Milan has 4 home games and FC Internazionale Milano 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "8685",
+    "name": "Marcus Thuram-Ulien",
+    "team": "FC Internazionale Milano",
+    "probability": 0.338,
+    "confidence": 0.257,
+    "reasoning": "5 of FC Internazionale Milano's 25 league goals this season (20%), applied to the 2.06 goals the model expects from them here.",
+    "evidence": [
+     "Marcus Thuram-Ulien: 5 league goals in 9 appearances this season.",
+     "FC Internazionale Milano have scored 25 league goals in 9 games; the model expects 2.06 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "3220",
+    "name": "Lautaro Martínez",
+    "team": "FC Internazionale Milano",
+    "probability": 0.281,
+    "confidence": 0.213,
+    "reasoning": "4 of FC Internazionale Milano's 25 league goals this season (16%), applied to the 2.06 goals the model expects from them here.",
+    "evidence": [
+     "Lautaro Martínez: 4 league goals in 6 appearances this season.",
+     "FC Internazionale Milano have scored 25 league goals in 9 games; the model expects 2.06 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "192142",
+    "name": "Alphadjo Cisse",
+    "team": "AC Milan",
+    "probability": 0.256,
+    "confidence": 0.194,
+    "reasoning": "4 of AC Milan's 18 league goals this season (22%), applied to the 1.33 goals the model expects from them here.",
+    "evidence": [
+     "Alphadjo Cisse: 4 league goals in 9 appearances this season.",
+     "AC Milan have scored 18 league goals in 9 games; the model expects 1.33 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-2",
+    "probability": 0.095
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.092
+    },
+    {
+     "score": "0-2",
+     "probability": 0.072
+    },
+    {
+     "score": "0-1",
+     "probability": 0.07
+    }
+   ],
+   "confidence": 0.214,
+   "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.33 (AC Milan) and 2.06 (FC Internazionale Milano).",
+    "Top scorelines: 1-2 (9.5%), 1-1 (9.2%), 0-2 (7.2%), 0-1 (7.0%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Milan has 4 home games and FC Internazionale Milano 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-30T11:13:31.111Z",
+ "lockedAt": "2026-10-30T11:13:49.697Z",
+ "result": null
+}

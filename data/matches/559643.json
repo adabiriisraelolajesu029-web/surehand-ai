@@ -1,0 +1,327 @@
+{
+ "fixtureId": "559643",
+ "kickoffUtc": "2026-10-31T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559643",
+   "kickoffUtc": "2026-10-31T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "531",
+    "name": "ES Troyes AC",
+    "short": "ETR"
+   },
+   "away": {
+    "id": "535",
+    "name": "Le Mans FC",
+    "short": "LMF"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.625,
+   "awayGoals": 1.3472222222222223
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Toulouse FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Olympique de Marseille",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Angers SCO",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Lille OSC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "AJ Auxerre",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Toulouse FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Paris Saint-Germain FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "FC Lorient",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 1,
+     "d": 2,
+     "l": 5,
+     "gf": 5,
+     "ga": 16
+    },
+    "home": {
+     "p": 4,
+     "w": 0,
+     "d": 1,
+     "l": 3,
+     "gf": 3,
+     "ga": 11
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 2,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 1,
+     "d": 4,
+     "l": 3,
+     "gf": 11,
+     "ga": 16
+    },
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 2,
+     "l": 1,
+     "gf": 6,
+     "ga": 8
+    },
+    "away": {
+     "p": 4,
+     "w": 0,
+     "d": 2,
+     "l": 2,
+     "gf": 5,
+     "ga": 8
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "851",
+    "name": "Renaud Ripart",
+    "team": "ES Troyes AC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "178696",
+    "name": "Lucas Maronnier",
+    "team": "ES Troyes AC",
+    "pos": "Defence",
+    "apps": 8,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "124178",
+    "name": "Louis Mafouta",
+    "team": "Le Mans FC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "292172",
+    "name": "Adil Bourabaa",
+    "team": "Le Mans FC",
+    "pos": "Midfield",
+    "apps": 5,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "82197",
+    "name": "Dame Guèye",
+    "team": "Le Mans FC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.154,
+   "draw": 0.199,
+   "awayWin": 0.647,
+   "pick": "A",
+   "confidence": 0.595,
+   "reasoning": "Poisson model: expected goals ES Troyes AC 0.92 vs Le Mans FC 2.11, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "ES Troyes AC at home: 0W-1D-3L, 3 scored and 11 conceded in 4 games.",
+    "Le Mans FC away: 0W-2D-2L, 5 scored and 8 conceded in 4 games.",
+    "League averages this season: home teams 1.63 goals per game, away teams 1.35.",
+    "Recent league form (newest first): ES Troyes AC DLLLL, Le Mans FC DLLWD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: ES Troyes AC has 4 home games and Le Mans FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "124178",
+    "name": "Louis Mafouta",
+    "team": "Le Mans FC",
+    "probability": 0.536,
+    "confidence": 0.36,
+    "reasoning": "4 of Le Mans FC's 11 league goals this season (36%), applied to the 2.11 goals the model expects from them here.",
+    "evidence": [
+     "Louis Mafouta: 4 league goals in 8 appearances this season.",
+     "Le Mans FC have scored 11 league goals in 8 games; the model expects 2.11 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "292172",
+    "name": "Adil Bourabaa",
+    "team": "Le Mans FC",
+    "probability": 0.438,
+    "confidence": 0.315,
+    "reasoning": "3 of Le Mans FC's 11 league goals this season (27%), applied to the 2.11 goals the model expects from them here.",
+    "evidence": [
+     "Adil Bourabaa: 3 league goals in 5 appearances this season.",
+     "Le Mans FC have scored 11 league goals in 8 games; the model expects 2.11 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "82197",
+    "name": "Dame Guèye",
+    "team": "Le Mans FC",
+    "probability": 0.175,
+    "confidence": 0.126,
+    "reasoning": "1 of Le Mans FC's 11 league goals this season (9%), applied to the 2.11 goals the model expects from them here.",
+    "evidence": [
+     "Dame Guèye: 1 league goals in 8 appearances this season.",
+     "Le Mans FC have scored 11 league goals in 8 games; the model expects 2.11 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.107
+   },
+   "alternatives": [
+    {
+     "score": "0-1",
+     "probability": 0.101
+    },
+    {
+     "score": "1-2",
+     "probability": 0.099
+    },
+    {
+     "score": "1-1",
+     "probability": 0.094
+    }
+   ],
+   "confidence": 0.214,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.92 (ES Troyes AC) and 2.11 (Le Mans FC).",
+    "Top scorelines: 0-2 (10.7%), 0-1 (10.1%), 1-2 (9.9%), 1-1 (9.4%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: ES Troyes AC has 4 home games and Le Mans FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-30T11:13:49.697Z",
+ "lockedAt": "2026-10-30T11:14:21.341Z",
+ "result": null
+}

@@ -1,0 +1,363 @@
+{
+ "fixtureId": "560628",
+ "kickoffUtc": "2026-10-31T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "560628",
+   "kickoffUtc": "2026-10-31T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "58",
+    "name": "Aston Villa FC",
+    "short": "AVL"
+   },
+   "away": {
+    "id": "63",
+    "name": "Fulham FC",
+    "short": "FUL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.5125,
+   "awayGoals": 1.2625
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Manchester City FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Newcastle United FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Brentford FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Tottenham Hotspur FC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "Nottingham Forest FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Coventry City FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Hull City AFC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Ipswich Town FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Manchester United FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Liverpool FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 3,
+     "d": 2,
+     "l": 3,
+     "gf": 9,
+     "ga": 12
+    },
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 6
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 4,
+     "ga": 6
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 2,
+     "d": 2,
+     "l": 4,
+     "gf": 8,
+     "ga": 10
+    },
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 6,
+     "ga": 7
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 2,
+     "ga": 3
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-25",
+    "homeId": "63",
+    "awayId": "58",
+    "home": "Fulham FC",
+    "away": "Aston Villa FC",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2025-09-28",
+    "homeId": "58",
+    "awayId": "63",
+    "home": "Aston Villa FC",
+    "away": "Fulham FC",
+    "hg": 3,
+    "ag": 1
+   },
+   {
+    "date": "2025-05-03",
+    "homeId": "58",
+    "awayId": "63",
+    "home": "Aston Villa FC",
+    "away": "Fulham FC",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2024-10-19",
+    "homeId": "63",
+    "awayId": "58",
+    "home": "Fulham FC",
+    "away": "Aston Villa FC",
+    "hg": 1,
+    "ag": 3
+   },
+   {
+    "date": "2024-02-17",
+    "homeId": "63",
+    "awayId": "58",
+    "home": "Fulham FC",
+    "away": "Aston Villa FC",
+    "hg": 1,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "152515",
+    "name": "Nicolas Jackson",
+    "team": "Aston Villa FC",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "212309",
+    "name": "Johan Manzambi",
+    "team": "Aston Villa FC",
+    "pos": "Midfield",
+    "apps": 5,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "246418",
+    "name": "Joshua King",
+    "team": "Fulham FC",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "217658",
+    "name": "Gonzalo García",
+    "team": "Fulham FC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.346,
+   "draw": 0.345,
+   "awayWin": 0.309,
+   "pick": "H",
+   "confidence": 0.318,
+   "reasoning": "Poisson model: expected goals Aston Villa FC 0.86 vs Fulham FC 0.80, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Aston Villa FC at home: 1W-1D-2L, 5 scored and 6 conceded in 4 games.",
+    "Fulham FC away: 1W-1D-2L, 2 scored and 3 conceded in 4 games.",
+    "League averages this season: home teams 1.51 goals per game, away teams 1.26.",
+    "Recent league form (newest first): Aston Villa FC WWDWL, Fulham FC WWLDD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Aston Villa FC has 4 home games and Fulham FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "152515",
+    "name": "Nicolas Jackson",
+    "team": "Aston Villa FC",
+    "probability": 0.319,
+    "confidence": 0.23,
+    "reasoning": "4 of Aston Villa FC's 9 league goals this season (44%), applied to the 0.86 goals the model expects from them here.",
+    "evidence": [
+     "Nicolas Jackson: 4 league goals in 7 appearances this season.",
+     "Aston Villa FC have scored 9 league goals in 8 games; the model expects 0.86 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "246418",
+    "name": "Joshua King",
+    "team": "Fulham FC",
+    "probability": 0.181,
+    "confidence": 0.13,
+    "reasoning": "2 of Fulham FC's 8 league goals this season (25%), applied to the 0.80 goals the model expects from them here.",
+    "evidence": [
+     "Joshua King: 2 league goals in 8 appearances this season.",
+     "Fulham FC have scored 8 league goals in 8 games; the model expects 0.80 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "212309",
+    "name": "Johan Manzambi",
+    "team": "Aston Villa FC",
+    "probability": 0.175,
+    "confidence": 0.126,
+    "reasoning": "2 of Aston Villa FC's 9 league goals this season (22%), applied to the 0.86 goals the model expects from them here.",
+    "evidence": [
+     "Johan Manzambi: 2 league goals in 5 appearances this season.",
+     "Aston Villa FC have scored 9 league goals in 8 games; the model expects 0.86 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-0",
+    "probability": 0.189
+   },
+   "alternatives": [
+    {
+     "score": "1-0",
+     "probability": 0.164
+    },
+    {
+     "score": "0-1",
+     "probability": 0.151
+    },
+    {
+     "score": "1-1",
+     "probability": 0.131
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.86 (Aston Villa FC) and 0.80 (Fulham FC).",
+    "Top scorelines: 0-0 (18.9%), 1-0 (16.4%), 0-1 (15.1%), 1-1 (13.1%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Aston Villa FC has 4 home games and Fulham FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-30T11:14:21.342Z",
+ "lockedAt": "2026-10-30T11:14:39.457Z",
+ "result": null
+}

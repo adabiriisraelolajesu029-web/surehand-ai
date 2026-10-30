@@ -1,0 +1,363 @@
+{
+ "fixtureId": "564735",
+ "kickoffUtc": "2026-10-31T15:15:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564735",
+   "kickoffUtc": "2026-10-31T15:15:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "87",
+    "name": "Rayo Vallecano de Madrid",
+    "short": "RAY"
+   },
+   "away": {
+    "id": "558",
+    "name": "RC Celta de Vigo",
+    "short": "CEL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.696969696969697,
+   "awayGoals": 1.3131313131313131
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Elche CF",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Getafe CF",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "CA Osasuna",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "RCD Espanyol de Barcelona",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Real Madrid CF",
+     "venue": "A",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Real Betis Balompié",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Deportivo Alavés",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Elche CF",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "H",
+     "gf": 5,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Málaga CF",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 9,
+     "w": 2,
+     "d": 3,
+     "l": 4,
+     "gf": 12,
+     "ga": 20
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 6,
+     "ga": 7
+    },
+    "away": {
+     "p": 5,
+     "w": 0,
+     "d": 2,
+     "l": 3,
+     "gf": 6,
+     "ga": 13
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 2,
+     "d": 6,
+     "l": 2,
+     "gf": 10,
+     "ga": 7
+    },
+    "home": {
+     "p": 6,
+     "w": 2,
+     "d": 2,
+     "l": 2,
+     "gf": 9,
+     "ga": 6
+    },
+    "away": {
+     "p": 4,
+     "w": 0,
+     "d": 4,
+     "l": 0,
+     "gf": 1,
+     "ga": 1
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-01-18",
+    "homeId": "558",
+    "awayId": "87",
+    "home": "RC Celta de Vigo",
+    "away": "Rayo Vallecano de Madrid",
+    "hg": 3,
+    "ag": 0
+   },
+   {
+    "date": "2025-09-21",
+    "homeId": "87",
+    "awayId": "558",
+    "home": "Rayo Vallecano de Madrid",
+    "away": "RC Celta de Vigo",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2025-05-18",
+    "homeId": "558",
+    "awayId": "87",
+    "home": "RC Celta de Vigo",
+    "away": "Rayo Vallecano de Madrid",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-01-10",
+    "homeId": "87",
+    "awayId": "558",
+    "home": "Rayo Vallecano de Madrid",
+    "away": "RC Celta de Vigo",
+    "hg": 2,
+    "ag": 1
+   },
+   {
+    "date": "2024-03-31",
+    "homeId": "558",
+    "awayId": "87",
+    "home": "RC Celta de Vigo",
+    "away": "Rayo Vallecano de Madrid",
+    "hg": 0,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "115175",
+    "name": "Sergio Camello",
+    "team": "Rayo Vallecano de Madrid",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 7,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "32312",
+    "name": "Álvaro García",
+    "team": "Rayo Vallecano de Madrid",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "83406",
+    "name": "Ferran Jutglà",
+    "team": "RC Celta de Vigo",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "188859",
+    "name": "Pablo Duran",
+    "team": "RC Celta de Vigo",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.197,
+   "draw": 0.401,
+   "awayWin": 0.402,
+   "pick": "A",
+   "confidence": 0.386,
+   "reasoning": "Poisson model: expected goals Rayo Vallecano de Madrid 0.46 vs RC Celta de Vigo 0.79, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Rayo Vallecano de Madrid at home: 2W-1D-1L, 6 scored and 7 conceded in 4 games.",
+    "RC Celta de Vigo away: 0W-4D-0L, 1 scored and 1 conceded in 4 games.",
+    "League averages this season: home teams 1.70 goals per game, away teams 1.31.",
+    "Recent league form (newest first): Rayo Vallecano de Madrid LDDWL, RC Celta de Vigo DWDWD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Rayo Vallecano de Madrid has 4 home games and RC Celta de Vigo 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "115175",
+    "name": "Sergio Camello",
+    "team": "Rayo Vallecano de Madrid",
+    "probability": 0.205,
+    "confidence": 0.156,
+    "reasoning": "7 of Rayo Vallecano de Madrid's 12 league goals this season (50%), applied to the 0.46 goals the model expects from them here.",
+    "evidence": [
+     "Sergio Camello: 7 league goals in 10 appearances this season.",
+     "Rayo Vallecano de Madrid have scored 12 league goals in 9 games; the model expects 0.46 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "83406",
+    "name": "Ferran Jutglà",
+    "team": "RC Celta de Vigo",
+    "probability": 0.146,
+    "confidence": 0.111,
+    "reasoning": "2 of RC Celta de Vigo's 10 league goals this season (20%), applied to the 0.79 goals the model expects from them here.",
+    "evidence": [
+     "Ferran Jutglà: 2 league goals in 10 appearances this season.",
+     "RC Celta de Vigo have scored 10 league goals in 10 games; the model expects 0.79 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "188859",
+    "name": "Pablo Duran",
+    "team": "RC Celta de Vigo",
+    "probability": 0.146,
+    "confidence": 0.111,
+    "reasoning": "2 of RC Celta de Vigo's 10 league goals this season (20%), applied to the 0.79 goals the model expects from them here.",
+    "evidence": [
+     "Pablo Duran: 2 league goals in 9 appearances this season.",
+     "RC Celta de Vigo have scored 10 league goals in 10 games; the model expects 0.79 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-0",
+    "probability": 0.287
+   },
+   "alternatives": [
+    {
+     "score": "0-1",
+     "probability": 0.226
+    },
+    {
+     "score": "1-0",
+     "probability": 0.132
+    },
+    {
+     "score": "1-1",
+     "probability": 0.104
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.46 (Rayo Vallecano de Madrid) and 0.79 (RC Celta de Vigo).",
+    "Top scorelines: 0-0 (28.7%), 0-1 (22.6%), 1-0 (13.2%), 1-1 (10.4%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Rayo Vallecano de Madrid has 4 home games and RC Celta de Vigo 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-30T11:11:20.851Z",
+ "lockedAt": "2026-10-30T11:11:52.917Z",
+ "result": null
+}

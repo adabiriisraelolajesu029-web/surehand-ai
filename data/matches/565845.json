@@ -1,0 +1,414 @@
+{
+ "fixtureId": "565845",
+ "kickoffUtc": "2026-10-31T17:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565845",
+   "kickoffUtc": "2026-10-31T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "5",
+    "name": "FC Bayern München",
+    "short": "FCB"
+   },
+   "away": {
+    "id": "4",
+    "name": "Borussia Dortmund",
+    "short": "BVB"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.1904761904761907,
+   "awayGoals": 1.3650793650793651
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "SC Freiburg",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "RB Leipzig",
+     "venue": "H",
+     "gf": 6,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "FC Augsburg",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "1. FC Union Berlin",
+     "venue": "H",
+     "gf": 7,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SV 07 Elversberg",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Eintracht Frankfurt",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "1. FC Union Berlin",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "SV Werder Bremen",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "VfB Stuttgart",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SC Paderborn 07",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 7,
+     "w": 5,
+     "d": 2,
+     "l": 0,
+     "gf": 25,
+     "ga": 6
+    },
+    "home": {
+     "p": 3,
+     "w": 3,
+     "d": 0,
+     "l": 0,
+     "gf": 18,
+     "ga": 2
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 2,
+     "l": 0,
+     "gf": 7,
+     "ga": 4
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 7,
+     "w": 5,
+     "d": 2,
+     "l": 0,
+     "gf": 12,
+     "ga": 4
+    },
+    "home": {
+     "p": 4,
+     "w": 3,
+     "d": 1,
+     "l": 0,
+     "gf": 8,
+     "ga": 2
+    },
+    "away": {
+     "p": 3,
+     "w": 2,
+     "d": 1,
+     "l": 0,
+     "gf": 4,
+     "ga": 2
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-02-28",
+    "homeId": "4",
+    "awayId": "5",
+    "home": "Borussia Dortmund",
+    "away": "FC Bayern München",
+    "hg": 2,
+    "ag": 3
+   },
+   {
+    "date": "2025-10-18",
+    "homeId": "5",
+    "awayId": "4",
+    "home": "FC Bayern München",
+    "away": "Borussia Dortmund",
+    "hg": 2,
+    "ag": 1
+   },
+   {
+    "date": "2025-04-12",
+    "homeId": "5",
+    "awayId": "4",
+    "home": "FC Bayern München",
+    "away": "Borussia Dortmund",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2024-11-30",
+    "homeId": "4",
+    "awayId": "5",
+    "home": "Borussia Dortmund",
+    "away": "FC Bayern München",
+    "hg": 1,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "113765",
+    "name": "Michael Olise",
+    "team": "FC Bayern München",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "22396",
+    "name": "Luis Díaz",
+    "team": "FC Bayern München",
+    "pos": "Offence",
+    "apps": 6,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8004",
+    "name": "Harry Kane",
+    "team": "FC Bayern München",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "9541",
+    "name": "Dayot Upamecano",
+    "team": "FC Bayern München",
+    "pos": "Defence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "202665",
+    "name": "Aleksandar Pavlović",
+    "team": "FC Bayern München",
+    "pos": "Midfield",
+    "apps": 6,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "130173",
+    "name": "Ismael Saibari",
+    "team": "FC Bayern München",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "211",
+    "name": "Sehrou Guirassy",
+    "team": "Borussia Dortmund",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "125151",
+    "name": "Fábio Silva",
+    "team": "Borussia Dortmund",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "101074",
+    "name": "Felix Kalu Nmecha",
+    "team": "Borussia Dortmund",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "133903",
+    "name": "Maximilian Beier",
+    "team": "Borussia Dortmund",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.605,
+   "draw": 0.247,
+   "awayWin": 0.147,
+   "pick": "H",
+   "confidence": 0.533,
+   "reasoning": "Poisson model: expected goals FC Bayern München 1.60 vs Borussia Dortmund 0.64, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "FC Bayern München at home: 3W-0D-0L, 18 scored and 2 conceded in 3 games.",
+    "Borussia Dortmund away: 2W-1D-0L, 4 scored and 2 conceded in 3 games.",
+    "League averages this season: home teams 2.19 goals per game, away teams 1.37.",
+    "Recent league form (newest first): FC Bayern München WWDWW, Borussia Dortmund WDDWW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: FC Bayern München has 3 home games and Borussia Dortmund 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "113765",
+    "name": "Michael Olise",
+    "team": "FC Bayern München",
+    "probability": 0.318,
+    "confidence": 0.217,
+    "reasoning": "6 of FC Bayern München's 25 league goals this season (24%), applied to the 1.60 goals the model expects from them here.",
+    "evidence": [
+     "Michael Olise: 6 league goals in 7 appearances this season.",
+     "FC Bayern München have scored 25 league goals in 7 games; the model expects 1.60 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "22396",
+    "name": "Luis Díaz",
+    "team": "FC Bayern München",
+    "probability": 0.226,
+    "confidence": 0.153,
+    "reasoning": "4 of FC Bayern München's 25 league goals this season (16%), applied to the 1.60 goals the model expects from them here.",
+    "evidence": [
+     "Luis Díaz: 4 league goals in 6 appearances this season.",
+     "FC Bayern München have scored 25 league goals in 7 games; the model expects 1.60 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "8004",
+    "name": "Harry Kane",
+    "team": "FC Bayern München",
+    "probability": 0.226,
+    "confidence": 0.153,
+    "reasoning": "4 of FC Bayern München's 25 league goals this season (16%), applied to the 1.60 goals the model expects from them here.",
+    "evidence": [
+     "Harry Kane: 4 league goals in 7 appearances this season.",
+     "FC Bayern München have scored 25 league goals in 7 games; the model expects 1.60 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.17
+   },
+   "alternatives": [
+    {
+     "score": "2-0",
+     "probability": 0.136
+    },
+    {
+     "score": "1-1",
+     "probability": 0.109
+    },
+    {
+     "score": "0-0",
+     "probability": 0.107
+    }
+   ],
+   "confidence": 0.298,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.60 (FC Bayern München) and 0.64 (Borussia Dortmund).",
+    "Top scorelines: 1-0 (17.0%), 2-0 (13.6%), 1-1 (10.9%), 0-0 (10.7%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: FC Bayern München has 3 home games and Borussia Dortmund 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-30T11:12:24.041Z",
+ "lockedAt": "2026-10-30T11:12:54.318Z",
+ "result": null
+}

@@ -1,0 +1,393 @@
+{
+ "fixtureId": "558542",
+ "kickoffUtc": "2026-10-31T17:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558542",
+   "kickoffUtc": "2026-10-31T17:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "115",
+    "name": "Udinese Calcio",
+    "short": "UDI"
+   },
+   "away": {
+    "id": "100",
+    "name": "AS Roma",
+    "short": "ROM"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6111111111111112,
+   "awayGoals": 1.5444444444444445
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Parma Calcio 1913",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "AC Milan",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "H",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "SSC Napoli",
+     "venue": "A",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    },
+    {
+     "opp": "Genoa CFC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Como 1907",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 9,
+     "w": 1,
+     "d": 2,
+     "l": 6,
+     "gf": 9,
+     "ga": 18
+    },
+    "home": {
+     "p": 5,
+     "w": 0,
+     "d": 1,
+     "l": 4,
+     "gf": 2,
+     "ga": 9
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 7,
+     "ga": 9
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 9,
+     "w": 6,
+     "d": 3,
+     "l": 0,
+     "gf": 23,
+     "ga": 8
+    },
+    "home": {
+     "p": 5,
+     "w": 4,
+     "d": 1,
+     "l": 0,
+     "gf": 14,
+     "ga": 5
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 2,
+     "l": 0,
+     "gf": 9,
+     "ga": 3
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-02-02",
+    "homeId": "115",
+    "awayId": "100",
+    "home": "Udinese Calcio",
+    "away": "AS Roma",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2025-11-09",
+    "homeId": "100",
+    "awayId": "115",
+    "home": "AS Roma",
+    "away": "Udinese Calcio",
+    "hg": 2,
+    "ag": 0
+   },
+   {
+    "date": "2025-01-26",
+    "homeId": "115",
+    "awayId": "100",
+    "home": "Udinese Calcio",
+    "away": "AS Roma",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2024-09-22",
+    "homeId": "100",
+    "awayId": "115",
+    "home": "AS Roma",
+    "away": "Udinese Calcio",
+    "hg": 3,
+    "ag": 0
+   },
+   {
+    "date": "2024-04-25",
+    "homeId": "115",
+    "awayId": "100",
+    "home": "Udinese Calcio",
+    "away": "AS Roma",
+    "hg": 1,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "7567",
+    "name": "Jurgen Ekkelenkamp",
+    "team": "Udinese Calcio",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "822",
+    "name": "Hassane Kamara",
+    "team": "Udinese Calcio",
+    "pos": "Defence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "7457",
+    "name": "Donyell Malen",
+    "team": "AS Roma",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 7,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "192382",
+    "name": "Niccolo Pisilli",
+    "team": "AS Roma",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "171121",
+    "name": "Matias Soule",
+    "team": "AS Roma",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "261273",
+    "name": "Rodrigo Mora",
+    "team": "AS Roma",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "102395",
+    "name": "Manu Koné",
+    "team": "AS Roma",
+    "pos": "Midfield",
+    "apps": 6,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.026,
+   "draw": 0.091,
+   "awayWin": 0.883,
+   "pick": "A",
+   "confidence": 0.8,
+   "reasoning": "Poisson model: expected goals Udinese Calcio 0.35 vs AS Roma 2.88, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Udinese Calcio at home: 0W-1D-4L, 2 scored and 9 conceded in 5 games.",
+    "AS Roma away: 2W-2D-0L, 9 scored and 3 conceded in 4 games.",
+    "League averages this season: home teams 1.61 goals per game, away teams 1.54.",
+    "Recent league form (newest first): Udinese Calcio DLLLL, AS Roma WDWDD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Udinese Calcio has 5 home games and AS Roma 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "7457",
+    "name": "Donyell Malen",
+    "team": "AS Roma",
+    "probability": 0.583,
+    "confidence": 0.38,
+    "reasoning": "7 of AS Roma's 23 league goals this season (30%), applied to the 2.88 goals the model expects from them here.",
+    "evidence": [
+     "Donyell Malen: 7 league goals in 8 appearances this season.",
+     "AS Roma have scored 23 league goals in 9 games; the model expects 2.88 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "192382",
+    "name": "Niccolo Pisilli",
+    "team": "AS Roma",
+    "probability": 0.313,
+    "confidence": 0.238,
+    "reasoning": "3 of AS Roma's 23 league goals this season (13%), applied to the 2.88 goals the model expects from them here.",
+    "evidence": [
+     "Niccolo Pisilli: 3 league goals in 9 appearances this season.",
+     "AS Roma have scored 23 league goals in 9 games; the model expects 2.88 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "171121",
+    "name": "Matias Soule",
+    "team": "AS Roma",
+    "probability": 0.313,
+    "confidence": 0.238,
+    "reasoning": "3 of AS Roma's 23 league goals this season (13%), applied to the 2.88 goals the model expects from them here.",
+    "evidence": [
+     "Matias Soule: 3 league goals in 9 appearances this season.",
+     "AS Roma have scored 23 league goals in 9 games; the model expects 2.88 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.165
+   },
+   "alternatives": [
+    {
+     "score": "0-3",
+     "probability": 0.158
+    },
+    {
+     "score": "0-1",
+     "probability": 0.115
+    },
+    {
+     "score": "0-4",
+     "probability": 0.114
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.35 (Udinese Calcio) and 2.88 (AS Roma).",
+    "Top scorelines: 0-2 (16.5%), 0-3 (15.8%), 0-1 (11.5%), 0-4 (11.4%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Udinese Calcio has 5 home games and AS Roma 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-30T11:11:52.917Z",
+ "lockedAt": "2026-10-30T11:12:24.041Z",
+ "result": null
+}
