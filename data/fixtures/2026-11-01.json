@@ -60,26 +60,6 @@
   }
  },
  {
-  "id": "559647",
-  "kickoffUtc": "2026-11-01T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "576",
-   "name": "RC Strasbourg Alsace",
-   "short": "RC "
-  },
-  "away": {
-   "id": "519",
-   "name": "AJ Auxerre",
-   "short": "AJA"
-  }
- },
- {
   "id": "558546",
   "kickoffUtc": "2026-11-01T14:00:00.000Z",
   "status": "scheduled",
@@ -97,6 +77,26 @@
    "id": "104",
    "name": "Cagliari Calcio",
    "short": "CAG"
+  }
+ },
+ {
+  "id": "559647",
+  "kickoffUtc": "2026-11-01T14:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "576",
+   "name": "RC Strasbourg Alsace",
+   "short": "RC "
+  },
+  "away": {
+   "id": "519",
+   "name": "AJ Auxerre",
+   "short": "AJA"
   }
  },
  {
