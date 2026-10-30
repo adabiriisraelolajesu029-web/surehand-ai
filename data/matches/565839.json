@@ -1,0 +1,347 @@
+{
+ "fixtureId": "565839",
+ "kickoffUtc": "2026-10-31T14:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565839",
+   "kickoffUtc": "2026-10-31T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "18",
+    "name": "Borussia Mönchengladbach",
+    "short": "BMG"
+   },
+   "away": {
+    "id": "29",
+    "name": "SC Paderborn 07",
+    "short": "SCP"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.1904761904761907,
+   "awayGoals": 1.3650793650793651
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "VfB Stuttgart",
+     "venue": "A",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "TSG 1899 Hoffenheim",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "1. FC Köln",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "1. FSV Mainz 05",
+     "venue": "H",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "SC Freiburg",
+     "venue": "A",
+     "gf": 0,
+     "ga": 5,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Hamburger SV",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SV Werder Bremen",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "VfB Stuttgart",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "TSG 1899 Hoffenheim",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Borussia Dortmund",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 7,
+     "w": 1,
+     "d": 0,
+     "l": 6,
+     "gf": 11,
+     "ga": 22
+    },
+    "home": {
+     "p": 3,
+     "w": 0,
+     "d": 0,
+     "l": 3,
+     "gf": 7,
+     "ga": 10
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 0,
+     "l": 3,
+     "gf": 4,
+     "ga": 12
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 7,
+     "w": 2,
+     "d": 2,
+     "l": 3,
+     "gf": 6,
+     "ga": 9
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 0,
+     "l": 2,
+     "gf": 4,
+     "ga": 4
+    },
+    "away": {
+     "p": 3,
+     "w": 0,
+     "d": 2,
+     "l": 1,
+     "gf": 2,
+     "ga": 5
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2020-06-20",
+    "homeId": "29",
+    "awayId": "18",
+    "home": "SC Paderborn 07",
+    "away": "Borussia Mönchengladbach",
+    "hg": 1,
+    "ag": 3
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "82442",
+    "name": "Joseph Scally",
+    "team": "Borussia Mönchengladbach",
+    "pos": "Defence",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "188201",
+    "name": "Hugo Bolin",
+    "team": "Borussia Mönchengladbach",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "48988",
+    "name": "Shuto Machino",
+    "team": "Borussia Mönchengladbach",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "282450",
+    "name": "Wael Mohya",
+    "team": "Borussia Mönchengladbach",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "176617",
+    "name": "Stefano Marino",
+    "team": "SC Paderborn 07",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "10561",
+    "name": "Steffen Tigges",
+    "team": "SC Paderborn 07",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.421,
+   "draw": 0.246,
+   "awayWin": 0.334,
+   "pick": "H",
+   "confidence": 0.37,
+   "reasoning": "Poisson model: expected goals Borussia Mönchengladbach 1.56 vs SC Paderborn 07 1.36, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Borussia Mönchengladbach at home: 0W-0D-3L, 7 scored and 10 conceded in 3 games.",
+    "SC Paderborn 07 away: 0W-2D-1L, 2 scored and 5 conceded in 3 games.",
+    "League averages this season: home teams 2.19 goals per game, away teams 1.37.",
+    "Recent league form (newest first): Borussia Mönchengladbach WLLLL, SC Paderborn 07 WDLWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Borussia Mönchengladbach has 3 home games and SC Paderborn 07 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "176617",
+    "name": "Stefano Marino",
+    "team": "SC Paderborn 07",
+    "probability": 0.365,
+    "confidence": 0.248,
+    "reasoning": "2 of SC Paderborn 07's 6 league goals this season (33%), applied to the 1.36 goals the model expects from them here.",
+    "evidence": [
+     "Stefano Marino: 2 league goals in 7 appearances this season.",
+     "SC Paderborn 07 have scored 6 league goals in 7 games; the model expects 1.36 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "10561",
+    "name": "Steffen Tigges",
+    "team": "SC Paderborn 07",
+    "probability": 0.365,
+    "confidence": 0.248,
+    "reasoning": "2 of SC Paderborn 07's 6 league goals this season (33%), applied to the 1.36 goals the model expects from them here.",
+    "evidence": [
+     "Steffen Tigges: 2 league goals in 7 appearances this season.",
+     "SC Paderborn 07 have scored 6 league goals in 7 games; the model expects 1.36 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "82442",
+    "name": "Joseph Scally",
+    "team": "Borussia Mönchengladbach",
+    "probability": 0.346,
+    "confidence": 0.235,
+    "reasoning": "3 of Borussia Mönchengladbach's 11 league goals this season (27%), applied to the 1.56 goals the model expects from them here.",
+    "evidence": [
+     "Joseph Scally: 3 league goals in 7 appearances this season.",
+     "Borussia Mönchengladbach have scored 11 league goals in 7 games; the model expects 1.56 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-1",
+    "probability": 0.115
+   },
+   "alternatives": [
+    {
+     "score": "2-1",
+     "probability": 0.089
+    },
+    {
+     "score": "1-0",
+     "probability": 0.084
+    },
+    {
+     "score": "1-2",
+     "probability": 0.078
+    }
+   ],
+   "confidence": 0.2,
+   "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.56 (Borussia Mönchengladbach) and 1.36 (SC Paderborn 07).",
+    "Top scorelines: 1-1 (11.5%), 2-1 (8.9%), 1-0 (8.4%), 1-2 (7.8%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Borussia Mönchengladbach has 3 home games and SC Paderborn 07 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-30T02:44:48.701Z",
+ "lockedAt": "2026-10-30T02:45:19.755Z",
+ "result": null
+}

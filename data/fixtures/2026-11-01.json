@@ -40,23 +40,23 @@
   }
  },
  {
-  "id": "558544",
+  "id": "559647",
   "kickoffUtc": "2026-11-01T14:00:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
   },
   "home": {
-   "id": "470",
-   "name": "Frosinone Calcio",
-   "short": "FRO"
+   "id": "576",
+   "name": "RC Strasbourg Alsace",
+   "short": "RC "
   },
   "away": {
-   "id": "586",
-   "name": "Torino FC",
-   "short": "TOR"
+   "id": "519",
+   "name": "AJ Auxerre",
+   "short": "AJA"
   }
  },
  {
@@ -80,23 +80,23 @@
   }
  },
  {
-  "id": "559647",
+  "id": "558544",
   "kickoffUtc": "2026-11-01T14:00:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
   },
   "home": {
-   "id": "576",
-   "name": "RC Strasbourg Alsace",
-   "short": "RC "
+   "id": "470",
+   "name": "Frosinone Calcio",
+   "short": "FRO"
   },
   "away": {
-   "id": "519",
-   "name": "AJ Auxerre",
-   "short": "AJA"
+   "id": "586",
+   "name": "Torino FC",
+   "short": "TOR"
   }
  },
  {
@@ -140,26 +140,6 @@
   }
  },
  {
-  "id": "559640",
-  "kickoffUtc": "2026-11-01T16:15:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "523",
-   "name": "Olympique Lyonnais",
-   "short": "LYO"
-  },
-  "away": {
-   "id": "532",
-   "name": "Angers SCO",
-   "short": "ANG"
-  }
- },
- {
   "id": "559642",
   "kickoffUtc": "2026-11-01T16:15:00.000Z",
   "status": "scheduled",
@@ -180,23 +160,23 @@
   }
  },
  {
-  "id": "565844",
-  "kickoffUtc": "2026-11-01T16:30:00.000Z",
+  "id": "559640",
+  "kickoffUtc": "2026-11-01T16:15:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
   },
   "home": {
-   "id": "19",
-   "name": "Eintracht Frankfurt",
-   "short": "SGE"
+   "id": "523",
+   "name": "Olympique Lyonnais",
+   "short": "LYO"
   },
   "away": {
-   "id": "7",
-   "name": "Hamburger SV",
-   "short": "HSV"
+   "id": "532",
+   "name": "Angers SCO",
+   "short": "ANG"
   }
  },
  {
@@ -217,6 +197,26 @@
    "id": "57",
    "name": "Arsenal FC",
    "short": "ARS"
+  }
+ },
+ {
+  "id": "565844",
+  "kickoffUtc": "2026-11-01T16:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "19",
+   "name": "Eintracht Frankfurt",
+   "short": "SGE"
+  },
+  "away": {
+   "id": "7",
+   "name": "Hamburger SV",
+   "short": "HSV"
   }
  },
  {
@@ -260,26 +260,6 @@
   }
  },
  {
-  "id": "559645",
-  "kickoffUtc": "2026-11-01T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "516",
-   "name": "Olympique de Marseille",
-   "short": "MAR"
-  },
-  "away": {
-   "id": "511",
-   "name": "Toulouse FC",
-   "short": "TOU"
-  }
- },
- {
   "id": "558547",
   "kickoffUtc": "2026-11-01T19:45:00.000Z",
   "status": "scheduled",
@@ -297,6 +277,26 @@
    "id": "113",
    "name": "SSC Napoli",
    "short": "NAP"
+  }
+ },
+ {
+  "id": "559645",
+  "kickoffUtc": "2026-11-01T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "516",
+   "name": "Olympique de Marseille",
+   "short": "MAR"
+  },
+  "away": {
+   "id": "511",
+   "name": "Toulouse FC",
+   "short": "TOU"
   }
  },
  {

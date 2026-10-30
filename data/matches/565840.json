@@ -1,0 +1,382 @@
+{
+ "fixtureId": "565840",
+ "kickoffUtc": "2026-10-31T14:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565840",
+   "kickoffUtc": "2026-10-31T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "6",
+    "name": "FC Schalke 04",
+    "short": "S04"
+   },
+   "away": {
+    "id": "721",
+    "name": "RB Leipzig",
+    "short": "RBL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.1904761904761907,
+   "awayGoals": 1.3650793650793651
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "1. FC Köln",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "1. FSV Mainz 05",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "SC Freiburg",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "SV 07 Elversberg",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "1. FC Union Berlin",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "SV 07 Elversberg",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Bayern München",
+     "venue": "A",
+     "gf": 1,
+     "ga": 6,
+     "res": "L"
+    },
+    {
+     "opp": "Eintracht Frankfurt",
+     "venue": "H",
+     "gf": 6,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Bayer 04 Leverkusen",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Hamburger SV",
+     "venue": "H",
+     "gf": 5,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 7,
+     "w": 1,
+     "d": 3,
+     "l": 3,
+     "gf": 4,
+     "ga": 7
+    },
+    "home": {
+     "p": 3,
+     "w": 0,
+     "d": 2,
+     "l": 1,
+     "gf": 0,
+     "ga": 1
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 4,
+     "ga": 6
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 7,
+     "w": 4,
+     "d": 0,
+     "l": 3,
+     "gf": 20,
+     "ga": 11
+    },
+    "home": {
+     "p": 4,
+     "w": 4,
+     "d": 0,
+     "l": 0,
+     "gf": 18,
+     "ga": 0
+    },
+    "away": {
+     "p": 3,
+     "w": 0,
+     "d": 0,
+     "l": 3,
+     "gf": 2,
+     "ga": 11
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2023-05-27",
+    "homeId": "721",
+    "awayId": "6",
+    "home": "RB Leipzig",
+    "away": "FC Schalke 04",
+    "hg": 4,
+    "ag": 2
+   },
+   {
+    "date": "2023-01-24",
+    "homeId": "6",
+    "awayId": "721",
+    "home": "FC Schalke 04",
+    "away": "RB Leipzig",
+    "hg": 1,
+    "ag": 6
+   },
+   {
+    "date": "2021-02-06",
+    "homeId": "6",
+    "awayId": "721",
+    "home": "FC Schalke 04",
+    "away": "RB Leipzig",
+    "hg": 0,
+    "ag": 3
+   },
+   {
+    "date": "2020-10-03",
+    "homeId": "721",
+    "awayId": "6",
+    "home": "RB Leipzig",
+    "away": "FC Schalke 04",
+    "hg": 4,
+    "ag": 0
+   },
+   {
+    "date": "2020-02-22",
+    "homeId": "6",
+    "awayId": "721",
+    "home": "FC Schalke 04",
+    "away": "RB Leipzig",
+    "hg": 0,
+    "ag": 5
+   }
+  ]
+ },
+ "players": {
+  "home": [],
+  "away": [
+   {
+    "id": "8484",
+    "name": "Christopher Nkunku",
+    "team": "RB Leipzig",
+    "pos": "Offence",
+    "apps": 6,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "169295",
+    "name": "Antonio Nusa",
+    "team": "RB Leipzig",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "211796",
+    "name": "Tidiam Gomis",
+    "team": "RB Leipzig",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "178783",
+    "name": "Romulo Cruz",
+    "team": "RB Leipzig",
+    "pos": "Offence",
+    "apps": 5,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "6634",
+    "name": "Ridle Baku",
+    "team": "RB Leipzig",
+    "pos": "Defence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "150517",
+    "name": "Rocco Reitz",
+    "team": "RB Leipzig",
+    "pos": "Midfield",
+    "apps": 4,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.233,
+   "draw": 0.428,
+   "awayWin": 0.339,
+   "pick": "D",
+   "confidence": 0.377,
+   "reasoning": "Poisson model: expected goals FC Schalke 04 0.49 vs RB Leipzig 0.66, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "FC Schalke 04 at home: 0W-2D-1L, 0 scored and 1 conceded in 3 games.",
+    "RB Leipzig away: 0W-0D-3L, 2 scored and 11 conceded in 3 games.",
+    "League averages this season: home teams 2.19 goals per game, away teams 1.37.",
+    "Recent league form (newest first): FC Schalke 04 DLLDW, RB Leipzig WLWLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: FC Schalke 04 has 3 home games and RB Leipzig 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "8484",
+    "name": "Christopher Nkunku",
+    "team": "RB Leipzig",
+    "probability": 0.123,
+    "confidence": 0.084,
+    "reasoning": "4 of RB Leipzig's 20 league goals this season (20%), applied to the 0.66 goals the model expects from them here.",
+    "evidence": [
+     "Christopher Nkunku: 4 league goals in 6 appearances this season.",
+     "RB Leipzig have scored 20 league goals in 7 games; the model expects 0.66 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "169295",
+    "name": "Antonio Nusa",
+    "team": "RB Leipzig",
+    "probability": 0.094,
+    "confidence": 0.064,
+    "reasoning": "3 of RB Leipzig's 20 league goals this season (15%), applied to the 0.66 goals the model expects from them here.",
+    "evidence": [
+     "Antonio Nusa: 3 league goals in 7 appearances this season.",
+     "RB Leipzig have scored 20 league goals in 7 games; the model expects 0.66 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "211796",
+    "name": "Tidiam Gomis",
+    "team": "RB Leipzig",
+    "probability": 0.094,
+    "confidence": 0.064,
+    "reasoning": "3 of RB Leipzig's 20 league goals this season (15%), applied to the 0.66 goals the model expects from them here.",
+    "evidence": [
+     "Tidiam Gomis: 3 league goals in 7 appearances this season.",
+     "RB Leipzig have scored 20 league goals in 7 games; the model expects 0.66 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-0",
+    "probability": 0.317
+   },
+   "alternatives": [
+    {
+     "score": "0-1",
+     "probability": 0.208
+    },
+    {
+     "score": "1-0",
+     "probability": 0.156
+    },
+    {
+     "score": "1-1",
+     "probability": 0.102
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.49 (FC Schalke 04) and 0.66 (RB Leipzig).",
+    "Top scorelines: 0-0 (31.7%), 0-1 (20.8%), 1-0 (15.6%), 1-1 (10.2%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: FC Schalke 04 has 3 home games and RB Leipzig 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-30T02:45:56.292Z",
+ "lockedAt": "2026-10-30T02:46:14.949Z",
+ "result": null
+}

@@ -1,22 +1,33 @@
 {
- "settled": 6,
+ "settled": 7,
  "outcome": {
-  "n": 6,
+  "n": 7,
   "hit": 2,
-  "rate": 0.3333333333333333
+  "rate": 0.2857142857142857
  },
  "correctScore": {
-  "n": 6,
+  "n": 7,
   "hit": 1,
-  "rate": 0.16666666666666666
+  "rate": 0.14285714285714285
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-10-29T22:09:06.088Z",
+ "updatedAt": "2026-10-30T02:47:04.845Z",
  "tracked": [
+  {
+   "match": "ACF Fiorentina v Atalanta BC",
+   "lockedAt": "2026-10-28T02:25:14.527Z",
+   "pick": "A",
+   "score": "1-2",
+   "actual": {
+    "home": 2,
+    "away": 2
+   },
+   "scorers": []
+  },
   {
    "match": "Frosinone Calcio v US Lecce",
    "lockedAt": "2026-10-28T02:24:55.840Z",

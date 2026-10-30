@@ -1,0 +1,354 @@
+{
+ "fixtureId": "558539",
+ "kickoffUtc": "2026-10-31T14:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558539",
+   "kickoffUtc": "2026-10-31T14:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "103",
+    "name": "Bologna FC 1909",
+    "short": "BOL"
+   },
+   "away": {
+    "id": "5911",
+    "name": "AC Monza",
+    "short": "MON"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6111111111111112,
+   "awayGoals": 1.5444444444444445
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "AC Milan",
+     "venue": "A",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "SSC Napoli",
+     "venue": "H",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SS Lazio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 9,
+     "w": 3,
+     "d": 2,
+     "l": 4,
+     "gf": 12,
+     "ga": 12
+    },
+    "home": {
+     "p": 4,
+     "w": 0,
+     "d": 2,
+     "l": 2,
+     "gf": 4,
+     "ga": 7
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 8,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 9,
+     "w": 2,
+     "d": 1,
+     "l": 6,
+     "gf": 16,
+     "ga": 22
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 0,
+     "l": 2,
+     "gf": 9,
+     "ga": 8
+    },
+    "away": {
+     "p": 5,
+     "w": 0,
+     "d": 1,
+     "l": 4,
+     "gf": 7,
+     "ga": 14
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2025-01-18",
+    "homeId": "103",
+    "awayId": "5911",
+    "home": "Bologna FC 1909",
+    "away": "AC Monza",
+    "hg": 3,
+    "ag": 1
+   },
+   {
+    "date": "2024-09-22",
+    "homeId": "5911",
+    "awayId": "103",
+    "home": "AC Monza",
+    "away": "Bologna FC 1909",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2024-04-13",
+    "homeId": "103",
+    "awayId": "5911",
+    "home": "Bologna FC 1909",
+    "away": "AC Monza",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2023-09-28",
+    "homeId": "5911",
+    "awayId": "103",
+    "home": "AC Monza",
+    "away": "Bologna FC 1909",
+    "hg": 0,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "217678",
+    "name": "Samuel Mbangula",
+    "team": "Bologna FC 1909",
+    "pos": "Offence",
+    "apps": 6,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "2040",
+    "name": "Federico Bernardeschi",
+    "team": "Bologna FC 1909",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "252836",
+    "name": "Gustavo Varela",
+    "team": "AC Monza",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 8,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "265567",
+    "name": "Jay Robinson",
+    "team": "AC Monza",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.476,
+   "draw": 0.219,
+   "awayWin": 0.305,
+   "pick": "H",
+   "confidence": 0.457,
+   "reasoning": "Poisson model: expected goals Bologna FC 1909 1.95 vs AC Monza 1.53, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Bologna FC 1909 at home: 0W-2D-2L, 4 scored and 7 conceded in 4 games.",
+    "AC Monza away: 0W-1D-4L, 7 scored and 14 conceded in 5 games.",
+    "League averages this season: home teams 1.61 goals per game, away teams 1.54.",
+    "Recent league form (newest first): Bologna FC 1909 WWLWD, AC Monza LLWLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Bologna FC 1909 has 4 home games and AC Monza 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "252836",
+    "name": "Gustavo Varela",
+    "team": "AC Monza",
+    "probability": 0.536,
+    "confidence": 0.38,
+    "reasoning": "8 of AC Monza's 16 league goals this season (50%), applied to the 1.53 goals the model expects from them here.",
+    "evidence": [
+     "Gustavo Varela: 8 league goals in 8 appearances this season.",
+     "AC Monza have scored 16 league goals in 9 games; the model expects 1.53 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "217678",
+    "name": "Samuel Mbangula",
+    "team": "Bologna FC 1909",
+    "probability": 0.386,
+    "confidence": 0.294,
+    "reasoning": "3 of Bologna FC 1909's 12 league goals this season (25%), applied to the 1.95 goals the model expects from them here.",
+    "evidence": [
+     "Samuel Mbangula: 3 league goals in 6 appearances this season.",
+     "Bologna FC 1909 have scored 12 league goals in 9 games; the model expects 1.95 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "2040",
+    "name": "Federico Bernardeschi",
+    "team": "Bologna FC 1909",
+    "probability": 0.278,
+    "confidence": 0.211,
+    "reasoning": "2 of Bologna FC 1909's 12 league goals this season (17%), applied to the 1.95 goals the model expects from them here.",
+    "evidence": [
+     "Federico Bernardeschi: 2 league goals in 9 appearances this season.",
+     "Bologna FC 1909 have scored 12 league goals in 9 games; the model expects 1.95 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-1",
+    "probability": 0.092
+   },
+   "alternatives": [
+    {
+     "score": "2-1",
+     "probability": 0.09
+    },
+    {
+     "score": "1-2",
+     "probability": 0.07
+    },
+    {
+     "score": "2-2",
+     "probability": 0.069
+    }
+   ],
+   "confidence": 0.206,
+   "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.95 (Bologna FC 1909) and 1.53 (AC Monza).",
+    "Top scorelines: 1-1 (9.2%), 2-1 (9.0%), 1-2 (7.0%), 2-2 (6.9%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Bologna FC 1909 has 4 home games and AC Monza 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-30T02:44:18.192Z",
+ "lockedAt": "2026-10-30T02:44:48.701Z",
+ "result": null
+}

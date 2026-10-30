@@ -100,26 +100,6 @@
   }
  },
  {
-  "id": "565843",
-  "kickoffUtc": "2026-10-31T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "12",
-   "name": "SV Werder Bremen",
-   "short": "SVW"
-  },
-  "away": {
-   "id": "2",
-   "name": "TSG 1899 Hoffenheim",
-   "short": "TSG"
-  }
- },
- {
   "id": "565847",
   "kickoffUtc": "2026-10-31T14:30:00.000Z",
   "status": "scheduled",
@@ -157,6 +137,26 @@
    "id": "721",
    "name": "RB Leipzig",
    "short": "RBL"
+  }
+ },
+ {
+  "id": "565843",
+  "kickoffUtc": "2026-10-31T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "12",
+   "name": "SV Werder Bremen",
+   "short": "SVW"
+  },
+  "away": {
+   "id": "2",
+   "name": "TSG 1899 Hoffenheim",
+   "short": "TSG"
   }
  },
  {
@@ -320,26 +320,6 @@
   }
  },
  {
-  "id": "560627",
-  "kickoffUtc": "2026-10-31T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "73",
-   "name": "Tottenham Hotspur FC",
-   "short": "TOT"
-  },
-  "away": {
-   "id": "354",
-   "name": "Crystal Palace FC",
-   "short": "CRY"
-  }
- },
- {
   "id": "564736",
   "kickoffUtc": "2026-10-31T17:30:00.000Z",
   "status": "scheduled",
@@ -357,6 +337,26 @@
    "id": "84",
    "name": "Málaga CF",
    "short": "MAL"
+  }
+ },
+ {
+  "id": "560627",
+  "kickoffUtc": "2026-10-31T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "73",
+   "name": "Tottenham Hotspur FC",
+   "short": "TOT"
+  },
+  "away": {
+   "id": "354",
+   "name": "Crystal Palace FC",
+   "short": "CRY"
   }
  },
  {

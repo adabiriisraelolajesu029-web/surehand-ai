@@ -1,0 +1,364 @@
+{
+ "fixtureId": "565847",
+ "kickoffUtc": "2026-10-31T14:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565847",
+   "kickoffUtc": "2026-10-31T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "3",
+    "name": "Bayer 04 Leverkusen",
+    "short": "B04"
+   },
+   "away": {
+    "id": "10",
+    "name": "VfB Stuttgart",
+    "short": "VFB"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.1904761904761907,
+   "awayGoals": 1.3650793650793651
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "TSG 1899 Hoffenheim",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "SC Freiburg",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "1. FSV Mainz 05",
+     "venue": "A",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "opp": "RB Leipzig",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Augsburg",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Borussia Mönchengladbach",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Hamburger SV",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "SC Paderborn 07",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Borussia Dortmund",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "TSG 1899 Hoffenheim",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 7,
+     "w": 4,
+     "d": 1,
+     "l": 2,
+     "gf": 16,
+     "ga": 12
+    },
+    "home": {
+     "p": 3,
+     "w": 3,
+     "d": 0,
+     "l": 0,
+     "gf": 8,
+     "ga": 1
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 8,
+     "ga": 11
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 7,
+     "w": 2,
+     "d": 0,
+     "l": 5,
+     "gf": 10,
+     "ga": 13
+    },
+    "home": {
+     "p": 3,
+     "w": 1,
+     "d": 0,
+     "l": 2,
+     "gf": 6,
+     "ga": 5
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 0,
+     "l": 3,
+     "gf": 4,
+     "ga": 8
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-09",
+    "homeId": "10",
+    "awayId": "3",
+    "home": "VfB Stuttgart",
+    "away": "Bayer 04 Leverkusen",
+    "hg": 3,
+    "ag": 1
+   },
+   {
+    "date": "2026-01-10",
+    "homeId": "3",
+    "awayId": "10",
+    "home": "Bayer 04 Leverkusen",
+    "away": "VfB Stuttgart",
+    "hg": 1,
+    "ag": 4
+   },
+   {
+    "date": "2025-03-16",
+    "homeId": "10",
+    "awayId": "3",
+    "home": "VfB Stuttgart",
+    "away": "Bayer 04 Leverkusen",
+    "hg": 3,
+    "ag": 4
+   },
+   {
+    "date": "2024-11-01",
+    "homeId": "3",
+    "awayId": "10",
+    "home": "Bayer 04 Leverkusen",
+    "away": "VfB Stuttgart",
+    "hg": 0,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "1826",
+    "name": "Patrik Schick",
+    "team": "Bayer 04 Leverkusen",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "274045",
+    "name": "Christian Kofane",
+    "team": "Bayer 04 Leverkusen",
+    "pos": "Offence",
+    "apps": 4,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "202532",
+    "name": "Ibrahim Maza",
+    "team": "Bayer 04 Leverkusen",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "33242",
+    "name": "Ermedin Demirovic",
+    "team": "VfB Stuttgart",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "6523",
+    "name": "Josha Vagnoman",
+    "team": "VfB Stuttgart",
+    "pos": "Defence",
+    "apps": 6,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.796,
+   "draw": 0.133,
+   "awayWin": 0.071,
+   "pick": "H",
+   "confidence": 0.701,
+   "reasoning": "Poisson model: expected goals Bayer 04 Leverkusen 2.69 vs VfB Stuttgart 0.69, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Bayer 04 Leverkusen at home: 3W-0D-0L, 8 scored and 1 conceded in 3 games.",
+    "VfB Stuttgart away: 1W-0D-3L, 4 scored and 8 conceded in 4 games.",
+    "League averages this season: home teams 2.19 goals per game, away teams 1.37.",
+    "Recent league form (newest first): Bayer 04 Leverkusen LWWWD, VfB Stuttgart LLWLL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Bayer 04 Leverkusen has 3 home games and VfB Stuttgart 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "1826",
+    "name": "Patrik Schick",
+    "team": "Bayer 04 Leverkusen",
+    "probability": 0.636,
+    "confidence": 0.34,
+    "reasoning": "6 of Bayer 04 Leverkusen's 16 league goals this season (38%), applied to the 2.69 goals the model expects from them here.",
+    "evidence": [
+     "Patrik Schick: 6 league goals in 7 appearances this season.",
+     "Bayer 04 Leverkusen have scored 16 league goals in 7 games; the model expects 2.69 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "274045",
+    "name": "Christian Kofane",
+    "team": "Bayer 04 Leverkusen",
+    "probability": 0.286,
+    "confidence": 0.194,
+    "reasoning": "2 of Bayer 04 Leverkusen's 16 league goals this season (13%), applied to the 2.69 goals the model expects from them here.",
+    "evidence": [
+     "Christian Kofane: 2 league goals in 4 appearances this season.",
+     "Bayer 04 Leverkusen have scored 16 league goals in 7 games; the model expects 2.69 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "202532",
+    "name": "Ibrahim Maza",
+    "team": "Bayer 04 Leverkusen",
+    "probability": 0.286,
+    "confidence": 0.194,
+    "reasoning": "2 of Bayer 04 Leverkusen's 16 league goals this season (13%), applied to the 2.69 goals the model expects from them here.",
+    "evidence": [
+     "Ibrahim Maza: 2 league goals in 7 appearances this season.",
+     "Bayer 04 Leverkusen have scored 16 league goals in 7 games; the model expects 2.69 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-0",
+    "probability": 0.124
+   },
+   "alternatives": [
+    {
+     "score": "3-0",
+     "probability": 0.111
+    },
+    {
+     "score": "1-0",
+     "probability": 0.092
+    },
+    {
+     "score": "2-1",
+     "probability": 0.085
+    }
+   ],
+   "confidence": 0.216,
+   "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.69 (Bayer 04 Leverkusen) and 0.69 (VfB Stuttgart).",
+    "Top scorelines: 2-0 (12.4%), 3-0 (11.1%), 1-0 (9.2%), 2-1 (8.5%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Bayer 04 Leverkusen has 3 home games and VfB Stuttgart 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-30T02:45:37.755Z",
+ "lockedAt": "2026-10-30T02:45:56.292Z",
+ "result": null
+}

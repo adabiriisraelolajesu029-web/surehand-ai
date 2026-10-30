@@ -1,0 +1,1034 @@
+[
+ {
+  "fixture": {
+   "id": "558539",
+   "kickoffUtc": "2026-10-31T14:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "103",
+    "name": "Bologna FC 1909",
+    "short": "BOL"
+   },
+   "away": {
+    "id": "5911",
+    "name": "AC Monza",
+    "short": "MON"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.476,
+    "draw": 0.219,
+    "awayWin": 0.305,
+    "pick": "H",
+    "confidence": 0.457,
+    "reasoning": "Poisson model: expected goals Bologna FC 1909 1.95 vs AC Monza 1.53, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Bologna FC 1909 at home: 0W-2D-2L, 4 scored and 7 conceded in 4 games.",
+     "AC Monza away: 0W-1D-4L, 7 scored and 14 conceded in 5 games.",
+     "League averages this season: home teams 1.61 goals per game, away teams 1.54.",
+     "Recent league form (newest first): Bologna FC 1909 WWLWD, AC Monza LLWLW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Bologna FC 1909 has 4 home games and AC Monza 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "252836",
+     "name": "Gustavo Varela",
+     "team": "AC Monza",
+     "probability": 0.536,
+     "confidence": 0.38,
+     "reasoning": "8 of AC Monza's 16 league goals this season (50%), applied to the 1.53 goals the model expects from them here.",
+     "evidence": [
+      "Gustavo Varela: 8 league goals in 8 appearances this season.",
+      "AC Monza have scored 16 league goals in 9 games; the model expects 1.53 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "217678",
+     "name": "Samuel Mbangula",
+     "team": "Bologna FC 1909",
+     "probability": 0.386,
+     "confidence": 0.294,
+     "reasoning": "3 of Bologna FC 1909's 12 league goals this season (25%), applied to the 1.95 goals the model expects from them here.",
+     "evidence": [
+      "Samuel Mbangula: 3 league goals in 6 appearances this season.",
+      "Bologna FC 1909 have scored 12 league goals in 9 games; the model expects 1.95 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "2040",
+     "name": "Federico Bernardeschi",
+     "team": "Bologna FC 1909",
+     "probability": 0.278,
+     "confidence": 0.211,
+     "reasoning": "2 of Bologna FC 1909's 12 league goals this season (17%), applied to the 1.95 goals the model expects from them here.",
+     "evidence": [
+      "Federico Bernardeschi: 2 league goals in 9 appearances this season.",
+      "Bologna FC 1909 have scored 12 league goals in 9 games; the model expects 1.95 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-1",
+     "probability": 0.092
+    },
+    "alternatives": [
+     {
+      "score": "2-1",
+      "probability": 0.09
+     },
+     {
+      "score": "1-2",
+      "probability": 0.07
+     },
+     {
+      "score": "2-2",
+      "probability": 0.069
+     }
+    ],
+    "confidence": 0.206,
+    "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.95 (Bologna FC 1909) and 1.53 (AC Monza).",
+     "Top scorelines: 1-1 (9.2%), 2-1 (9.0%), 1-2 (7.0%), 2-2 (6.9%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Bologna FC 1909 has 4 home games and AC Monza 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-30T02:44:48.701Z"
+ },
+ {
+  "fixture": {
+   "id": "560626",
+   "kickoffUtc": "2026-10-31T12:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "61",
+    "name": "Chelsea FC",
+    "short": "CHE"
+   },
+   "away": {
+    "id": "66",
+    "name": "Manchester United FC",
+    "short": "MUN"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.622,
+    "draw": 0.173,
+    "awayWin": 0.205,
+    "pick": "H",
+    "confidence": 0.573,
+    "reasoning": "Poisson model: expected goals Chelsea FC 2.74 vs Manchester United FC 1.57, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Chelsea FC at home: 2W-1D-1L, 11 scored and 8 conceded in 4 games.",
+     "Manchester United FC away: 0W-3D-1L, 4 scored and 6 conceded in 4 games.",
+     "League averages this season: home teams 1.51 goals per game, away teams 1.26.",
+     "Recent league form (newest first): Chelsea FC LWWLD, Manchester United FC LDDDL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Chelsea FC has 4 home games and Manchester United FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "103125",
+     "name": "João Pedro",
+     "team": "Chelsea FC",
+     "probability": 0.553,
+     "confidence": 0.36,
+     "reasoning": "5 of Chelsea FC's 17 league goals this season (29%), applied to the 2.74 goals the model expects from them here.",
+     "evidence": [
+      "João Pedro: 5 league goals in 6 appearances this season.",
+      "Chelsea FC have scored 17 league goals in 8 games; the model expects 2.74 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "82140",
+     "name": "Morgan Rogers",
+     "team": "Chelsea FC",
+     "probability": 0.475,
+     "confidence": 0.342,
+     "reasoning": "4 of Chelsea FC's 17 league goals this season (24%), applied to the 2.74 goals the model expects from them here.",
+     "evidence": [
+      "Morgan Rogers: 4 league goals in 8 appearances this season.",
+      "Chelsea FC have scored 17 league goals in 8 games; the model expects 2.74 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "8626",
+     "name": "Bryan Mbeumo",
+     "team": "Manchester United FC",
+     "probability": 0.466,
+     "confidence": 0.336,
+     "reasoning": "4 of Manchester United FC's 10 league goals this season (40%), applied to the 1.57 goals the model expects from them here.",
+     "evidence": [
+      "Bryan Mbeumo: 4 league goals in 8 appearances this season.",
+      "Manchester United FC have scored 10 league goals in 8 games; the model expects 1.57 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "2-1",
+     "probability": 0.079
+    },
+    "alternatives": [
+     {
+      "score": "3-1",
+      "probability": 0.072
+     },
+     {
+      "score": "2-2",
+      "probability": 0.062
+     },
+     {
+      "score": "1-1",
+      "probability": 0.058
+     }
+    ],
+    "confidence": 0.159,
+    "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 2.74 (Chelsea FC) and 1.57 (Manchester United FC).",
+     "Top scorelines: 2-1 (7.9%), 3-1 (7.2%), 2-2 (6.2%), 1-1 (5.8%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Chelsea FC has 4 home games and Manchester United FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-30T02:43:46.770Z"
+ },
+ {
+  "fixture": {
+   "id": "564730",
+   "kickoffUtc": "2026-10-31T13:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "88",
+    "name": "Levante UD",
+    "short": "LEV"
+   },
+   "away": {
+    "id": "78",
+    "name": "Club Atlético de Madrid",
+    "short": "ATL"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.173,
+    "draw": 0.164,
+    "awayWin": 0.663,
+    "pick": "A",
+    "confidence": 0.663,
+    "reasoning": "Poisson model: expected goals Levante UD 1.42 vs Club Atlético de Madrid 2.81, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Levante UD at home: 2W-1D-1L, 13 scored and 10 conceded in 4 games.",
+     "Club Atlético de Madrid away: 4W-0D-1L, 9 scored and 5 conceded in 5 games.",
+     "League averages this season: home teams 1.70 goals per game, away teams 1.31.",
+     "Recent league form (newest first): Levante UD LWDDL, Club Atlético de Madrid WWWWW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Levante UD has 4 home games and Club Atlético de Madrid 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "213278",
+     "name": "Álex Baena",
+     "team": "Club Atlético de Madrid",
+     "probability": 0.505,
+     "confidence": 0.4,
+     "reasoning": "5 of Club Atlético de Madrid's 20 league goals this season (25%), applied to the 2.81 goals the model expects from them here.",
+     "evidence": [
+      "Álex Baena: 5 league goals in 10 appearances this season.",
+      "Club Atlético de Madrid have scored 20 league goals in 10 games; the model expects 2.81 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "180282",
+     "name": "Brugui",
+     "team": "Levante UD",
+     "probability": 0.359,
+     "confidence": 0.287,
+     "reasoning": "5 of Levante UD's 16 league goals this season (31%), applied to the 1.42 goals the model expects from them here.",
+     "evidence": [
+      "Brugui: 5 league goals in 9 appearances this season.",
+      "Levante UD have scored 16 league goals in 10 games; the model expects 1.42 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "16739",
+     "name": "Alejandro Grimaldo",
+     "team": "Club Atlético de Madrid",
+     "probability": 0.344,
+     "confidence": 0.275,
+     "reasoning": "3 of Club Atlético de Madrid's 20 league goals this season (15%), applied to the 2.81 goals the model expects from them here.",
+     "evidence": [
+      "Alejandro Grimaldo: 3 league goals in 10 appearances this season.",
+      "Club Atlético de Madrid have scored 20 league goals in 10 games; the model expects 2.81 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-2",
+     "probability": 0.082
+    },
+    "alternatives": [
+     {
+      "score": "1-3",
+      "probability": 0.077
+     },
+     {
+      "score": "2-2",
+      "probability": 0.058
+     },
+     {
+      "score": "1-1",
+      "probability": 0.058
+     }
+    ],
+    "confidence": 0.204,
+    "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.42 (Levante UD) and 2.81 (Club Atlético de Madrid).",
+     "Top scorelines: 1-2 (8.2%), 1-3 (7.7%), 2-2 (5.8%), 1-1 (5.8%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Levante UD has 4 home games and Club Atlético de Madrid 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-30T02:44:18.192Z"
+ },
+ {
+  "fixture": {
+   "id": "565839",
+   "kickoffUtc": "2026-10-31T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "18",
+    "name": "Borussia Mönchengladbach",
+    "short": "BMG"
+   },
+   "away": {
+    "id": "29",
+    "name": "SC Paderborn 07",
+    "short": "SCP"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.421,
+    "draw": 0.246,
+    "awayWin": 0.334,
+    "pick": "H",
+    "confidence": 0.37,
+    "reasoning": "Poisson model: expected goals Borussia Mönchengladbach 1.56 vs SC Paderborn 07 1.36, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Borussia Mönchengladbach at home: 0W-0D-3L, 7 scored and 10 conceded in 3 games.",
+     "SC Paderborn 07 away: 0W-2D-1L, 2 scored and 5 conceded in 3 games.",
+     "League averages this season: home teams 2.19 goals per game, away teams 1.37.",
+     "Recent league form (newest first): Borussia Mönchengladbach WLLLL, SC Paderborn 07 WDLWL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Borussia Mönchengladbach has 3 home games and SC Paderborn 07 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "176617",
+     "name": "Stefano Marino",
+     "team": "SC Paderborn 07",
+     "probability": 0.365,
+     "confidence": 0.248,
+     "reasoning": "2 of SC Paderborn 07's 6 league goals this season (33%), applied to the 1.36 goals the model expects from them here.",
+     "evidence": [
+      "Stefano Marino: 2 league goals in 7 appearances this season.",
+      "SC Paderborn 07 have scored 6 league goals in 7 games; the model expects 1.36 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "10561",
+     "name": "Steffen Tigges",
+     "team": "SC Paderborn 07",
+     "probability": 0.365,
+     "confidence": 0.248,
+     "reasoning": "2 of SC Paderborn 07's 6 league goals this season (33%), applied to the 1.36 goals the model expects from them here.",
+     "evidence": [
+      "Steffen Tigges: 2 league goals in 7 appearances this season.",
+      "SC Paderborn 07 have scored 6 league goals in 7 games; the model expects 1.36 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "82442",
+     "name": "Joseph Scally",
+     "team": "Borussia Mönchengladbach",
+     "probability": 0.346,
+     "confidence": 0.235,
+     "reasoning": "3 of Borussia Mönchengladbach's 11 league goals this season (27%), applied to the 1.56 goals the model expects from them here.",
+     "evidence": [
+      "Joseph Scally: 3 league goals in 7 appearances this season.",
+      "Borussia Mönchengladbach have scored 11 league goals in 7 games; the model expects 1.56 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-1",
+     "probability": 0.115
+    },
+    "alternatives": [
+     {
+      "score": "2-1",
+      "probability": 0.089
+     },
+     {
+      "score": "1-0",
+      "probability": 0.084
+     },
+     {
+      "score": "1-2",
+      "probability": 0.078
+     }
+    ],
+    "confidence": 0.2,
+    "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.56 (Borussia Mönchengladbach) and 1.36 (SC Paderborn 07).",
+     "Top scorelines: 1-1 (11.5%), 2-1 (8.9%), 1-0 (8.4%), 1-2 (7.8%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Borussia Mönchengladbach has 3 home games and SC Paderborn 07 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-30T02:45:19.755Z"
+ },
+ {
+  "fixture": {
+   "id": "565840",
+   "kickoffUtc": "2026-10-31T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "6",
+    "name": "FC Schalke 04",
+    "short": "S04"
+   },
+   "away": {
+    "id": "721",
+    "name": "RB Leipzig",
+    "short": "RBL"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.233,
+    "draw": 0.428,
+    "awayWin": 0.339,
+    "pick": "D",
+    "confidence": 0.377,
+    "reasoning": "Poisson model: expected goals FC Schalke 04 0.49 vs RB Leipzig 0.66, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "FC Schalke 04 at home: 0W-2D-1L, 0 scored and 1 conceded in 3 games.",
+     "RB Leipzig away: 0W-0D-3L, 2 scored and 11 conceded in 3 games.",
+     "League averages this season: home teams 2.19 goals per game, away teams 1.37.",
+     "Recent league form (newest first): FC Schalke 04 DLLDW, RB Leipzig WLWLW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: FC Schalke 04 has 3 home games and RB Leipzig 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "8484",
+     "name": "Christopher Nkunku",
+     "team": "RB Leipzig",
+     "probability": 0.123,
+     "confidence": 0.084,
+     "reasoning": "4 of RB Leipzig's 20 league goals this season (20%), applied to the 0.66 goals the model expects from them here.",
+     "evidence": [
+      "Christopher Nkunku: 4 league goals in 6 appearances this season.",
+      "RB Leipzig have scored 20 league goals in 7 games; the model expects 0.66 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "169295",
+     "name": "Antonio Nusa",
+     "team": "RB Leipzig",
+     "probability": 0.094,
+     "confidence": 0.064,
+     "reasoning": "3 of RB Leipzig's 20 league goals this season (15%), applied to the 0.66 goals the model expects from them here.",
+     "evidence": [
+      "Antonio Nusa: 3 league goals in 7 appearances this season.",
+      "RB Leipzig have scored 20 league goals in 7 games; the model expects 0.66 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "211796",
+     "name": "Tidiam Gomis",
+     "team": "RB Leipzig",
+     "probability": 0.094,
+     "confidence": 0.064,
+     "reasoning": "3 of RB Leipzig's 20 league goals this season (15%), applied to the 0.66 goals the model expects from them here.",
+     "evidence": [
+      "Tidiam Gomis: 3 league goals in 7 appearances this season.",
+      "RB Leipzig have scored 20 league goals in 7 games; the model expects 0.66 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-0",
+     "probability": 0.317
+    },
+    "alternatives": [
+     {
+      "score": "0-1",
+      "probability": 0.208
+     },
+     {
+      "score": "1-0",
+      "probability": 0.156
+     },
+     {
+      "score": "1-1",
+      "probability": 0.102
+     }
+    ],
+    "confidence": 0.3,
+    "reasoning": "0–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.49 (FC Schalke 04) and 0.66 (RB Leipzig).",
+     "Top scorelines: 0-0 (31.7%), 0-1 (20.8%), 1-0 (15.6%), 1-1 (10.2%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: FC Schalke 04 has 3 home games and RB Leipzig 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-30T02:46:14.949Z"
+ },
+ {
+  "fixture": {
+   "id": "565842",
+   "kickoffUtc": "2026-10-31T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "16",
+    "name": "FC Augsburg",
+    "short": "FCA"
+   },
+   "away": {
+    "id": "17",
+    "name": "SC Freiburg",
+    "short": "SCF"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.413,
+    "draw": 0.233,
+    "awayWin": 0.354,
+    "pick": "H",
+    "confidence": 0.364,
+    "reasoning": "Poisson model: expected goals FC Augsburg 1.68 vs SC Freiburg 1.54, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "FC Augsburg at home: 1W-3D-0L, 8 scored and 5 conceded in 4 games.",
+     "SC Freiburg away: 1W-1D-1L, 4 scored and 4 conceded in 3 games.",
+     "League averages this season: home teams 2.19 goals per game, away teams 1.37.",
+     "Recent league form (newest first): FC Augsburg DLDLD, SC Freiburg LLWDW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: FC Augsburg has 4 home games and SC Freiburg 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "6661",
+     "name": "Michael Gregoritsch",
+     "team": "FC Augsburg",
+     "probability": 0.327,
+     "confidence": 0.222,
+     "reasoning": "4 of FC Augsburg's 17 league goals this season (24%), applied to the 1.68 goals the model expects from them here.",
+     "evidence": [
+      "Michael Gregoritsch: 4 league goals in 7 appearances this season.",
+      "FC Augsburg have scored 17 league goals in 7 games; the model expects 1.68 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "145293",
+     "name": "Yuito Suzuki",
+     "team": "SC Freiburg",
+     "probability": 0.32,
+     "confidence": 0.218,
+     "reasoning": "4 of SC Freiburg's 16 league goals this season (25%), applied to the 1.54 goals the model expects from them here.",
+     "evidence": [
+      "Yuito Suzuki: 4 league goals in 6 appearances this season.",
+      "SC Freiburg have scored 16 league goals in 7 games; the model expects 1.54 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "65692",
+     "name": "Robin Fellhauer",
+     "team": "FC Augsburg",
+     "probability": 0.257,
+     "confidence": 0.175,
+     "reasoning": "3 of FC Augsburg's 17 league goals this season (18%), applied to the 1.68 goals the model expects from them here.",
+     "evidence": [
+      "Robin Fellhauer: 3 league goals in 7 appearances this season.",
+      "FC Augsburg have scored 17 league goals in 7 games; the model expects 1.68 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-1",
+     "probability": 0.103
+    },
+    "alternatives": [
+     {
+      "score": "2-1",
+      "probability": 0.087
+     },
+     {
+      "score": "1-2",
+      "probability": 0.08
+     },
+     {
+      "score": "2-2",
+      "probability": 0.067
+     }
+    ],
+    "confidence": 0.181,
+    "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.68 (FC Augsburg) and 1.54 (SC Freiburg).",
+     "Top scorelines: 1-1 (10.3%), 2-1 (8.7%), 1-2 (8.0%), 2-2 (6.7%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: FC Augsburg has 4 home games and SC Freiburg 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-30T02:45:37.755Z"
+ },
+ {
+  "fixture": {
+   "id": "565843",
+   "kickoffUtc": "2026-10-31T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "12",
+    "name": "SV Werder Bremen",
+    "short": "SVW"
+   },
+   "away": {
+    "id": "2",
+    "name": "TSG 1899 Hoffenheim",
+    "short": "TSG"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.596,
+    "draw": 0.17,
+    "awayWin": 0.234,
+    "pick": "H",
+    "confidence": 0.525,
+    "reasoning": "Poisson model: expected goals SV Werder Bremen 2.92 vs TSG 1899 Hoffenheim 1.86, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "SV Werder Bremen at home: 2W-1D-0L, 8 scored and 5 conceded in 3 games.",
+     "TSG 1899 Hoffenheim away: 1W-0D-2L, 5 scored and 7 conceded in 3 games.",
+     "League averages this season: home teams 2.19 goals per game, away teams 1.37.",
+     "Recent league form (newest first): SV Werder Bremen WDDWD, TSG 1899 Hoffenheim WWLLW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: SV Werder Bremen has 3 home games and TSG 1899 Hoffenheim 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "304",
+     "name": "Niclas Füllkrug",
+     "team": "SV Werder Bremen",
+     "probability": 0.7,
+     "confidence": 0.34,
+     "reasoning": "8 of SV Werder Bremen's 15 league goals this season (50%), applied to the 2.92 goals the model expects from them here.",
+     "evidence": [
+      "Niclas Füllkrug: 8 league goals in 7 appearances this season.",
+      "SV Werder Bremen have scored 15 league goals in 7 games; the model expects 2.92 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "61630",
+     "name": "Marco Grüll",
+     "team": "SV Werder Bremen",
+     "probability": 0.322,
+     "confidence": 0.219,
+     "reasoning": "2 of SV Werder Bremen's 15 league goals this season (13%), applied to the 2.92 goals the model expects from them here.",
+     "evidence": [
+      "Marco Grüll: 2 league goals in 7 appearances this season.",
+      "SV Werder Bremen have scored 15 league goals in 7 games; the model expects 2.92 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "7532",
+     "name": "Ludovit Reis",
+     "team": "SV Werder Bremen",
+     "probability": 0.322,
+     "confidence": 0.219,
+     "reasoning": "2 of SV Werder Bremen's 15 league goals this season (13%), applied to the 2.92 goals the model expects from them here.",
+     "evidence": [
+      "Ludovit Reis: 2 league goals in 7 appearances this season.",
+      "SV Werder Bremen have scored 15 league goals in 7 games; the model expects 2.92 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "2-1",
+     "probability": 0.067
+    },
+    "alternatives": [
+     {
+      "score": "3-1",
+      "probability": 0.065
+     },
+     {
+      "score": "2-2",
+      "probability": 0.062
+     },
+     {
+      "score": "3-2",
+      "probability": 0.06
+     }
+    ],
+    "confidence": 0.117,
+    "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 2.92 (SV Werder Bremen) and 1.86 (TSG 1899 Hoffenheim).",
+     "Top scorelines: 2-1 (6.7%), 3-1 (6.5%), 2-2 (6.2%), 3-2 (6.0%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: SV Werder Bremen has 3 home games and TSG 1899 Hoffenheim 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-30T02:46:33.514Z"
+ },
+ {
+  "fixture": {
+   "id": "565847",
+   "kickoffUtc": "2026-10-31T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "3",
+    "name": "Bayer 04 Leverkusen",
+    "short": "B04"
+   },
+   "away": {
+    "id": "10",
+    "name": "VfB Stuttgart",
+    "short": "VFB"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.796,
+    "draw": 0.133,
+    "awayWin": 0.071,
+    "pick": "H",
+    "confidence": 0.701,
+    "reasoning": "Poisson model: expected goals Bayer 04 Leverkusen 2.69 vs VfB Stuttgart 0.69, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Bayer 04 Leverkusen at home: 3W-0D-0L, 8 scored and 1 conceded in 3 games.",
+     "VfB Stuttgart away: 1W-0D-3L, 4 scored and 8 conceded in 4 games.",
+     "League averages this season: home teams 2.19 goals per game, away teams 1.37.",
+     "Recent league form (newest first): Bayer 04 Leverkusen LWWWD, VfB Stuttgart LLWLL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Bayer 04 Leverkusen has 3 home games and VfB Stuttgart 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "1826",
+     "name": "Patrik Schick",
+     "team": "Bayer 04 Leverkusen",
+     "probability": 0.636,
+     "confidence": 0.34,
+     "reasoning": "6 of Bayer 04 Leverkusen's 16 league goals this season (38%), applied to the 2.69 goals the model expects from them here.",
+     "evidence": [
+      "Patrik Schick: 6 league goals in 7 appearances this season.",
+      "Bayer 04 Leverkusen have scored 16 league goals in 7 games; the model expects 2.69 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "274045",
+     "name": "Christian Kofane",
+     "team": "Bayer 04 Leverkusen",
+     "probability": 0.286,
+     "confidence": 0.194,
+     "reasoning": "2 of Bayer 04 Leverkusen's 16 league goals this season (13%), applied to the 2.69 goals the model expects from them here.",
+     "evidence": [
+      "Christian Kofane: 2 league goals in 4 appearances this season.",
+      "Bayer 04 Leverkusen have scored 16 league goals in 7 games; the model expects 2.69 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "202532",
+     "name": "Ibrahim Maza",
+     "team": "Bayer 04 Leverkusen",
+     "probability": 0.286,
+     "confidence": 0.194,
+     "reasoning": "2 of Bayer 04 Leverkusen's 16 league goals this season (13%), applied to the 2.69 goals the model expects from them here.",
+     "evidence": [
+      "Ibrahim Maza: 2 league goals in 7 appearances this season.",
+      "Bayer 04 Leverkusen have scored 16 league goals in 7 games; the model expects 2.69 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "2-0",
+     "probability": 0.124
+    },
+    "alternatives": [
+     {
+      "score": "3-0",
+      "probability": 0.111
+     },
+     {
+      "score": "1-0",
+      "probability": 0.092
+     },
+     {
+      "score": "2-1",
+      "probability": 0.085
+     }
+    ],
+    "confidence": 0.216,
+    "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 2.69 (Bayer 04 Leverkusen) and 0.69 (VfB Stuttgart).",
+     "Top scorelines: 2-0 (12.4%), 3-0 (11.1%), 1-0 (9.2%), 2-1 (8.5%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Bayer 04 Leverkusen has 3 home games and VfB Stuttgart 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-10-30T02:45:56.292Z"
+ }
+]
