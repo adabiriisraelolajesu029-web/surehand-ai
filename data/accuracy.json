@@ -1,22 +1,44 @@
 {
- "settled": 12,
+ "settled": 14,
  "outcome": {
-  "n": 12,
-  "hit": 5,
-  "rate": 0.4166666666666667
+  "n": 14,
+  "hit": 7,
+  "rate": 0.5
  },
  "correctScore": {
-  "n": 12,
+  "n": 14,
   "hit": 2,
-  "rate": 0.16666666666666666
+  "rate": 0.14285714285714285
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-10-31T10:46:59.055Z",
+ "updatedAt": "2026-10-31T16:00:07.368Z",
  "tracked": [
+  {
+   "match": "Levante UD v Club Atlético de Madrid",
+   "lockedAt": "2026-10-30T02:44:18.192Z",
+   "pick": "A",
+   "score": "1-2",
+   "actual": {
+    "home": 0,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "Chelsea FC v Manchester United FC",
+   "lockedAt": "2026-10-30T02:43:46.770Z",
+   "pick": "H",
+   "score": "2-1",
+   "actual": {
+    "home": 2,
+    "away": 0
+   },
+   "scorers": []
+  },
   {
    "match": "Lille OSC v Racing Club de Lens",
    "lockedAt": "2026-10-29T11:18:01.187Z",

@@ -389,5 +389,10 @@
  },
  "dataSnapshotAt": "2026-10-30T02:43:16.539Z",
  "lockedAt": "2026-10-30T02:43:46.770Z",
- "result": null
+ "result": {
+  "home": 2,
+  "away": 0,
+  "scorers": null,
+  "recordedAt": "2026-10-31T16:00:07.359Z"
+ }
 }

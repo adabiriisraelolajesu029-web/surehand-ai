@@ -40,26 +40,6 @@
   }
  },
  {
-  "id": "575382",
-  "kickoffUtc": "2026-11-03T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "94",
-   "name": "Villarreal CF",
-   "short": "VIL"
-  },
-  "away": {
-   "id": "524",
-   "name": "Paris Saint-Germain FC",
-   "short": "PSG"
-  }
- },
- {
   "id": "575384",
   "kickoffUtc": "2026-11-03T20:00:00.000Z",
   "status": "scheduled",
@@ -100,7 +80,7 @@
   }
  },
  {
-  "id": "575383",
+  "id": "575382",
   "kickoffUtc": "2026-11-03T20:00:00.000Z",
   "status": "scheduled",
   "league": {
@@ -109,14 +89,14 @@
    "country": "Europe"
   },
   "home": {
-   "id": "66",
-   "name": "Manchester United FC",
-   "short": "MUN"
+   "id": "94",
+   "name": "Villarreal CF",
+   "short": "VIL"
   },
   "away": {
-   "id": "100",
-   "name": "AS Roma",
-   "short": "ROM"
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
   }
  },
  {
@@ -177,6 +157,26 @@
    "id": "5",
    "name": "FC Bayern München",
    "short": "FCB"
+  }
+ },
+ {
+  "id": "575383",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "66",
+   "name": "Manchester United FC",
+   "short": "MUN"
+  },
+  "away": {
+   "id": "100",
+   "name": "AS Roma",
+   "short": "ROM"
   }
  }
 ]
