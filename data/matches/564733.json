@@ -1,0 +1,383 @@
+{
+ "fixtureId": "564733",
+ "kickoffUtc": "2026-11-01T13:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564733",
+   "kickoffUtc": "2026-11-01T13:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "82",
+    "name": "Getafe CF",
+    "short": "GET"
+   },
+   "away": {
+    "id": "559",
+    "name": "Sevilla FC",
+    "short": "SEV"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.68,
+   "awayGoals": 1.31
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Athletic Club",
+     "venue": "A",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Rayo Vallecano de Madrid",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "FC Barcelona",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Málaga CF",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Real Betis Balompié",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "CA Osasuna",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Real Madrid CF",
+     "venue": "A",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Levante UD",
+     "venue": "A",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    },
+    {
+     "opp": "FC Barcelona",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "RC Deportivo La Coruña",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 2,
+     "d": 3,
+     "l": 5,
+     "gf": 5,
+     "ga": 15
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 3,
+     "l": 0,
+     "gf": 5,
+     "ga": 3
+    },
+    "away": {
+     "p": 5,
+     "w": 0,
+     "d": 0,
+     "l": 5,
+     "gf": 0,
+     "ga": 12
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 5,
+     "d": 2,
+     "l": 3,
+     "gf": 16,
+     "ga": 16
+    },
+    "home": {
+     "p": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 7,
+     "ga": 7
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 2,
+     "l": 1,
+     "gf": 9,
+     "ga": 9
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-02-22",
+    "homeId": "82",
+    "awayId": "559",
+    "home": "Getafe CF",
+    "away": "Sevilla FC",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2025-08-25",
+    "homeId": "559",
+    "awayId": "82",
+    "home": "Sevilla FC",
+    "away": "Getafe CF",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-02-01",
+    "homeId": "82",
+    "awayId": "559",
+    "home": "Getafe CF",
+    "away": "Sevilla FC",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2024-09-14",
+    "homeId": "559",
+    "awayId": "82",
+    "home": "Sevilla FC",
+    "away": "Getafe CF",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2024-03-30",
+    "homeId": "82",
+    "awayId": "559",
+    "home": "Getafe CF",
+    "away": "Sevilla FC",
+    "hg": 0,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "152458",
+    "name": "Martin Satriano",
+    "team": "Getafe CF",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "213043",
+    "name": "Isaac",
+    "team": "Sevilla FC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "226950",
+    "name": "Miguel Ángel Sierra",
+    "team": "Sevilla FC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "127657",
+    "name": "Félix Correia",
+    "team": "Sevilla FC",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "33092",
+    "name": "Jon Guridi",
+    "team": "Sevilla FC",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "185105",
+    "name": "Peque",
+    "team": "Sevilla FC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.276,
+   "draw": 0.305,
+   "awayWin": 0.419,
+   "pick": "A",
+   "confidence": 0.419,
+   "reasoning": "Poisson model: expected goals Getafe CF 0.86 vs Sevilla FC 1.14, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Getafe CF at home: 2W-3D-0L, 5 scored and 3 conceded in 5 games.",
+    "Sevilla FC away: 2W-2D-1L, 9 scored and 9 conceded in 5 games.",
+    "League averages this season: home teams 1.68 goals per game, away teams 1.31.",
+    "Recent league form (newest first): Getafe CF LDLWL, Sevilla FC WLDLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Getafe CF has 5 home games and Sevilla FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "152458",
+    "name": "Martin Satriano",
+    "team": "Getafe CF",
+    "probability": 0.292,
+    "confidence": 0.233,
+    "reasoning": "2 of Getafe CF's 5 league goals this season (40%), applied to the 0.86 goals the model expects from them here.",
+    "evidence": [
+     "Martin Satriano: 2 league goals in 10 appearances this season.",
+     "Getafe CF have scored 5 league goals in 10 games; the model expects 0.86 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "213043",
+    "name": "Isaac",
+    "team": "Sevilla FC",
+    "probability": 0.192,
+    "confidence": 0.154,
+    "reasoning": "3 of Sevilla FC's 16 league goals this season (19%), applied to the 1.14 goals the model expects from them here.",
+    "evidence": [
+     "Isaac: 3 league goals in 9 appearances this season.",
+     "Sevilla FC have scored 16 league goals in 10 games; the model expects 1.14 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "226950",
+    "name": "Miguel Ángel Sierra",
+    "team": "Sevilla FC",
+    "probability": 0.132,
+    "confidence": 0.106,
+    "reasoning": "2 of Sevilla FC's 16 league goals this season (13%), applied to the 1.14 goals the model expects from them here.",
+    "evidence": [
+     "Miguel Ángel Sierra: 2 league goals in 8 appearances this season.",
+     "Sevilla FC have scored 16 league goals in 10 games; the model expects 1.14 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-1",
+    "probability": 0.154
+   },
+   "alternatives": [
+    {
+     "score": "0-0",
+     "probability": 0.135
+    },
+    {
+     "score": "1-1",
+     "probability": 0.133
+    },
+    {
+     "score": "1-0",
+     "probability": 0.117
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.86 (Getafe CF) and 1.14 (Sevilla FC).",
+    "Top scorelines: 0-1 (15.4%), 0-0 (13.5%), 1-1 (13.3%), 1-0 (11.7%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Getafe CF has 5 home games and Sevilla FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-31T02:34:05.667Z",
+ "lockedAt": "2026-10-31T02:34:36.092Z",
+ "result": null
+}

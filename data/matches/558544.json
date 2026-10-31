@@ -1,0 +1,346 @@
+{
+ "fixtureId": "558544",
+ "kickoffUtc": "2026-11-01T14:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558544",
+   "kickoffUtc": "2026-11-01T14:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "470",
+    "name": "Frosinone Calcio",
+    "short": "FRO"
+   },
+   "away": {
+    "id": "586",
+    "name": "Torino FC",
+    "short": "TOR"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6111111111111112,
+   "awayGoals": 1.5444444444444445
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "US Lecce",
+     "venue": "H",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Atalanta BC",
+     "venue": "A",
+     "gf": 4,
+     "ga": 4,
+     "res": "D"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "H",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "SSC Napoli",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Como 1907",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Como 1907",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "AC Monza",
+     "venue": "H",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "Parma Calcio 1913",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Udinese Calcio",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Bologna FC 1909",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 9,
+     "w": 5,
+     "d": 2,
+     "l": 2,
+     "gf": 22,
+     "ga": 14
+    },
+    "home": {
+     "p": 5,
+     "w": 4,
+     "d": 0,
+     "l": 1,
+     "gf": 14,
+     "ga": 6
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 2,
+     "l": 1,
+     "gf": 8,
+     "ga": 8
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 9,
+     "w": 4,
+     "d": 1,
+     "l": 4,
+     "gf": 14,
+     "ga": 14
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 0,
+     "l": 3,
+     "gf": 7,
+     "ga": 10
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 7,
+     "ga": 4
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2024-04-21",
+    "homeId": "586",
+    "awayId": "470",
+    "home": "Torino FC",
+    "away": "Frosinone Calcio",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2023-12-10",
+    "homeId": "470",
+    "awayId": "586",
+    "home": "Frosinone Calcio",
+    "away": "Torino FC",
+    "hg": 0,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "169216",
+    "name": "Antonio Raimondo",
+    "team": "Frosinone Calcio",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 8,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "40786",
+    "name": "Giacomo Calò",
+    "team": "Frosinone Calcio",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "211564",
+    "name": "Giorgi Kvernadze",
+    "team": "Frosinone Calcio",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "4119",
+    "name": "Che Adams",
+    "team": "Torino FC",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "59075",
+    "name": "Sandro Kulenović",
+    "team": "Torino FC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.539,
+   "draw": 0.208,
+   "awayWin": 0.253,
+   "pick": "H",
+   "confidence": 0.518,
+   "reasoning": "Poisson model: expected goals Frosinone Calcio 2.14 vs Torino FC 1.42, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Frosinone Calcio at home: 4W-0D-1L, 14 scored and 6 conceded in 5 games.",
+    "Torino FC away: 2W-1D-1L, 7 scored and 4 conceded in 4 games.",
+    "League averages this season: home teams 1.61 goals per game, away teams 1.54.",
+    "Recent league form (newest first): Frosinone Calcio WDWLW, Torino FC LWWWD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Frosinone Calcio has 5 home games and Torino FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "169216",
+    "name": "Antonio Raimondo",
+    "team": "Frosinone Calcio",
+    "probability": 0.541,
+    "confidence": 0.38,
+    "reasoning": "8 of Frosinone Calcio's 22 league goals this season (36%), applied to the 2.14 goals the model expects from them here.",
+    "evidence": [
+     "Antonio Raimondo: 8 league goals in 9 appearances this season.",
+     "Frosinone Calcio have scored 22 league goals in 9 games; the model expects 2.14 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "4119",
+    "name": "Che Adams",
+    "team": "Torino FC",
+    "probability": 0.334,
+    "confidence": 0.254,
+    "reasoning": "4 of Torino FC's 14 league goals this season (29%), applied to the 1.42 goals the model expects from them here.",
+    "evidence": [
+     "Che Adams: 4 league goals in 7 appearances this season.",
+     "Torino FC have scored 14 league goals in 9 games; the model expects 1.42 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "40786",
+    "name": "Giacomo Calò",
+    "team": "Frosinone Calcio",
+    "probability": 0.322,
+    "confidence": 0.245,
+    "reasoning": "4 of Frosinone Calcio's 22 league goals this season (18%), applied to the 2.14 goals the model expects from them here.",
+    "evidence": [
+     "Giacomo Calò: 4 league goals in 9 appearances this season.",
+     "Frosinone Calcio have scored 22 league goals in 9 games; the model expects 2.14 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-1",
+    "probability": 0.092
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.086
+    },
+    {
+     "score": "3-1",
+     "probability": 0.066
+    },
+    {
+     "score": "2-2",
+     "probability": 0.066
+    }
+   ],
+   "confidence": 0.208,
+   "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.14 (Frosinone Calcio) and 1.42 (Torino FC).",
+    "Top scorelines: 2-1 (9.2%), 1-1 (8.6%), 3-1 (6.6%), 2-2 (6.6%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Frosinone Calcio has 5 home games and Torino FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-31T02:35:24.402Z",
+ "lockedAt": "2026-10-31T02:35:42.942Z",
+ "result": null
+}

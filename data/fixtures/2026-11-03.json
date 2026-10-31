@@ -1,25 +1,5 @@
 [
  {
-  "id": "575377",
-  "kickoffUtc": "2026-11-03T17:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "1887",
-   "name": "FK Shakhtar Donetsk",
-   "short": "SHD"
-  },
-  "away": {
-   "id": "498",
-   "name": "Sporting Clube de Portugal",
-   "short": "SPO"
-  }
- },
- {
   "id": "575378",
   "kickoffUtc": "2026-11-03T17:45:00.000Z",
   "status": "scheduled",
@@ -40,7 +20,27 @@
   }
  },
  {
-  "id": "575381",
+  "id": "575377",
+  "kickoffUtc": "2026-11-03T17:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "1887",
+   "name": "FK Shakhtar Donetsk",
+   "short": "SHD"
+  },
+  "away": {
+   "id": "498",
+   "name": "Sporting Clube de Portugal",
+   "short": "SPO"
+  }
+ },
+ {
+  "id": "575382",
   "kickoffUtc": "2026-11-03T20:00:00.000Z",
   "status": "scheduled",
   "league": {
@@ -49,14 +49,54 @@
    "country": "Europe"
   },
   "home": {
-   "id": "78",
-   "name": "Club Atlético de Madrid",
-   "short": "ATL"
+   "id": "94",
+   "name": "Villarreal CF",
+   "short": "VIL"
   },
   "away": {
-   "id": "5",
-   "name": "FC Bayern München",
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  }
+ },
+ {
+  "id": "575384",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "5721",
+   "name": "FK Bodø/Glimt",
+   "short": "FK"
+  },
+  "away": {
+   "id": "521",
+   "name": "Lille OSC",
+   "short": "LIL"
+  }
+ },
+ {
+  "id": "575380",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "81",
+   "name": "FC Barcelona",
    "short": "FCB"
+  },
+  "away": {
+   "id": "58",
+   "name": "Aston Villa FC",
+   "short": "AVL"
   }
  },
  {
@@ -120,7 +160,7 @@
   }
  },
  {
-  "id": "575382",
+  "id": "575381",
   "kickoffUtc": "2026-11-03T20:00:00.000Z",
   "status": "scheduled",
   "league": {
@@ -129,54 +169,14 @@
    "country": "Europe"
   },
   "home": {
-   "id": "94",
-   "name": "Villarreal CF",
-   "short": "VIL"
+   "id": "78",
+   "name": "Club Atlético de Madrid",
+   "short": "ATL"
   },
   "away": {
-   "id": "524",
-   "name": "Paris Saint-Germain FC",
-   "short": "PSG"
-  }
- },
- {
-  "id": "575384",
-  "kickoffUtc": "2026-11-03T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "5721",
-   "name": "FK Bodø/Glimt",
-   "short": "FK"
-  },
-  "away": {
-   "id": "521",
-   "name": "Lille OSC",
-   "short": "LIL"
-  }
- },
- {
-  "id": "575380",
-  "kickoffUtc": "2026-11-03T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "81",
-   "name": "FC Barcelona",
+   "id": "5",
+   "name": "FC Bayern München",
    "short": "FCB"
-  },
-  "away": {
-   "id": "58",
-   "name": "Aston Villa FC",
-   "short": "AVL"
   }
  }
 ]

@@ -20,26 +20,6 @@
   }
  },
  {
-  "id": "558545",
-  "kickoffUtc": "2026-11-02T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "102",
-   "name": "Atalanta BC",
-   "short": "ATA"
-  },
-  "away": {
-   "id": "112",
-   "name": "Parma Calcio 1913",
-   "short": "PAR"
-  }
- },
- {
   "id": "559641",
   "kickoffUtc": "2026-11-02T19:45:00.000Z",
   "status": "scheduled",
@@ -60,23 +40,23 @@
   }
  },
  {
-  "id": "564731",
-  "kickoffUtc": "2026-11-02T20:00:00.000Z",
+  "id": "558545",
+  "kickoffUtc": "2026-11-02T19:45:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PD",
-   "name": "Primera Division",
-   "country": "Spain"
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
   },
   "home": {
-   "id": "560",
-   "name": "RC Deportivo La Coruña",
-   "short": "DEP"
+   "id": "102",
+   "name": "Atalanta BC",
+   "short": "ATA"
   },
   "away": {
-   "id": "79",
-   "name": "CA Osasuna",
-   "short": "OSA"
+   "id": "112",
+   "name": "Parma Calcio 1913",
+   "short": "PAR"
   }
  },
  {
@@ -97,6 +77,26 @@
    "id": "62",
    "name": "Everton FC",
    "short": "EVE"
+  }
+ },
+ {
+  "id": "564731",
+  "kickoffUtc": "2026-11-02T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "560",
+   "name": "RC Deportivo La Coruña",
+   "short": "DEP"
+  },
+  "away": {
+   "id": "79",
+   "name": "CA Osasuna",
+   "short": "OSA"
   }
  }
 ]

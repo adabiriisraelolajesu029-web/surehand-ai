@@ -1,22 +1,77 @@
 {
- "settled": 7,
+ "settled": 12,
  "outcome": {
-  "n": 7,
-  "hit": 2,
-  "rate": 0.2857142857142857
+  "n": 12,
+  "hit": 5,
+  "rate": 0.4166666666666667
  },
  "correctScore": {
-  "n": 7,
-  "hit": 1,
-  "rate": 0.14285714285714285
+  "n": 12,
+  "hit": 2,
+  "rate": 0.16666666666666666
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-10-30T16:58:40.561Z",
+ "updatedAt": "2026-10-31T02:37:09.755Z",
  "tracked": [
+  {
+   "match": "Lille OSC v Racing Club de Lens",
+   "lockedAt": "2026-10-29T11:18:01.187Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Villarreal CF v RCD Espanyol de Barcelona",
+   "lockedAt": "2026-10-29T11:17:43.831Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 0,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "SV 07 Elversberg v 1. FSV Mainz 05",
+   "lockedAt": "2026-10-29T11:17:12.149Z",
+   "pick": "A",
+   "score": "1-2",
+   "actual": {
+    "home": 4,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Le Havre AC v Paris Saint-Germain FC",
+   "lockedAt": "2026-10-29T11:16:22.611Z",
+   "pick": "A",
+   "score": "0-2",
+   "actual": {
+    "home": 1,
+    "away": 5
+   },
+   "scorers": []
+  },
+  {
+   "match": "OGC Nice v Stade Rennais FC 1901",
+   "lockedAt": "2026-10-29T11:16:40.655Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 5,
+    "away": 2
+   },
+   "scorers": []
+  },
   {
    "match": "ACF Fiorentina v Atalanta BC",
    "lockedAt": "2026-10-28T02:25:14.527Z",
