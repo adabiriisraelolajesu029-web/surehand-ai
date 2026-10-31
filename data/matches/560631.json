@@ -1,0 +1,394 @@
+{
+ "fixtureId": "560631",
+ "kickoffUtc": "2026-11-01T16:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "560631",
+   "kickoffUtc": "2026-11-01T16:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "64",
+    "name": "Liverpool FC",
+    "short": "LIV"
+   },
+   "away": {
+    "id": "57",
+    "name": "Arsenal FC",
+    "short": "ARS"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.5125,
+   "awayGoals": 1.2625
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Brighton & Hove Albion FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Brentford FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Manchester City FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "AFC Bournemouth",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Fulham FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Everton FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Nottingham Forest FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Leeds United FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Brighton & Hove Albion FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Sunderland AFC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 4,
+     "d": 3,
+     "l": 1,
+     "gf": 11,
+     "ga": 8
+    },
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 2,
+     "l": 1,
+     "gf": 4,
+     "ga": 5
+    },
+    "away": {
+     "p": 4,
+     "w": 3,
+     "d": 1,
+     "l": 0,
+     "gf": 7,
+     "ga": 3
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 7,
+     "d": 0,
+     "l": 1,
+     "gf": 13,
+     "ga": 5
+    },
+    "home": {
+     "p": 4,
+     "w": 4,
+     "d": 0,
+     "l": 0,
+     "gf": 9,
+     "ga": 2
+    },
+    "away": {
+     "p": 4,
+     "w": 3,
+     "d": 0,
+     "l": 1,
+     "gf": 4,
+     "ga": 3
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-01-08",
+    "homeId": "57",
+    "awayId": "64",
+    "home": "Arsenal FC",
+    "away": "Liverpool FC",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2025-08-31",
+    "homeId": "64",
+    "awayId": "57",
+    "home": "Liverpool FC",
+    "away": "Arsenal FC",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2025-05-11",
+    "homeId": "64",
+    "awayId": "57",
+    "home": "Liverpool FC",
+    "away": "Arsenal FC",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2024-10-27",
+    "homeId": "57",
+    "awayId": "64",
+    "home": "Arsenal FC",
+    "away": "Liverpool FC",
+    "hg": 2,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "6486",
+    "name": "Alexander Isak",
+    "team": "Liverpool FC",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "273423",
+    "name": "Víctor Muñoz",
+    "team": "Liverpool FC",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "7459",
+    "name": "Cody Gakpo",
+    "team": "Liverpool FC",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "16347",
+    "name": "Dominik Szoboszlai",
+    "team": "Liverpool FC",
+    "pos": "Midfield",
+    "apps": 6,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "99813",
+    "name": "Bukayo Saka",
+    "team": "Arsenal FC",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "171",
+    "name": "Kai Havertz",
+    "team": "Arsenal FC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "7427",
+    "name": "Martin Ødegaard",
+    "team": "Arsenal FC",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "1684",
+    "name": "Bruno Guimarães",
+    "team": "Arsenal FC",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.203,
+   "draw": 0.332,
+   "awayWin": 0.465,
+   "pick": "A",
+   "confidence": 0.428,
+   "reasoning": "Poisson model: expected goals Liverpool FC 0.59 vs Arsenal FC 1.06, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Liverpool FC at home: 1W-2D-1L, 4 scored and 5 conceded in 4 games.",
+    "Arsenal FC away: 3W-0D-1L, 4 scored and 3 conceded in 4 games.",
+    "League averages this season: home teams 1.51 goals per game, away teams 1.26.",
+    "Recent league form (newest first): Liverpool FC WWLWD, Arsenal FC WWWLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Liverpool FC has 4 home games and Arsenal FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "6486",
+    "name": "Alexander Isak",
+    "team": "Liverpool FC",
+    "probability": 0.256,
+    "confidence": 0.184,
+    "reasoning": "6 of Liverpool FC's 11 league goals this season (50%), applied to the 0.59 goals the model expects from them here.",
+    "evidence": [
+     "Alexander Isak: 6 league goals in 7 appearances this season.",
+     "Liverpool FC have scored 11 league goals in 8 games; the model expects 0.59 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "99813",
+    "name": "Bukayo Saka",
+    "team": "Arsenal FC",
+    "probability": 0.217,
+    "confidence": 0.156,
+    "reasoning": "3 of Arsenal FC's 13 league goals this season (23%), applied to the 1.06 goals the model expects from them here.",
+    "evidence": [
+     "Bukayo Saka: 3 league goals in 7 appearances this season.",
+     "Arsenal FC have scored 13 league goals in 8 games; the model expects 1.06 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "171",
+    "name": "Kai Havertz",
+    "team": "Arsenal FC",
+    "probability": 0.15,
+    "confidence": 0.108,
+    "reasoning": "2 of Arsenal FC's 13 league goals this season (15%), applied to the 1.06 goals the model expects from them here.",
+    "evidence": [
+     "Kai Havertz: 2 league goals in 8 appearances this season.",
+     "Arsenal FC have scored 13 league goals in 8 games; the model expects 1.06 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-1",
+    "probability": 0.203
+   },
+   "alternatives": [
+    {
+     "score": "0-0",
+     "probability": 0.192
+    },
+    {
+     "score": "1-1",
+     "probability": 0.12
+    },
+    {
+     "score": "1-0",
+     "probability": 0.113
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.59 (Liverpool FC) and 1.06 (Arsenal FC).",
+    "Top scorelines: 0-1 (20.3%), 0-0 (19.2%), 1-1 (12.0%), 1-0 (11.3%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Liverpool FC has 4 home games and Arsenal FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-31T10:44:17.389Z",
+ "lockedAt": "2026-10-31T10:44:48.374Z",
+ "result": null
+}

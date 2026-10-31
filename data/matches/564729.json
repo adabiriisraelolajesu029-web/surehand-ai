@@ -1,0 +1,395 @@
+{
+ "fixtureId": "564729",
+ "kickoffUtc": "2026-11-01T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564729",
+   "kickoffUtc": "2026-11-01T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "77",
+    "name": "Athletic Club",
+    "short": "ATH"
+   },
+   "away": {
+    "id": "92",
+    "name": "Real Sociedad de Fútbol",
+    "short": "RSO"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.68,
+   "awayGoals": 1.31
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Getafe CF",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Levante UD",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Valencia CF",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Deportivo Alavés",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Elche CF",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Levante UD",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Málaga CF",
+     "venue": "A",
+     "gf": 5,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "RC Deportivo La Coruña",
+     "venue": "H",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "Valencia CF",
+     "venue": "A",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "Club Atlético de Madrid",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 9,
+     "w": 3,
+     "d": 3,
+     "l": 3,
+     "gf": 12,
+     "ga": 9
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 2,
+     "l": 1,
+     "gf": 9,
+     "ga": 4
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 3,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 6,
+     "d": 1,
+     "l": 3,
+     "gf": 19,
+     "ga": 18
+    },
+    "home": {
+     "p": 5,
+     "w": 3,
+     "d": 1,
+     "l": 1,
+     "gf": 7,
+     "ga": 7
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 12,
+     "ga": 11
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-02-01",
+    "homeId": "77",
+    "awayId": "92",
+    "home": "Athletic Club",
+    "away": "Real Sociedad de Fútbol",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2025-11-01",
+    "homeId": "92",
+    "awayId": "77",
+    "home": "Real Sociedad de Fútbol",
+    "away": "Athletic Club",
+    "hg": 3,
+    "ag": 2
+   },
+   {
+    "date": "2025-05-04",
+    "homeId": "92",
+    "awayId": "77",
+    "home": "Real Sociedad de Fútbol",
+    "away": "Athletic Club",
+    "hg": 0,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "2294",
+    "name": "Álex Berenguer",
+    "team": "Athletic Club",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "151439",
+    "name": "Aitor Paredes Casamichana",
+    "team": "Athletic Club",
+    "pos": "Defence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "101870",
+    "name": "Roberto Navarro",
+    "team": "Athletic Club",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "32629",
+    "name": "Iñaki Williams",
+    "team": "Athletic Club",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "82516",
+    "name": "Luka Sučić",
+    "team": "Real Sociedad de Fútbol",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "182319",
+    "name": "Orri Oskarsson",
+    "team": "Real Sociedad de Fútbol",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "101182",
+    "name": "Ander Barrenetxea",
+    "team": "Real Sociedad de Fútbol",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "3259",
+    "name": "Gonçalo Guedes",
+    "team": "Real Sociedad de Fútbol",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "180137",
+    "name": "Mikel Oyarzabal",
+    "team": "Real Sociedad de Fútbol",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.554,
+   "draw": 0.209,
+   "awayWin": 0.237,
+   "pick": "H",
+   "confidence": 0.532,
+   "reasoning": "Poisson model: expected goals Athletic Club 2.10 vs Real Sociedad de Fútbol 1.32, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Athletic Club at home: 2W-2D-1L, 9 scored and 4 conceded in 5 games.",
+    "Real Sociedad de Fútbol away: 3W-0D-2L, 12 scored and 11 conceded in 5 games.",
+    "League averages this season: home teams 1.68 goals per game, away teams 1.31.",
+    "Recent league form (newest first): Athletic Club WLDDD, Real Sociedad de Fútbol WWWWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Athletic Club has 5 home games and Real Sociedad de Fútbol 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "2294",
+    "name": "Álex Berenguer",
+    "team": "Athletic Club",
+    "probability": 0.409,
+    "confidence": 0.311,
+    "reasoning": "3 of Athletic Club's 12 league goals this season (25%), applied to the 2.10 goals the model expects from them here.",
+    "evidence": [
+     "Álex Berenguer: 3 league goals in 10 appearances this season.",
+     "Athletic Club have scored 12 league goals in 9 games; the model expects 2.10 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "151439",
+    "name": "Aitor Paredes Casamichana",
+    "team": "Athletic Club",
+    "probability": 0.296,
+    "confidence": 0.225,
+    "reasoning": "2 of Athletic Club's 12 league goals this season (17%), applied to the 2.10 goals the model expects from them here.",
+    "evidence": [
+     "Aitor Paredes Casamichana: 2 league goals in 10 appearances this season.",
+     "Athletic Club have scored 12 league goals in 9 games; the model expects 2.10 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "101870",
+    "name": "Roberto Navarro",
+    "team": "Athletic Club",
+    "probability": 0.296,
+    "confidence": 0.225,
+    "reasoning": "2 of Athletic Club's 12 league goals this season (17%), applied to the 2.10 goals the model expects from them here.",
+    "evidence": [
+     "Roberto Navarro: 2 league goals in 10 appearances this season.",
+     "Athletic Club have scored 12 league goals in 9 games; the model expects 2.10 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-1",
+    "probability": 0.095
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.091
+    },
+    {
+     "score": "2-0",
+     "probability": 0.072
+    },
+    {
+     "score": "1-0",
+     "probability": 0.069
+    }
+   ],
+   "confidence": 0.214,
+   "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.10 (Athletic Club) and 1.32 (Real Sociedad de Fútbol).",
+    "Top scorelines: 2-1 (9.5%), 1-1 (9.1%), 2-0 (7.2%), 1-0 (6.9%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Athletic Club has 5 home games and Real Sociedad de Fútbol 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-31T10:46:14.644Z",
+ "lockedAt": "2026-10-31T10:46:33.246Z",
+ "result": null
+}

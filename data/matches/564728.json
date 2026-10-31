@@ -1,0 +1,325 @@
+{
+ "fixtureId": "564728",
+ "kickoffUtc": "2026-11-01T17:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564728",
+   "kickoffUtc": "2026-11-01T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "285",
+    "name": "Elche CF",
+    "short": "ELC"
+   },
+   "away": {
+    "id": "95",
+    "name": "Valencia CF",
+    "short": "VAL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.68,
+   "awayGoals": 1.31
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Rayo Vallecano de Madrid",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Villarreal CF",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "RC Celta de Vigo",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "RCD Espanyol de Barcelona",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Real Madrid CF",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Villarreal CF",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Athletic Club",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Real Sociedad de Fútbol",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Deportivo Alavés",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 2,
+     "d": 4,
+     "l": 4,
+     "gf": 14,
+     "ga": 17
+    },
+    "home": {
+     "p": 4,
+     "w": 0,
+     "d": 1,
+     "l": 3,
+     "gf": 4,
+     "ga": 11
+    },
+    "away": {
+     "p": 6,
+     "w": 2,
+     "d": 3,
+     "l": 1,
+     "gf": 10,
+     "ga": 6
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 1,
+     "d": 3,
+     "l": 6,
+     "gf": 7,
+     "ga": 17
+    },
+    "home": {
+     "p": 6,
+     "w": 0,
+     "d": 2,
+     "l": 4,
+     "gf": 3,
+     "ga": 11
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 4,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-11",
+    "homeId": "285",
+    "awayId": "95",
+    "home": "Elche CF",
+    "away": "Valencia CF",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2026-01-10",
+    "homeId": "95",
+    "awayId": "285",
+    "home": "Valencia CF",
+    "away": "Elche CF",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2023-04-23",
+    "homeId": "285",
+    "awayId": "95",
+    "home": "Elche CF",
+    "away": "Valencia CF",
+    "hg": 0,
+    "ag": 2
+   },
+   {
+    "date": "2022-10-15",
+    "homeId": "95",
+    "awayId": "285",
+    "home": "Valencia CF",
+    "away": "Elche CF",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2022-03-19",
+    "homeId": "285",
+    "awayId": "95",
+    "home": "Elche CF",
+    "away": "Valencia CF",
+    "hg": 0,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "214497",
+    "name": "Fer Niño",
+    "team": "Elche CF",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "137485",
+    "name": "Germán Valera",
+    "team": "Elche CF",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": []
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.368,
+   "draw": 0.263,
+   "awayWin": 0.368,
+   "pick": "H",
+   "confidence": 0.368,
+   "reasoning": "Poisson model: expected goals Elche CF 1.31 vs Valencia CF 1.31, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Elche CF at home: 0W-1D-3L, 4 scored and 11 conceded in 4 games.",
+    "Valencia CF away: 1W-1D-2L, 4 scored and 6 conceded in 4 games.",
+    "League averages this season: home teams 1.68 goals per game, away teams 1.31.",
+    "Recent league form (newest first): Elche CF WDDWL, Valencia CF LDDLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Elche CF has 4 home games and Valencia CF 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "214497",
+    "name": "Fer Niño",
+    "team": "Elche CF",
+    "probability": 0.429,
+    "confidence": 0.343,
+    "reasoning": "6 of Elche CF's 14 league goals this season (43%), applied to the 1.31 goals the model expects from them here.",
+    "evidence": [
+     "Fer Niño: 6 league goals in 10 appearances this season.",
+     "Elche CF have scored 14 league goals in 10 games; the model expects 1.31 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "137485",
+    "name": "Germán Valera",
+    "team": "Elche CF",
+    "probability": 0.17,
+    "confidence": 0.136,
+    "reasoning": "2 of Elche CF's 14 league goals this season (14%), applied to the 1.31 goals the model expects from them here.",
+    "evidence": [
+     "Germán Valera: 2 league goals in 10 appearances this season.",
+     "Elche CF have scored 14 league goals in 10 games; the model expects 1.31 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-1",
+    "probability": 0.125
+   },
+   "alternatives": [
+    {
+     "score": "1-0",
+     "probability": 0.096
+    },
+    {
+     "score": "0-1",
+     "probability": 0.096
+    },
+    {
+     "score": "2-1",
+     "probability": 0.082
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.31 (Elche CF) and 1.31 (Valencia CF).",
+    "Top scorelines: 1-1 (12.5%), 1-0 (9.6%), 0-1 (9.6%), 2-1 (8.2%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Elche CF has 4 home games and Valencia CF 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-31T10:45:20.000Z",
+ "lockedAt": "2026-10-31T10:45:37.707Z",
+ "result": null
+}

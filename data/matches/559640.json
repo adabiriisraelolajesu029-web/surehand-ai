@@ -1,0 +1,383 @@
+{
+ "fixtureId": "559640",
+ "kickoffUtc": "2026-11-01T16:15:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559640",
+   "kickoffUtc": "2026-11-01T16:15:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "523",
+    "name": "Olympique Lyonnais",
+    "short": "LYO"
+   },
+   "away": {
+    "id": "532",
+    "name": "Angers SCO",
+    "short": "ANG"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6533333333333333,
+   "awayGoals": 1.3866666666666667
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Paris Saint-Germain FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "OGC Nice",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Paris FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "FC Lorient",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Olympique de Marseille",
+     "venue": "H",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "Stade Brestois 29",
+     "venue": "A",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "ES Troyes AC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Le Havre AC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 4,
+     "d": 2,
+     "l": 2,
+     "gf": 13,
+     "ga": 7
+    },
+    "home": {
+     "p": 4,
+     "w": 3,
+     "d": 1,
+     "l": 0,
+     "gf": 10,
+     "ga": 3
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 3,
+     "ga": 4
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 2,
+     "d": 2,
+     "l": 4,
+     "gf": 9,
+     "ga": 15
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 1,
+     "l": 3,
+     "gf": 5,
+     "ga": 9
+    },
+    "away": {
+     "p": 3,
+     "w": 1,
+     "d": 1,
+     "l": 1,
+     "gf": 4,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-05",
+    "homeId": "532",
+    "awayId": "523",
+    "home": "Angers SCO",
+    "away": "Olympique Lyonnais",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2025-09-19",
+    "homeId": "523",
+    "awayId": "532",
+    "home": "Olympique Lyonnais",
+    "away": "Angers SCO",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2025-05-17",
+    "homeId": "523",
+    "awayId": "532",
+    "home": "Olympique Lyonnais",
+    "away": "Angers SCO",
+    "hg": 2,
+    "ag": 0
+   },
+   {
+    "date": "2024-12-07",
+    "homeId": "532",
+    "awayId": "523",
+    "home": "Angers SCO",
+    "away": "Olympique Lyonnais",
+    "hg": 0,
+    "ag": 3
+   },
+   {
+    "date": "2023-02-25",
+    "homeId": "532",
+    "awayId": "523",
+    "home": "Angers SCO",
+    "away": "Olympique Lyonnais",
+    "hg": 1,
+    "ag": 3
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "184726",
+    "name": "Ernest Nuamah",
+    "team": "Olympique Lyonnais",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "256424",
+    "name": "Zachary Athekame",
+    "team": "Olympique Lyonnais",
+    "pos": "Defence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "215864",
+    "name": "Noah Nartey",
+    "team": "Olympique Lyonnais",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "187065",
+    "name": "Malick Fofana",
+    "team": "Olympique Lyonnais",
+    "pos": "Offence",
+    "apps": 2,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "137515",
+    "name": "Amine El Ouazzani",
+    "team": "Angers SCO",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "278087",
+    "name": "Prosper Peter",
+    "team": "Angers SCO",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.794,
+   "draw": 0.137,
+   "awayWin": 0.07,
+   "pick": "H",
+   "confidence": 0.73,
+   "reasoning": "Poisson model: expected goals Olympique Lyonnais 2.61 vs Angers SCO 0.65, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Olympique Lyonnais at home: 3W-1D-0L, 10 scored and 3 conceded in 4 games.",
+    "Angers SCO away: 1W-1D-1L, 4 scored and 6 conceded in 3 games.",
+    "League averages this season: home teams 1.65 goals per game, away teams 1.39.",
+    "Recent league form (newest first): Olympique Lyonnais LWLWD, Angers SCO DLLWD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Olympique Lyonnais has 4 home games and Angers SCO 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "184726",
+    "name": "Ernest Nuamah",
+    "team": "Olympique Lyonnais",
+    "probability": 0.452,
+    "confidence": 0.326,
+    "reasoning": "3 of Olympique Lyonnais's 13 league goals this season (23%), applied to the 2.61 goals the model expects from them here.",
+    "evidence": [
+     "Ernest Nuamah: 3 league goals in 8 appearances this season.",
+     "Olympique Lyonnais have scored 13 league goals in 8 games; the model expects 2.61 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "256424",
+    "name": "Zachary Athekame",
+    "team": "Olympique Lyonnais",
+    "probability": 0.331,
+    "confidence": 0.238,
+    "reasoning": "2 of Olympique Lyonnais's 13 league goals this season (15%), applied to the 2.61 goals the model expects from them here.",
+    "evidence": [
+     "Zachary Athekame: 2 league goals in 8 appearances this season.",
+     "Olympique Lyonnais have scored 13 league goals in 8 games; the model expects 2.61 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "215864",
+    "name": "Noah Nartey",
+    "team": "Olympique Lyonnais",
+    "probability": 0.182,
+    "confidence": 0.131,
+    "reasoning": "1 of Olympique Lyonnais's 13 league goals this season (8%), applied to the 2.61 goals the model expects from them here.",
+    "evidence": [
+     "Noah Nartey: 1 league goals in 8 appearances this season.",
+     "Olympique Lyonnais have scored 13 league goals in 8 games; the model expects 2.61 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-0",
+    "probability": 0.131
+   },
+   "alternatives": [
+    {
+     "score": "3-0",
+     "probability": 0.114
+    },
+    {
+     "score": "1-0",
+     "probability": 0.101
+    },
+    {
+     "score": "2-1",
+     "probability": 0.085
+    }
+   ],
+   "confidence": 0.263,
+   "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.61 (Olympique Lyonnais) and 0.65 (Angers SCO).",
+    "Top scorelines: 2-0 (13.1%), 3-0 (11.4%), 1-0 (10.1%), 2-1 (8.5%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Olympique Lyonnais has 4 home games and Angers SCO 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-31T10:42:57.321Z",
+ "lockedAt": "2026-10-31T10:43:27.795Z",
+ "result": null
+}

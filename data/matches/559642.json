@@ -1,0 +1,346 @@
+{
+ "fixtureId": "559642",
+ "kickoffUtc": "2026-11-01T16:15:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559642",
+   "kickoffUtc": "2026-11-01T16:15:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "1045",
+    "name": "Paris FC",
+    "short": "PFC"
+   },
+   "away": {
+    "id": "548",
+    "name": "AS Monaco FC",
+    "short": "ASM"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6533333333333333,
+   "awayGoals": 1.3866666666666667
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "H",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "opp": "FC Lorient",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "RC Strasbourg Alsace",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Olympique Lyonnais",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Lille OSC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "FC Lorient",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Toulouse FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "RC Strasbourg Alsace",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 4,
+     "d": 2,
+     "l": 2,
+     "gf": 13,
+     "ga": 9
+    },
+    "home": {
+     "p": 4,
+     "w": 3,
+     "d": 1,
+     "l": 0,
+     "gf": 9,
+     "ga": 4
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 4,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 4,
+     "d": 3,
+     "l": 1,
+     "gf": 11,
+     "ga": 7
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 2,
+     "l": 0,
+     "gf": 7,
+     "ga": 4
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 4,
+     "ga": 3
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-10",
+    "homeId": "1045",
+    "awayId": "548",
+    "home": "Paris FC",
+    "away": "AS Monaco FC",
+    "hg": 4,
+    "ag": 1
+   },
+   {
+    "date": "2025-11-01",
+    "homeId": "548",
+    "awayId": "1045",
+    "home": "AS Monaco FC",
+    "away": "Paris FC",
+    "hg": 0,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "552",
+    "name": "Lassine Sinayoko",
+    "team": "Paris FC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8352",
+    "name": "Maxime López",
+    "team": "Paris FC",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "244696",
+    "name": "Paris Brunner",
+    "team": "AS Monaco FC",
+    "pos": "Offence",
+    "apps": 6,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "204238",
+    "name": "Edan Diop",
+    "team": "AS Monaco FC",
+    "pos": "Midfield",
+    "apps": 5,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "3314",
+    "name": "Eric Dier",
+    "team": "AS Monaco FC",
+    "pos": "Defence",
+    "apps": 6,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.397,
+   "draw": 0.32,
+   "awayWin": 0.283,
+   "pick": "H",
+   "confidence": 0.365,
+   "reasoning": "Poisson model: expected goals Paris FC 1.03 vs AS Monaco FC 0.82, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Paris FC at home: 3W-1D-0L, 9 scored and 4 conceded in 4 games.",
+    "AS Monaco FC away: 2W-1D-1L, 4 scored and 3 conceded in 4 games.",
+    "League averages this season: home teams 1.65 goals per game, away teams 1.39.",
+    "Recent league form (newest first): Paris FC LWLWD, AS Monaco FC DLDWD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Paris FC has 4 home games and AS Monaco FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "552",
+    "name": "Lassine Sinayoko",
+    "team": "Paris FC",
+    "probability": 0.379,
+    "confidence": 0.273,
+    "reasoning": "6 of Paris FC's 13 league goals this season (46%), applied to the 1.03 goals the model expects from them here.",
+    "evidence": [
+     "Lassine Sinayoko: 6 league goals in 8 appearances this season.",
+     "Paris FC have scored 13 league goals in 8 games; the model expects 1.03 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "244696",
+    "name": "Paris Brunner",
+    "team": "AS Monaco FC",
+    "probability": 0.259,
+    "confidence": 0.186,
+    "reasoning": "4 of AS Monaco FC's 11 league goals this season (36%), applied to the 0.82 goals the model expects from them here.",
+    "evidence": [
+     "Paris Brunner: 4 league goals in 6 appearances this season.",
+     "AS Monaco FC have scored 11 league goals in 8 games; the model expects 0.82 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "8352",
+    "name": "Maxime López",
+    "team": "Paris FC",
+    "probability": 0.147,
+    "confidence": 0.106,
+    "reasoning": "2 of Paris FC's 13 league goals this season (15%), applied to the 1.03 goals the model expects from them here.",
+    "evidence": [
+     "Maxime López: 2 league goals in 8 appearances this season.",
+     "Paris FC have scored 13 league goals in 8 games; the model expects 1.03 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.161
+   },
+   "alternatives": [
+    {
+     "score": "0-0",
+     "probability": 0.156
+    },
+    {
+     "score": "1-1",
+     "probability": 0.133
+    },
+    {
+     "score": "0-1",
+     "probability": 0.129
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.03 (Paris FC) and 0.82 (AS Monaco FC).",
+    "Top scorelines: 1-0 (16.1%), 0-0 (15.6%), 1-1 (13.3%), 0-1 (12.9%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Paris FC has 4 home games and AS Monaco FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-31T10:43:27.795Z",
+ "lockedAt": "2026-10-31T10:43:45.973Z",
+ "result": null
+}

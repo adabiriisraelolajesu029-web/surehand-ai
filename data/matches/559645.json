@@ -1,0 +1,404 @@
+{
+ "fixtureId": "559645",
+ "kickoffUtc": "2026-11-01T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559645",
+   "kickoffUtc": "2026-11-01T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "516",
+    "name": "Olympique de Marseille",
+    "short": "MAR"
+   },
+   "away": {
+    "id": "511",
+    "name": "Toulouse FC",
+    "short": "TOU"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6533333333333333,
+   "awayGoals": 1.3866666666666667
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Le Havre AC",
+     "venue": "H",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "opp": "Angers SCO",
+     "venue": "A",
+     "gf": 5,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "ES Troyes AC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Paris Saint-Germain FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "ES Troyes AC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Le Mans FC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "AS Monaco FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Le Havre AC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "FC Lorient",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 4,
+     "d": 0,
+     "l": 4,
+     "gf": 18,
+     "ga": 13
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 0,
+     "l": 2,
+     "gf": 11,
+     "ga": 8
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 0,
+     "l": 2,
+     "gf": 7,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 2,
+     "d": 4,
+     "l": 2,
+     "gf": 12,
+     "ga": 11
+    },
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 3,
+     "ga": 5
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 3,
+     "l": 0,
+     "gf": 9,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-03-07",
+    "homeId": "511",
+    "awayId": "516",
+    "home": "Toulouse FC",
+    "away": "Olympique de Marseille",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2025-11-29",
+    "homeId": "516",
+    "awayId": "511",
+    "home": "Olympique de Marseille",
+    "away": "Toulouse FC",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2025-04-06",
+    "homeId": "516",
+    "awayId": "511",
+    "home": "Olympique de Marseille",
+    "away": "Toulouse FC",
+    "hg": 3,
+    "ag": 2
+   },
+   {
+    "date": "2024-08-31",
+    "homeId": "511",
+    "awayId": "516",
+    "home": "Toulouse FC",
+    "away": "Olympique de Marseille",
+    "hg": 1,
+    "ag": 3
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "8476",
+    "name": "Amine Gouiri",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "80754",
+    "name": "Himad Abdelli",
+    "team": "Olympique de Marseille",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "3714",
+    "name": "Amine Harit",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "119703",
+    "name": "Igor Paixão",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "250795",
+    "name": "Keyliane Abdallah",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8093",
+    "name": "Pierre Emile Højbjerg",
+    "team": "Olympique de Marseille",
+    "pos": "Midfield",
+    "apps": 6,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "129381",
+    "name": "Casper Tengstedt",
+    "team": "Toulouse FC",
+    "pos": "Offence",
+    "apps": 6,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "182406",
+    "name": "Jacen Russell-Rowe",
+    "team": "Toulouse FC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "215679",
+    "name": "Thomas Jørgensen",
+    "team": "Toulouse FC",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.419,
+   "draw": 0.191,
+   "awayWin": 0.389,
+   "pick": "H",
+   "confidence": 0.386,
+   "reasoning": "Poisson model: expected goals Olympique de Marseille 2.35 vs Toulouse FC 2.27, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Olympique de Marseille at home: 2W-0D-2L, 11 scored and 8 conceded in 4 games.",
+    "Toulouse FC away: 1W-3D-0L, 9 scored and 6 conceded in 4 games.",
+    "League averages this season: home teams 1.65 goals per game, away teams 1.39.",
+    "Recent league form (newest first): Olympique de Marseille WWWLL, Toulouse FC DWDWD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Olympique de Marseille has 4 home games and Toulouse FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "129381",
+    "name": "Casper Tengstedt",
+    "team": "Toulouse FC",
+    "probability": 0.612,
+    "confidence": 0.36,
+    "reasoning": "5 of Toulouse FC's 12 league goals this season (42%), applied to the 2.27 goals the model expects from them here.",
+    "evidence": [
+     "Casper Tengstedt: 5 league goals in 6 appearances this season.",
+     "Toulouse FC have scored 12 league goals in 8 games; the model expects 2.27 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "8476",
+    "name": "Amine Gouiri",
+    "team": "Olympique de Marseille",
+    "probability": 0.48,
+    "confidence": 0.346,
+    "reasoning": "5 of Olympique de Marseille's 18 league goals this season (28%), applied to the 2.35 goals the model expects from them here.",
+    "evidence": [
+     "Amine Gouiri: 5 league goals in 8 appearances this season.",
+     "Olympique de Marseille have scored 18 league goals in 8 games; the model expects 2.35 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "80754",
+    "name": "Himad Abdelli",
+    "team": "Olympique de Marseille",
+    "probability": 0.325,
+    "confidence": 0.234,
+    "reasoning": "3 of Olympique de Marseille's 18 league goals this season (17%), applied to the 2.35 goals the model expects from them here.",
+    "evidence": [
+     "Himad Abdelli: 3 league goals in 8 appearances this season.",
+     "Olympique de Marseille have scored 18 league goals in 8 games; the model expects 2.35 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-2",
+    "probability": 0.07
+   },
+   "alternatives": [
+    {
+     "score": "2-1",
+     "probability": 0.062
+    },
+    {
+     "score": "1-2",
+     "probability": 0.06
+    },
+    {
+     "score": "3-2",
+     "probability": 0.055
+    }
+   ],
+   "confidence": 0.14,
+   "reasoning": "2–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.35 (Olympique de Marseille) and 2.27 (Toulouse FC).",
+    "Top scorelines: 2-2 (7.0%), 2-1 (6.2%), 1-2 (6.0%), 3-2 (5.5%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Olympique de Marseille has 4 home games and Toulouse FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-31T10:45:37.708Z",
+ "lockedAt": "2026-10-31T10:45:56.288Z",
+ "result": null
+}

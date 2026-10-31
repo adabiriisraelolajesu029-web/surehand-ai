@@ -1,0 +1,346 @@
+{
+ "fixtureId": "565844",
+ "kickoffUtc": "2026-11-01T16:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565844",
+   "kickoffUtc": "2026-11-01T16:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "19",
+    "name": "Eintracht Frankfurt",
+    "short": "SGE"
+   },
+   "away": {
+    "id": "7",
+    "name": "Hamburger SV",
+    "short": "HSV"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.21875,
+   "awayGoals": 1.359375
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Borussia Dortmund",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "1. FC Köln",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "RB Leipzig",
+     "venue": "A",
+     "gf": 0,
+     "ga": 6,
+     "res": "L"
+    },
+    {
+     "opp": "SC Freiburg",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "1. FSV Mainz 05",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "SC Paderborn 07",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "VfB Stuttgart",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "TSG 1899 Hoffenheim",
+     "venue": "A",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "1. FC Köln",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "RB Leipzig",
+     "venue": "A",
+     "gf": 0,
+     "ga": 5,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 7,
+     "w": 2,
+     "d": 2,
+     "l": 3,
+     "gf": 10,
+     "ga": 17
+    },
+    "home": {
+     "p": 3,
+     "w": 1,
+     "d": 1,
+     "l": 1,
+     "gf": 4,
+     "ga": 6
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 6,
+     "ga": 11
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 7,
+     "w": 3,
+     "d": 0,
+     "l": 4,
+     "gf": 6,
+     "ga": 16
+    },
+    "home": {
+     "p": 3,
+     "w": 2,
+     "d": 0,
+     "l": 1,
+     "gf": 3,
+     "ga": 6
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 0,
+     "l": 3,
+     "gf": 3,
+     "ga": 10
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-02",
+    "homeId": "19",
+    "awayId": "7",
+    "home": "Eintracht Frankfurt",
+    "away": "Hamburger SV",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-12-20",
+    "homeId": "7",
+    "awayId": "19",
+    "home": "Hamburger SV",
+    "away": "Eintracht Frankfurt",
+    "hg": 1,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "192207",
+    "name": "Younes Ebnoutalib",
+    "team": "Eintracht Frankfurt",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "82404",
+    "name": "Jonathan Burkardt",
+    "team": "Eintracht Frankfurt",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "193605",
+    "name": "Can Uzun",
+    "team": "Eintracht Frankfurt",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "3466",
+    "name": "Yussuf Poulsen",
+    "team": "Hamburger SV",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "50215",
+    "name": "Miro Muheim",
+    "team": "Hamburger SV",
+    "pos": "Defence",
+    "apps": 3,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.588,
+   "draw": 0.22,
+   "awayWin": 0.191,
+   "pick": "H",
+   "confidence": 0.518,
+   "reasoning": "Poisson model: expected goals Eintracht Frankfurt 1.90 vs Hamburger SV 0.99, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Eintracht Frankfurt at home: 1W-1D-1L, 4 scored and 6 conceded in 3 games.",
+    "Hamburger SV away: 1W-0D-3L, 3 scored and 10 conceded in 4 games.",
+    "League averages this season: home teams 2.22 goals per game, away teams 1.36.",
+    "Recent league form (newest first): Eintracht Frankfurt LWLDW, Hamburger SV LWWWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Eintracht Frankfurt has 3 home games and Hamburger SV 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "192207",
+    "name": "Younes Ebnoutalib",
+    "team": "Eintracht Frankfurt",
+    "probability": 0.614,
+    "confidence": 0.34,
+    "reasoning": "5 of Eintracht Frankfurt's 10 league goals this season (50%), applied to the 1.90 goals the model expects from them here.",
+    "evidence": [
+     "Younes Ebnoutalib: 5 league goals in 7 appearances this season.",
+     "Eintracht Frankfurt have scored 10 league goals in 7 games; the model expects 1.90 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "82404",
+    "name": "Jonathan Burkardt",
+    "team": "Eintracht Frankfurt",
+    "probability": 0.435,
+    "confidence": 0.296,
+    "reasoning": "3 of Eintracht Frankfurt's 10 league goals this season (30%), applied to the 1.90 goals the model expects from them here.",
+    "evidence": [
+     "Jonathan Burkardt: 3 league goals in 7 appearances this season.",
+     "Eintracht Frankfurt have scored 10 league goals in 7 games; the model expects 1.90 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "193605",
+    "name": "Can Uzun",
+    "team": "Eintracht Frankfurt",
+    "probability": 0.317,
+    "confidence": 0.215,
+    "reasoning": "2 of Eintracht Frankfurt's 10 league goals this season (20%), applied to the 1.90 goals the model expects from them here.",
+    "evidence": [
+     "Can Uzun: 2 league goals in 7 appearances this season.",
+     "Eintracht Frankfurt have scored 10 league goals in 7 games; the model expects 1.90 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.106
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.104
+    },
+    {
+     "score": "2-0",
+     "probability": 0.101
+    },
+    {
+     "score": "2-1",
+     "probability": 0.099
+    }
+   ],
+   "confidence": 0.185,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.90 (Eintracht Frankfurt) and 0.99 (Hamburger SV).",
+    "Top scorelines: 1-0 (10.6%), 1-1 (10.4%), 2-0 (10.1%), 2-1 (9.9%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Eintracht Frankfurt has 3 home games and Hamburger SV 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-10-31T10:43:45.973Z",
+ "lockedAt": "2026-10-31T10:44:17.388Z",
+ "result": null
+}
