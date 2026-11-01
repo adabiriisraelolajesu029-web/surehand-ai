@@ -2,7 +2,7 @@
  {
   "id": "558543",
   "kickoffUtc": "2026-11-01T11:30:00.000Z",
-  "status": "live",
+  "status": "finished",
   "league": {
    "id": "SA",
    "name": "Serie A",
@@ -22,7 +22,7 @@
  {
   "id": "564733",
   "kickoffUtc": "2026-11-01T13:00:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "PD",
    "name": "Primera Division",
@@ -42,7 +42,7 @@
  {
   "id": "558544",
   "kickoffUtc": "2026-11-01T14:00:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "SA",
    "name": "Serie A",
@@ -62,7 +62,7 @@
  {
   "id": "559647",
   "kickoffUtc": "2026-11-01T14:00:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "FL1",
    "name": "Ligue 1",
@@ -82,7 +82,7 @@
  {
   "id": "558546",
   "kickoffUtc": "2026-11-01T14:00:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "SA",
    "name": "Serie A",
@@ -102,7 +102,7 @@
  {
   "id": "565841",
   "kickoffUtc": "2026-11-01T14:30:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "BL1",
    "name": "Bundesliga",
@@ -122,7 +122,7 @@
  {
   "id": "564734",
   "kickoffUtc": "2026-11-01T15:15:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "PD",
    "name": "Primera Division",
@@ -142,7 +142,7 @@
  {
   "id": "559640",
   "kickoffUtc": "2026-11-01T16:15:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "FL1",
    "name": "Ligue 1",
@@ -162,7 +162,7 @@
  {
   "id": "559642",
   "kickoffUtc": "2026-11-01T16:15:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "FL1",
    "name": "Ligue 1",
@@ -182,7 +182,7 @@
  {
   "id": "565844",
   "kickoffUtc": "2026-11-01T16:30:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "BL1",
    "name": "Bundesliga",
@@ -202,7 +202,7 @@
  {
   "id": "560631",
   "kickoffUtc": "2026-11-01T16:30:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "PL",
    "name": "Premier League",

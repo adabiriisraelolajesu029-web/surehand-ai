@@ -1,22 +1,88 @@
 {
- "settled": 34,
+ "settled": 40,
  "outcome": {
-  "n": 34,
-  "hit": 15,
-  "rate": 0.4411764705882353
+  "n": 40,
+  "hit": 19,
+  "rate": 0.475
  },
  "correctScore": {
-  "n": 34,
+  "n": 40,
   "hit": 3,
-  "rate": 0.08823529411764706
+  "rate": 0.075
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-01T11:41:05.115Z",
+ "updatedAt": "2026-11-01T17:04:58.208Z",
  "tracked": [
+  {
+   "match": "1. FC Union Berlin v 1. FC Köln",
+   "lockedAt": "2026-10-31T02:36:14.824Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Frosinone Calcio v Torino FC",
+   "lockedAt": "2026-10-31T02:35:42.942Z",
+   "pick": "H",
+   "score": "2-1",
+   "actual": {
+    "home": 2,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "SS Lazio v Cagliari Calcio",
+   "lockedAt": "2026-10-31T02:35:24.402Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 2,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "RC Strasbourg Alsace v AJ Auxerre",
+   "lockedAt": "2026-10-31T02:35:07.438Z",
+   "pick": "H",
+   "score": "2-2",
+   "actual": {
+    "home": 5,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Getafe CF v Sevilla FC",
+   "lockedAt": "2026-10-31T02:34:36.092Z",
+   "pick": "A",
+   "score": "0-1",
+   "actual": {
+    "home": 3,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Como 1907 v Venezia FC",
+   "lockedAt": "2026-10-31T02:34:05.666Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
   {
    "match": "Aston Villa FC v Fulham FC",
    "lockedAt": "2026-10-30T11:14:39.457Z",
