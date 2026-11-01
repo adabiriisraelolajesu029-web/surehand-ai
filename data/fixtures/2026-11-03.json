@@ -40,46 +40,6 @@
   }
  },
  {
-  "id": "575379",
-  "kickoffUtc": "2026-11-03T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "675",
-   "name": "Feyenoord Rotterdam",
-   "short": "FEY"
-  },
-  "away": {
-   "id": "108",
-   "name": "FC Internazionale Milano",
-   "short": "INT"
-  }
- },
- {
-  "id": "575385",
-  "kickoffUtc": "2026-11-03T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "2016",
-   "name": "LASK Linz",
-   "short": "LIN"
-  },
-  "away": {
-   "id": "7509",
-   "name": "ŠK Slovan Bratislava",
-   "short": "SBA"
-  }
- },
- {
   "id": "575381",
   "kickoffUtc": "2026-11-03T20:00:00.000Z",
   "status": "scheduled",
@@ -120,6 +80,66 @@
   }
  },
  {
+  "id": "575379",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "675",
+   "name": "Feyenoord Rotterdam",
+   "short": "FEY"
+  },
+  "away": {
+   "id": "108",
+   "name": "FC Internazionale Milano",
+   "short": "INT"
+  }
+ },
+ {
+  "id": "575385",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "2016",
+   "name": "LASK Linz",
+   "short": "LIN"
+  },
+  "away": {
+   "id": "7509",
+   "name": "ŠK Slovan Bratislava",
+   "short": "SBA"
+  }
+ },
+ {
+  "id": "575382",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "94",
+   "name": "Villarreal CF",
+   "short": "VIL"
+  },
+  "away": {
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  }
+ },
+ {
   "id": "575384",
   "kickoffUtc": "2026-11-03T20:00:00.000Z",
   "status": "scheduled",
@@ -157,26 +177,6 @@
    "id": "58",
    "name": "Aston Villa FC",
    "short": "AVL"
-  }
- },
- {
-  "id": "575382",
-  "kickoffUtc": "2026-11-03T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "94",
-   "name": "Villarreal CF",
-   "short": "VIL"
-  },
-  "away": {
-   "id": "524",
-   "name": "Paris Saint-Germain FC",
-   "short": "PSG"
   }
  }
 ]

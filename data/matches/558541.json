@@ -1,0 +1,403 @@
+{
+ "fixtureId": "558541",
+ "kickoffUtc": "2026-11-02T17:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558541",
+   "kickoffUtc": "2026-11-02T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "471",
+    "name": "US Sassuolo Calcio",
+    "short": "SAS"
+   },
+   "away": {
+    "id": "99",
+    "name": "ACF Fiorentina",
+    "short": "FIO"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6344086021505377,
+   "awayGoals": 1.5698924731182795
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "SS Lazio",
+     "venue": "H",
+     "gf": 2,
+     "ga": 6,
+     "res": "L"
+    },
+    {
+     "opp": "Como 1907",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Frosinone Calcio",
+     "venue": "A",
+     "gf": 2,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "AC Milan",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "AC Monza",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Atalanta BC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Como 1907",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Genoa CFC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "SSC Napoli",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 9,
+     "w": 2,
+     "d": 2,
+     "l": 5,
+     "gf": 14,
+     "ga": 22
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 8,
+     "ga": 10
+    },
+    "away": {
+     "p": 5,
+     "w": 0,
+     "d": 1,
+     "l": 4,
+     "gf": 6,
+     "ga": 12
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 9,
+     "w": 1,
+     "d": 2,
+     "l": 6,
+     "gf": 11,
+     "ga": 21
+    },
+    "home": {
+     "p": 5,
+     "w": 0,
+     "d": 2,
+     "l": 3,
+     "gf": 5,
+     "ga": 11
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 0,
+     "l": 3,
+     "gf": 6,
+     "ga": 10
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-26",
+    "homeId": "99",
+    "awayId": "471",
+    "home": "ACF Fiorentina",
+    "away": "US Sassuolo Calcio",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2025-12-06",
+    "homeId": "471",
+    "awayId": "99",
+    "home": "US Sassuolo Calcio",
+    "away": "ACF Fiorentina",
+    "hg": 3,
+    "ag": 1
+   },
+   {
+    "date": "2024-04-28",
+    "homeId": "99",
+    "awayId": "471",
+    "home": "ACF Fiorentina",
+    "away": "US Sassuolo Calcio",
+    "hg": 5,
+    "ag": 1
+   },
+   {
+    "date": "2024-01-06",
+    "homeId": "471",
+    "awayId": "99",
+    "home": "US Sassuolo Calcio",
+    "away": "ACF Fiorentina",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2023-06-02",
+    "homeId": "471",
+    "awayId": "99",
+    "home": "US Sassuolo Calcio",
+    "away": "ACF Fiorentina",
+    "hg": 1,
+    "ag": 3
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "183018",
+    "name": "Vasilije Adzic",
+    "team": "US Sassuolo Calcio",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "125523",
+    "name": "Cas Odenthal",
+    "team": "US Sassuolo Calcio",
+    "pos": "Defence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "2202",
+    "name": "Domenico Berardi",
+    "team": "US Sassuolo Calcio",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "114054",
+    "name": "Sebastiano Esposito",
+    "team": "US Sassuolo Calcio",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "44033",
+    "name": "Kristian Thorstvedt",
+    "team": "US Sassuolo Calcio",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "250304",
+    "name": "Franco Mastantuono",
+    "team": "ACF Fiorentina",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "157538",
+    "name": "Mateo Pellegrino",
+    "team": "ACF Fiorentina",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "227048",
+    "name": "Álex Jiménez",
+    "team": "ACF Fiorentina",
+    "pos": "Defence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.509,
+   "draw": 0.183,
+   "awayWin": 0.308,
+   "pick": "H",
+   "confidence": 0.489,
+   "reasoning": "Poisson model: expected goals US Sassuolo Calcio 2.68 vs ACF Fiorentina 2.10, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "US Sassuolo Calcio at home: 2W-1D-1L, 8 scored and 10 conceded in 4 games.",
+    "ACF Fiorentina away: 1W-0D-3L, 6 scored and 10 conceded in 4 games.",
+    "League averages this season: home teams 1.63 goals per game, away teams 1.57.",
+    "Recent league form (newest first): US Sassuolo Calcio LLLDL, ACF Fiorentina DLLLD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: US Sassuolo Calcio has 4 home games and ACF Fiorentina 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "183018",
+    "name": "Vasilije Adzic",
+    "team": "US Sassuolo Calcio",
+    "probability": 0.437,
+    "confidence": 0.332,
+    "reasoning": "3 of US Sassuolo Calcio's 14 league goals this season (21%), applied to the 2.68 goals the model expects from them here.",
+    "evidence": [
+     "Vasilije Adzic: 3 league goals in 9 appearances this season.",
+     "US Sassuolo Calcio have scored 14 league goals in 9 games; the model expects 2.68 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "250304",
+    "name": "Franco Mastantuono",
+    "team": "ACF Fiorentina",
+    "probability": 0.436,
+    "confidence": 0.332,
+    "reasoning": "3 of ACF Fiorentina's 11 league goals this season (27%), applied to the 2.10 goals the model expects from them here.",
+    "evidence": [
+     "Franco Mastantuono: 3 league goals in 9 appearances this season.",
+     "ACF Fiorentina have scored 11 league goals in 9 games; the model expects 2.10 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "125523",
+    "name": "Cas Odenthal",
+    "team": "US Sassuolo Calcio",
+    "probability": 0.318,
+    "confidence": 0.242,
+    "reasoning": "2 of US Sassuolo Calcio's 14 league goals this season (14%), applied to the 2.68 goals the model expects from them here.",
+    "evidence": [
+     "Cas Odenthal: 2 league goals in 9 appearances this season.",
+     "US Sassuolo Calcio have scored 14 league goals in 9 games; the model expects 2.68 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-2",
+    "probability": 0.067
+   },
+   "alternatives": [
+    {
+     "score": "2-1",
+     "probability": 0.063
+    },
+    {
+     "score": "3-2",
+     "probability": 0.059
+    },
+    {
+     "score": "3-1",
+     "probability": 0.057
+    }
+   ],
+   "confidence": 0.15,
+   "reasoning": "2–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.68 (US Sassuolo Calcio) and 2.10 (ACF Fiorentina).",
+    "Top scorelines: 2-2 (6.7%), 2-1 (6.3%), 3-2 (5.9%), 3-1 (5.7%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: US Sassuolo Calcio has 4 home games and ACF Fiorentina 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-01T11:38:16.795Z",
+ "lockedAt": "2026-11-01T11:38:50.603Z",
+ "result": null
+}

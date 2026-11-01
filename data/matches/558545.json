@@ -1,0 +1,354 @@
+{
+ "fixtureId": "558545",
+ "kickoffUtc": "2026-11-02T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558545",
+   "kickoffUtc": "2026-11-02T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "102",
+    "name": "Atalanta BC",
+    "short": "ATA"
+   },
+   "away": {
+    "id": "112",
+    "name": "Parma Calcio 1913",
+    "short": "PAR"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6344086021505377,
+   "awayGoals": 1.5698924731182795
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "ACF Fiorentina",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Frosinone Calcio",
+     "venue": "H",
+     "gf": 4,
+     "ga": 4,
+     "res": "D"
+    },
+    {
+     "opp": "AC Milan",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Venezia FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Juventus FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Udinese Calcio",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "SS Lazio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Genoa CFC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 9,
+     "w": 3,
+     "d": 2,
+     "l": 4,
+     "gf": 16,
+     "ga": 17
+    },
+    "home": {
+     "p": 5,
+     "w": 3,
+     "d": 1,
+     "l": 1,
+     "gf": 11,
+     "ga": 8
+    },
+    "away": {
+     "p": 4,
+     "w": 0,
+     "d": 1,
+     "l": 3,
+     "gf": 5,
+     "ga": 9
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 9,
+     "w": 1,
+     "d": 2,
+     "l": 6,
+     "gf": 5,
+     "ga": 15
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 2,
+     "l": 2,
+     "gf": 3,
+     "ga": 6
+    },
+    "away": {
+     "p": 4,
+     "w": 0,
+     "d": 0,
+     "l": 4,
+     "gf": 2,
+     "ga": 9
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-01-25",
+    "homeId": "102",
+    "awayId": "112",
+    "home": "Atalanta BC",
+    "away": "Parma Calcio 1913",
+    "hg": 4,
+    "ag": 0
+   },
+   {
+    "date": "2025-08-30",
+    "homeId": "112",
+    "awayId": "102",
+    "home": "Parma Calcio 1913",
+    "away": "Atalanta BC",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2025-05-25",
+    "homeId": "102",
+    "awayId": "112",
+    "home": "Atalanta BC",
+    "away": "Parma Calcio 1913",
+    "hg": 2,
+    "ag": 3
+   },
+   {
+    "date": "2024-11-23",
+    "homeId": "112",
+    "awayId": "102",
+    "home": "Parma Calcio 1913",
+    "away": "Atalanta BC",
+    "hg": 1,
+    "ag": 3
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "120679",
+    "name": "Nikola Krstović",
+    "team": "Atalanta BC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "81440",
+    "name": "Éderson",
+    "team": "Atalanta BC",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "299423",
+    "name": "Simone Lontani",
+    "team": "Parma Calcio 1913",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "165857",
+    "name": "José Romero",
+    "team": "Parma Calcio 1913",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.788,
+   "draw": 0.145,
+   "awayWin": 0.067,
+   "pick": "H",
+   "confidence": 0.757,
+   "reasoning": "Poisson model: expected goals Atalanta BC 2.45 vs Parma Calcio 1913 0.57, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Atalanta BC at home: 3W-1D-1L, 11 scored and 8 conceded in 5 games.",
+    "Parma Calcio 1913 away: 0W-0D-4L, 2 scored and 9 conceded in 4 games.",
+    "League averages this season: home teams 1.63 goals per game, away teams 1.57.",
+    "Recent league form (newest first): Atalanta BC DDLWL, Parma Calcio 1913 DLLLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Atalanta BC has 5 home games and Parma Calcio 1913 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "120679",
+    "name": "Nikola Krstović",
+    "team": "Atalanta BC",
+    "probability": 0.601,
+    "confidence": 0.38,
+    "reasoning": "6 of Atalanta BC's 16 league goals this season (38%), applied to the 2.45 goals the model expects from them here.",
+    "evidence": [
+     "Nikola Krstović: 6 league goals in 9 appearances this season.",
+     "Atalanta BC have scored 16 league goals in 9 games; the model expects 2.45 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "81440",
+    "name": "Éderson",
+    "team": "Atalanta BC",
+    "probability": 0.264,
+    "confidence": 0.201,
+    "reasoning": "2 of Atalanta BC's 16 league goals this season (13%), applied to the 2.45 goals the model expects from them here.",
+    "evidence": [
+     "Éderson: 2 league goals in 9 appearances this season.",
+     "Atalanta BC have scored 16 league goals in 9 games; the model expects 2.45 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "299423",
+    "name": "Simone Lontani",
+    "team": "Parma Calcio 1913",
+    "probability": 0.204,
+    "confidence": 0.155,
+    "reasoning": "2 of Parma Calcio 1913's 5 league goals this season (40%), applied to the 0.57 goals the model expects from them here.",
+    "evidence": [
+     "Simone Lontani: 2 league goals in 9 appearances this season.",
+     "Parma Calcio 1913 have scored 5 league goals in 9 games; the model expects 0.57 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-0",
+    "probability": 0.147
+   },
+   "alternatives": [
+    {
+     "score": "3-0",
+     "probability": 0.12
+    },
+    {
+     "score": "1-0",
+     "probability": 0.12
+    },
+    {
+     "score": "2-1",
+     "probability": 0.084
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.45 (Atalanta BC) and 0.57 (Parma Calcio 1913).",
+    "Top scorelines: 2-0 (14.7%), 3-0 (12.0%), 1-0 (12.0%), 2-1 (8.4%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Atalanta BC has 5 home games and Parma Calcio 1913 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-01T11:38:50.603Z",
+ "lockedAt": "2026-11-01T11:39:05.643Z",
+ "result": null
+}
