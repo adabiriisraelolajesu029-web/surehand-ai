@@ -1,0 +1,253 @@
+{
+ "fixtureId": "575383",
+ "kickoffUtc": "2026-11-03T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "575383",
+   "kickoffUtc": "2026-11-03T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "66",
+    "name": "Manchester United FC",
+    "short": "MUN"
+   },
+   "away": {
+    "id": "100",
+    "name": "AS Roma",
+    "short": "ROM"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.5,
+   "awayGoals": 1.5925925925925926
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Como 1907",
+     "venue": "A",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Club Atlético de Madrid",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Sabah FK",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "ŠK Slovan Bratislava",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Real Madrid CF",
+     "venue": "H",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Fenerbahçe SK",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 3,
+     "w": 1,
+     "d": 0,
+     "l": 2,
+     "gf": 5,
+     "ga": 6
+    },
+    "home": {
+     "p": 1,
+     "w": 1,
+     "d": 0,
+     "l": 0,
+     "gf": 4,
+     "ga": 0
+    },
+    "away": {
+     "p": 2,
+     "w": 0,
+     "d": 0,
+     "l": 2,
+     "gf": 1,
+     "ga": 6
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 3,
+     "w": 1,
+     "d": 1,
+     "l": 1,
+     "gf": 8,
+     "ga": 5
+    },
+    "home": {
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 7,
+     "ga": 4
+    },
+    "away": {
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 1,
+     "ga": 1
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [],
+  "away": [
+   {
+    "id": "7457",
+    "name": "Donyell Malen",
+    "team": "AS Roma",
+    "pos": "Offence",
+    "apps": 3,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "1844",
+    "name": "Bryan Cristante",
+    "team": "AS Roma",
+    "pos": "Midfield",
+    "apps": 2,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.453,
+   "draw": 0.23,
+   "awayWin": 0.317,
+   "pick": "H",
+   "confidence": 0.326,
+   "reasoning": "Poisson model: expected goals Manchester United FC 1.78 vs AS Roma 1.45, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Manchester United FC at home: 1W-0D-0L, 4 scored and 0 conceded in 1 games.",
+    "AS Roma away: 0W-1D-0L, 1 scored and 1 conceded in 1 games.",
+    "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+    "Recent league form (newest first): Manchester United FC LLW, AS Roma WLD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Manchester United FC has 1 home games and AS Roma 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "7457",
+    "name": "Donyell Malen",
+    "team": "AS Roma",
+    "probability": 0.42,
+    "confidence": 0.219,
+    "reasoning": "3 of AS Roma's 8 league goals this season (38%), applied to the 1.45 goals the model expects from them here.",
+    "evidence": [
+     "Donyell Malen: 3 league goals in 3 appearances this season.",
+     "AS Roma have scored 8 league goals in 3 games; the model expects 1.45 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "1844",
+    "name": "Bryan Cristante",
+    "team": "AS Roma",
+    "probability": 0.166,
+    "confidence": 0.086,
+    "reasoning": "1 of AS Roma's 8 league goals this season (13%), applied to the 1.45 goals the model expects from them here.",
+    "evidence": [
+     "Bryan Cristante: 1 league goals in 2 appearances this season.",
+     "AS Roma have scored 8 league goals in 3 games; the model expects 1.45 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-1",
+    "probability": 0.102
+   },
+   "alternatives": [
+    {
+     "score": "2-1",
+     "probability": 0.091
+    },
+    {
+     "score": "1-2",
+     "probability": 0.074
+    },
+    {
+     "score": "1-0",
+     "probability": 0.07
+    }
+   ],
+   "confidence": 0.077,
+   "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.78 (Manchester United FC) and 1.45 (AS Roma).",
+    "Top scorelines: 1-1 (10.2%), 2-1 (9.1%), 1-2 (7.4%), 1-0 (7.0%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Manchester United FC has 1 home games and AS Roma 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-02T13:03:55.681Z",
+ "lockedAt": "2026-11-02T13:04:14.272Z",
+ "result": null
+}

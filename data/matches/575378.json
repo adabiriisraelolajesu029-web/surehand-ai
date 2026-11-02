@@ -1,0 +1,254 @@
+{
+ "fixtureId": "575378",
+ "kickoffUtc": "2026-11-03T17:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "575378",
+   "kickoffUtc": "2026-11-03T17:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "610",
+    "name": "Galatasaray SK",
+    "short": "GAL"
+   },
+   "away": {
+    "id": "10",
+    "name": "VfB Stuttgart",
+    "short": "VFB"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.5,
+   "awayGoals": 1.5925925925925926
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Lille OSC",
+     "venue": "A",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "FC Barcelona",
+     "venue": "H",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Sporting Clube de Portugal",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Club Atlético de Madrid",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "ŠK Slovan Bratislava",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Viking FK",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 3,
+     "w": 1,
+     "d": 0,
+     "l": 2,
+     "gf": 6,
+     "ga": 9
+    },
+    "home": {
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 1,
+     "ga": 4
+    },
+    "away": {
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 5,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 3,
+     "w": 2,
+     "d": 1,
+     "l": 0,
+     "gf": 7,
+     "ga": 2
+    },
+    "home": {
+     "p": 2,
+     "w": 1,
+     "d": 1,
+     "l": 0,
+     "gf": 4,
+     "ga": 2
+    },
+    "away": {
+     "p": 1,
+     "w": 1,
+     "d": 0,
+     "l": 0,
+     "gf": 3,
+     "ga": 0
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "205981",
+    "name": "Aleksey Batrakov",
+    "team": "Galatasaray SK",
+    "pos": "Midfield",
+    "apps": 3,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "33242",
+    "name": "Ermedin Demirovic",
+    "team": "VfB Stuttgart",
+    "pos": "Offence",
+    "apps": 3,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.043,
+   "draw": 0.101,
+   "awayWin": 0.856,
+   "pick": "A",
+   "confidence": 0.616,
+   "reasoning": "Poisson model: expected goals Galatasaray SK 0.56 vs VfB Stuttgart 3.00, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Galatasaray SK at home: 0W-0D-1L, 1 scored and 4 conceded in 1 games.",
+    "VfB Stuttgart away: 1W-0D-0L, 3 scored and 0 conceded in 1 games.",
+    "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+    "Recent league form (newest first): Galatasaray SK WLL, VfB Stuttgart DWW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Galatasaray SK has 1 home games and VfB Stuttgart 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "33242",
+    "name": "Ermedin Demirovic",
+    "team": "VfB Stuttgart",
+    "probability": 0.7,
+    "confidence": 0.26,
+    "reasoning": "4 of VfB Stuttgart's 7 league goals this season (50%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Ermedin Demirovic: 4 league goals in 3 appearances this season.",
+     "VfB Stuttgart have scored 7 league goals in 3 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "205981",
+    "name": "Aleksey Batrakov",
+    "team": "Galatasaray SK",
+    "probability": 0.171,
+    "confidence": 0.089,
+    "reasoning": "2 of Galatasaray SK's 6 league goals this season (33%), applied to the 0.56 goals the model expects from them here.",
+    "evidence": [
+     "Aleksey Batrakov: 2 league goals in 3 appearances this season.",
+     "Galatasaray SK have scored 6 league goals in 3 games; the model expects 0.56 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.128
+   },
+   "alternatives": [
+    {
+     "score": "0-3",
+     "probability": 0.128
+    },
+    {
+     "score": "0-4",
+     "probability": 0.096
+    },
+    {
+     "score": "0-1",
+     "probability": 0.086
+    }
+   ],
+   "confidence": 0.096,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.56 (Galatasaray SK) and 3.00 (VfB Stuttgart).",
+    "Top scorelines: 0-2 (12.8%), 0-3 (12.8%), 0-4 (9.6%), 0-1 (8.6%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Galatasaray SK has 1 home games and VfB Stuttgart 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-02T13:03:00.996Z",
+ "lockedAt": "2026-11-02T13:03:18.453Z",
+ "result": null
+}

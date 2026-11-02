@@ -320,26 +320,6 @@
   }
  },
  {
-  "id": "559635",
-  "kickoffUtc": "2026-11-07T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "524",
-   "name": "Paris Saint-Germain FC",
-   "short": "PSG"
-  },
-  "away": {
-   "id": "531",
-   "name": "ES Troyes AC",
-   "short": "ETR"
-  }
- },
- {
   "id": "558531",
   "kickoffUtc": "2026-11-07T19:45:00.000Z",
   "status": "scheduled",
@@ -357,6 +337,26 @@
    "id": "471",
    "name": "US Sassuolo Calcio",
    "short": "SAS"
+  }
+ },
+ {
+  "id": "559635",
+  "kickoffUtc": "2026-11-07T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  },
+  "away": {
+   "id": "531",
+   "name": "ES Troyes AC",
+   "short": "ETR"
   }
  },
  {

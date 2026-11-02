@@ -1,0 +1,331 @@
+{
+ "fixtureId": "575380",
+ "kickoffUtc": "2026-11-03T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "575380",
+   "kickoffUtc": "2026-11-03T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "81",
+    "name": "FC Barcelona",
+    "short": "FCB"
+   },
+   "away": {
+    "id": "58",
+    "name": "Aston Villa FC",
+    "short": "AVL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.5,
+   "awayGoals": 1.5925925925925926
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Paris Saint-Germain FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Galatasaray SK",
+     "venue": "A",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Feyenoord Rotterdam",
+     "venue": "H",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Viking FK",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Fenerbahçe SK",
+     "venue": "H",
+     "gf": 6,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Club Brugge KV",
+     "venue": "A",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 3,
+     "w": 2,
+     "d": 0,
+     "l": 1,
+     "gf": 11,
+     "ga": 6
+    },
+    "home": {
+     "p": 1,
+     "w": 1,
+     "d": 0,
+     "l": 0,
+     "gf": 5,
+     "ga": 1
+    },
+    "away": {
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 6,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 3,
+     "w": 3,
+     "d": 0,
+     "l": 0,
+     "gf": 12,
+     "ga": 3
+    },
+    "home": {
+     "p": 2,
+     "w": 2,
+     "d": 0,
+     "l": 0,
+     "gf": 9,
+     "ga": 1
+    },
+    "away": {
+     "p": 1,
+     "w": 1,
+     "d": 0,
+     "l": 0,
+     "gf": 3,
+     "ga": 2
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "37428",
+    "name": "Raphinha",
+    "team": "FC Barcelona",
+    "pos": "Offence",
+    "apps": 2,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "82515",
+    "name": "Karim Adeyemi",
+    "team": "FC Barcelona",
+    "pos": "Offence",
+    "apps": 3,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "202283",
+    "name": "Lamine Yamal",
+    "team": "FC Barcelona",
+    "pos": "Offence",
+    "apps": 3,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "3236",
+    "name": "Gabriel Jesus",
+    "team": "FC Barcelona",
+    "pos": "Offence",
+    "apps": 3,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "152515",
+    "name": "Nicolas Jackson",
+    "team": "Aston Villa FC",
+    "pos": "Offence",
+    "apps": 3,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "7817",
+    "name": "Ross Barkley",
+    "team": "Aston Villa FC",
+    "pos": "Midfield",
+    "apps": 3,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "31941",
+    "name": "Emiliano Buendía",
+    "team": "Aston Villa FC",
+    "pos": "Midfield",
+    "apps": 3,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "34646",
+    "name": "John McGinn",
+    "team": "Aston Villa FC",
+    "pos": "Midfield",
+    "apps": 3,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.365,
+   "draw": 0.177,
+   "awayWin": 0.458,
+   "pick": "A",
+   "confidence": 0.33,
+   "reasoning": "Poisson model: expected goals FC Barcelona 2.53 vs Aston Villa FC 2.80, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "FC Barcelona at home: 1W-0D-0L, 5 scored and 1 conceded in 1 games.",
+    "Aston Villa FC away: 1W-0D-0L, 3 scored and 2 conceded in 1 games.",
+    "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+    "Recent league form (newest first): FC Barcelona LWW, Aston Villa FC WWW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: FC Barcelona has 1 home games and Aston Villa FC 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "152515",
+    "name": "Nicolas Jackson",
+    "team": "Aston Villa FC",
+    "probability": 0.504,
+    "confidence": 0.26,
+    "reasoning": "3 of Aston Villa FC's 12 league goals this season (25%), applied to the 2.80 goals the model expects from them here.",
+    "evidence": [
+     "Nicolas Jackson: 3 league goals in 3 appearances this season.",
+     "Aston Villa FC have scored 12 league goals in 3 games; the model expects 2.80 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "7817",
+    "name": "Ross Barkley",
+    "team": "Aston Villa FC",
+    "probability": 0.504,
+    "confidence": 0.26,
+    "reasoning": "3 of Aston Villa FC's 12 league goals this season (25%), applied to the 2.80 goals the model expects from them here.",
+    "evidence": [
+     "Ross Barkley: 3 league goals in 3 appearances this season.",
+     "Aston Villa FC have scored 12 league goals in 3 games; the model expects 2.80 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "31941",
+    "name": "Emiliano Buendía",
+    "team": "Aston Villa FC",
+    "probability": 0.373,
+    "confidence": 0.194,
+    "reasoning": "2 of Aston Villa FC's 12 league goals this season (17%), applied to the 2.80 goals the model expects from them here.",
+    "evidence": [
+     "Emiliano Buendía: 2 league goals in 3 appearances this season.",
+     "Aston Villa FC have scored 12 league goals in 3 games; the model expects 2.80 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-2",
+    "probability": 0.061
+   },
+   "alternatives": [
+    {
+     "score": "2-3",
+     "probability": 0.057
+    },
+    {
+     "score": "3-2",
+     "probability": 0.051
+    },
+    {
+     "score": "1-2",
+     "probability": 0.048
+    }
+   ],
+   "confidence": 0.046,
+   "reasoning": "2–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.53 (FC Barcelona) and 2.80 (Aston Villa FC).",
+    "Top scorelines: 2-2 (6.1%), 2-3 (5.7%), 3-2 (5.1%), 1-2 (4.8%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: FC Barcelona has 1 home games and Aston Villa FC 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-02T13:04:32.963Z",
+ "lockedAt": "2026-11-02T13:04:51.480Z",
+ "result": null
+}
