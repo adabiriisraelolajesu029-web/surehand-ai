@@ -40,26 +40,6 @@
   }
  },
  {
-  "id": "575385",
-  "kickoffUtc": "2026-11-03T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "2016",
-   "name": "LASK Linz",
-   "short": "LIN"
-  },
-  "away": {
-   "id": "7509",
-   "name": "ŠK Slovan Bratislava",
-   "short": "SBA"
-  }
- },
- {
   "id": "575381",
   "kickoffUtc": "2026-11-03T20:00:00.000Z",
   "status": "scheduled",
@@ -120,7 +100,7 @@
   }
  },
  {
-  "id": "575380",
+  "id": "575385",
   "kickoffUtc": "2026-11-03T20:00:00.000Z",
   "status": "scheduled",
   "league": {
@@ -129,14 +109,14 @@
    "country": "Europe"
   },
   "home": {
-   "id": "81",
-   "name": "FC Barcelona",
-   "short": "FCB"
+   "id": "2016",
+   "name": "LASK Linz",
+   "short": "LIN"
   },
   "away": {
-   "id": "58",
-   "name": "Aston Villa FC",
-   "short": "AVL"
+   "id": "7509",
+   "name": "ŠK Slovan Bratislava",
+   "short": "SBA"
   }
  },
  {
@@ -177,6 +157,26 @@
    "id": "521",
    "name": "Lille OSC",
    "short": "LIL"
+  }
+ },
+ {
+  "id": "575380",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "81",
+   "name": "FC Barcelona",
+   "short": "FCB"
+  },
+  "away": {
+   "id": "58",
+   "name": "Aston Villa FC",
+   "short": "AVL"
   }
  }
 ]
