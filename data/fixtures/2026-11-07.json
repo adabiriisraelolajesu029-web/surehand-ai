@@ -1,0 +1,382 @@
+[
+ {
+  "id": "560632",
+  "kickoffUtc": "2026-11-07T12:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "341",
+   "name": "Leeds United FC",
+   "short": "LEE"
+  },
+  "away": {
+   "id": "73",
+   "name": "Tottenham Hotspur FC",
+   "short": "TOT"
+  }
+ },
+ {
+  "id": "564744",
+  "kickoffUtc": "2026-11-07T13:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "84",
+   "name": "Málaga CF",
+   "short": "MAL"
+  },
+  "away": {
+   "id": "5335",
+   "name": "Real Racing Club de Santander",
+   "short": "SAN"
+  }
+ },
+ {
+  "id": "558532",
+  "kickoffUtc": "2026-11-07T14:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "586",
+   "name": "Torino FC",
+   "short": "TOR"
+  },
+  "away": {
+   "id": "5890",
+   "name": "US Lecce",
+   "short": "USL"
+  }
+ },
+ {
+  "id": "558534",
+  "kickoffUtc": "2026-11-07T14:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "104",
+   "name": "Cagliari Calcio",
+   "short": "CAG"
+  },
+  "away": {
+   "id": "470",
+   "name": "Frosinone Calcio",
+   "short": "FRO"
+  }
+ },
+ {
+  "id": "565851",
+  "kickoffUtc": "2026-11-07T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "15",
+   "name": "1. FSV Mainz 05",
+   "short": "M05"
+  },
+  "away": {
+   "id": "5",
+   "name": "FC Bayern München",
+   "short": "FCB"
+  }
+ },
+ {
+  "id": "565850",
+  "kickoffUtc": "2026-11-07T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "4",
+   "name": "Borussia Dortmund",
+   "short": "BVB"
+  },
+  "away": {
+   "id": "719",
+   "name": "SV 07 Elversberg",
+   "short": "ELV"
+  }
+ },
+ {
+  "id": "565853",
+  "kickoffUtc": "2026-11-07T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "29",
+   "name": "SC Paderborn 07",
+   "short": "SCP"
+  },
+  "away": {
+   "id": "19",
+   "name": "Eintracht Frankfurt",
+   "short": "SGE"
+  }
+ },
+ {
+  "id": "565848",
+  "kickoffUtc": "2026-11-07T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "721",
+   "name": "RB Leipzig",
+   "short": "RBL"
+  },
+  "away": {
+   "id": "16",
+   "name": "FC Augsburg",
+   "short": "FCA"
+  }
+ },
+ {
+  "id": "560640",
+  "kickoffUtc": "2026-11-07T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "57",
+   "name": "Arsenal FC",
+   "short": "ARS"
+  },
+  "away": {
+   "id": "322",
+   "name": "Hull City AFC",
+   "short": "HUL"
+  }
+ },
+ {
+  "id": "560633",
+  "kickoffUtc": "2026-11-07T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "63",
+   "name": "Fulham FC",
+   "short": "FUL"
+  },
+  "away": {
+   "id": "67",
+   "name": "Newcastle United FC",
+   "short": "NEW"
+  }
+ },
+ {
+  "id": "564745",
+  "kickoffUtc": "2026-11-07T15:15:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "80",
+   "name": "RCD Espanyol de Barcelona",
+   "short": "ESP"
+  },
+  "away": {
+   "id": "560",
+   "name": "RC Deportivo La Coruña",
+   "short": "DEP"
+  }
+ },
+ {
+  "id": "559637",
+  "kickoffUtc": "2026-11-07T16:15:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "519",
+   "name": "AJ Auxerre",
+   "short": "AJA"
+  },
+  "away": {
+   "id": "1045",
+   "name": "Paris FC",
+   "short": "PFC"
+  }
+ },
+ {
+  "id": "558535",
+  "kickoffUtc": "2026-11-07T17:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "112",
+   "name": "Parma Calcio 1913",
+   "short": "PAR"
+  },
+  "away": {
+   "id": "103",
+   "name": "Bologna FC 1909",
+   "short": "BOL"
+  }
+ },
+ {
+  "id": "565849",
+  "kickoffUtc": "2026-11-07T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "10",
+   "name": "VfB Stuttgart",
+   "short": "VFB"
+  },
+  "away": {
+   "id": "12",
+   "name": "SV Werder Bremen",
+   "short": "SVW"
+  }
+ },
+ {
+  "id": "564739",
+  "kickoffUtc": "2026-11-07T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "79",
+   "name": "CA Osasuna",
+   "short": "OSA"
+  },
+  "away": {
+   "id": "77",
+   "name": "Athletic Club",
+   "short": "ATH"
+  }
+ },
+ {
+  "id": "560641",
+  "kickoffUtc": "2026-11-07T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "351",
+   "name": "Nottingham Forest FC",
+   "short": "NOT"
+  },
+  "away": {
+   "id": "65",
+   "name": "Manchester City FC",
+   "short": "MCI"
+  }
+ },
+ {
+  "id": "559635",
+  "kickoffUtc": "2026-11-07T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  },
+  "away": {
+   "id": "531",
+   "name": "ES Troyes AC",
+   "short": "ETR"
+  }
+ },
+ {
+  "id": "558531",
+  "kickoffUtc": "2026-11-07T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "100",
+   "name": "AS Roma",
+   "short": "ROM"
+  },
+  "away": {
+   "id": "471",
+   "name": "US Sassuolo Calcio",
+   "short": "SAS"
+  }
+ },
+ {
+  "id": "564741",
+  "kickoffUtc": "2026-11-07T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "95",
+   "name": "Valencia CF",
+   "short": "VAL"
+  },
+  "away": {
+   "id": "86",
+   "name": "Real Madrid CF",
+   "short": "RMA"
+  }
+ }
+]

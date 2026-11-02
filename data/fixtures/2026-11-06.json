@@ -20,26 +20,6 @@
   }
  },
  {
-  "id": "559638",
-  "kickoffUtc": "2026-11-06T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "511",
-   "name": "Toulouse FC",
-   "short": "TOU"
-  },
-  "away": {
-   "id": "576",
-   "name": "RC Strasbourg Alsace",
-   "short": "RC "
-  }
- },
- {
   "id": "558537",
   "kickoffUtc": "2026-11-06T19:45:00.000Z",
   "status": "scheduled",
@@ -60,23 +40,23 @@
   }
  },
  {
-  "id": "560634",
-  "kickoffUtc": "2026-11-06T20:00:00.000Z",
+  "id": "559638",
+  "kickoffUtc": "2026-11-06T19:45:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
   },
   "home": {
-   "id": "62",
-   "name": "Everton FC",
-   "short": "EVE"
+   "id": "511",
+   "name": "Toulouse FC",
+   "short": "TOU"
   },
   "away": {
-   "id": "1076",
-   "name": "Coventry City FC",
-   "short": "COV"
+   "id": "576",
+   "name": "RC Strasbourg Alsace",
+   "short": "RC "
   }
  },
  {
@@ -97,6 +77,26 @@
    "id": "263",
    "name": "Deportivo Alavés",
    "short": "ALA"
+  }
+ },
+ {
+  "id": "560634",
+  "kickoffUtc": "2026-11-06T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "62",
+   "name": "Everton FC",
+   "short": "EVE"
+  },
+  "away": {
+   "id": "1076",
+   "name": "Coventry City FC",
+   "short": "COV"
   }
  }
 ]
