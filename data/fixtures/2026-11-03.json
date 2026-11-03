@@ -40,6 +40,26 @@
   }
  },
  {
+  "id": "575381",
+  "kickoffUtc": "2026-11-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "78",
+   "name": "Club Atlético de Madrid",
+   "short": "ATL"
+  },
+  "away": {
+   "id": "5",
+   "name": "FC Bayern München",
+   "short": "FCB"
+  }
+ },
+ {
   "id": "575383",
   "kickoffUtc": "2026-11-03T20:00:00.000Z",
   "status": "scheduled",
@@ -97,26 +117,6 @@
    "id": "7509",
    "name": "ŠK Slovan Bratislava",
    "short": "SBA"
-  }
- },
- {
-  "id": "575381",
-  "kickoffUtc": "2026-11-03T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "78",
-   "name": "Club Atlético de Madrid",
-   "short": "ATL"
-  },
-  "away": {
-   "id": "5",
-   "name": "FC Bayern München",
-   "short": "FCB"
   }
  },
  {

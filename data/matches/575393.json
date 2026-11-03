@@ -1,0 +1,280 @@
+{
+ "fixtureId": "575393",
+ "kickoffUtc": "2026-11-04T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "575393",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "546",
+    "name": "Racing Club de Lens",
+    "short": "RCL"
+   },
+   "away": {
+    "id": "7397",
+    "name": "Como 1907",
+    "short": "COM"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.5,
+   "awayGoals": 1.5925925925925926
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Club Brugge KV",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Sporting Clube de Portugal",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "SK Slavia Praha",
+     "venue": "A",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Manchester United FC",
+     "venue": "H",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Feyenoord Rotterdam",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "RB Leipzig",
+     "venue": "H",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 3,
+     "w": 1,
+     "d": 0,
+     "l": 2,
+     "gf": 3,
+     "ga": 7
+    },
+    "home": {
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 0,
+     "ga": 2
+    },
+    "away": {
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 3,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 3,
+     "w": 2,
+     "d": 0,
+     "l": 1,
+     "gf": 10,
+     "ga": 5
+    },
+    "home": {
+     "p": 2,
+     "w": 2,
+     "d": 0,
+     "l": 0,
+     "gf": 8,
+     "ga": 2
+    },
+    "away": {
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 2,
+     "ga": 3
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [],
+  "away": [
+   {
+    "id": "43285",
+    "name": "Anastasios Douvikas",
+    "team": "Como 1907",
+    "pos": "Offence",
+    "apps": 3,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "218474",
+    "name": "Assane Diao",
+    "team": "Como 1907",
+    "pos": "Offence",
+    "apps": 2,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "203511",
+    "name": "Nico Paz",
+    "team": "Como 1907",
+    "pos": "Midfield",
+    "apps": 3,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.085,
+   "draw": 0.132,
+   "awayWin": 0.783,
+   "pick": "A",
+   "confidence": 0.564,
+   "reasoning": "Poisson model: expected goals Racing Club de Lens 0.87 vs Como 1907 2.88, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Racing Club de Lens at home: 0W-0D-1L, 0 scored and 2 conceded in 1 games.",
+    "Como 1907 away: 0W-0D-1L, 2 scored and 3 conceded in 1 games.",
+    "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+    "Recent league form (newest first): Racing Club de Lens LLW, Como 1907 WLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Racing Club de Lens has 1 home games and Como 1907 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "43285",
+    "name": "Anastasios Douvikas",
+    "team": "Como 1907",
+    "probability": 0.579,
+    "confidence": 0.26,
+    "reasoning": "3 of Como 1907's 10 league goals this season (30%), applied to the 2.88 goals the model expects from them here.",
+    "evidence": [
+     "Anastasios Douvikas: 3 league goals in 3 appearances this season.",
+     "Como 1907 have scored 10 league goals in 3 games; the model expects 2.88 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "218474",
+    "name": "Assane Diao",
+    "team": "Como 1907",
+    "probability": 0.438,
+    "confidence": 0.228,
+    "reasoning": "2 of Como 1907's 10 league goals this season (20%), applied to the 2.88 goals the model expects from them here.",
+    "evidence": [
+     "Assane Diao: 2 league goals in 2 appearances this season.",
+     "Como 1907 have scored 10 league goals in 3 games; the model expects 2.88 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "203511",
+    "name": "Nico Paz",
+    "team": "Como 1907",
+    "probability": 0.438,
+    "confidence": 0.228,
+    "reasoning": "2 of Como 1907's 10 league goals this season (20%), applied to the 2.88 goals the model expects from them here.",
+    "evidence": [
+     "Nico Paz: 2 league goals in 3 appearances this season.",
+     "Como 1907 have scored 10 league goals in 3 games; the model expects 2.88 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.098
+   },
+   "alternatives": [
+    {
+     "score": "0-3",
+     "probability": 0.094
+    },
+    {
+     "score": "1-2",
+     "probability": 0.085
+    },
+    {
+     "score": "1-3",
+     "probability": 0.082
+    }
+   ],
+   "confidence": 0.073,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.87 (Racing Club de Lens) and 2.88 (Como 1907).",
+    "Top scorelines: 0-2 (9.8%), 0-3 (9.4%), 1-2 (8.5%), 1-3 (8.2%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Racing Club de Lens has 1 home games and Como 1907 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-03T12:36:11.537Z",
+ "lockedAt": "2026-11-03T12:36:30.107Z",
+ "result": null
+}

@@ -1,0 +1,253 @@
+{
+ "fixtureId": "575394",
+ "kickoffUtc": "2026-11-04T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "575394",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "5720",
+    "name": "Viking FK",
+    "short": "VIK"
+   },
+   "away": {
+    "id": "10233",
+    "name": "Sabah FK",
+    "short": "SAB"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.5,
+   "awayGoals": 1.5925925925925926
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Aston Villa FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "FC Bayern München",
+     "venue": "H",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    },
+    {
+     "opp": "VfB Stuttgart",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Borussia Dortmund",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "SK Slavia Praha",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Manchester United FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 3,
+     "w": 0,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 9
+    },
+    "home": {
+     "p": 1,
+     "w": 0,
+     "d": 1,
+     "l": 0,
+     "gf": 3,
+     "ga": 3
+    },
+    "away": {
+     "p": 2,
+     "w": 0,
+     "d": 0,
+     "l": 2,
+     "gf": 2,
+     "ga": 6
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 3,
+     "w": 1,
+     "d": 0,
+     "l": 2,
+     "gf": 3,
+     "ga": 6
+    },
+    "home": {
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 3,
+     "ga": 2
+    },
+    "away": {
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 0,
+     "ga": 4
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "81019",
+    "name": "Peter Christiansen",
+    "team": "Viking FK",
+    "pos": "Offence",
+    "apps": 3,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "44024",
+    "name": "Zlatko Tripić",
+    "team": "Viking FK",
+    "pos": "Offence",
+    "apps": 3,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": []
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.7,
+   "draw": 0.17,
+   "awayWin": 0.129,
+   "pick": "H",
+   "confidence": 0.504,
+   "reasoning": "Poisson model: expected goals Viking FK 2.46 vs Sabah FK 0.96, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Viking FK at home: 0W-1D-0L, 3 scored and 3 conceded in 1 games.",
+    "Sabah FK away: 0W-0D-1L, 0 scored and 4 conceded in 1 games.",
+    "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+    "Recent league form (newest first): Viking FK LDL, Sabah FK LWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Viking FK has 1 home games and Sabah FK 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "81019",
+    "name": "Peter Christiansen",
+    "team": "Viking FK",
+    "probability": 0.626,
+    "confidence": 0.26,
+    "reasoning": "2 of Viking FK's 5 league goals this season (40%), applied to the 2.46 goals the model expects from them here.",
+    "evidence": [
+     "Peter Christiansen: 2 league goals in 3 appearances this season.",
+     "Viking FK have scored 5 league goals in 3 games; the model expects 2.46 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "44024",
+    "name": "Zlatko Tripić",
+    "team": "Viking FK",
+    "probability": 0.388,
+    "confidence": 0.202,
+    "reasoning": "1 of Viking FK's 5 league goals this season (20%), applied to the 2.46 goals the model expects from them here.",
+    "evidence": [
+     "Zlatko Tripić: 1 league goals in 3 appearances this season.",
+     "Viking FK have scored 5 league goals in 3 games; the model expects 2.46 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-0",
+    "probability": 0.099
+   },
+   "alternatives": [
+    {
+     "score": "2-1",
+     "probability": 0.095
+    },
+    {
+     "score": "3-0",
+     "probability": 0.081
+    },
+    {
+     "score": "1-0",
+     "probability": 0.08
+    }
+   ],
+   "confidence": 0.074,
+   "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.46 (Viking FK) and 0.96 (Sabah FK).",
+    "Top scorelines: 2-0 (9.9%), 2-1 (9.5%), 3-0 (8.1%), 1-0 (8.0%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Viking FK has 1 home games and Sabah FK 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-03T12:37:44.844Z",
+ "lockedAt": "2026-11-03T12:38:03.132Z",
+ "result": null
+}

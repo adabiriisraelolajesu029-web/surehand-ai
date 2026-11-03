@@ -1,0 +1,299 @@
+{
+ "fixtureId": "575388",
+ "kickoffUtc": "2026-11-04T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "575388",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "721",
+    "name": "RB Leipzig",
+    "short": "RBL"
+   },
+   "away": {
+    "id": "65",
+    "name": "Manchester City FC",
+    "short": "MCI"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.5,
+   "awayGoals": 1.5925925925925926
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Real Madrid CF",
+     "venue": "A",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "PSV",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Como 1907",
+     "venue": "A",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "PAE AEK",
+     "venue": "H",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Paris Saint-Germain FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "FC Porto",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 3,
+     "w": 1,
+     "d": 0,
+     "l": 2,
+     "gf": 3,
+     "ga": 8
+    },
+    "home": {
+     "p": 1,
+     "w": 1,
+     "d": 0,
+     "l": 0,
+     "gf": 1,
+     "ga": 0
+    },
+    "away": {
+     "p": 2,
+     "w": 0,
+     "d": 0,
+     "l": 2,
+     "gf": 2,
+     "ga": 8
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 3,
+     "w": 2,
+     "d": 0,
+     "l": 1,
+     "gf": 9,
+     "ga": 5
+    },
+    "home": {
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 7,
+     "ga": 5
+    },
+    "away": {
+     "p": 1,
+     "w": 1,
+     "d": 0,
+     "l": 0,
+     "gf": 2,
+     "ga": 0
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2023-11-28",
+    "homeId": "65",
+    "awayId": "721",
+    "home": "Manchester City FC",
+    "away": "RB Leipzig",
+    "hg": 3,
+    "ag": 2
+   },
+   {
+    "date": "2023-10-04",
+    "homeId": "721",
+    "awayId": "65",
+    "home": "RB Leipzig",
+    "away": "Manchester City FC",
+    "hg": 1,
+    "ag": 3
+   },
+   {
+    "date": "2023-03-14",
+    "homeId": "65",
+    "awayId": "721",
+    "home": "Manchester City FC",
+    "away": "RB Leipzig",
+    "hg": 7,
+    "ag": 0
+   },
+   {
+    "date": "2023-02-22",
+    "homeId": "721",
+    "awayId": "65",
+    "home": "RB Leipzig",
+    "away": "Manchester City FC",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2021-12-07",
+    "homeId": "721",
+    "awayId": "65",
+    "home": "RB Leipzig",
+    "away": "Manchester City FC",
+    "hg": 2,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [],
+  "away": [
+   {
+    "id": "38101",
+    "name": "Erling Haaland",
+    "team": "Manchester City FC",
+    "pos": "Offence",
+    "apps": 3,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "7888",
+    "name": "Phil Foden",
+    "team": "Manchester City FC",
+    "pos": "Midfield",
+    "apps": 3,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.103,
+   "draw": 0.167,
+   "awayWin": 0.73,
+   "pick": "A",
+   "confidence": 0.525,
+   "reasoning": "Poisson model: expected goals RB Leipzig 0.77 vs Manchester City FC 2.36, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "RB Leipzig at home: 1W-0D-0L, 1 scored and 0 conceded in 1 games.",
+    "Manchester City FC away: 1W-0D-0L, 2 scored and 0 conceded in 1 games.",
+    "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+    "Recent league form (newest first): RB Leipzig LWL, Manchester City FC WLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: RB Leipzig has 1 home games and Manchester City FC 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "38101",
+    "name": "Erling Haaland",
+    "team": "Manchester City FC",
+    "probability": 0.65,
+    "confidence": 0.26,
+    "reasoning": "4 of Manchester City FC's 9 league goals this season (44%), applied to the 2.36 goals the model expects from them here.",
+    "evidence": [
+     "Erling Haaland: 4 league goals in 3 appearances this season.",
+     "Manchester City FC have scored 9 league goals in 3 games; the model expects 2.36 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "7888",
+    "name": "Phil Foden",
+    "team": "Manchester City FC",
+    "probability": 0.545,
+    "confidence": 0.26,
+    "reasoning": "3 of Manchester City FC's 9 league goals this season (33%), applied to the 2.36 goals the model expects from them here.",
+    "evidence": [
+     "Phil Foden: 3 league goals in 3 appearances this season.",
+     "Manchester City FC have scored 9 league goals in 3 games; the model expects 2.36 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.122
+   },
+   "alternatives": [
+    {
+     "score": "0-1",
+     "probability": 0.103
+    },
+    {
+     "score": "0-3",
+     "probability": 0.096
+    },
+    {
+     "score": "1-2",
+     "probability": 0.094
+    }
+   ],
+   "confidence": 0.092,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.77 (RB Leipzig) and 2.36 (Manchester City FC).",
+    "Top scorelines: 0-2 (12.2%), 0-1 (10.3%), 0-3 (9.6%), 1-2 (9.4%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: RB Leipzig has 1 home games and Manchester City FC 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-03T12:37:25.915Z",
+ "lockedAt": "2026-11-03T12:37:44.844Z",
+ "result": null
+}

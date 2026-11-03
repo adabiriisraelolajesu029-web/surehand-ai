@@ -1,0 +1,291 @@
+{
+ "fixtureId": "575389",
+ "kickoffUtc": "2026-11-04T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "575389",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "930",
+    "name": "SK Slavia Praha",
+    "short": "SLP"
+   },
+   "away": {
+    "id": "57",
+    "name": "Arsenal FC",
+    "short": "ARS"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.5,
+   "awayGoals": 1.5925925925925926
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Fenerbahçe SK",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Sabah FK",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "FC Bayern München",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Lille OSC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SSC Napoli",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 3,
+     "w": 0,
+     "d": 1,
+     "l": 2,
+     "gf": 4,
+     "ga": 7
+    },
+    "home": {
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 2,
+     "ga": 3
+    },
+    "away": {
+     "p": 2,
+     "w": 0,
+     "d": 1,
+     "l": 1,
+     "gf": 2,
+     "ga": 4
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 3,
+     "w": 2,
+     "d": 1,
+     "l": 0,
+     "gf": 6,
+     "ga": 2
+    },
+    "home": {
+     "p": 1,
+     "w": 1,
+     "d": 0,
+     "l": 0,
+     "gf": 3,
+     "ga": 0
+    },
+    "away": {
+     "p": 2,
+     "w": 1,
+     "d": 1,
+     "l": 0,
+     "gf": 3,
+     "ga": 2
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2025-11-04",
+    "homeId": "930",
+    "awayId": "57",
+    "home": "SK Slavia Praha",
+    "away": "Arsenal FC",
+    "hg": 0,
+    "ag": 3
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "183277",
+    "name": "Danijel Sturm",
+    "team": "SK Slavia Praha",
+    "pos": "Offence",
+    "apps": 3,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "4032",
+    "name": "Eberechi Eze",
+    "team": "Arsenal FC",
+    "pos": "Midfield",
+    "apps": 3,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "7427",
+    "name": "Martin Ødegaard",
+    "team": "Arsenal FC",
+    "pos": "Midfield",
+    "apps": 3,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.102,
+   "draw": 0.196,
+   "awayWin": 0.702,
+   "pick": "A",
+   "confidence": 0.506,
+   "reasoning": "Poisson model: expected goals SK Slavia Praha 0.60 vs Arsenal FC 1.98, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "SK Slavia Praha at home: 0W-0D-1L, 2 scored and 3 conceded in 1 games.",
+    "Arsenal FC away: 1W-1D-0L, 3 scored and 2 conceded in 2 games.",
+    "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+    "Recent league form (newest first): SK Slavia Praha DLL, Arsenal FC DWW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: SK Slavia Praha has 1 home games and Arsenal FC 2 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "4032",
+    "name": "Eberechi Eze",
+    "team": "Arsenal FC",
+    "probability": 0.484,
+    "confidence": 0.251,
+    "reasoning": "2 of Arsenal FC's 6 league goals this season (33%), applied to the 1.98 goals the model expects from them here.",
+    "evidence": [
+     "Eberechi Eze: 2 league goals in 3 appearances this season.",
+     "Arsenal FC have scored 6 league goals in 3 games; the model expects 1.98 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "7427",
+    "name": "Martin Ødegaard",
+    "team": "Arsenal FC",
+    "probability": 0.281,
+    "confidence": 0.146,
+    "reasoning": "1 of Arsenal FC's 6 league goals this season (17%), applied to the 1.98 goals the model expects from them here.",
+    "evidence": [
+     "Martin Ødegaard: 1 league goals in 3 appearances this season.",
+     "Arsenal FC have scored 6 league goals in 3 games; the model expects 1.98 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "183277",
+    "name": "Danijel Sturm",
+    "team": "SK Slavia Praha",
+    "probability": 0.258,
+    "confidence": 0.134,
+    "reasoning": "2 of SK Slavia Praha's 4 league goals this season (50%), applied to the 0.60 goals the model expects from them here.",
+    "evidence": [
+     "Danijel Sturm: 2 league goals in 3 appearances this season.",
+     "SK Slavia Praha have scored 4 league goals in 3 games; the model expects 0.60 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-1",
+    "probability": 0.15
+   },
+   "alternatives": [
+    {
+     "score": "0-2",
+     "probability": 0.149
+    },
+    {
+     "score": "0-3",
+     "probability": 0.098
+    },
+    {
+     "score": "1-1",
+     "probability": 0.09
+    }
+   ],
+   "confidence": 0.113,
+   "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.60 (SK Slavia Praha) and 1.98 (Arsenal FC).",
+    "Top scorelines: 0-1 (15.0%), 0-2 (14.9%), 0-3 (9.8%), 1-1 (9.0%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: SK Slavia Praha has 1 home games and Arsenal FC 2 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-03T12:36:30.108Z",
+ "lockedAt": "2026-11-03T12:36:48.717Z",
+ "result": null
+}

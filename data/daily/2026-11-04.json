@@ -1,0 +1,1096 @@
+[
+ {
+  "fixture": {
+   "id": "575386",
+   "kickoffUtc": "2026-11-04T17:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "1899",
+    "name": "PAE AEK",
+    "short": "AEK"
+   },
+   "away": {
+    "id": "86",
+    "name": "Real Madrid CF",
+    "short": "RMA"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.101,
+    "draw": 0.135,
+    "awayWin": 0.764,
+    "pick": "A",
+    "confidence": 0.55,
+    "reasoning": "Poisson model: expected goals PAE AEK 1.05 vs Real Madrid CF 3.00, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "PAE AEK at home: 1W-0D-0L, 1 scored and 0 conceded in 1 games.",
+     "Real Madrid CF away: 1W-0D-0L, 4 scored and 3 conceded in 1 games.",
+     "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+     "Recent league form (newest first): PAE AEK LLW, Real Madrid CF WWW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: PAE AEK has 1 home games and Real Madrid CF 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "3374",
+     "name": "Kylian Mbappé",
+     "team": "Real Madrid CF",
+     "probability": 0.593,
+     "confidence": 0.26,
+     "reasoning": "3 of Real Madrid CF's 10 league goals this season (30%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Kylian Mbappé: 3 league goals in 3 appearances this season.",
+      "Real Madrid CF have scored 10 league goals in 3 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "9237",
+     "name": "Răzvan Marin",
+     "team": "PAE AEK",
+     "probability": 0.295,
+     "confidence": 0.154,
+     "reasoning": "1 of PAE AEK's 3 league goals this season (33%), applied to the 1.05 goals the model expects from them here.",
+     "evidence": [
+      "Răzvan Marin: 1 league goals in 3 appearances this season.",
+      "PAE AEK have scored 3 league goals in 3 games; the model expects 1.05 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "96",
+     "name": "Federico Valverde",
+     "team": "Real Madrid CF",
+     "probability": 0.259,
+     "confidence": 0.135,
+     "reasoning": "1 of Real Madrid CF's 10 league goals this season (10%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Federico Valverde: 1 league goals in 3 appearances this season.",
+      "Real Madrid CF have scored 10 league goals in 3 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-2",
+     "probability": 0.083
+    },
+    "alternatives": [
+     {
+      "score": "1-3",
+      "probability": 0.083
+     },
+     {
+      "score": "0-2",
+      "probability": 0.079
+     },
+     {
+      "score": "0-3",
+      "probability": 0.079
+     }
+    ],
+    "confidence": 0.062,
+    "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.05 (PAE AEK) and 3.00 (Real Madrid CF).",
+     "Top scorelines: 1-2 (8.3%), 1-3 (8.3%), 0-2 (7.9%), 0-3 (7.9%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: PAE AEK has 1 home games and Real Madrid CF 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-03T12:36:11.537Z"
+ },
+ {
+  "fixture": {
+   "id": "575387",
+   "kickoffUtc": "2026-11-04T17:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "613",
+    "name": "Fenerbahçe SK",
+    "short": "FEN"
+   },
+   "away": {
+    "id": "64",
+    "name": "Liverpool FC",
+    "short": "LIV"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.169,
+    "draw": 0.156,
+    "awayWin": 0.675,
+    "pick": "A",
+    "confidence": 0.486,
+    "reasoning": "Poisson model: expected goals Fenerbahçe SK 1.51 vs Liverpool FC 3.00, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Fenerbahçe SK at home: 0W-2D-0L, 3 scored and 3 conceded in 2 games.",
+     "Liverpool FC away: 1W-0D-0L, 6 scored and 3 conceded in 1 games.",
+     "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+     "Recent league form (newest first): Fenerbahçe SK DLD, Liverpool FC WWW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Fenerbahçe SK has 2 home games and Liverpool FC 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "45681",
+     "name": "Alexis Mac Allister",
+     "team": "Liverpool FC",
+     "probability": 0.528,
+     "confidence": 0.26,
+     "reasoning": "3 of Liverpool FC's 12 league goals this season (25%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Alexis Mac Allister: 3 league goals in 3 appearances this season.",
+      "Liverpool FC have scored 12 league goals in 3 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "172762",
+     "name": "Bradley Barcola",
+     "team": "Liverpool FC",
+     "probability": 0.528,
+     "confidence": 0.26,
+     "reasoning": "3 of Liverpool FC's 12 league goals this season (25%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Bradley Barcola: 3 league goals in 3 appearances this season.",
+      "Liverpool FC have scored 12 league goals in 3 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "28292",
+     "name": "Ronald Araújo",
+     "team": "Liverpool FC",
+     "probability": 0.393,
+     "confidence": 0.205,
+     "reasoning": "2 of Liverpool FC's 12 league goals this season (17%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Ronald Araújo: 2 league goals in 3 appearances this season.",
+      "Liverpool FC have scored 12 league goals in 3 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-2",
+     "probability": 0.075
+    },
+    "alternatives": [
+     {
+      "score": "1-3",
+      "probability": 0.075
+     },
+     {
+      "score": "2-2",
+      "probability": 0.057
+     },
+     {
+      "score": "2-3",
+      "probability": 0.057
+     }
+    ],
+    "confidence": 0.056,
+    "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.51 (Fenerbahçe SK) and 3.00 (Liverpool FC).",
+     "Top scorelines: 1-2 (7.5%), 1-3 (7.5%), 2-2 (5.7%), 2-3 (5.7%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Fenerbahçe SK has 2 home games and Liverpool FC 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-03T12:35:53.338Z"
+ },
+ {
+  "fixture": {
+   "id": "575388",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "721",
+    "name": "RB Leipzig",
+    "short": "RBL"
+   },
+   "away": {
+    "id": "65",
+    "name": "Manchester City FC",
+    "short": "MCI"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.103,
+    "draw": 0.167,
+    "awayWin": 0.73,
+    "pick": "A",
+    "confidence": 0.525,
+    "reasoning": "Poisson model: expected goals RB Leipzig 0.77 vs Manchester City FC 2.36, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "RB Leipzig at home: 1W-0D-0L, 1 scored and 0 conceded in 1 games.",
+     "Manchester City FC away: 1W-0D-0L, 2 scored and 0 conceded in 1 games.",
+     "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+     "Recent league form (newest first): RB Leipzig LWL, Manchester City FC WLW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: RB Leipzig has 1 home games and Manchester City FC 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "38101",
+     "name": "Erling Haaland",
+     "team": "Manchester City FC",
+     "probability": 0.65,
+     "confidence": 0.26,
+     "reasoning": "4 of Manchester City FC's 9 league goals this season (44%), applied to the 2.36 goals the model expects from them here.",
+     "evidence": [
+      "Erling Haaland: 4 league goals in 3 appearances this season.",
+      "Manchester City FC have scored 9 league goals in 3 games; the model expects 2.36 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "7888",
+     "name": "Phil Foden",
+     "team": "Manchester City FC",
+     "probability": 0.545,
+     "confidence": 0.26,
+     "reasoning": "3 of Manchester City FC's 9 league goals this season (33%), applied to the 2.36 goals the model expects from them here.",
+     "evidence": [
+      "Phil Foden: 3 league goals in 3 appearances this season.",
+      "Manchester City FC have scored 9 league goals in 3 games; the model expects 2.36 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-2",
+     "probability": 0.122
+    },
+    "alternatives": [
+     {
+      "score": "0-1",
+      "probability": 0.103
+     },
+     {
+      "score": "0-3",
+      "probability": 0.096
+     },
+     {
+      "score": "1-2",
+      "probability": 0.094
+     }
+    ],
+    "confidence": 0.092,
+    "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.77 (RB Leipzig) and 2.36 (Manchester City FC).",
+     "Top scorelines: 0-2 (12.2%), 0-1 (10.3%), 0-3 (9.6%), 1-2 (9.4%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: RB Leipzig has 1 home games and Manchester City FC 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-03T12:37:44.844Z"
+ },
+ {
+  "fixture": {
+   "id": "575389",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "930",
+    "name": "SK Slavia Praha",
+    "short": "SLP"
+   },
+   "away": {
+    "id": "57",
+    "name": "Arsenal FC",
+    "short": "ARS"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.102,
+    "draw": 0.196,
+    "awayWin": 0.702,
+    "pick": "A",
+    "confidence": 0.506,
+    "reasoning": "Poisson model: expected goals SK Slavia Praha 0.60 vs Arsenal FC 1.98, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "SK Slavia Praha at home: 0W-0D-1L, 2 scored and 3 conceded in 1 games.",
+     "Arsenal FC away: 1W-1D-0L, 3 scored and 2 conceded in 2 games.",
+     "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+     "Recent league form (newest first): SK Slavia Praha DLL, Arsenal FC DWW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: SK Slavia Praha has 1 home games and Arsenal FC 2 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "4032",
+     "name": "Eberechi Eze",
+     "team": "Arsenal FC",
+     "probability": 0.484,
+     "confidence": 0.251,
+     "reasoning": "2 of Arsenal FC's 6 league goals this season (33%), applied to the 1.98 goals the model expects from them here.",
+     "evidence": [
+      "Eberechi Eze: 2 league goals in 3 appearances this season.",
+      "Arsenal FC have scored 6 league goals in 3 games; the model expects 1.98 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "7427",
+     "name": "Martin Ødegaard",
+     "team": "Arsenal FC",
+     "probability": 0.281,
+     "confidence": 0.146,
+     "reasoning": "1 of Arsenal FC's 6 league goals this season (17%), applied to the 1.98 goals the model expects from them here.",
+     "evidence": [
+      "Martin Ødegaard: 1 league goals in 3 appearances this season.",
+      "Arsenal FC have scored 6 league goals in 3 games; the model expects 1.98 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "183277",
+     "name": "Danijel Sturm",
+     "team": "SK Slavia Praha",
+     "probability": 0.258,
+     "confidence": 0.134,
+     "reasoning": "2 of SK Slavia Praha's 4 league goals this season (50%), applied to the 0.60 goals the model expects from them here.",
+     "evidence": [
+      "Danijel Sturm: 2 league goals in 3 appearances this season.",
+      "SK Slavia Praha have scored 4 league goals in 3 games; the model expects 0.60 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-1",
+     "probability": 0.15
+    },
+    "alternatives": [
+     {
+      "score": "0-2",
+      "probability": 0.149
+     },
+     {
+      "score": "0-3",
+      "probability": 0.098
+     },
+     {
+      "score": "1-1",
+      "probability": 0.09
+     }
+    ],
+    "confidence": 0.113,
+    "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.60 (SK Slavia Praha) and 1.98 (Arsenal FC).",
+     "Top scorelines: 0-1 (15.0%), 0-2 (14.9%), 0-3 (9.8%), 1-1 (9.0%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: SK Slavia Praha has 1 home games and Arsenal FC 2 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-03T12:36:48.717Z"
+ },
+ {
+  "fixture": {
+   "id": "575390",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "674",
+    "name": "PSV",
+    "short": "PSV"
+   },
+   "away": {
+    "id": "851",
+    "name": "Club Brugge KV",
+    "short": "BRU"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.299,
+    "draw": 0.317,
+    "awayWin": 0.384,
+    "pick": "A",
+    "confidence": 0.277,
+    "reasoning": "Poisson model: expected goals PSV 0.87 vs Club Brugge KV 1.03, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "PSV at home: 0W-1D-0L, 1 scored and 1 conceded in 1 games.",
+     "Club Brugge KV away: 1W-0D-0L, 4 scored and 3 conceded in 1 games.",
+     "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+     "Recent league form (newest first): PSV WLD, Club Brugge KV WWL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: PSV has 1 home games and Club Brugge KV 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "177321",
+     "name": "Nicolo Tresoldi",
+     "team": "Club Brugge KV",
+     "probability": 0.367,
+     "confidence": 0.191,
+     "reasoning": "4 of Club Brugge KV's 9 league goals this season (44%), applied to the 1.03 goals the model expects from them here.",
+     "evidence": [
+      "Nicolo Tresoldi: 4 league goals in 3 appearances this season.",
+      "Club Brugge KV have scored 9 league goals in 3 games; the model expects 1.03 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "38417",
+     "name": "Hugo Vetlesen",
+     "team": "Club Brugge KV",
+     "probability": 0.108,
+     "confidence": 0.056,
+     "reasoning": "1 of Club Brugge KV's 9 league goals this season (11%), applied to the 1.03 goals the model expects from them here.",
+     "evidence": [
+      "Hugo Vetlesen: 1 league goals in 3 appearances this season.",
+      "Club Brugge KV have scored 9 league goals in 3 games; the model expects 1.03 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-1",
+     "probability": 0.154
+    },
+    "alternatives": [
+     {
+      "score": "0-0",
+      "probability": 0.149
+     },
+     {
+      "score": "1-1",
+      "probability": 0.134
+     },
+     {
+      "score": "1-0",
+      "probability": 0.13
+     }
+    ],
+    "confidence": 0.116,
+    "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.87 (PSV) and 1.03 (Club Brugge KV).",
+     "Top scorelines: 0-1 (15.4%), 0-0 (14.9%), 1-1 (13.4%), 1-0 (13.0%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: PSV has 1 home games and Club Brugge KV 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-03T12:38:21.737Z"
+ },
+ {
+  "fixture": {
+   "id": "575391",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "4",
+    "name": "Borussia Dortmund",
+    "short": "BVB"
+   },
+   "away": {
+    "id": "90",
+    "name": "Real Betis Balompié",
+    "short": "BET"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.366,
+    "draw": 0.238,
+    "awayWin": 0.395,
+    "pick": "A",
+    "confidence": 0.285,
+    "reasoning": "Poisson model: expected goals Borussia Dortmund 1.52 vs Real Betis Balompié 1.59, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Borussia Dortmund at home: 1W-0D-0L, 3 scored and 2 conceded in 1 games.",
+     "Real Betis Balompié away: 1W-0D-0L, 3 scored and 2 conceded in 1 games.",
+     "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+     "Recent league form (newest first): Borussia Dortmund WLW, Real Betis Balompié WWW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Borussia Dortmund has 1 home games and Real Betis Balompié 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "211",
+     "name": "Sehrou Guirassy",
+     "team": "Borussia Dortmund",
+     "probability": 0.532,
+     "confidence": 0.26,
+     "reasoning": "4 of Borussia Dortmund's 5 league goals this season (50%), applied to the 1.52 goals the model expects from them here.",
+     "evidence": [
+      "Sehrou Guirassy: 4 league goals in 3 appearances this season.",
+      "Borussia Dortmund have scored 5 league goals in 3 games; the model expects 1.52 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "33038",
+     "name": "Bartra",
+     "team": "Real Betis Balompié",
+     "probability": 0.364,
+     "confidence": 0.189,
+     "reasoning": "2 of Real Betis Balompié's 7 league goals this season (29%), applied to the 1.59 goals the model expects from them here.",
+     "evidence": [
+      "Bartra: 2 league goals in 3 appearances this season.",
+      "Real Betis Balompié have scored 7 league goals in 3 games; the model expects 1.59 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "66",
+     "name": "Isco",
+     "team": "Real Betis Balompié",
+     "probability": 0.364,
+     "confidence": 0.189,
+     "reasoning": "2 of Real Betis Balompié's 7 league goals this season (29%), applied to the 1.59 goals the model expects from them here.",
+     "evidence": [
+      "Isco: 2 league goals in 3 appearances this season.",
+      "Real Betis Balompié have scored 7 league goals in 3 games; the model expects 1.59 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-1",
+     "probability": 0.108
+    },
+    "alternatives": [
+     {
+      "score": "1-2",
+      "probability": 0.086
+     },
+     {
+      "score": "2-1",
+      "probability": 0.082
+     },
+     {
+      "score": "0-1",
+      "probability": 0.071
+     }
+    ],
+    "confidence": 0.081,
+    "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.52 (Borussia Dortmund) and 1.59 (Real Betis Balompié).",
+     "Top scorelines: 1-1 (10.8%), 1-2 (8.6%), 2-1 (8.2%), 0-1 (7.1%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Borussia Dortmund has 1 home games and Real Betis Balompié 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-03T12:37:07.394Z"
+ },
+ {
+  "fixture": {
+   "id": "575392",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "503",
+    "name": "FC Porto",
+    "short": "FCP"
+   },
+   "away": {
+    "id": "113",
+    "name": "SSC Napoli",
+    "short": "NAP"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.194,
+    "draw": 0.308,
+    "awayWin": 0.499,
+    "pick": "A",
+    "confidence": 0.359,
+    "reasoning": "Poisson model: expected goals FC Porto 0.63 vs SSC Napoli 1.20, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "FC Porto at home: 0W-0D-2L, 0 scored and 3 conceded in 2 games.",
+     "SSC Napoli away: 0W-0D-1L, 1 scored and 3 conceded in 1 games.",
+     "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+     "Recent league form (newest first): FC Porto LLL, SSC Napoli WLL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: FC Porto has 2 home games and SSC Napoli 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "7905",
+     "name": "Scott McTominay",
+     "team": "SSC Napoli",
+     "probability": 0.38,
+     "confidence": 0.198,
+     "reasoning": "2 of SSC Napoli's 5 league goals this season (40%), applied to the 1.20 goals the model expects from them here.",
+     "evidence": [
+      "Scott McTominay: 2 league goals in 2 appearances this season.",
+      "SSC Napoli have scored 5 league goals in 3 games; the model expects 1.20 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-1",
+     "probability": 0.193
+    },
+    "alternatives": [
+     {
+      "score": "0-0",
+      "probability": 0.162
+     },
+     {
+      "score": "1-1",
+      "probability": 0.121
+     },
+     {
+      "score": "0-2",
+      "probability": 0.116
+     }
+    ],
+    "confidence": 0.145,
+    "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.63 (FC Porto) and 1.20 (SSC Napoli).",
+     "Top scorelines: 0-1 (19.3%), 0-0 (16.2%), 1-1 (12.1%), 0-2 (11.6%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: FC Porto has 2 home games and SSC Napoli 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-03T12:37:25.915Z"
+ },
+ {
+  "fixture": {
+   "id": "575393",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "546",
+    "name": "Racing Club de Lens",
+    "short": "RCL"
+   },
+   "away": {
+    "id": "7397",
+    "name": "Como 1907",
+    "short": "COM"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.085,
+    "draw": 0.132,
+    "awayWin": 0.783,
+    "pick": "A",
+    "confidence": 0.564,
+    "reasoning": "Poisson model: expected goals Racing Club de Lens 0.87 vs Como 1907 2.88, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Racing Club de Lens at home: 0W-0D-1L, 0 scored and 2 conceded in 1 games.",
+     "Como 1907 away: 0W-0D-1L, 2 scored and 3 conceded in 1 games.",
+     "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+     "Recent league form (newest first): Racing Club de Lens LLW, Como 1907 WLW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Racing Club de Lens has 1 home games and Como 1907 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "43285",
+     "name": "Anastasios Douvikas",
+     "team": "Como 1907",
+     "probability": 0.579,
+     "confidence": 0.26,
+     "reasoning": "3 of Como 1907's 10 league goals this season (30%), applied to the 2.88 goals the model expects from them here.",
+     "evidence": [
+      "Anastasios Douvikas: 3 league goals in 3 appearances this season.",
+      "Como 1907 have scored 10 league goals in 3 games; the model expects 2.88 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "218474",
+     "name": "Assane Diao",
+     "team": "Como 1907",
+     "probability": 0.438,
+     "confidence": 0.228,
+     "reasoning": "2 of Como 1907's 10 league goals this season (20%), applied to the 2.88 goals the model expects from them here.",
+     "evidence": [
+      "Assane Diao: 2 league goals in 2 appearances this season.",
+      "Como 1907 have scored 10 league goals in 3 games; the model expects 2.88 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "203511",
+     "name": "Nico Paz",
+     "team": "Como 1907",
+     "probability": 0.438,
+     "confidence": 0.228,
+     "reasoning": "2 of Como 1907's 10 league goals this season (20%), applied to the 2.88 goals the model expects from them here.",
+     "evidence": [
+      "Nico Paz: 2 league goals in 3 appearances this season.",
+      "Como 1907 have scored 10 league goals in 3 games; the model expects 2.88 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-2",
+     "probability": 0.098
+    },
+    "alternatives": [
+     {
+      "score": "0-3",
+      "probability": 0.094
+     },
+     {
+      "score": "1-2",
+      "probability": 0.085
+     },
+     {
+      "score": "1-3",
+      "probability": 0.082
+     }
+    ],
+    "confidence": 0.073,
+    "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.87 (Racing Club de Lens) and 2.88 (Como 1907).",
+     "Top scorelines: 0-2 (9.8%), 0-3 (9.4%), 1-2 (8.5%), 1-3 (8.2%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Racing Club de Lens has 1 home games and Como 1907 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-03T12:36:30.107Z"
+ },
+ {
+  "fixture": {
+   "id": "575394",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "5720",
+    "name": "Viking FK",
+    "short": "VIK"
+   },
+   "away": {
+    "id": "10233",
+    "name": "Sabah FK",
+    "short": "SAB"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.7,
+    "draw": 0.17,
+    "awayWin": 0.129,
+    "pick": "H",
+    "confidence": 0.504,
+    "reasoning": "Poisson model: expected goals Viking FK 2.46 vs Sabah FK 0.96, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Viking FK at home: 0W-1D-0L, 3 scored and 3 conceded in 1 games.",
+     "Sabah FK away: 0W-0D-1L, 0 scored and 4 conceded in 1 games.",
+     "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+     "Recent league form (newest first): Viking FK LDL, Sabah FK LWL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Viking FK has 1 home games and Sabah FK 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "81019",
+     "name": "Peter Christiansen",
+     "team": "Viking FK",
+     "probability": 0.626,
+     "confidence": 0.26,
+     "reasoning": "2 of Viking FK's 5 league goals this season (40%), applied to the 2.46 goals the model expects from them here.",
+     "evidence": [
+      "Peter Christiansen: 2 league goals in 3 appearances this season.",
+      "Viking FK have scored 5 league goals in 3 games; the model expects 2.46 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "44024",
+     "name": "Zlatko Tripić",
+     "team": "Viking FK",
+     "probability": 0.388,
+     "confidence": 0.202,
+     "reasoning": "1 of Viking FK's 5 league goals this season (20%), applied to the 2.46 goals the model expects from them here.",
+     "evidence": [
+      "Zlatko Tripić: 1 league goals in 3 appearances this season.",
+      "Viking FK have scored 5 league goals in 3 games; the model expects 2.46 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "2-0",
+     "probability": 0.099
+    },
+    "alternatives": [
+     {
+      "score": "2-1",
+      "probability": 0.095
+     },
+     {
+      "score": "3-0",
+      "probability": 0.081
+     },
+     {
+      "score": "1-0",
+      "probability": 0.08
+     }
+    ],
+    "confidence": 0.074,
+    "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 2.46 (Viking FK) and 0.96 (Sabah FK).",
+     "Top scorelines: 2-0 (9.9%), 2-1 (9.5%), 3-0 (8.1%), 1-0 (8.0%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Viking FK has 1 home games and Sabah FK 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-03T12:38:03.132Z"
+ }
+]

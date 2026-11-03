@@ -1,0 +1,226 @@
+{
+ "fixtureId": "575392",
+ "kickoffUtc": "2026-11-04T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "575392",
+   "kickoffUtc": "2026-11-04T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "503",
+    "name": "FC Porto",
+    "short": "FCP"
+   },
+   "away": {
+    "id": "113",
+    "name": "SSC Napoli",
+    "short": "NAP"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.5,
+   "awayGoals": 1.5925925925925926
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "PSV",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Real Betis Balompié",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Manchester City FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "FK Bodø/Glimt",
+     "venue": "H",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "opp": "Villarreal CF",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Arsenal FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 3,
+     "w": 0,
+     "d": 0,
+     "l": 3,
+     "gf": 2,
+     "ga": 6
+    },
+    "home": {
+     "p": 2,
+     "w": 0,
+     "d": 0,
+     "l": 2,
+     "gf": 0,
+     "ga": 3
+    },
+    "away": {
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 2,
+     "ga": 3
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 3,
+     "w": 1,
+     "d": 0,
+     "l": 2,
+     "gf": 5,
+     "ga": 7
+    },
+    "home": {
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 4,
+     "ga": 4
+    },
+    "away": {
+     "p": 1,
+     "w": 0,
+     "d": 0,
+     "l": 1,
+     "gf": 1,
+     "ga": 3
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [],
+  "away": [
+   {
+    "id": "7905",
+    "name": "Scott McTominay",
+    "team": "SSC Napoli",
+    "pos": "Midfield",
+    "apps": 2,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.194,
+   "draw": 0.308,
+   "awayWin": 0.499,
+   "pick": "A",
+   "confidence": 0.359,
+   "reasoning": "Poisson model: expected goals FC Porto 0.63 vs SSC Napoli 1.20, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "FC Porto at home: 0W-0D-2L, 0 scored and 3 conceded in 2 games.",
+    "SSC Napoli away: 0W-0D-1L, 1 scored and 3 conceded in 1 games.",
+    "League averages this season: home teams 2.50 goals per game, away teams 1.59.",
+    "Recent league form (newest first): FC Porto LLL, SSC Napoli WLL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: FC Porto has 2 home games and SSC Napoli 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "7905",
+    "name": "Scott McTominay",
+    "team": "SSC Napoli",
+    "probability": 0.38,
+    "confidence": 0.198,
+    "reasoning": "2 of SSC Napoli's 5 league goals this season (40%), applied to the 1.20 goals the model expects from them here.",
+    "evidence": [
+     "Scott McTominay: 2 league goals in 2 appearances this season.",
+     "SSC Napoli have scored 5 league goals in 3 games; the model expects 1.20 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-1",
+    "probability": 0.193
+   },
+   "alternatives": [
+    {
+     "score": "0-0",
+     "probability": 0.162
+    },
+    {
+     "score": "1-1",
+     "probability": 0.121
+    },
+    {
+     "score": "0-2",
+     "probability": 0.116
+    }
+   ],
+   "confidence": 0.145,
+   "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.63 (FC Porto) and 1.20 (SSC Napoli).",
+    "Top scorelines: 0-1 (19.3%), 0-0 (16.2%), 1-1 (12.1%), 0-2 (11.6%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: FC Porto has 2 home games and SSC Napoli 1 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-03T12:37:07.395Z",
+ "lockedAt": "2026-11-03T12:37:25.915Z",
+ "result": null
+}
