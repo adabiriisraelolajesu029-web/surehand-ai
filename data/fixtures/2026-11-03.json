@@ -2,7 +2,7 @@
  {
   "id": "575377",
   "kickoffUtc": "2026-11-03T17:45:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "CL",
    "name": "UEFA Champions League",
@@ -22,7 +22,7 @@
  {
   "id": "575378",
   "kickoffUtc": "2026-11-03T17:45:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "CL",
    "name": "UEFA Champions League",

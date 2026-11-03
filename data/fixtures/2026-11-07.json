@@ -80,26 +80,6 @@
   }
  },
  {
-  "id": "565850",
-  "kickoffUtc": "2026-11-07T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "4",
-   "name": "Borussia Dortmund",
-   "short": "BVB"
-  },
-  "away": {
-   "id": "719",
-   "name": "SV 07 Elversberg",
-   "short": "ELV"
-  }
- },
- {
   "id": "565853",
   "kickoffUtc": "2026-11-07T14:30:00.000Z",
   "status": "scheduled",
@@ -137,6 +117,26 @@
    "id": "16",
    "name": "FC Augsburg",
    "short": "FCA"
+  }
+ },
+ {
+  "id": "565850",
+  "kickoffUtc": "2026-11-07T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "4",
+   "name": "Borussia Dortmund",
+   "short": "BVB"
+  },
+  "away": {
+   "id": "719",
+   "name": "SV 07 Elversberg",
+   "short": "ELV"
   }
  },
  {
@@ -260,26 +260,6 @@
   }
  },
  {
-  "id": "564739",
-  "kickoffUtc": "2026-11-07T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PD",
-   "name": "Primera Division",
-   "country": "Spain"
-  },
-  "home": {
-   "id": "79",
-   "name": "CA Osasuna",
-   "short": "OSA"
-  },
-  "away": {
-   "id": "77",
-   "name": "Athletic Club",
-   "short": "ATH"
-  }
- },
- {
   "id": "560641",
   "kickoffUtc": "2026-11-07T17:30:00.000Z",
   "status": "scheduled",
@@ -297,6 +277,26 @@
    "id": "65",
    "name": "Manchester City FC",
    "short": "MCI"
+  }
+ },
+ {
+  "id": "564739",
+  "kickoffUtc": "2026-11-07T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "79",
+   "name": "CA Osasuna",
+   "short": "OSA"
+  },
+  "away": {
+   "id": "77",
+   "name": "Athletic Club",
+   "short": "ATH"
   }
  },
  {
