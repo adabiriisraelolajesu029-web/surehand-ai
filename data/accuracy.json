@@ -1,22 +1,66 @@
 {
- "settled": 51,
+ "settled": 55,
  "outcome": {
-  "n": 51,
-  "hit": 26,
-  "rate": 0.5098039215686274
+  "n": 55,
+  "hit": 27,
+  "rate": 0.4909090909090909
  },
  "correctScore": {
-  "n": 51,
+  "n": 55,
   "hit": 6,
-  "rate": 0.11764705882352941
+  "rate": 0.10909090909090909
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-02T20:41:09.849Z",
+ "updatedAt": "2026-11-03T03:58:56.227Z",
  "tracked": [
+  {
+   "match": "Newcastle United FC v Everton FC",
+   "lockedAt": "2026-11-01T11:40:39.459Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 0,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "RC Deportivo La Coruña v CA Osasuna",
+   "lockedAt": "2026-11-01T11:40:10.635Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 2,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Atalanta BC v Parma Calcio 1913",
+   "lockedAt": "2026-11-01T11:39:05.643Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 0,
+    "away": 3
+   },
+   "scorers": []
+  },
+  {
+   "match": "FC Lorient v Stade Brestois 29",
+   "lockedAt": "2026-11-01T11:39:37.382Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 0,
+    "away": 2
+   },
+   "scorers": []
+  },
   {
    "match": "US Sassuolo Calcio v ACF Fiorentina",
    "lockedAt": "2026-11-01T11:38:50.603Z",
