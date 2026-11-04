@@ -20,26 +20,6 @@
   }
  },
  {
-  "id": "558537",
-  "kickoffUtc": "2026-11-06T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "454",
-   "name": "Venezia FC",
-   "short": "VEN"
-  },
-  "away": {
-   "id": "115",
-   "name": "Udinese Calcio",
-   "short": "UDI"
-  }
- },
- {
   "id": "559638",
   "kickoffUtc": "2026-11-06T19:45:00.000Z",
   "status": "scheduled",
@@ -60,23 +40,23 @@
   }
  },
  {
-  "id": "564740",
-  "kickoffUtc": "2026-11-06T20:00:00.000Z",
+  "id": "558537",
+  "kickoffUtc": "2026-11-06T19:45:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PD",
-   "name": "Primera Division",
-   "country": "Spain"
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
   },
   "home": {
-   "id": "559",
-   "name": "Sevilla FC",
-   "short": "SEV"
+   "id": "454",
+   "name": "Venezia FC",
+   "short": "VEN"
   },
   "away": {
-   "id": "263",
-   "name": "Deportivo Alavés",
-   "short": "ALA"
+   "id": "115",
+   "name": "Udinese Calcio",
+   "short": "UDI"
   }
  },
  {
@@ -97,6 +77,26 @@
    "id": "1076",
    "name": "Coventry City FC",
    "short": "COV"
+  }
+ },
+ {
+  "id": "564740",
+  "kickoffUtc": "2026-11-06T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "559",
+   "name": "Sevilla FC",
+   "short": "SEV"
+  },
+  "away": {
+   "id": "263",
+   "name": "Deportivo Alavés",
+   "short": "ALA"
   }
  }
 ]
