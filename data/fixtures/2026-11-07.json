@@ -80,6 +80,26 @@
   }
  },
  {
+  "id": "565848",
+  "kickoffUtc": "2026-11-07T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "721",
+   "name": "RB Leipzig",
+   "short": "RBL"
+  },
+  "away": {
+   "id": "16",
+   "name": "FC Augsburg",
+   "short": "FCA"
+  }
+ },
+ {
   "id": "565850",
   "kickoffUtc": "2026-11-07T14:30:00.000Z",
   "status": "scheduled",
@@ -117,26 +137,6 @@
    "id": "19",
    "name": "Eintracht Frankfurt",
    "short": "SGE"
-  }
- },
- {
-  "id": "565848",
-  "kickoffUtc": "2026-11-07T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "721",
-   "name": "RB Leipzig",
-   "short": "RBL"
-  },
-  "away": {
-   "id": "16",
-   "name": "FC Augsburg",
-   "short": "FCA"
   }
  },
  {
