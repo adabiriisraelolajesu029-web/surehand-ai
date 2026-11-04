@@ -100,26 +100,6 @@
   }
  },
  {
-  "id": "559636",
-  "kickoffUtc": "2026-11-08T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "529",
-   "name": "Stade Rennais FC 1901",
-   "short": "REN"
-  },
-  "away": {
-   "id": "521",
-   "name": "Lille OSC",
-   "short": "LIL"
-  }
- },
- {
   "id": "558538",
   "kickoffUtc": "2026-11-08T14:00:00.000Z",
   "status": "scheduled",
@@ -177,6 +157,26 @@
    "id": "1044",
    "name": "AFC Bournemouth",
    "short": "BOU"
+  }
+ },
+ {
+  "id": "559636",
+  "kickoffUtc": "2026-11-08T14:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "529",
+   "name": "Stade Rennais FC 1901",
+   "short": "REN"
+  },
+  "away": {
+   "id": "521",
+   "name": "Lille OSC",
+   "short": "LIL"
   }
  },
  {

@@ -1,22 +1,121 @@
 {
- "settled": 55,
+ "settled": 64,
  "outcome": {
-  "n": 55,
-  "hit": 27,
-  "rate": 0.4909090909090909
+  "n": 64,
+  "hit": 30,
+  "rate": 0.46875
  },
  "correctScore": {
-  "n": 55,
+  "n": 64,
   "hit": 6,
-  "rate": 0.10909090909090909
+  "rate": 0.09375
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-03T18:19:24.177Z",
+ "updatedAt": "2026-11-04T03:05:28.416Z",
  "tracked": [
+  {
+   "match": "Feyenoord Rotterdam v FC Internazionale Milano",
+   "lockedAt": "2026-11-02T13:04:32.963Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 0,
+    "away": 3
+   },
+   "scorers": []
+  },
+  {
+   "match": "FC Barcelona v Aston Villa FC",
+   "lockedAt": "2026-11-02T13:04:51.480Z",
+   "pick": "A",
+   "score": "2-2",
+   "actual": {
+    "home": 3,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Club Atlético de Madrid v FC Bayern München",
+   "lockedAt": "2026-11-02T13:03:55.681Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 0,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "Villarreal CF v Paris Saint-Germain FC",
+   "lockedAt": "2026-11-02T13:05:10.082Z",
+   "pick": "A",
+   "score": "2-2",
+   "actual": {
+    "home": 0,
+    "away": 6
+   },
+   "scorers": []
+  },
+  {
+   "match": "Manchester United FC v AS Roma",
+   "lockedAt": "2026-11-02T13:04:14.272Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 3,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "FK Bodø/Glimt v Lille OSC",
+   "lockedAt": "2026-11-02T13:05:28.735Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 0,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "LASK Linz v ŠK Slovan Bratislava",
+   "lockedAt": "2026-11-02T13:03:37.050Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 4,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "FK Shakhtar Donetsk v Sporting Clube de Portugal",
+   "lockedAt": "2026-11-02T13:03:00.995Z",
+   "pick": "H",
+   "score": "0-0",
+   "actual": {
+    "home": 0,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Galatasaray SK v VfB Stuttgart",
+   "lockedAt": "2026-11-02T13:03:18.453Z",
+   "pick": "A",
+   "score": "0-2",
+   "actual": {
+    "home": 2,
+    "away": 0
+   },
+   "scorers": []
+  },
   {
    "match": "Newcastle United FC v Everton FC",
    "lockedAt": "2026-11-01T11:40:39.459Z",

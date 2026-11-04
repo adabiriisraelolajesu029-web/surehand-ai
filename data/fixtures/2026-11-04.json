@@ -1,25 +1,5 @@
 [
  {
-  "id": "575387",
-  "kickoffUtc": "2026-11-04T17:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "613",
-   "name": "Fenerbahçe SK",
-   "short": "FEN"
-  },
-  "away": {
-   "id": "64",
-   "name": "Liverpool FC",
-   "short": "LIV"
-  }
- },
- {
   "id": "575386",
   "kickoffUtc": "2026-11-04T17:45:00.000Z",
   "status": "scheduled",
@@ -40,8 +20,8 @@
   }
  },
  {
-  "id": "575393",
-  "kickoffUtc": "2026-11-04T20:00:00.000Z",
+  "id": "575387",
+  "kickoffUtc": "2026-11-04T17:45:00.000Z",
   "status": "scheduled",
   "league": {
    "id": "CL",
@@ -49,54 +29,14 @@
    "country": "Europe"
   },
   "home": {
-   "id": "546",
-   "name": "Racing Club de Lens",
-   "short": "RCL"
+   "id": "613",
+   "name": "Fenerbahçe SK",
+   "short": "FEN"
   },
   "away": {
-   "id": "7397",
-   "name": "Como 1907",
-   "short": "COM"
-  }
- },
- {
-  "id": "575389",
-  "kickoffUtc": "2026-11-04T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "930",
-   "name": "SK Slavia Praha",
-   "short": "SLP"
-  },
-  "away": {
-   "id": "57",
-   "name": "Arsenal FC",
-   "short": "ARS"
-  }
- },
- {
-  "id": "575391",
-  "kickoffUtc": "2026-11-04T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "4",
-   "name": "Borussia Dortmund",
-   "short": "BVB"
-  },
-  "away": {
-   "id": "90",
-   "name": "Real Betis Balompié",
-   "short": "BET"
+   "id": "64",
+   "name": "Liverpool FC",
+   "short": "LIV"
   }
  },
  {
@@ -177,6 +117,66 @@
    "id": "851",
    "name": "Club Brugge KV",
    "short": "BRU"
+  }
+ },
+ {
+  "id": "575391",
+  "kickoffUtc": "2026-11-04T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "4",
+   "name": "Borussia Dortmund",
+   "short": "BVB"
+  },
+  "away": {
+   "id": "90",
+   "name": "Real Betis Balompié",
+   "short": "BET"
+  }
+ },
+ {
+  "id": "575393",
+  "kickoffUtc": "2026-11-04T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "546",
+   "name": "Racing Club de Lens",
+   "short": "RCL"
+  },
+  "away": {
+   "id": "7397",
+   "name": "Como 1907",
+   "short": "COM"
+  }
+ },
+ {
+  "id": "575389",
+  "kickoffUtc": "2026-11-04T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "930",
+   "name": "SK Slavia Praha",
+   "short": "SLP"
+  },
+  "away": {
+   "id": "57",
+   "name": "Arsenal FC",
+   "short": "ARS"
   }
  }
 ]
