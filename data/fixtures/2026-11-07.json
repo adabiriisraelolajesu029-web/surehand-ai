@@ -80,6 +80,26 @@
   }
  },
  {
+  "id": "565853",
+  "kickoffUtc": "2026-11-07T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "29",
+   "name": "SC Paderborn 07",
+   "short": "SCP"
+  },
+  "away": {
+   "id": "19",
+   "name": "Eintracht Frankfurt",
+   "short": "SGE"
+  }
+ },
+ {
   "id": "565848",
   "kickoffUtc": "2026-11-07T14:30:00.000Z",
   "status": "scheduled",
@@ -117,26 +137,6 @@
    "id": "719",
    "name": "SV 07 Elversberg",
    "short": "ELV"
-  }
- },
- {
-  "id": "565853",
-  "kickoffUtc": "2026-11-07T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "29",
-   "name": "SC Paderborn 07",
-   "short": "SCP"
-  },
-  "away": {
-   "id": "19",
-   "name": "Eintracht Frankfurt",
-   "short": "SGE"
   }
  },
  {
@@ -220,26 +220,6 @@
   }
  },
  {
-  "id": "559637",
-  "kickoffUtc": "2026-11-07T16:15:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "519",
-   "name": "AJ Auxerre",
-   "short": "AJA"
-  },
-  "away": {
-   "id": "1045",
-   "name": "Paris FC",
-   "short": "PFC"
-  }
- },
- {
   "id": "558535",
   "kickoffUtc": "2026-11-07T17:00:00.000Z",
   "status": "scheduled",
@@ -257,26 +237,6 @@
    "id": "103",
    "name": "Bologna FC 1909",
    "short": "BOL"
-  }
- },
- {
-  "id": "564739",
-  "kickoffUtc": "2026-11-07T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PD",
-   "name": "Primera Division",
-   "country": "Spain"
-  },
-  "home": {
-   "id": "79",
-   "name": "CA Osasuna",
-   "short": "OSA"
-  },
-  "away": {
-   "id": "77",
-   "name": "Athletic Club",
-   "short": "ATH"
   }
  },
  {
@@ -300,6 +260,26 @@
   }
  },
  {
+  "id": "564739",
+  "kickoffUtc": "2026-11-07T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "79",
+   "name": "CA Osasuna",
+   "short": "OSA"
+  },
+  "away": {
+   "id": "77",
+   "name": "Athletic Club",
+   "short": "ATH"
+  }
+ },
+ {
   "id": "565849",
   "kickoffUtc": "2026-11-07T17:30:00.000Z",
   "status": "scheduled",
@@ -320,8 +300,8 @@
   }
  },
  {
-  "id": "559635",
-  "kickoffUtc": "2026-11-07T19:45:00.000Z",
+  "id": "559637",
+  "kickoffUtc": "2026-11-07T18:00:00.000Z",
   "status": "scheduled",
   "league": {
    "id": "FL1",
@@ -329,14 +309,14 @@
    "country": "France"
   },
   "home": {
-   "id": "524",
-   "name": "Paris Saint-Germain FC",
-   "short": "PSG"
+   "id": "519",
+   "name": "AJ Auxerre",
+   "short": "AJA"
   },
   "away": {
-   "id": "531",
-   "name": "ES Troyes AC",
-   "short": "ETR"
+   "id": "1045",
+   "name": "Paris FC",
+   "short": "PFC"
   }
  },
  {
@@ -377,6 +357,26 @@
    "id": "86",
    "name": "Real Madrid CF",
    "short": "RMA"
+  }
+ },
+ {
+  "id": "559635",
+  "kickoffUtc": "2026-11-07T20:05:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  },
+  "away": {
+   "id": "531",
+   "name": "ES Troyes AC",
+   "short": "ETR"
   }
  }
 ]
