@@ -1,0 +1,383 @@
+{
+ "fixtureId": "564741",
+ "kickoffUtc": "2026-11-07T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564741",
+   "kickoffUtc": "2026-11-07T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "95",
+    "name": "Valencia CF",
+    "short": "VAL"
+   },
+   "away": {
+    "id": "86",
+    "name": "Real Madrid CF",
+    "short": "RMA"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.7064220183486238,
+   "awayGoals": 1.3027522935779816
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Elche CF",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Villarreal CF",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Athletic Club",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Real Sociedad de Fútbol",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Barcelona",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Sevilla FC",
+     "venue": "H",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Villarreal CF",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Club Atlético de Madrid",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 2,
+     "d": 3,
+     "l": 6,
+     "gf": 8,
+     "ga": 17
+    },
+    "home": {
+     "p": 6,
+     "w": 0,
+     "d": 2,
+     "l": 4,
+     "gf": 3,
+     "ga": 11
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 6
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 9,
+     "d": 0,
+     "l": 2,
+     "gf": 28,
+     "ga": 10
+    },
+    "home": {
+     "p": 5,
+     "w": 5,
+     "d": 0,
+     "l": 0,
+     "gf": 17,
+     "ga": 3
+    },
+    "away": {
+     "p": 6,
+     "w": 4,
+     "d": 0,
+     "l": 2,
+     "gf": 11,
+     "ga": 7
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-02-08",
+    "homeId": "95",
+    "awayId": "86",
+    "home": "Valencia CF",
+    "away": "Real Madrid CF",
+    "hg": 0,
+    "ag": 2
+   },
+   {
+    "date": "2025-11-01",
+    "homeId": "86",
+    "awayId": "95",
+    "home": "Real Madrid CF",
+    "away": "Valencia CF",
+    "hg": 4,
+    "ag": 0
+   },
+   {
+    "date": "2025-04-05",
+    "homeId": "86",
+    "awayId": "95",
+    "home": "Real Madrid CF",
+    "away": "Valencia CF",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-01-03",
+    "homeId": "95",
+    "awayId": "86",
+    "home": "Valencia CF",
+    "away": "Real Madrid CF",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2024-03-02",
+    "homeId": "95",
+    "awayId": "86",
+    "home": "Valencia CF",
+    "away": "Real Madrid CF",
+    "hg": 2,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "7672",
+    "name": "Umar Sadiq",
+    "team": "Valencia CF",
+    "pos": "Offence",
+    "apps": 4,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "3374",
+    "name": "Kylian Mbappé",
+    "team": "Real Madrid CF",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 12,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "125010",
+    "name": "Jude Bellingham",
+    "team": "Real Madrid CF",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "277484",
+    "name": "Yan Diomandé",
+    "team": "Real Madrid CF",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "247061",
+    "name": "Carlos Espí",
+    "team": "Real Madrid CF",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "169162",
+    "name": "Arda Guler",
+    "team": "Real Madrid CF",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.044,
+   "draw": 0.128,
+   "awayWin": 0.829,
+   "pick": "A",
+   "confidence": 0.8,
+   "reasoning": "Poisson model: expected goals Valencia CF 0.41 vs Real Madrid CF 2.49, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Valencia CF at home: 0W-2D-4L, 3 scored and 11 conceded in 6 games.",
+    "Real Madrid CF away: 4W-0D-2L, 11 scored and 7 conceded in 6 games.",
+    "League averages this season: home teams 1.71 goals per game, away teams 1.30.",
+    "Recent league form (newest first): Valencia CF WLDDL, Real Madrid CF WWWWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Valencia CF has 6 home games and Real Madrid CF 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "3374",
+    "name": "Kylian Mbappé",
+    "team": "Real Madrid CF",
+    "probability": 0.656,
+    "confidence": 0.4,
+    "reasoning": "12 of Real Madrid CF's 28 league goals this season (43%), applied to the 2.49 goals the model expects from them here.",
+    "evidence": [
+     "Kylian Mbappé: 12 league goals in 11 appearances this season.",
+     "Real Madrid CF have scored 28 league goals in 11 games; the model expects 2.49 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "125010",
+    "name": "Jude Bellingham",
+    "team": "Real Madrid CF",
+    "probability": 0.299,
+    "confidence": 0.239,
+    "reasoning": "4 of Real Madrid CF's 28 league goals this season (14%), applied to the 2.49 goals the model expects from them here.",
+    "evidence": [
+     "Jude Bellingham: 4 league goals in 11 appearances this season.",
+     "Real Madrid CF have scored 28 league goals in 11 games; the model expects 2.49 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "277484",
+    "name": "Yan Diomandé",
+    "team": "Real Madrid CF",
+    "probability": 0.234,
+    "confidence": 0.187,
+    "reasoning": "3 of Real Madrid CF's 28 league goals this season (11%), applied to the 2.49 goals the model expects from them here.",
+    "evidence": [
+     "Yan Diomandé: 3 league goals in 11 appearances this season.",
+     "Real Madrid CF have scored 28 league goals in 11 games; the model expects 2.49 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.171
+   },
+   "alternatives": [
+    {
+     "score": "0-3",
+     "probability": 0.142
+    },
+    {
+     "score": "0-1",
+     "probability": 0.137
+    },
+    {
+     "score": "0-4",
+     "probability": 0.088
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.41 (Valencia CF) and 2.49 (Real Madrid CF).",
+    "Top scorelines: 0-2 (17.1%), 0-3 (14.2%), 0-1 (13.7%), 0-4 (8.8%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Valencia CF has 6 home games and Real Madrid CF 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-06T12:43:52.163Z",
+ "lockedAt": "2026-11-06T12:44:10.808Z",
+ "result": null
+}

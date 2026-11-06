@@ -1,0 +1,356 @@
+{
+ "fixtureId": "559637",
+ "kickoffUtc": "2026-11-07T18:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559637",
+   "kickoffUtc": "2026-11-07T18:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "519",
+    "name": "AJ Auxerre",
+    "short": "AJA"
+   },
+   "away": {
+    "id": "1045",
+    "name": "Paris FC",
+    "short": "PFC"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.7037037037037037,
+   "awayGoals": 1.3333333333333333
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "RC Strasbourg Alsace",
+     "venue": "A",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "Le Mans FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Le Havre AC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "A",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Stade Brestois 29",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "AS Monaco FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "H",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "opp": "FC Lorient",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "RC Strasbourg Alsace",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 9,
+     "w": 3,
+     "d": 1,
+     "l": 5,
+     "gf": 13,
+     "ga": 23
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 5,
+     "ga": 5
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 0,
+     "l": 4,
+     "gf": 8,
+     "ga": 18
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 9,
+     "w": 5,
+     "d": 2,
+     "l": 2,
+     "gf": 16,
+     "ga": 10
+    },
+    "home": {
+     "p": 5,
+     "w": 4,
+     "d": 1,
+     "l": 0,
+     "gf": 12,
+     "ga": 5
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 4,
+     "ga": 5
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-02-08",
+    "homeId": "519",
+    "awayId": "1045",
+    "home": "AJ Auxerre",
+    "away": "Paris FC",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2025-11-29",
+    "homeId": "1045",
+    "awayId": "519",
+    "home": "Paris FC",
+    "away": "AJ Auxerre",
+    "hg": 1,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "128242",
+    "name": "Cameron Archer",
+    "team": "AJ Auxerre",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "4289",
+    "name": "Daniel Namaso",
+    "team": "AJ Auxerre",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "177412",
+    "name": "Lamine Sy",
+    "team": "AJ Auxerre",
+    "pos": "Defence",
+    "apps": 9,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "552",
+    "name": "Lassine Sinayoko",
+    "team": "Paris FC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 8,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "177248",
+    "name": "Pablo Pagis",
+    "team": "Paris FC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8352",
+    "name": "Maxime López",
+    "team": "Paris FC",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.238,
+   "draw": 0.242,
+   "awayWin": 0.52,
+   "pick": "A",
+   "confidence": 0.499,
+   "reasoning": "Poisson model: expected goals AJ Auxerre 1.05 vs Paris FC 1.68, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "AJ Auxerre at home: 2W-1D-1L, 5 scored and 5 conceded in 4 games.",
+    "Paris FC away: 1W-1D-2L, 4 scored and 5 conceded in 4 games.",
+    "League averages this season: home teams 1.70 goals per game, away teams 1.33.",
+    "Recent league form (newest first): AJ Auxerre LDWLW, Paris FC WLWLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AJ Auxerre has 4 home games and Paris FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "552",
+    "name": "Lassine Sinayoko",
+    "team": "Paris FC",
+    "probability": 0.568,
+    "confidence": 0.38,
+    "reasoning": "8 of Paris FC's 16 league goals this season (50%), applied to the 1.68 goals the model expects from them here.",
+    "evidence": [
+     "Lassine Sinayoko: 8 league goals in 9 appearances this season.",
+     "Paris FC have scored 16 league goals in 9 games; the model expects 1.68 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "128242",
+    "name": "Cameron Archer",
+    "team": "AJ Auxerre",
+    "probability": 0.385,
+    "confidence": 0.292,
+    "reasoning": "6 of AJ Auxerre's 13 league goals this season (46%), applied to the 1.05 goals the model expects from them here.",
+    "evidence": [
+     "Cameron Archer: 6 league goals in 7 appearances this season.",
+     "AJ Auxerre have scored 13 league goals in 9 games; the model expects 1.05 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "4289",
+    "name": "Daniel Namaso",
+    "team": "AJ Auxerre",
+    "probability": 0.215,
+    "confidence": 0.164,
+    "reasoning": "3 of AJ Auxerre's 13 league goals this season (23%), applied to the 1.05 goals the model expects from them here.",
+    "evidence": [
+     "Daniel Namaso: 3 league goals in 9 appearances this season.",
+     "AJ Auxerre have scored 13 league goals in 9 games; the model expects 1.05 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-1",
+    "probability": 0.115
+   },
+   "alternatives": [
+    {
+     "score": "0-1",
+     "probability": 0.109
+    },
+    {
+     "score": "1-2",
+     "probability": 0.097
+    },
+    {
+     "score": "0-2",
+     "probability": 0.092
+    }
+   ],
+   "confidence": 0.259,
+   "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.05 (AJ Auxerre) and 1.68 (Paris FC).",
+    "Top scorelines: 1-1 (11.5%), 0-1 (10.9%), 1-2 (9.7%), 0-2 (9.2%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AJ Auxerre has 4 home games and Paris FC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-06T12:43:04.053Z",
+ "lockedAt": "2026-11-06T12:43:34.133Z",
+ "result": null
+}

@@ -1,0 +1,354 @@
+{
+ "fixtureId": "558535",
+ "kickoffUtc": "2026-11-07T17:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558535",
+   "kickoffUtc": "2026-11-07T17:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "112",
+    "name": "Parma Calcio 1913",
+    "short": "PAR"
+   },
+   "away": {
+    "id": "103",
+    "name": "Bologna FC 1909",
+    "short": "BOL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.62,
+   "awayGoals": 1.56
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Atalanta BC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Udinese Calcio",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "SS Lazio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "AC Monza",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "AC Milan",
+     "venue": "A",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 2,
+     "d": 2,
+     "l": 6,
+     "gf": 8,
+     "ga": 15
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 2,
+     "l": 2,
+     "gf": 3,
+     "ga": 6
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 0,
+     "l": 4,
+     "gf": 5,
+     "ga": 9
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 4,
+     "d": 2,
+     "l": 4,
+     "gf": 14,
+     "ga": 13
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 2,
+     "l": 2,
+     "gf": 6,
+     "ga": 8
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 8,
+     "ga": 5
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-02-08",
+    "homeId": "103",
+    "awayId": "112",
+    "home": "Bologna FC 1909",
+    "away": "Parma Calcio 1913",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2025-11-02",
+    "homeId": "112",
+    "awayId": "103",
+    "home": "Parma Calcio 1913",
+    "away": "Bologna FC 1909",
+    "hg": 1,
+    "ag": 3
+   },
+   {
+    "date": "2025-02-22",
+    "homeId": "112",
+    "awayId": "103",
+    "home": "Parma Calcio 1913",
+    "away": "Bologna FC 1909",
+    "hg": 2,
+    "ag": 0
+   },
+   {
+    "date": "2024-10-06",
+    "homeId": "103",
+    "awayId": "112",
+    "home": "Bologna FC 1909",
+    "away": "Parma Calcio 1913",
+    "hg": 0,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "299423",
+    "name": "Simone Lontani",
+    "team": "Parma Calcio 1913",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "165857",
+    "name": "José Romero",
+    "team": "Parma Calcio 1913",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "2040",
+    "name": "Federico Bernardeschi",
+    "team": "Bologna FC 1909",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "217678",
+    "name": "Samuel Mbangula",
+    "team": "Bologna FC 1909",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.144,
+   "draw": 0.297,
+   "awayWin": 0.559,
+   "pick": "A",
+   "confidence": 0.559,
+   "reasoning": "Poisson model: expected goals Parma Calcio 1913 0.49 vs Bologna FC 1909 1.27, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Parma Calcio 1913 at home: 1W-2D-2L, 3 scored and 6 conceded in 5 games.",
+    "Bologna FC 1909 away: 3W-0D-2L, 8 scored and 5 conceded in 5 games.",
+    "League averages this season: home teams 1.62 goals per game, away teams 1.56.",
+    "Recent league form (newest first): Parma Calcio 1913 WDLLL, Bologna FC 1909 WWWLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Parma Calcio 1913 has 5 home games and Bologna FC 1909 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "2040",
+    "name": "Federico Bernardeschi",
+    "team": "Bologna FC 1909",
+    "probability": 0.238,
+    "confidence": 0.191,
+    "reasoning": "3 of Bologna FC 1909's 14 league goals this season (21%), applied to the 1.27 goals the model expects from them here.",
+    "evidence": [
+     "Federico Bernardeschi: 3 league goals in 10 appearances this season.",
+     "Bologna FC 1909 have scored 14 league goals in 10 games; the model expects 1.27 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "217678",
+    "name": "Samuel Mbangula",
+    "team": "Bologna FC 1909",
+    "probability": 0.238,
+    "confidence": 0.191,
+    "reasoning": "3 of Bologna FC 1909's 14 league goals this season (21%), applied to the 1.27 goals the model expects from them here.",
+    "evidence": [
+     "Samuel Mbangula: 3 league goals in 7 appearances this season.",
+     "Bologna FC 1909 have scored 14 league goals in 10 games; the model expects 1.27 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "299423",
+    "name": "Simone Lontani",
+    "team": "Parma Calcio 1913",
+    "probability": 0.168,
+    "confidence": 0.135,
+    "reasoning": "3 of Parma Calcio 1913's 8 league goals this season (38%), applied to the 0.49 goals the model expects from them here.",
+    "evidence": [
+     "Simone Lontani: 3 league goals in 10 appearances this season.",
+     "Parma Calcio 1913 have scored 8 league goals in 10 games; the model expects 0.49 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-1",
+    "probability": 0.218
+   },
+   "alternatives": [
+    {
+     "score": "0-0",
+     "probability": 0.172
+    },
+    {
+     "score": "0-2",
+     "probability": 0.139
+    },
+    {
+     "score": "1-1",
+     "probability": 0.107
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.49 (Parma Calcio 1913) and 1.27 (Bologna FC 1909).",
+    "Top scorelines: 0-1 (21.8%), 0-0 (17.2%), 0-2 (13.9%), 1-1 (10.7%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Parma Calcio 1913 has 5 home games and Bologna FC 1909 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-06T12:40:59.472Z",
+ "lockedAt": "2026-11-06T12:41:31.110Z",
+ "result": null
+}

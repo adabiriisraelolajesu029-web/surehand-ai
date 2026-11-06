@@ -1,0 +1,364 @@
+{
+ "fixtureId": "564739",
+ "kickoffUtc": "2026-11-07T17:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564739",
+   "kickoffUtc": "2026-11-07T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "79",
+    "name": "CA Osasuna",
+    "short": "OSA"
+   },
+   "away": {
+    "id": "77",
+    "name": "Athletic Club",
+    "short": "ATH"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.7064220183486238,
+   "awayGoals": 1.3027522935779816
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "RC Deportivo La Coruña",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Sevilla FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Real Betis Balompié",
+     "venue": "A",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "Rayo Vallecano de Madrid",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Real Sociedad de Fútbol",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Getafe CF",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Levante UD",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Valencia CF",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Deportivo Alavés",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 3,
+     "d": 2,
+     "l": 6,
+     "gf": 11,
+     "ga": 22
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 2,
+     "l": 1,
+     "gf": 4,
+     "ga": 3
+    },
+    "away": {
+     "p": 6,
+     "w": 1,
+     "d": 0,
+     "l": 5,
+     "gf": 7,
+     "ga": 19
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 4,
+     "d": 3,
+     "l": 3,
+     "gf": 14,
+     "ga": 10
+    },
+    "home": {
+     "p": 6,
+     "w": 3,
+     "d": 2,
+     "l": 1,
+     "gf": 11,
+     "ga": 5
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 3,
+     "ga": 5
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-21",
+    "homeId": "77",
+    "awayId": "79",
+    "home": "Athletic Club",
+    "away": "CA Osasuna",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2026-01-03",
+    "homeId": "79",
+    "awayId": "77",
+    "home": "CA Osasuna",
+    "away": "Athletic Club",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2025-03-30",
+    "homeId": "77",
+    "awayId": "79",
+    "home": "Athletic Club",
+    "away": "CA Osasuna",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2024-12-21",
+    "homeId": "79",
+    "awayId": "77",
+    "home": "CA Osasuna",
+    "away": "Athletic Club",
+    "hg": 1,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "2237",
+    "name": "Ante Budimir",
+    "team": "CA Osasuna",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 8,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "2294",
+    "name": "Álex Berenguer",
+    "team": "Athletic Club",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "32629",
+    "name": "Iñaki Williams",
+    "team": "Athletic Club",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "151439",
+    "name": "Aitor Paredes Casamichana",
+    "team": "Athletic Club",
+    "pos": "Defence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "101870",
+    "name": "Roberto Navarro",
+    "team": "Athletic Club",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.268,
+   "draw": 0.366,
+   "awayWin": 0.366,
+   "pick": "D",
+   "confidence": 0.366,
+   "reasoning": "Poisson model: expected goals CA Osasuna 0.66 vs Athletic Club 0.83, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "CA Osasuna at home: 2W-2D-1L, 4 scored and 3 conceded in 5 games.",
+    "Athletic Club away: 1W-1D-2L, 3 scored and 5 conceded in 4 games.",
+    "League averages this season: home teams 1.71 goals per game, away teams 1.30.",
+    "Recent league form (newest first): CA Osasuna LLWLD, Athletic Club WWLDD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: CA Osasuna has 5 home games and Athletic Club 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "2237",
+    "name": "Ante Budimir",
+    "team": "CA Osasuna",
+    "probability": 0.282,
+    "confidence": 0.226,
+    "reasoning": "8 of CA Osasuna's 11 league goals this season (50%), applied to the 0.66 goals the model expects from them here.",
+    "evidence": [
+     "Ante Budimir: 8 league goals in 11 appearances this season.",
+     "CA Osasuna have scored 11 league goals in 11 games; the model expects 0.66 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "2294",
+    "name": "Álex Berenguer",
+    "team": "Athletic Club",
+    "probability": 0.211,
+    "confidence": 0.169,
+    "reasoning": "4 of Athletic Club's 14 league goals this season (29%), applied to the 0.83 goals the model expects from them here.",
+    "evidence": [
+     "Álex Berenguer: 4 league goals in 11 appearances this season.",
+     "Athletic Club have scored 14 league goals in 10 games; the model expects 0.83 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "32629",
+    "name": "Iñaki Williams",
+    "team": "Athletic Club",
+    "probability": 0.163,
+    "confidence": 0.13,
+    "reasoning": "3 of Athletic Club's 14 league goals this season (21%), applied to the 0.83 goals the model expects from them here.",
+    "evidence": [
+     "Iñaki Williams: 3 league goals in 11 appearances this season.",
+     "Athletic Club have scored 14 league goals in 10 games; the model expects 0.83 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-0",
+    "probability": 0.225
+   },
+   "alternatives": [
+    {
+     "score": "0-1",
+     "probability": 0.187
+    },
+    {
+     "score": "1-0",
+     "probability": 0.149
+    },
+    {
+     "score": "1-1",
+     "probability": 0.124
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.66 (CA Osasuna) and 0.83 (Athletic Club).",
+    "Top scorelines: 0-0 (22.5%), 0-1 (18.7%), 1-0 (14.9%), 1-1 (12.4%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: CA Osasuna has 5 home games and Athletic Club 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-06T12:42:31.940Z",
+ "lockedAt": "2026-11-06T12:43:04.052Z",
+ "result": null
+}
