@@ -1,0 +1,414 @@
+{
+ "fixtureId": "565851",
+ "kickoffUtc": "2026-11-07T14:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565851",
+   "kickoffUtc": "2026-11-07T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "15",
+    "name": "1. FSV Mainz 05",
+    "short": "M05"
+   },
+   "away": {
+    "id": "5",
+    "name": "FC Bayern München",
+    "short": "FCB"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.125,
+   "awayGoals": 1.375
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "SV 07 Elversberg",
+     "venue": "A",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "SV Werder Bremen",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "FC Schalke 04",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Bayer 04 Leverkusen",
+     "venue": "H",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Borussia Mönchengladbach",
+     "venue": "A",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Borussia Dortmund",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "SC Freiburg",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "RB Leipzig",
+     "venue": "H",
+     "gf": 6,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "FC Augsburg",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "1. FC Union Berlin",
+     "venue": "H",
+     "gf": 7,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 3,
+     "d": 1,
+     "l": 4,
+     "gf": 17,
+     "ga": 17
+    },
+    "home": {
+     "p": 4,
+     "w": 0,
+     "d": 1,
+     "l": 3,
+     "gf": 6,
+     "ga": 10
+    },
+    "away": {
+     "p": 4,
+     "w": 3,
+     "d": 0,
+     "l": 1,
+     "gf": 11,
+     "ga": 7
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 5,
+     "d": 3,
+     "l": 0,
+     "gf": 27,
+     "ga": 8
+    },
+    "home": {
+     "p": 4,
+     "w": 3,
+     "d": 1,
+     "l": 0,
+     "gf": 20,
+     "ga": 4
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 2,
+     "l": 0,
+     "gf": 7,
+     "ga": 4
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-25",
+    "homeId": "15",
+    "awayId": "5",
+    "home": "1. FSV Mainz 05",
+    "away": "FC Bayern München",
+    "hg": 3,
+    "ag": 4
+   },
+   {
+    "date": "2025-12-14",
+    "homeId": "5",
+    "awayId": "15",
+    "home": "FC Bayern München",
+    "away": "1. FSV Mainz 05",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2025-04-26",
+    "homeId": "5",
+    "awayId": "15",
+    "home": "FC Bayern München",
+    "away": "1. FSV Mainz 05",
+    "hg": 3,
+    "ag": 0
+   },
+   {
+    "date": "2024-12-14",
+    "homeId": "15",
+    "awayId": "5",
+    "home": "1. FSV Mainz 05",
+    "away": "FC Bayern München",
+    "hg": 2,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "45593",
+    "name": "Phillip Tietz",
+    "team": "1. FSV Mainz 05",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8785",
+    "name": "Anthony Caci",
+    "team": "1. FSV Mainz 05",
+    "pos": "Defence",
+    "apps": 8,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "7633",
+    "name": "Sheraldo Becker",
+    "team": "1. FSV Mainz 05",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "150647",
+    "name": "Benedict Hollerbach",
+    "team": "1. FSV Mainz 05",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "113765",
+    "name": "Michael Olise",
+    "team": "FC Bayern München",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "22396",
+    "name": "Luis Díaz",
+    "team": "FC Bayern München",
+    "pos": "Offence",
+    "apps": 6,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8004",
+    "name": "Harry Kane",
+    "team": "FC Bayern München",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "9541",
+    "name": "Dayot Upamecano",
+    "team": "FC Bayern München",
+    "pos": "Defence",
+    "apps": 8,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "202665",
+    "name": "Aleksandar Pavlović",
+    "team": "FC Bayern München",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "130173",
+    "name": "Ismael Saibari",
+    "team": "FC Bayern München",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.103,
+   "draw": 0.135,
+   "awayWin": 0.762,
+   "pick": "A",
+   "confidence": 0.701,
+   "reasoning": "Poisson model: expected goals 1. FSV Mainz 05 1.06 vs FC Bayern München 3.00, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "1. FSV Mainz 05 at home: 0W-1D-3L, 6 scored and 10 conceded in 4 games.",
+    "FC Bayern München away: 2W-2D-0L, 7 scored and 4 conceded in 4 games.",
+    "League averages this season: home teams 2.13 goals per game, away teams 1.38.",
+    "Recent league form (newest first): 1. FSV Mainz 05 LLWLW, FC Bayern München DWWDW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: 1. FSV Mainz 05 has 4 home games and FC Bayern München 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "113765",
+    "name": "Michael Olise",
+    "team": "FC Bayern München",
+    "probability": 0.487,
+    "confidence": 0.35,
+    "reasoning": "6 of FC Bayern München's 27 league goals this season (22%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Michael Olise: 6 league goals in 8 appearances this season.",
+     "FC Bayern München have scored 27 league goals in 8 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "22396",
+    "name": "Luis Díaz",
+    "team": "FC Bayern München",
+    "probability": 0.359,
+    "confidence": 0.258,
+    "reasoning": "4 of FC Bayern München's 27 league goals this season (15%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Luis Díaz: 4 league goals in 6 appearances this season.",
+     "FC Bayern München have scored 27 league goals in 8 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "8004",
+    "name": "Harry Kane",
+    "team": "FC Bayern München",
+    "probability": 0.359,
+    "confidence": 0.258,
+    "reasoning": "4 of FC Bayern München's 27 league goals this season (15%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Harry Kane: 4 league goals in 8 appearances this season.",
+     "FC Bayern München have scored 27 league goals in 8 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-2",
+    "probability": 0.083
+   },
+   "alternatives": [
+    {
+     "score": "1-3",
+     "probability": 0.083
+    },
+    {
+     "score": "0-2",
+     "probability": 0.078
+    },
+    {
+     "score": "0-3",
+     "probability": 0.078
+    }
+   ],
+   "confidence": 0.165,
+   "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.06 (1. FSV Mainz 05) and 3.00 (FC Bayern München).",
+    "Top scorelines: 1-2 (8.3%), 1-3 (8.3%), 0-2 (7.8%), 0-3 (7.8%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: 1. FSV Mainz 05 has 4 home games and FC Bayern München 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-06T03:31:27.623Z",
+ "lockedAt": "2026-11-06T03:31:59.246Z",
+ "result": null
+}

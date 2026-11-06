@@ -1,0 +1,357 @@
+{
+ "fixtureId": "560640",
+ "kickoffUtc": "2026-11-07T15:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "560640",
+   "kickoffUtc": "2026-11-07T15:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "57",
+    "name": "Arsenal FC",
+    "short": "ARS"
+   },
+   "away": {
+    "id": "322",
+    "name": "Hull City AFC",
+    "short": "HUL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.5,
+   "awayGoals": 1.2
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Liverpool FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Everton FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Nottingham Forest FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Leeds United FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Brighton & Hove Albion FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Ipswich Town FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Brentford FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Fulham FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Everton FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Newcastle United FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 9,
+     "w": 8,
+     "d": 0,
+     "l": 1,
+     "gf": 14,
+     "ga": 5
+    },
+    "home": {
+     "p": 4,
+     "w": 4,
+     "d": 0,
+     "l": 0,
+     "gf": 9,
+     "ga": 2
+    },
+    "away": {
+     "p": 5,
+     "w": 4,
+     "d": 0,
+     "l": 1,
+     "gf": 5,
+     "ga": 3
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 9,
+     "w": 2,
+     "d": 5,
+     "l": 2,
+     "gf": 11,
+     "ga": 10
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 4,
+     "l": 0,
+     "gf": 7,
+     "ga": 5
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 4,
+     "ga": 5
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "171",
+    "name": "Kai Havertz",
+    "team": "Arsenal FC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "99813",
+    "name": "Bukayo Saka",
+    "team": "Arsenal FC",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "7427",
+    "name": "Martin Ødegaard",
+    "team": "Arsenal FC",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "1684",
+    "name": "Bruno Guimarães",
+    "team": "Arsenal FC",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "213072",
+    "name": "Mohamed Belloumi",
+    "team": "Hull City AFC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "4359",
+    "name": "Oliver McBurnie",
+    "team": "Hull City AFC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "6451",
+    "name": "Semi Ajayi",
+    "team": "Hull City AFC",
+    "pos": "Defence",
+    "apps": 9,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "190558",
+    "name": "Nobel Mendy",
+    "team": "Hull City AFC",
+    "pos": "Defence",
+    "apps": 6,
+    "goals": 1,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.676,
+   "draw": 0.231,
+   "awayWin": 0.093,
+   "pick": "H",
+   "confidence": 0.649,
+   "reasoning": "Poisson model: expected goals Arsenal FC 1.65 vs Hull City AFC 0.43, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Arsenal FC at home: 4W-0D-0L, 9 scored and 2 conceded in 4 games.",
+    "Hull City AFC away: 1W-1D-2L, 4 scored and 5 conceded in 4 games.",
+    "League averages this season: home teams 1.50 goals per game, away teams 1.20.",
+    "Recent league form (newest first): Arsenal FC WWWWL, Hull City AFC DDLDL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Arsenal FC has 4 home games and Hull City AFC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "171",
+    "name": "Kai Havertz",
+    "team": "Arsenal FC",
+    "probability": 0.297,
+    "confidence": 0.226,
+    "reasoning": "3 of Arsenal FC's 14 league goals this season (21%), applied to the 1.65 goals the model expects from them here.",
+    "evidence": [
+     "Kai Havertz: 3 league goals in 9 appearances this season.",
+     "Arsenal FC have scored 14 league goals in 9 games; the model expects 1.65 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "99813",
+    "name": "Bukayo Saka",
+    "team": "Arsenal FC",
+    "probability": 0.297,
+    "confidence": 0.226,
+    "reasoning": "3 of Arsenal FC's 14 league goals this season (21%), applied to the 1.65 goals the model expects from them here.",
+    "evidence": [
+     "Bukayo Saka: 3 league goals in 7 appearances this season.",
+     "Arsenal FC have scored 14 league goals in 9 games; the model expects 1.65 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "7427",
+    "name": "Martin Ødegaard",
+    "team": "Arsenal FC",
+    "probability": 0.21,
+    "confidence": 0.159,
+    "reasoning": "2 of Arsenal FC's 14 league goals this season (14%), applied to the 1.65 goals the model expects from them here.",
+    "evidence": [
+     "Martin Ødegaard: 2 league goals in 9 appearances this season.",
+     "Arsenal FC have scored 14 league goals in 9 games; the model expects 1.65 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.206
+   },
+   "alternatives": [
+    {
+     "score": "2-0",
+     "probability": 0.17
+    },
+    {
+     "score": "0-0",
+     "probability": 0.125
+    },
+    {
+     "score": "3-0",
+     "probability": 0.093
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.65 (Arsenal FC) and 0.43 (Hull City AFC).",
+    "Top scorelines: 1-0 (20.6%), 2-0 (17.0%), 0-0 (12.5%), 3-0 (9.3%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Arsenal FC has 4 home games and Hull City AFC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-06T03:32:54.406Z",
+ "lockedAt": "2026-11-06T03:33:13.006Z",
+ "result": null
+}

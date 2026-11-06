@@ -1,0 +1,337 @@
+{
+ "fixtureId": "565853",
+ "kickoffUtc": "2026-11-07T14:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565853",
+   "kickoffUtc": "2026-11-07T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "29",
+    "name": "SC Paderborn 07",
+    "short": "SCP"
+   },
+   "away": {
+    "id": "19",
+    "name": "Eintracht Frankfurt",
+    "short": "SGE"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.125,
+   "awayGoals": 1.375
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Borussia Mönchengladbach",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Hamburger SV",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SV Werder Bremen",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "VfB Stuttgart",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "TSG 1899 Hoffenheim",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Hamburger SV",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Borussia Dortmund",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "1. FC Köln",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "RB Leipzig",
+     "venue": "A",
+     "gf": 0,
+     "ga": 6,
+     "res": "L"
+    },
+    {
+     "opp": "SC Freiburg",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 2,
+     "d": 3,
+     "l": 3,
+     "gf": 6,
+     "ga": 9
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 0,
+     "l": 2,
+     "gf": 4,
+     "ga": 4
+    },
+    "away": {
+     "p": 4,
+     "w": 0,
+     "d": 3,
+     "l": 1,
+     "gf": 2,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 3,
+     "d": 2,
+     "l": 3,
+     "gf": 13,
+     "ga": 18
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 7,
+     "ga": 7
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 6,
+     "ga": 11
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2020-06-27",
+    "homeId": "19",
+    "awayId": "29",
+    "home": "Eintracht Frankfurt",
+    "away": "SC Paderborn 07",
+    "hg": 3,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "176617",
+    "name": "Stefano Marino",
+    "team": "SC Paderborn 07",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "10561",
+    "name": "Steffen Tigges",
+    "team": "SC Paderborn 07",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "192207",
+    "name": "Younes Ebnoutalib",
+    "team": "Eintracht Frankfurt",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "82404",
+    "name": "Jonathan Burkardt",
+    "team": "Eintracht Frankfurt",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "193605",
+    "name": "Can Uzun",
+    "team": "Eintracht Frankfurt",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.426,
+   "draw": 0.289,
+   "awayWin": 0.285,
+   "pick": "H",
+   "confidence": 0.392,
+   "reasoning": "Poisson model: expected goals SC Paderborn 07 1.23 vs Eintracht Frankfurt 0.95, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "SC Paderborn 07 at home: 2W-0D-2L, 4 scored and 4 conceded in 4 games.",
+    "Eintracht Frankfurt away: 1W-1D-2L, 6 scored and 11 conceded in 4 games.",
+    "League averages this season: home teams 2.13 goals per game, away teams 1.38.",
+    "Recent league form (newest first): SC Paderborn 07 DWDLW, Eintracht Frankfurt WLWLD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: SC Paderborn 07 has 4 home games and Eintracht Frankfurt 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "192207",
+    "name": "Younes Ebnoutalib",
+    "team": "Eintracht Frankfurt",
+    "probability": 0.355,
+    "confidence": 0.256,
+    "reasoning": "6 of Eintracht Frankfurt's 13 league goals this season (46%), applied to the 0.95 goals the model expects from them here.",
+    "evidence": [
+     "Younes Ebnoutalib: 6 league goals in 8 appearances this season.",
+     "Eintracht Frankfurt have scored 13 league goals in 8 games; the model expects 0.95 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "176617",
+    "name": "Stefano Marino",
+    "team": "SC Paderborn 07",
+    "probability": 0.337,
+    "confidence": 0.243,
+    "reasoning": "2 of SC Paderborn 07's 6 league goals this season (33%), applied to the 1.23 goals the model expects from them here.",
+    "evidence": [
+     "Stefano Marino: 2 league goals in 8 appearances this season.",
+     "SC Paderborn 07 have scored 6 league goals in 8 games; the model expects 1.23 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "10561",
+    "name": "Steffen Tigges",
+    "team": "SC Paderborn 07",
+    "probability": 0.337,
+    "confidence": 0.243,
+    "reasoning": "2 of SC Paderborn 07's 6 league goals this season (33%), applied to the 1.23 goals the model expects from them here.",
+    "evidence": [
+     "Steffen Tigges: 2 league goals in 8 appearances this season.",
+     "SC Paderborn 07 have scored 6 league goals in 8 games; the model expects 1.23 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.139
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.132
+    },
+    {
+     "score": "0-0",
+     "probability": 0.113
+    },
+    {
+     "score": "0-1",
+     "probability": 0.107
+    }
+   ],
+   "confidence": 0.278,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.23 (SC Paderborn 07) and 0.95 (Eintracht Frankfurt).",
+    "Top scorelines: 1-0 (13.9%), 1-1 (13.2%), 0-0 (11.3%), 0-1 (10.7%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: SC Paderborn 07 has 4 home games and Eintracht Frankfurt 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-06T03:32:17.200Z",
+ "lockedAt": "2026-11-06T03:32:35.838Z",
+ "result": null
+}

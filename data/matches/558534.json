@@ -1,0 +1,336 @@
+{
+ "fixtureId": "558534",
+ "kickoffUtc": "2026-11-07T14:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558534",
+   "kickoffUtc": "2026-11-07T14:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "104",
+    "name": "Cagliari Calcio",
+    "short": "CAG"
+   },
+   "away": {
+    "id": "470",
+    "name": "Frosinone Calcio",
+    "short": "FRO"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.62,
+   "awayGoals": 1.56
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "SS Lazio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "AS Roma",
+     "venue": "A",
+     "gf": 2,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Bologna FC 1909",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "AC Monza",
+     "venue": "A",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Juventus FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Torino FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "H",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Atalanta BC",
+     "venue": "A",
+     "gf": 4,
+     "ga": 4,
+     "res": "D"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "H",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "SSC Napoli",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 4,
+     "d": 1,
+     "l": 5,
+     "gf": 9,
+     "ga": 15
+    },
+    "home": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 2,
+     "ga": 4
+    },
+    "away": {
+     "p": 6,
+     "w": 3,
+     "d": 0,
+     "l": 3,
+     "gf": 7,
+     "ga": 11
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 6,
+     "d": 2,
+     "l": 2,
+     "gf": 24,
+     "ga": 14
+    },
+    "home": {
+     "p": 6,
+     "w": 5,
+     "d": 0,
+     "l": 1,
+     "gf": 16,
+     "ga": 6
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 2,
+     "l": 1,
+     "gf": 8,
+     "ga": 8
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2024-01-21",
+    "homeId": "470",
+    "awayId": "104",
+    "home": "Frosinone Calcio",
+    "away": "Cagliari Calcio",
+    "hg": 3,
+    "ag": 1
+   },
+   {
+    "date": "2023-10-29",
+    "homeId": "104",
+    "awayId": "470",
+    "home": "Cagliari Calcio",
+    "away": "Frosinone Calcio",
+    "hg": 4,
+    "ag": 3
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "136113",
+    "name": "Daniel Maldini",
+    "team": "Cagliari Calcio",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "169216",
+    "name": "Antonio Raimondo",
+    "team": "Frosinone Calcio",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 8,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "40786",
+    "name": "Giacomo Calò",
+    "team": "Frosinone Calcio",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "211564",
+    "name": "Giorgi Kvernadze",
+    "team": "Frosinone Calcio",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.159,
+   "draw": 0.234,
+   "awayWin": 0.607,
+   "pick": "A",
+   "confidence": 0.607,
+   "reasoning": "Poisson model: expected goals Cagliari Calcio 0.75 vs Frosinone Calcio 1.72, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Cagliari Calcio at home: 1W-1D-2L, 2 scored and 4 conceded in 4 games.",
+    "Frosinone Calcio away: 1W-2D-1L, 8 scored and 8 conceded in 4 games.",
+    "League averages this season: home teams 1.62 goals per game, away teams 1.56.",
+    "Recent league form (newest first): Cagliari Calcio LLLLD, Frosinone Calcio WWDWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Cagliari Calcio has 4 home games and Frosinone Calcio 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "169216",
+    "name": "Antonio Raimondo",
+    "team": "Frosinone Calcio",
+    "probability": 0.437,
+    "confidence": 0.35,
+    "reasoning": "8 of Frosinone Calcio's 24 league goals this season (33%), applied to the 1.72 goals the model expects from them here.",
+    "evidence": [
+     "Antonio Raimondo: 8 league goals in 10 appearances this season.",
+     "Frosinone Calcio have scored 24 league goals in 10 games; the model expects 1.72 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "136113",
+    "name": "Daniel Maldini",
+    "team": "Cagliari Calcio",
+    "probability": 0.312,
+    "confidence": 0.25,
+    "reasoning": "5 of Cagliari Calcio's 9 league goals this season (50%), applied to the 0.75 goals the model expects from them here.",
+    "evidence": [
+     "Daniel Maldini: 5 league goals in 10 appearances this season.",
+     "Cagliari Calcio have scored 9 league goals in 10 games; the model expects 0.75 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "40786",
+    "name": "Giacomo Calò",
+    "team": "Frosinone Calcio",
+    "probability": 0.302,
+    "confidence": 0.242,
+    "reasoning": "5 of Frosinone Calcio's 24 league goals this season (21%), applied to the 1.72 goals the model expects from them here.",
+    "evidence": [
+     "Giacomo Calò: 5 league goals in 10 appearances this season.",
+     "Frosinone Calcio have scored 24 league goals in 10 games; the model expects 1.72 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-1",
+    "probability": 0.145
+   },
+   "alternatives": [
+    {
+     "score": "0-2",
+     "probability": 0.125
+    },
+    {
+     "score": "1-1",
+     "probability": 0.109
+    },
+    {
+     "score": "1-2",
+     "probability": 0.094
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.75 (Cagliari Calcio) and 1.72 (Frosinone Calcio).",
+    "Top scorelines: 0-1 (14.5%), 0-2 (12.5%), 1-1 (10.9%), 1-2 (9.4%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Cagliari Calcio has 4 home games and Frosinone Calcio 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-06T03:31:10.534Z",
+ "lockedAt": "2026-11-06T03:31:27.623Z",
+ "result": null
+}

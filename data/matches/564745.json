@@ -1,0 +1,317 @@
+{
+ "fixtureId": "564745",
+ "kickoffUtc": "2026-11-07T15:15:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564745",
+   "kickoffUtc": "2026-11-07T15:15:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "80",
+    "name": "RCD Espanyol de Barcelona",
+    "short": "ESP"
+   },
+   "away": {
+    "id": "560",
+    "name": "RC Deportivo La Coruña",
+    "short": "DEP"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.7064220183486238,
+   "awayGoals": 1.3027522935779816
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Villarreal CF",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Club Atlético de Madrid",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Málaga CF",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Elche CF",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "CA Osasuna",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Club Atlético de Madrid",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Levante UD",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Real Sociedad de Fútbol",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Real Betis Balompié",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 3,
+     "d": 2,
+     "l": 6,
+     "gf": 13,
+     "ga": 14
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 1,
+     "l": 3,
+     "gf": 6,
+     "ga": 7
+    },
+    "away": {
+     "p": 6,
+     "w": 2,
+     "d": 1,
+     "l": 3,
+     "gf": 7,
+     "ga": 7
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 3,
+     "d": 5,
+     "l": 3,
+     "gf": 15,
+     "ga": 14
+    },
+    "home": {
+     "p": 6,
+     "w": 2,
+     "d": 3,
+     "l": 1,
+     "gf": 8,
+     "ga": 6
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 2,
+     "l": 2,
+     "gf": 7,
+     "ga": 8
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "180218",
+    "name": "Roberto Fernández",
+    "team": "RCD Espanyol de Barcelona",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "7801",
+    "name": "Pierre-Emerick Aubameyang",
+    "team": "RC Deportivo La Coruña",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "69837",
+    "name": "Mario Soriano",
+    "team": "RC Deportivo La Coruña",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "288836",
+    "name": "Nsongo Tonfack",
+    "team": "RC Deportivo La Coruña",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.329,
+   "draw": 0.276,
+   "awayWin": 0.395,
+   "pick": "A",
+   "confidence": 0.395,
+   "reasoning": "Poisson model: expected goals RCD Espanyol de Barcelona 1.13 vs RC Deportivo La Coruña 1.27, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "RCD Espanyol de Barcelona at home: 1W-1D-3L, 6 scored and 7 conceded in 5 games.",
+    "RC Deportivo La Coruña away: 1W-2D-2L, 7 scored and 8 conceded in 5 games.",
+    "League averages this season: home teams 1.71 goals per game, away teams 1.30.",
+    "Recent league form (newest first): RCD Espanyol de Barcelona WLLDL, RC Deportivo La Coruña WLDLD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: RCD Espanyol de Barcelona has 5 home games and RC Deportivo La Coruña 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "180218",
+    "name": "Roberto Fernández",
+    "team": "RCD Espanyol de Barcelona",
+    "probability": 0.407,
+    "confidence": 0.326,
+    "reasoning": "6 of RCD Espanyol de Barcelona's 13 league goals this season (46%), applied to the 1.13 goals the model expects from them here.",
+    "evidence": [
+     "Roberto Fernández: 6 league goals in 11 appearances this season.",
+     "RCD Espanyol de Barcelona have scored 13 league goals in 11 games; the model expects 1.13 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "7801",
+    "name": "Pierre-Emerick Aubameyang",
+    "team": "RC Deportivo La Coruña",
+    "probability": 0.345,
+    "confidence": 0.276,
+    "reasoning": "5 of RC Deportivo La Coruña's 15 league goals this season (33%), applied to the 1.27 goals the model expects from them here.",
+    "evidence": [
+     "Pierre-Emerick Aubameyang: 5 league goals in 8 appearances this season.",
+     "RC Deportivo La Coruña have scored 15 league goals in 11 games; the model expects 1.27 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "69837",
+    "name": "Mario Soriano",
+    "team": "RC Deportivo La Coruña",
+    "probability": 0.155,
+    "confidence": 0.124,
+    "reasoning": "2 of RC Deportivo La Coruña's 15 league goals this season (13%), applied to the 1.27 goals the model expects from them here.",
+    "evidence": [
+     "Mario Soriano: 2 league goals in 11 appearances this season.",
+     "RC Deportivo La Coruña have scored 15 league goals in 11 games; the model expects 1.27 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-1",
+    "probability": 0.13
+   },
+   "alternatives": [
+    {
+     "score": "0-1",
+     "probability": 0.115
+    },
+    {
+     "score": "1-0",
+     "probability": 0.103
+    },
+    {
+     "score": "0-0",
+     "probability": 0.091
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.13 (RCD Espanyol de Barcelona) and 1.27 (RC Deportivo La Coruña).",
+    "Top scorelines: 1-1 (13.0%), 0-1 (11.5%), 1-0 (10.3%), 0-0 (9.1%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: RCD Espanyol de Barcelona has 5 home games and RC Deportivo La Coruña 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-06T03:33:31.692Z",
+ "lockedAt": "2026-11-06T03:33:50.249Z",
+ "result": null
+}
