@@ -260,26 +260,6 @@
   }
  },
  {
-  "id": "560641",
-  "kickoffUtc": "2026-11-07T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "351",
-   "name": "Nottingham Forest FC",
-   "short": "NOT"
-  },
-  "away": {
-   "id": "65",
-   "name": "Manchester City FC",
-   "short": "MCI"
-  }
- },
- {
   "id": "564739",
   "kickoffUtc": "2026-11-07T17:30:00.000Z",
   "status": "scheduled",
@@ -297,6 +277,26 @@
    "id": "77",
    "name": "Athletic Club",
    "short": "ATH"
+  }
+ },
+ {
+  "id": "560641",
+  "kickoffUtc": "2026-11-07T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "351",
+   "name": "Nottingham Forest FC",
+   "short": "NOT"
+  },
+  "away": {
+   "id": "65",
+   "name": "Manchester City FC",
+   "short": "MCI"
   }
  },
  {
