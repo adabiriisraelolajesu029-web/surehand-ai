@@ -2,7 +2,7 @@
  {
   "id": "560632",
   "kickoffUtc": "2026-11-07T12:30:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "PL",
    "name": "Premier League",
@@ -22,7 +22,7 @@
  {
   "id": "564744",
   "kickoffUtc": "2026-11-07T13:00:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "PD",
    "name": "Primera Division",
@@ -40,29 +40,9 @@
   }
  },
  {
-  "id": "558532",
-  "kickoffUtc": "2026-11-07T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "586",
-   "name": "Torino FC",
-   "short": "TOR"
-  },
-  "away": {
-   "id": "5890",
-   "name": "US Lecce",
-   "short": "USL"
-  }
- },
- {
   "id": "558534",
   "kickoffUtc": "2026-11-07T14:00:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "SA",
    "name": "Serie A",
@@ -80,49 +60,29 @@
   }
  },
  {
-  "id": "565851",
-  "kickoffUtc": "2026-11-07T14:30:00.000Z",
-  "status": "scheduled",
+  "id": "558532",
+  "kickoffUtc": "2026-11-07T14:00:00.000Z",
+  "status": "finished",
   "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
   },
   "home": {
-   "id": "15",
-   "name": "1. FSV Mainz 05",
-   "short": "M05"
+   "id": "586",
+   "name": "Torino FC",
+   "short": "TOR"
   },
   "away": {
-   "id": "5",
-   "name": "FC Bayern München",
-   "short": "FCB"
-  }
- },
- {
-  "id": "565850",
-  "kickoffUtc": "2026-11-07T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "4",
-   "name": "Borussia Dortmund",
-   "short": "BVB"
-  },
-  "away": {
-   "id": "719",
-   "name": "SV 07 Elversberg",
-   "short": "ELV"
+   "id": "5890",
+   "name": "US Lecce",
+   "short": "USL"
   }
  },
  {
   "id": "565853",
   "kickoffUtc": "2026-11-07T14:30:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "BL1",
    "name": "Bundesliga",
@@ -142,7 +102,7 @@
  {
   "id": "565848",
   "kickoffUtc": "2026-11-07T14:30:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "BL1",
    "name": "Bundesliga",
@@ -160,29 +120,49 @@
   }
  },
  {
-  "id": "560640",
-  "kickoffUtc": "2026-11-07T15:00:00.000Z",
-  "status": "scheduled",
+  "id": "565850",
+  "kickoffUtc": "2026-11-07T14:30:00.000Z",
+  "status": "finished",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
   },
   "home": {
-   "id": "57",
-   "name": "Arsenal FC",
-   "short": "ARS"
+   "id": "4",
+   "name": "Borussia Dortmund",
+   "short": "BVB"
   },
   "away": {
-   "id": "322",
-   "name": "Hull City AFC",
-   "short": "HUL"
+   "id": "719",
+   "name": "SV 07 Elversberg",
+   "short": "ELV"
+  }
+ },
+ {
+  "id": "565851",
+  "kickoffUtc": "2026-11-07T14:30:00.000Z",
+  "status": "finished",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "15",
+   "name": "1. FSV Mainz 05",
+   "short": "M05"
+  },
+  "away": {
+   "id": "5",
+   "name": "FC Bayern München",
+   "short": "FCB"
   }
  },
  {
   "id": "560633",
   "kickoffUtc": "2026-11-07T15:00:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "PL",
    "name": "Premier League",
@@ -200,9 +180,29 @@
   }
  },
  {
+  "id": "560640",
+  "kickoffUtc": "2026-11-07T15:00:00.000Z",
+  "status": "live",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "57",
+   "name": "Arsenal FC",
+   "short": "ARS"
+  },
+  "away": {
+   "id": "322",
+   "name": "Hull City AFC",
+   "short": "HUL"
+  }
+ },
+ {
   "id": "564745",
   "kickoffUtc": "2026-11-07T15:15:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "PD",
    "name": "Primera Division",
@@ -237,26 +237,6 @@
    "id": "103",
    "name": "Bologna FC 1909",
    "short": "BOL"
-  }
- },
- {
-  "id": "565849",
-  "kickoffUtc": "2026-11-07T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "10",
-   "name": "VfB Stuttgart",
-   "short": "VFB"
-  },
-  "away": {
-   "id": "12",
-   "name": "SV Werder Bremen",
-   "short": "SVW"
   }
  },
  {
@@ -297,6 +277,26 @@
    "id": "65",
    "name": "Manchester City FC",
    "short": "MCI"
+  }
+ },
+ {
+  "id": "565849",
+  "kickoffUtc": "2026-11-07T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "10",
+   "name": "VfB Stuttgart",
+   "short": "VFB"
+  },
+  "away": {
+   "id": "12",
+   "name": "SV Werder Bremen",
+   "short": "SVW"
   }
  },
  {

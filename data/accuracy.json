@@ -1,22 +1,66 @@
 {
- "settled": 78,
+ "settled": 82,
  "outcome": {
-  "n": 78,
-  "hit": 39,
-  "rate": 0.5
+  "n": 82,
+  "hit": 40,
+  "rate": 0.4878048780487805
  },
  "correctScore": {
-  "n": 78,
-  "hit": 6,
-  "rate": 0.07692307692307693
+  "n": 82,
+  "hit": 7,
+  "rate": 0.08536585365853659
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-07T11:33:44.260Z",
+ "updatedAt": "2026-11-07T16:47:40.048Z",
  "tracked": [
+  {
+   "match": "Torino FC v US Lecce",
+   "lockedAt": "2026-11-06T03:31:10.534Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Cagliari Calcio v Frosinone Calcio",
+   "lockedAt": "2026-11-06T03:31:27.623Z",
+   "pick": "A",
+   "score": "0-1",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Málaga CF v Real Racing Club de Santander",
+   "lockedAt": "2026-11-06T03:30:39.588Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 1,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "Leeds United FC v Tottenham Hotspur FC",
+   "lockedAt": "2026-11-06T03:30:10.201Z",
+   "pick": "H",
+   "score": "0-0",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
   {
    "match": "Everton FC v Coventry City FC",
    "lockedAt": "2026-11-05T12:57:56.168Z",
