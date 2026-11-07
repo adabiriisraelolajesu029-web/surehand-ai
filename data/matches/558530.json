@@ -1,0 +1,425 @@
+{
+ "fixtureId": "558530",
+ "kickoffUtc": "2026-11-08T17:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558530",
+   "kickoffUtc": "2026-11-08T17:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "108",
+    "name": "FC Internazionale Milano",
+    "short": "INT"
+   },
+   "away": {
+    "id": "7397",
+    "name": "Como 1907",
+    "short": "COM"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6237623762376239,
+   "awayGoals": 1.5544554455445545
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "AC Milan",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Venezia FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "ACF Fiorentina",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Bologna FC 1909",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Parma Calcio 1913",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Venezia FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "ACF Fiorentina",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "AS Roma",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 8,
+     "d": 1,
+     "l": 1,
+     "gf": 26,
+     "ga": 13
+    },
+    "home": {
+     "p": 5,
+     "w": 5,
+     "d": 0,
+     "l": 0,
+     "gf": 17,
+     "ga": 7
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 1,
+     "l": 1,
+     "gf": 9,
+     "ga": 6
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 7,
+     "d": 2,
+     "l": 1,
+     "gf": 18,
+     "ga": 8
+    },
+    "home": {
+     "p": 4,
+     "w": 3,
+     "d": 1,
+     "l": 0,
+     "gf": 5,
+     "ga": 1
+    },
+    "away": {
+     "p": 6,
+     "w": 4,
+     "d": 1,
+     "l": 1,
+     "gf": 13,
+     "ga": 7
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-12",
+    "homeId": "7397",
+    "awayId": "108",
+    "home": "Como 1907",
+    "away": "FC Internazionale Milano",
+    "hg": 3,
+    "ag": 4
+   },
+   {
+    "date": "2025-12-06",
+    "homeId": "108",
+    "awayId": "7397",
+    "home": "FC Internazionale Milano",
+    "away": "Como 1907",
+    "hg": 4,
+    "ag": 0
+   },
+   {
+    "date": "2025-05-23",
+    "homeId": "7397",
+    "awayId": "108",
+    "home": "Como 1907",
+    "away": "FC Internazionale Milano",
+    "hg": 0,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "8685",
+    "name": "Marcus Thuram-Ulien",
+    "team": "FC Internazionale Milano",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "3220",
+    "name": "Lautaro Martínez",
+    "team": "FC Internazionale Milano",
+    "pos": "Offence",
+    "apps": 6,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "1754",
+    "name": "Hakan Çalhanoğlu",
+    "team": "FC Internazionale Milano",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "2097",
+    "name": "Piotr Zieliński",
+    "team": "FC Internazionale Milano",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "215433",
+    "name": "Francesco Esposito",
+    "team": "FC Internazionale Milano",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "167689",
+    "name": "Carlos Augusto Lobaton",
+    "team": "FC Internazionale Milano",
+    "pos": "Defence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "152738",
+    "name": "Ange-Yoan Bonny",
+    "team": "FC Internazionale Milano",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "43285",
+    "name": "Anastasios Douvikas",
+    "team": "Como 1907",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "156912",
+    "name": "Martin Baturina",
+    "team": "Como 1907",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "203511",
+    "name": "Nico Paz",
+    "team": "Como 1907",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "218474",
+    "name": "Assane Diao",
+    "team": "Como 1907",
+    "pos": "Offence",
+    "apps": 6,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "247056",
+    "name": "Jacobo Ramón",
+    "team": "Como 1907",
+    "pos": "Defence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.434,
+   "draw": 0.216,
+   "awayWin": 0.35,
+   "pick": "H",
+   "confidence": 0.434,
+   "reasoning": "Poisson model: expected goals FC Internazionale Milano 1.94 vs Como 1907 1.73, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "FC Internazionale Milano at home: 5W-0D-0L, 17 scored and 7 conceded in 5 games.",
+    "Como 1907 away: 4W-1D-1L, 13 scored and 7 conceded in 6 games.",
+    "League averages this season: home teams 1.62 goals per game, away teams 1.55.",
+    "Recent league form (newest first): FC Internazionale Milano LWWWW, Como 1907 WWWWD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: FC Internazionale Milano has 5 home games and Como 1907 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "43285",
+    "name": "Anastasios Douvikas",
+    "team": "Como 1907",
+    "probability": 0.382,
+    "confidence": 0.305,
+    "reasoning": "5 of Como 1907's 18 league goals this season (28%), applied to the 1.73 goals the model expects from them here.",
+    "evidence": [
+     "Anastasios Douvikas: 5 league goals in 10 appearances this season.",
+     "Como 1907 have scored 18 league goals in 10 games; the model expects 1.73 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "8685",
+    "name": "Marcus Thuram-Ulien",
+    "team": "FC Internazionale Milano",
+    "probability": 0.312,
+    "confidence": 0.249,
+    "reasoning": "5 of FC Internazionale Milano's 26 league goals this season (19%), applied to the 1.94 goals the model expects from them here.",
+    "evidence": [
+     "Marcus Thuram-Ulien: 5 league goals in 10 appearances this season.",
+     "FC Internazionale Milano have scored 26 league goals in 10 games; the model expects 1.94 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "3220",
+    "name": "Lautaro Martínez",
+    "team": "FC Internazionale Milano",
+    "probability": 0.258,
+    "confidence": 0.207,
+    "reasoning": "4 of FC Internazionale Milano's 26 league goals this season (15%), applied to the 1.94 goals the model expects from them here.",
+    "evidence": [
+     "Lautaro Martínez: 4 league goals in 6 appearances this season.",
+     "FC Internazionale Milano have scored 26 league goals in 10 games; the model expects 1.94 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-1",
+    "probability": 0.085
+   },
+   "alternatives": [
+    {
+     "score": "2-1",
+     "probability": 0.083
+    },
+    {
+     "score": "1-2",
+     "probability": 0.074
+    },
+    {
+     "score": "2-2",
+     "probability": 0.072
+    }
+   ],
+   "confidence": 0.214,
+   "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.94 (FC Internazionale Milano) and 1.73 (Como 1907).",
+    "Top scorelines: 1-1 (8.5%), 2-1 (8.3%), 1-2 (7.4%), 2-2 (7.2%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: FC Internazionale Milano has 5 home games and Como 1907 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-07T11:30:56.895Z",
+ "lockedAt": "2026-11-07T11:31:28.182Z",
+ "result": null
+}

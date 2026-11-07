@@ -1,0 +1,373 @@
+{
+ "fixtureId": "564742",
+ "kickoffUtc": "2026-11-08T17:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564742",
+   "kickoffUtc": "2026-11-08T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "558",
+    "name": "RC Celta de Vigo",
+    "short": "CEL"
+   },
+   "away": {
+    "id": "88",
+    "name": "Levante UD",
+    "short": "LEV"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.690909090909091,
+   "awayGoals": 1.290909090909091
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Rayo Vallecano de Madrid",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Real Betis Balompié",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Deportivo Alavés",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Elche CF",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "H",
+     "gf": 5,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Club Atlético de Madrid",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Real Sociedad de Fútbol",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Athletic Club",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "RC Deportivo La Coruña",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Sevilla FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 2,
+     "d": 6,
+     "l": 3,
+     "gf": 10,
+     "ga": 10
+    },
+    "home": {
+     "p": 6,
+     "w": 2,
+     "d": 2,
+     "l": 2,
+     "gf": 9,
+     "ga": 6
+    },
+    "away": {
+     "p": 5,
+     "w": 0,
+     "d": 4,
+     "l": 1,
+     "gf": 1,
+     "ga": 4
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 2,
+     "d": 4,
+     "l": 5,
+     "gf": 16,
+     "ga": 21
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 13,
+     "ga": 12
+    },
+    "away": {
+     "p": 6,
+     "w": 0,
+     "d": 3,
+     "l": 3,
+     "gf": 3,
+     "ga": 9
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-12",
+    "homeId": "558",
+    "awayId": "88",
+    "home": "RC Celta de Vigo",
+    "away": "Levante UD",
+    "hg": 2,
+    "ag": 3
+   },
+   {
+    "date": "2025-11-02",
+    "homeId": "88",
+    "awayId": "558",
+    "home": "Levante UD",
+    "away": "RC Celta de Vigo",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2022-02-21",
+    "homeId": "558",
+    "awayId": "88",
+    "home": "RC Celta de Vigo",
+    "away": "Levante UD",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2021-09-21",
+    "homeId": "88",
+    "awayId": "558",
+    "home": "Levante UD",
+    "away": "RC Celta de Vigo",
+    "hg": 0,
+    "ag": 2
+   },
+   {
+    "date": "2021-04-30",
+    "homeId": "558",
+    "awayId": "88",
+    "home": "RC Celta de Vigo",
+    "away": "Levante UD",
+    "hg": 2,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "83406",
+    "name": "Ferran Jutglà",
+    "team": "RC Celta de Vigo",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "188859",
+    "name": "Pablo Duran",
+    "team": "RC Celta de Vigo",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "180282",
+    "name": "Brugui",
+    "team": "Levante UD",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "156746",
+    "name": "Iván Romero",
+    "team": "Levante UD",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "98741",
+    "name": "Adrián de la Fuente",
+    "team": "Levante UD",
+    "pos": "Defence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.566,
+   "draw": 0.28,
+   "awayWin": 0.154,
+   "pick": "H",
+   "confidence": 0.566,
+   "reasoning": "Poisson model: expected goals RC Celta de Vigo 1.37 vs Levante UD 0.57, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "RC Celta de Vigo at home: 2W-2D-2L, 9 scored and 6 conceded in 6 games.",
+    "Levante UD away: 0W-3D-3L, 3 scored and 9 conceded in 6 games.",
+    "League averages this season: home teams 1.69 goals per game, away teams 1.29.",
+    "Recent league form (newest first): RC Celta de Vigo LDWDW, Levante UD LLWDD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: RC Celta de Vigo has 6 home games and Levante UD 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "83406",
+    "name": "Ferran Jutglà",
+    "team": "RC Celta de Vigo",
+    "probability": 0.24,
+    "confidence": 0.192,
+    "reasoning": "2 of RC Celta de Vigo's 10 league goals this season (20%), applied to the 1.37 goals the model expects from them here.",
+    "evidence": [
+     "Ferran Jutglà: 2 league goals in 11 appearances this season.",
+     "RC Celta de Vigo have scored 10 league goals in 11 games; the model expects 1.37 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "188859",
+    "name": "Pablo Duran",
+    "team": "RC Celta de Vigo",
+    "probability": 0.24,
+    "confidence": 0.192,
+    "reasoning": "2 of RC Celta de Vigo's 10 league goals this season (20%), applied to the 1.37 goals the model expects from them here.",
+    "evidence": [
+     "Pablo Duran: 2 league goals in 10 appearances this season.",
+     "RC Celta de Vigo have scored 10 league goals in 11 games; the model expects 1.37 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "180282",
+    "name": "Brugui",
+    "team": "Levante UD",
+    "probability": 0.163,
+    "confidence": 0.13,
+    "reasoning": "5 of Levante UD's 16 league goals this season (31%), applied to the 0.57 goals the model expects from them here.",
+    "evidence": [
+     "Brugui: 5 league goals in 10 appearances this season.",
+     "Levante UD have scored 16 league goals in 11 games; the model expects 0.57 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.197
+   },
+   "alternatives": [
+    {
+     "score": "0-0",
+     "probability": 0.144
+    },
+    {
+     "score": "2-0",
+     "probability": 0.135
+    },
+    {
+     "score": "1-1",
+     "probability": 0.112
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.37 (RC Celta de Vigo) and 0.57 (Levante UD).",
+    "Top scorelines: 1-0 (19.7%), 0-0 (14.4%), 2-0 (13.5%), 1-1 (11.2%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: RC Celta de Vigo has 6 home games and Levante UD 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-07T11:31:28.182Z",
+ "lockedAt": "2026-11-07T11:31:45.604Z",
+ "result": null
+}

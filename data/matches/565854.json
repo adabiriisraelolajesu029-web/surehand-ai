@@ -1,0 +1,383 @@
+{
+ "fixtureId": "565854",
+ "kickoffUtc": "2026-11-08T16:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565854",
+   "kickoffUtc": "2026-11-08T16:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "17",
+    "name": "SC Freiburg",
+    "short": "SCF"
+   },
+   "away": {
+    "id": "28",
+    "name": "1. FC Union Berlin",
+    "short": "UNB"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.136986301369863,
+   "awayGoals": 1.36986301369863
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "FC Augsburg",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "FC Bayern München",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Bayer 04 Leverkusen",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "FC Schalke 04",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Eintracht Frankfurt",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "1. FC Köln",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "FC Augsburg",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Borussia Dortmund",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "SV 07 Elversberg",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Bayern München",
+     "venue": "A",
+     "gf": 0,
+     "ga": 7,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 5,
+     "d": 1,
+     "l": 2,
+     "gf": 18,
+     "ga": 10
+    },
+    "home": {
+     "p": 4,
+     "w": 3,
+     "d": 0,
+     "l": 1,
+     "gf": 12,
+     "ga": 5
+    },
+    "away": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 6,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 1,
+     "d": 4,
+     "l": 3,
+     "gf": 7,
+     "ga": 19
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 3,
+     "l": 1,
+     "gf": 6,
+     "ga": 7
+    },
+    "away": {
+     "p": 3,
+     "w": 0,
+     "d": 1,
+     "l": 2,
+     "gf": 1,
+     "ga": 12
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-03-15",
+    "homeId": "17",
+    "awayId": "28",
+    "home": "SC Freiburg",
+    "away": "1. FC Union Berlin",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2025-11-01",
+    "homeId": "28",
+    "awayId": "17",
+    "home": "1. FC Union Berlin",
+    "away": "SC Freiburg",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2025-03-30",
+    "homeId": "17",
+    "awayId": "28",
+    "home": "SC Freiburg",
+    "away": "1. FC Union Berlin",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2024-11-08",
+    "homeId": "28",
+    "awayId": "17",
+    "home": "1. FC Union Berlin",
+    "away": "SC Freiburg",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2024-05-18",
+    "homeId": "28",
+    "awayId": "17",
+    "home": "1. FC Union Berlin",
+    "away": "SC Freiburg",
+    "hg": 2,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "145293",
+    "name": "Yuito Suzuki",
+    "team": "SC Freiburg",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "156629",
+    "name": "Igor Matanovic",
+    "team": "SC Freiburg",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "9452",
+    "name": "Maximilian Eggestein",
+    "team": "SC Freiburg",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "123277",
+    "name": "Yannik Engelhardt",
+    "team": "SC Freiburg",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "175704",
+    "name": "Derry Scherhant",
+    "team": "SC Freiburg",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "7029",
+    "name": "Tim Skarke",
+    "team": "1. FC Union Berlin",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.879,
+   "draw": 0.09,
+   "awayWin": 0.031,
+   "pick": "H",
+   "confidence": 0.8,
+   "reasoning": "Poisson model: expected goals SC Freiburg 3.00 vs 1. FC Union Berlin 0.43, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "SC Freiburg at home: 3W-0D-1L, 12 scored and 5 conceded in 4 games.",
+    "1. FC Union Berlin away: 0W-1D-2L, 1 scored and 12 conceded in 3 games.",
+    "League averages this season: home teams 2.14 goals per game, away teams 1.37.",
+    "Recent league form (newest first): SC Freiburg WLLWD, 1. FC Union Berlin DDDWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: SC Freiburg has 4 home games and 1. FC Union Berlin 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "145293",
+    "name": "Yuito Suzuki",
+    "team": "SC Freiburg",
+    "probability": 0.487,
+    "confidence": 0.35,
+    "reasoning": "4 of SC Freiburg's 18 league goals this season (22%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Yuito Suzuki: 4 league goals in 7 appearances this season.",
+     "SC Freiburg have scored 18 league goals in 8 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "156629",
+    "name": "Igor Matanovic",
+    "team": "SC Freiburg",
+    "probability": 0.487,
+    "confidence": 0.35,
+    "reasoning": "4 of SC Freiburg's 18 league goals this season (22%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Igor Matanovic: 4 league goals in 8 appearances this season.",
+     "SC Freiburg have scored 18 league goals in 8 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "9452",
+    "name": "Maximilian Eggestein",
+    "team": "SC Freiburg",
+    "probability": 0.393,
+    "confidence": 0.283,
+    "reasoning": "3 of SC Freiburg's 18 league goals this season (17%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Maximilian Eggestein: 3 league goals in 8 appearances this season.",
+     "SC Freiburg have scored 18 league goals in 8 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-0",
+    "probability": 0.146
+   },
+   "alternatives": [
+    {
+     "score": "3-0",
+     "probability": 0.146
+    },
+    {
+     "score": "4-0",
+     "probability": 0.109
+    },
+    {
+     "score": "1-0",
+     "probability": 0.097
+    }
+   ],
+   "confidence": 0.292,
+   "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 3.00 (SC Freiburg) and 0.43 (1. FC Union Berlin).",
+    "Top scorelines: 2-0 (14.6%), 3-0 (14.6%), 4-0 (10.9%), 1-0 (9.7%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: SC Freiburg has 4 home games and 1. FC Union Berlin 3 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-07T11:29:53.902Z",
+ "lockedAt": "2026-11-07T11:30:25.696Z",
+ "result": null
+}

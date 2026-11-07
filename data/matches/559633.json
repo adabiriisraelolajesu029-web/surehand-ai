@@ -1,0 +1,343 @@
+{
+ "fixtureId": "559633",
+ "kickoffUtc": "2026-11-08T16:15:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559633",
+   "kickoffUtc": "2026-11-08T16:15:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "533",
+    "name": "Le Havre AC",
+    "short": "HAC"
+   },
+   "away": {
+    "id": "525",
+    "name": "FC Lorient",
+    "short": "FCL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.7195121951219512,
+   "awayGoals": 1.329268292682927
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Paris Saint-Germain FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "Olympique de Marseille",
+     "venue": "A",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "AJ Auxerre",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Lille OSC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Toulouse FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Stade Brestois 29",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Angers SCO",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "AS Monaco FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Paris FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Le Mans FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 9,
+     "w": 0,
+     "d": 2,
+     "l": 7,
+     "gf": 9,
+     "ga": 20
+    },
+    "home": {
+     "p": 5,
+     "w": 0,
+     "d": 1,
+     "l": 4,
+     "gf": 3,
+     "ga": 11
+    },
+    "away": {
+     "p": 4,
+     "w": 0,
+     "d": 1,
+     "l": 3,
+     "gf": 6,
+     "ga": 9
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 9,
+     "w": 3,
+     "d": 3,
+     "l": 3,
+     "gf": 7,
+     "ga": 8
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 6
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 2,
+     "l": 1,
+     "gf": 2,
+     "ga": 2
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-17",
+    "homeId": "525",
+    "awayId": "533",
+    "home": "FC Lorient",
+    "away": "Le Havre AC",
+    "hg": 0,
+    "ag": 2
+   },
+   {
+    "date": "2025-09-21",
+    "homeId": "533",
+    "awayId": "525",
+    "home": "Le Havre AC",
+    "away": "FC Lorient",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2024-01-28",
+    "homeId": "525",
+    "awayId": "533",
+    "home": "FC Lorient",
+    "away": "Le Havre AC",
+    "hg": 3,
+    "ag": 3
+   },
+   {
+    "date": "2023-09-03",
+    "homeId": "533",
+    "awayId": "525",
+    "home": "Le Havre AC",
+    "away": "FC Lorient",
+    "hg": 3,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "4072",
+    "name": "Josh Maja",
+    "team": "Le Havre AC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "215579",
+    "name": "Mbwana Samatta",
+    "team": "Le Havre AC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "276430",
+    "name": "Rayan Fofana",
+    "team": "Le Havre AC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": []
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.142,
+   "draw": 0.377,
+   "awayWin": 0.482,
+   "pick": "A",
+   "confidence": 0.462,
+   "reasoning": "Poisson model: expected goals Le Havre AC 0.36 vs FC Lorient 0.92, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Le Havre AC at home: 0W-1D-4L, 3 scored and 11 conceded in 5 games.",
+    "FC Lorient away: 1W-2D-1L, 2 scored and 2 conceded in 4 games.",
+    "League averages this season: home teams 1.72 goals per game, away teams 1.33.",
+    "Recent league form (newest first): Le Havre AC LLLLL, FC Lorient LDWWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Le Havre AC has 5 home games and FC Lorient 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "4072",
+    "name": "Josh Maja",
+    "team": "Le Havre AC",
+    "probability": 0.15,
+    "confidence": 0.114,
+    "reasoning": "4 of Le Havre AC's 9 league goals this season (44%), applied to the 0.36 goals the model expects from them here.",
+    "evidence": [
+     "Josh Maja: 4 league goals in 9 appearances this season.",
+     "Le Havre AC have scored 9 league goals in 9 games; the model expects 0.36 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "215579",
+    "name": "Mbwana Samatta",
+    "team": "Le Havre AC",
+    "probability": 0.078,
+    "confidence": 0.059,
+    "reasoning": "2 of Le Havre AC's 9 league goals this season (22%), applied to the 0.36 goals the model expects from them here.",
+    "evidence": [
+     "Mbwana Samatta: 2 league goals in 9 appearances this season.",
+     "Le Havre AC have scored 9 league goals in 9 games; the model expects 0.36 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "276430",
+    "name": "Rayan Fofana",
+    "team": "Le Havre AC",
+    "probability": 0.078,
+    "confidence": 0.059,
+    "reasoning": "2 of Le Havre AC's 9 league goals this season (22%), applied to the 0.36 goals the model expects from them here.",
+    "evidence": [
+     "Rayan Fofana: 2 league goals in 9 appearances this season.",
+     "Le Havre AC have scored 9 league goals in 9 games; the model expects 0.36 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-0",
+    "probability": 0.276
+   },
+   "alternatives": [
+    {
+     "score": "0-1",
+     "probability": 0.255
+    },
+    {
+     "score": "0-2",
+     "probability": 0.118
+    },
+    {
+     "score": "1-0",
+     "probability": 0.101
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.36 (Le Havre AC) and 0.92 (FC Lorient).",
+    "Top scorelines: 0-0 (27.6%), 0-1 (25.5%), 0-2 (11.8%), 1-0 (10.1%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Le Havre AC has 5 home games and FC Lorient 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-07T11:29:16.792Z",
+ "lockedAt": "2026-11-07T11:29:35.459Z",
+ "result": null
+}

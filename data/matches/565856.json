@@ -1,0 +1,343 @@
+{
+ "fixtureId": "565856",
+ "kickoffUtc": "2026-11-08T18:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565856",
+   "kickoffUtc": "2026-11-08T18:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "2",
+    "name": "TSG 1899 Hoffenheim",
+    "short": "TSG"
+   },
+   "away": {
+    "id": "6",
+    "name": "FC Schalke 04",
+    "short": "S04"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.136986301369863,
+   "awayGoals": 1.36986301369863
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "SV Werder Bremen",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Bayer 04 Leverkusen",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Borussia Mönchengladbach",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Hamburger SV",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "SC Paderborn 07",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "RB Leipzig",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "1. FC Köln",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "1. FSV Mainz 05",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "SC Freiburg",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "SV 07 Elversberg",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 8,
+     "w": 3,
+     "d": 0,
+     "l": 5,
+     "gf": 14,
+     "ga": 16
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 0,
+     "l": 2,
+     "gf": 9,
+     "ga": 7
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 0,
+     "l": 3,
+     "gf": 5,
+     "ga": 9
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 8,
+     "w": 1,
+     "d": 3,
+     "l": 4,
+     "gf": 4,
+     "ga": 9
+    },
+    "home": {
+     "p": 4,
+     "w": 0,
+     "d": 2,
+     "l": 2,
+     "gf": 0,
+     "ga": 3
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 4,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2023-04-09",
+    "homeId": "2",
+    "awayId": "6",
+    "home": "TSG 1899 Hoffenheim",
+    "away": "FC Schalke 04",
+    "hg": 2,
+    "ag": 0
+   },
+   {
+    "date": "2022-10-14",
+    "homeId": "6",
+    "awayId": "2",
+    "home": "FC Schalke 04",
+    "away": "TSG 1899 Hoffenheim",
+    "hg": 0,
+    "ag": 3
+   },
+   {
+    "date": "2021-05-08",
+    "homeId": "2",
+    "awayId": "6",
+    "home": "TSG 1899 Hoffenheim",
+    "away": "FC Schalke 04",
+    "hg": 4,
+    "ag": 2
+   },
+   {
+    "date": "2021-01-09",
+    "homeId": "6",
+    "awayId": "2",
+    "home": "FC Schalke 04",
+    "away": "TSG 1899 Hoffenheim",
+    "hg": 4,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "182004",
+    "name": "Adam Daghim",
+    "team": "TSG 1899 Hoffenheim",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "99042",
+    "name": "Adam Hložek",
+    "team": "TSG 1899 Hoffenheim",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "177525",
+    "name": "Bambase Conte",
+    "team": "TSG 1899 Hoffenheim",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": []
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.52,
+   "draw": 0.265,
+   "awayWin": 0.215,
+   "pick": "H",
+   "confidence": 0.479,
+   "reasoning": "Poisson model: expected goals TSG 1899 Hoffenheim 1.47 vs FC Schalke 04 0.84, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "TSG 1899 Hoffenheim at home: 2W-0D-2L, 9 scored and 7 conceded in 4 games.",
+    "FC Schalke 04 away: 1W-1D-2L, 4 scored and 6 conceded in 4 games.",
+    "League averages this season: home teams 2.14 goals per game, away teams 1.37.",
+    "Recent league form (newest first): TSG 1899 Hoffenheim LWWLL, FC Schalke 04 LDLLD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: TSG 1899 Hoffenheim has 4 home games and FC Schalke 04 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "182004",
+    "name": "Adam Daghim",
+    "team": "TSG 1899 Hoffenheim",
+    "probability": 0.19,
+    "confidence": 0.137,
+    "reasoning": "2 of TSG 1899 Hoffenheim's 14 league goals this season (14%), applied to the 1.47 goals the model expects from them here.",
+    "evidence": [
+     "Adam Daghim: 2 league goals in 8 appearances this season.",
+     "TSG 1899 Hoffenheim have scored 14 league goals in 8 games; the model expects 1.47 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "99042",
+    "name": "Adam Hložek",
+    "team": "TSG 1899 Hoffenheim",
+    "probability": 0.19,
+    "confidence": 0.137,
+    "reasoning": "2 of TSG 1899 Hoffenheim's 14 league goals this season (14%), applied to the 1.47 goals the model expects from them here.",
+    "evidence": [
+     "Adam Hložek: 2 league goals in 8 appearances this season.",
+     "TSG 1899 Hoffenheim have scored 14 league goals in 8 games; the model expects 1.47 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "177525",
+    "name": "Bambase Conte",
+    "team": "TSG 1899 Hoffenheim",
+    "probability": 0.19,
+    "confidence": 0.137,
+    "reasoning": "2 of TSG 1899 Hoffenheim's 14 league goals this season (14%), applied to the 1.47 goals the model expects from them here.",
+    "evidence": [
+     "Bambase Conte: 2 league goals in 7 appearances this season.",
+     "TSG 1899 Hoffenheim have scored 14 league goals in 8 games; the model expects 1.47 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.146
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.123
+    },
+    {
+     "score": "2-0",
+     "probability": 0.107
+    },
+    {
+     "score": "0-0",
+     "probability": 0.099
+    }
+   ],
+   "confidence": 0.291,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.47 (TSG 1899 Hoffenheim) and 0.84 (FC Schalke 04).",
+    "Top scorelines: 1-0 (14.6%), 1-1 (12.3%), 2-0 (10.7%), 0-0 (9.9%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: TSG 1899 Hoffenheim has 4 home games and FC Schalke 04 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-07T11:32:04.180Z",
+ "lockedAt": "2026-11-07T11:32:22.763Z",
+ "result": null
+}
