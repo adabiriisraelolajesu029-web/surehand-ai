@@ -1,0 +1,363 @@
+{
+ "fixtureId": "558538",
+ "kickoffUtc": "2026-11-08T14:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558538",
+   "kickoffUtc": "2026-11-08T14:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "5911",
+    "name": "AC Monza",
+    "short": "MON"
+   },
+   "away": {
+    "id": "102",
+    "name": "Atalanta BC",
+    "short": "ATA"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6237623762376239,
+   "awayGoals": 1.5544554455445545
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Bologna FC 1909",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "SSC Napoli",
+     "venue": "H",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SS Lazio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Parma Calcio 1913",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "ACF Fiorentina",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Frosinone Calcio",
+     "venue": "H",
+     "gf": 4,
+     "ga": 4,
+     "res": "D"
+    },
+    {
+     "opp": "AC Milan",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Venezia FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 2,
+     "d": 1,
+     "l": 7,
+     "gf": 17,
+     "ga": 24
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 0,
+     "l": 2,
+     "gf": 9,
+     "ga": 8
+    },
+    "away": {
+     "p": 6,
+     "w": 0,
+     "d": 1,
+     "l": 5,
+     "gf": 8,
+     "ga": 16
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 3,
+     "d": 2,
+     "l": 5,
+     "gf": 16,
+     "ga": 20
+    },
+    "home": {
+     "p": 6,
+     "w": 3,
+     "d": 1,
+     "l": 2,
+     "gf": 11,
+     "ga": 11
+    },
+    "away": {
+     "p": 4,
+     "w": 0,
+     "d": 1,
+     "l": 3,
+     "gf": 5,
+     "ga": 9
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2025-05-04",
+    "homeId": "5911",
+    "awayId": "102",
+    "home": "AC Monza",
+    "away": "Atalanta BC",
+    "hg": 0,
+    "ag": 4
+   },
+   {
+    "date": "2024-10-30",
+    "homeId": "102",
+    "awayId": "5911",
+    "home": "Atalanta BC",
+    "away": "AC Monza",
+    "hg": 2,
+    "ag": 0
+   },
+   {
+    "date": "2024-04-21",
+    "homeId": "5911",
+    "awayId": "102",
+    "home": "AC Monza",
+    "away": "Atalanta BC",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2023-09-02",
+    "homeId": "102",
+    "awayId": "5911",
+    "home": "Atalanta BC",
+    "away": "AC Monza",
+    "hg": 3,
+    "ag": 0
+   },
+   {
+    "date": "2023-06-04",
+    "homeId": "102",
+    "awayId": "5911",
+    "home": "Atalanta BC",
+    "away": "AC Monza",
+    "hg": 5,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "252836",
+    "name": "Gustavo Varela",
+    "team": "AC Monza",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 9,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "265567",
+    "name": "Jay Robinson",
+    "team": "AC Monza",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "120679",
+    "name": "Nikola Krstović",
+    "team": "Atalanta BC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "81440",
+    "name": "Éderson",
+    "team": "Atalanta BC",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.526,
+   "draw": 0.184,
+   "awayWin": 0.289,
+   "pick": "H",
+   "confidence": 0.526,
+   "reasoning": "Poisson model: expected goals AC Monza 2.64 vs Atalanta BC 1.97, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "AC Monza at home: 2W-0D-2L, 9 scored and 8 conceded in 4 games.",
+    "Atalanta BC away: 0W-1D-3L, 5 scored and 9 conceded in 4 games.",
+    "League averages this season: home teams 1.62 goals per game, away teams 1.55.",
+    "Recent league form (newest first): AC Monza LLLWL, Atalanta BC LDDLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Monza has 4 home games and Atalanta BC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "252836",
+    "name": "Gustavo Varela",
+    "team": "AC Monza",
+    "probability": 0.7,
+    "confidence": 0.4,
+    "reasoning": "9 of AC Monza's 17 league goals this season (50%), applied to the 2.64 goals the model expects from them here.",
+    "evidence": [
+     "Gustavo Varela: 9 league goals in 9 appearances this season.",
+     "AC Monza have scored 17 league goals in 10 games; the model expects 2.64 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "120679",
+    "name": "Nikola Krstović",
+    "team": "Atalanta BC",
+    "probability": 0.522,
+    "confidence": 0.4,
+    "reasoning": "6 of Atalanta BC's 16 league goals this season (38%), applied to the 1.97 goals the model expects from them here.",
+    "evidence": [
+     "Nikola Krstović: 6 league goals in 10 appearances this season.",
+     "Atalanta BC have scored 16 league goals in 10 games; the model expects 1.97 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "265567",
+    "name": "Jay Robinson",
+    "team": "AC Monza",
+    "probability": 0.267,
+    "confidence": 0.213,
+    "reasoning": "2 of AC Monza's 17 league goals this season (12%), applied to the 2.64 goals the model expects from them here.",
+    "evidence": [
+     "Jay Robinson: 2 league goals in 10 appearances this season.",
+     "AC Monza have scored 17 league goals in 10 games; the model expects 2.64 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-1",
+    "probability": 0.069
+   },
+   "alternatives": [
+    {
+     "score": "2-2",
+     "probability": 0.067
+    },
+    {
+     "score": "3-1",
+     "probability": 0.06
+    },
+    {
+     "score": "3-2",
+     "probability": 0.059
+    }
+   ],
+   "confidence": 0.171,
+   "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.64 (AC Monza) and 1.97 (Atalanta BC).",
+    "Top scorelines: 2-1 (6.9%), 2-2 (6.7%), 3-1 (6.0%), 3-2 (5.9%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Monza has 4 home games and Atalanta BC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-07T02:59:50.141Z",
+ "lockedAt": "2026-11-07T03:00:08.089Z",
+ "result": null
+}

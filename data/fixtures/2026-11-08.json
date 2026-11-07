@@ -40,7 +40,7 @@
   }
  },
  {
-  "id": "560636",
+  "id": "560635",
   "kickoffUtc": "2026-11-08T14:00:00.000Z",
   "status": "scheduled",
   "league": {
@@ -49,54 +49,14 @@
    "country": "England"
   },
   "home": {
-   "id": "71",
-   "name": "Sunderland AFC",
-   "short": "SUN"
+   "id": "354",
+   "name": "Crystal Palace FC",
+   "short": "CRY"
   },
   "away": {
-   "id": "61",
-   "name": "Chelsea FC",
-   "short": "CHE"
-  }
- },
- {
-  "id": "558536",
-  "kickoffUtc": "2026-11-08T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "107",
-   "name": "Genoa CFC",
-   "short": "GEN"
-  },
-  "away": {
-   "id": "98",
-   "name": "AC Milan",
-   "short": "MIL"
-  }
- },
- {
-  "id": "560638",
-  "kickoffUtc": "2026-11-08T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "397",
-   "name": "Brighton & Hove Albion FC",
-   "short": "BHA"
-  },
-  "away": {
-   "id": "402",
-   "name": "Brentford FC",
-   "short": "BRE"
+   "id": "64",
+   "name": "Liverpool FC",
+   "short": "LIV"
   }
  },
  {
@@ -160,7 +120,7 @@
   }
  },
  {
-  "id": "560635",
+  "id": "560636",
   "kickoffUtc": "2026-11-08T14:00:00.000Z",
   "status": "scheduled",
   "league": {
@@ -169,14 +129,54 @@
    "country": "England"
   },
   "home": {
-   "id": "354",
-   "name": "Crystal Palace FC",
-   "short": "CRY"
+   "id": "71",
+   "name": "Sunderland AFC",
+   "short": "SUN"
   },
   "away": {
-   "id": "64",
-   "name": "Liverpool FC",
-   "short": "LIV"
+   "id": "61",
+   "name": "Chelsea FC",
+   "short": "CHE"
+  }
+ },
+ {
+  "id": "558536",
+  "kickoffUtc": "2026-11-08T14:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "107",
+   "name": "Genoa CFC",
+   "short": "GEN"
+  },
+  "away": {
+   "id": "98",
+   "name": "AC Milan",
+   "short": "MIL"
+  }
+ },
+ {
+  "id": "560638",
+  "kickoffUtc": "2026-11-08T14:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "397",
+   "name": "Brighton & Hove Albion FC",
+   "short": "BHA"
+  },
+  "away": {
+   "id": "402",
+   "name": "Brentford FC",
+   "short": "BRE"
   }
  },
  {
@@ -220,7 +220,7 @@
   }
  },
  {
-  "id": "559634",
+  "id": "559633",
   "kickoffUtc": "2026-11-08T16:15:00.000Z",
   "status": "scheduled",
   "league": {
@@ -229,34 +229,14 @@
    "country": "France"
   },
   "home": {
-   "id": "532",
-   "name": "Angers SCO",
-   "short": "ANG"
+   "id": "533",
+   "name": "Le Havre AC",
+   "short": "HAC"
   },
   "away": {
-   "id": "522",
-   "name": "OGC Nice",
-   "short": "NIC"
-  }
- },
- {
-  "id": "559632",
-  "kickoffUtc": "2026-11-08T16:15:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "512",
-   "name": "Stade Brestois 29",
-   "short": "BRE"
-  },
-  "away": {
-   "id": "523",
-   "name": "Olympique Lyonnais",
-   "short": "LYO"
+   "id": "525",
+   "name": "FC Lorient",
+   "short": "FCL"
   }
  },
  {
@@ -280,7 +260,7 @@
   }
  },
  {
-  "id": "559633",
+  "id": "559632",
   "kickoffUtc": "2026-11-08T16:15:00.000Z",
   "status": "scheduled",
   "league": {
@@ -289,34 +269,34 @@
    "country": "France"
   },
   "home": {
-   "id": "533",
-   "name": "Le Havre AC",
-   "short": "HAC"
+   "id": "512",
+   "name": "Stade Brestois 29",
+   "short": "BRE"
   },
   "away": {
-   "id": "525",
-   "name": "FC Lorient",
-   "short": "FCL"
+   "id": "523",
+   "name": "Olympique Lyonnais",
+   "short": "LYO"
   }
  },
  {
-  "id": "560639",
-  "kickoffUtc": "2026-11-08T16:30:00.000Z",
+  "id": "559634",
+  "kickoffUtc": "2026-11-08T16:15:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
   },
   "home": {
-   "id": "66",
-   "name": "Manchester United FC",
-   "short": "MUN"
+   "id": "532",
+   "name": "Angers SCO",
+   "short": "ANG"
   },
   "away": {
-   "id": "58",
-   "name": "Aston Villa FC",
-   "short": "AVL"
+   "id": "522",
+   "name": "OGC Nice",
+   "short": "NIC"
   }
  },
  {
@@ -340,6 +320,26 @@
   }
  },
  {
+  "id": "560639",
+  "kickoffUtc": "2026-11-08T16:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "66",
+   "name": "Manchester United FC",
+   "short": "MUN"
+  },
+  "away": {
+   "id": "58",
+   "name": "Aston Villa FC",
+   "short": "AVL"
+  }
+ },
+ {
   "id": "558530",
   "kickoffUtc": "2026-11-08T17:00:00.000Z",
   "status": "scheduled",
@@ -357,26 +357,6 @@
    "id": "7397",
    "name": "Como 1907",
    "short": "COM"
-  }
- },
- {
-  "id": "564742",
-  "kickoffUtc": "2026-11-08T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PD",
-   "name": "Primera Division",
-   "country": "Spain"
-  },
-  "home": {
-   "id": "558",
-   "name": "RC Celta de Vigo",
-   "short": "CEL"
-  },
-  "away": {
-   "id": "88",
-   "name": "Levante UD",
-   "short": "LEV"
   }
  },
  {
@@ -400,6 +380,26 @@
   }
  },
  {
+  "id": "564742",
+  "kickoffUtc": "2026-11-08T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "558",
+   "name": "RC Celta de Vigo",
+   "short": "CEL"
+  },
+  "away": {
+   "id": "88",
+   "name": "Levante UD",
+   "short": "LEV"
+  }
+ },
+ {
   "id": "565856",
   "kickoffUtc": "2026-11-08T18:30:00.000Z",
   "status": "scheduled",
@@ -420,26 +420,6 @@
   }
  },
  {
-  "id": "559630",
-  "kickoffUtc": "2026-11-08T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "546",
-   "name": "Racing Club de Lens",
-   "short": "RCL"
-  },
-  "away": {
-   "id": "516",
-   "name": "Olympique de Marseille",
-   "short": "MAR"
-  }
- },
- {
   "id": "558529",
   "kickoffUtc": "2026-11-08T19:45:00.000Z",
   "status": "scheduled",
@@ -457,6 +437,26 @@
    "id": "109",
    "name": "Juventus FC",
    "short": "JUV"
+  }
+ },
+ {
+  "id": "559630",
+  "kickoffUtc": "2026-11-08T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "546",
+   "name": "Racing Club de Lens",
+   "short": "RCL"
+  },
+  "away": {
+   "id": "516",
+   "name": "Olympique de Marseille",
+   "short": "MAR"
   }
  },
  {

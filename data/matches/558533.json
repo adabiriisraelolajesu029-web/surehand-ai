@@ -1,0 +1,384 @@
+{
+ "fixtureId": "558533",
+ "kickoffUtc": "2026-11-08T11:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558533",
+   "kickoffUtc": "2026-11-08T11:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "113",
+    "name": "SSC Napoli",
+    "short": "NAP"
+   },
+   "away": {
+    "id": "110",
+    "name": "SS Lazio",
+    "short": "LAZ"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6237623762376239,
+   "awayGoals": 1.5544554455445545
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Juventus FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "AC Monza",
+     "venue": "A",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "AS Roma",
+     "venue": "H",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    },
+    {
+     "opp": "Venezia FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Frosinone Calcio",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "A",
+     "gf": 6,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "Parma Calcio 1913",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Juventus FC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "AC Monza",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 4,
+     "d": 2,
+     "l": 4,
+     "gf": 17,
+     "ga": 13
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 8,
+     "ga": 5
+    },
+    "away": {
+     "p": 6,
+     "w": 2,
+     "d": 1,
+     "l": 3,
+     "gf": 9,
+     "ga": 8
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 9,
+     "d": 1,
+     "l": 0,
+     "gf": 24,
+     "ga": 8
+    },
+    "home": {
+     "p": 5,
+     "w": 4,
+     "d": 1,
+     "l": 0,
+     "gf": 10,
+     "ga": 5
+    },
+    "away": {
+     "p": 5,
+     "w": 5,
+     "d": 0,
+     "l": 0,
+     "gf": 14,
+     "ga": 3
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-18",
+    "homeId": "113",
+    "awayId": "110",
+    "home": "SSC Napoli",
+    "away": "SS Lazio",
+    "hg": 0,
+    "ag": 2
+   },
+   {
+    "date": "2026-01-04",
+    "homeId": "110",
+    "awayId": "113",
+    "home": "SS Lazio",
+    "away": "SSC Napoli",
+    "hg": 0,
+    "ag": 2
+   },
+   {
+    "date": "2025-02-15",
+    "homeId": "110",
+    "awayId": "113",
+    "home": "SS Lazio",
+    "away": "SSC Napoli",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2024-12-08",
+    "homeId": "113",
+    "awayId": "110",
+    "home": "SSC Napoli",
+    "away": "SS Lazio",
+    "hg": 0,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "3654",
+    "name": "Kevin De Bruyne",
+    "team": "SSC Napoli",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "152770",
+    "name": "Rasmus Højlund",
+    "team": "SSC Napoli",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "2193",
+    "name": "Matteo Politano",
+    "team": "SSC Napoli",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "171448",
+    "name": "Tijjani Noslin",
+    "team": "SS Lazio",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "128007",
+    "name": "Gustav Isaksen",
+    "team": "SS Lazio",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "2200",
+    "name": "Davide Frattesi",
+    "team": "SS Lazio",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "2158",
+    "name": "Mattia Zaccagni",
+    "team": "SS Lazio",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.131,
+   "draw": 0.194,
+   "awayWin": 0.675,
+   "pick": "A",
+   "confidence": 0.675,
+   "reasoning": "Poisson model: expected goals SSC Napoli 0.80 vs SS Lazio 2.11, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "SSC Napoli at home: 2W-1D-1L, 8 scored and 5 conceded in 4 games.",
+    "SS Lazio away: 5W-0D-0L, 14 scored and 3 conceded in 5 games.",
+    "League averages this season: home teams 1.62 goals per game, away teams 1.55.",
+    "Recent league form (newest first): SSC Napoli LWDLW, SS Lazio WWWWW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: SSC Napoli has 4 home games and SS Lazio 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "171448",
+    "name": "Tijjani Noslin",
+    "team": "SS Lazio",
+    "probability": 0.296,
+    "confidence": 0.237,
+    "reasoning": "4 of SS Lazio's 24 league goals this season (17%), applied to the 2.11 goals the model expects from them here.",
+    "evidence": [
+     "Tijjani Noslin: 4 league goals in 10 appearances this season.",
+     "SS Lazio have scored 24 league goals in 10 games; the model expects 2.11 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "128007",
+    "name": "Gustav Isaksen",
+    "team": "SS Lazio",
+    "probability": 0.296,
+    "confidence": 0.237,
+    "reasoning": "4 of SS Lazio's 24 league goals this season (17%), applied to the 2.11 goals the model expects from them here.",
+    "evidence": [
+     "Gustav Isaksen: 4 league goals in 10 appearances this season.",
+     "SS Lazio have scored 24 league goals in 10 games; the model expects 2.11 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "2200",
+    "name": "Davide Frattesi",
+    "team": "SS Lazio",
+    "probability": 0.232,
+    "confidence": 0.185,
+    "reasoning": "3 of SS Lazio's 24 league goals this season (13%), applied to the 2.11 goals the model expects from them here.",
+    "evidence": [
+     "Davide Frattesi: 3 league goals in 10 appearances this season.",
+     "SS Lazio have scored 24 league goals in 10 games; the model expects 2.11 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.121
+   },
+   "alternatives": [
+    {
+     "score": "0-1",
+     "probability": 0.115
+    },
+    {
+     "score": "1-2",
+     "probability": 0.097
+    },
+    {
+     "score": "1-1",
+     "probability": 0.092
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.80 (SSC Napoli) and 2.11 (SS Lazio).",
+    "Top scorelines: 0-2 (12.1%), 0-1 (11.5%), 1-2 (9.7%), 1-1 (9.2%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: SSC Napoli has 4 home games and SS Lazio 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-07T02:57:27.937Z",
+ "lockedAt": "2026-11-07T02:57:59.006Z",
+ "result": null
+}
