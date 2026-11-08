@@ -40,6 +40,26 @@
   }
  },
  {
+  "id": "558538",
+  "kickoffUtc": "2026-11-08T14:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "5911",
+   "name": "AC Monza",
+   "short": "MON"
+  },
+  "away": {
+   "id": "102",
+   "name": "Atalanta BC",
+   "short": "ATA"
+  }
+ },
+ {
   "id": "560635",
   "kickoffUtc": "2026-11-08T14:00:00.000Z",
   "status": "scheduled",
@@ -80,43 +100,23 @@
   }
  },
  {
-  "id": "559636",
+  "id": "560638",
   "kickoffUtc": "2026-11-08T14:00:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
   },
   "home": {
-   "id": "529",
-   "name": "Stade Rennais FC 1901",
-   "short": "REN"
+   "id": "397",
+   "name": "Brighton & Hove Albion FC",
+   "short": "BHA"
   },
   "away": {
-   "id": "521",
-   "name": "Lille OSC",
-   "short": "LIL"
-  }
- },
- {
-  "id": "558538",
-  "kickoffUtc": "2026-11-08T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "5911",
-   "name": "AC Monza",
-   "short": "MON"
-  },
-  "away": {
-   "id": "102",
-   "name": "Atalanta BC",
-   "short": "ATA"
+   "id": "402",
+   "name": "Brentford FC",
+   "short": "BRE"
   }
  },
  {
@@ -140,6 +140,26 @@
   }
  },
  {
+  "id": "559636",
+  "kickoffUtc": "2026-11-08T14:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "529",
+   "name": "Stade Rennais FC 1901",
+   "short": "REN"
+  },
+  "away": {
+   "id": "521",
+   "name": "Lille OSC",
+   "short": "LIL"
+  }
+ },
+ {
   "id": "558536",
   "kickoffUtc": "2026-11-08T14:00:00.000Z",
   "status": "scheduled",
@@ -157,26 +177,6 @@
    "id": "98",
    "name": "AC Milan",
    "short": "MIL"
-  }
- },
- {
-  "id": "560638",
-  "kickoffUtc": "2026-11-08T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "397",
-   "name": "Brighton & Hove Albion FC",
-   "short": "BHA"
-  },
-  "away": {
-   "id": "402",
-   "name": "Brentford FC",
-   "short": "BRE"
   }
  },
  {
@@ -220,46 +220,6 @@
   }
  },
  {
-  "id": "559631",
-  "kickoffUtc": "2026-11-08T16:15:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "535",
-   "name": "Le Mans FC",
-   "short": "LMF"
-  },
-  "away": {
-   "id": "548",
-   "name": "AS Monaco FC",
-   "short": "ASM"
-  }
- },
- {
-  "id": "559633",
-  "kickoffUtc": "2026-11-08T16:15:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "533",
-   "name": "Le Havre AC",
-   "short": "HAC"
-  },
-  "away": {
-   "id": "525",
-   "name": "FC Lorient",
-   "short": "FCL"
-  }
- },
- {
   "id": "559632",
   "kickoffUtc": "2026-11-08T16:15:00.000Z",
   "status": "scheduled",
@@ -297,6 +257,46 @@
    "id": "522",
    "name": "OGC Nice",
    "short": "NIC"
+  }
+ },
+ {
+  "id": "559631",
+  "kickoffUtc": "2026-11-08T16:15:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "535",
+   "name": "Le Mans FC",
+   "short": "LMF"
+  },
+  "away": {
+   "id": "548",
+   "name": "AS Monaco FC",
+   "short": "ASM"
+  }
+ },
+ {
+  "id": "559633",
+  "kickoffUtc": "2026-11-08T16:15:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "533",
+   "name": "Le Havre AC",
+   "short": "HAC"
+  },
+  "away": {
+   "id": "525",
+   "name": "FC Lorient",
+   "short": "FCL"
   }
  },
  {
@@ -360,26 +360,6 @@
   }
  },
  {
-  "id": "564747",
-  "kickoffUtc": "2026-11-08T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PD",
-   "name": "Primera Division",
-   "country": "Spain"
-  },
-  "home": {
-   "id": "94",
-   "name": "Villarreal CF",
-   "short": "VIL"
-  },
-  "away": {
-   "id": "82",
-   "name": "Getafe CF",
-   "short": "GET"
-  }
- },
- {
   "id": "564742",
   "kickoffUtc": "2026-11-08T17:30:00.000Z",
   "status": "scheduled",
@@ -397,6 +377,26 @@
    "id": "88",
    "name": "Levante UD",
    "short": "LEV"
+  }
+ },
+ {
+  "id": "564747",
+  "kickoffUtc": "2026-11-08T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "94",
+   "name": "Villarreal CF",
+   "short": "VIL"
+  },
+  "away": {
+   "id": "82",
+   "name": "Getafe CF",
+   "short": "GET"
   }
  },
  {

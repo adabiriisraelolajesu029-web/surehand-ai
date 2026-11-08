@@ -1,22 +1,187 @@
 {
- "settled": 82,
+ "settled": 97,
  "outcome": {
-  "n": 82,
-  "hit": 40,
-  "rate": 0.4878048780487805
+  "n": 97,
+  "hit": 51,
+  "rate": 0.5257731958762887
  },
  "correctScore": {
-  "n": 82,
-  "hit": 7,
-  "rate": 0.08536585365853659
+  "n": 97,
+  "hit": 10,
+  "rate": 0.10309278350515463
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-07T16:47:40.048Z",
+ "updatedAt": "2026-11-08T02:37:04.948Z",
  "tracked": [
+  {
+   "match": "Paris Saint-Germain FC v ES Troyes AC",
+   "lockedAt": "2026-11-06T12:44:29.369Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Valencia CF v Real Madrid CF",
+   "lockedAt": "2026-11-06T12:44:10.808Z",
+   "pick": "A",
+   "score": "0-2",
+   "actual": {
+    "home": 0,
+    "away": 3
+   },
+   "scorers": []
+  },
+  {
+   "match": "AS Roma v US Sassuolo Calcio",
+   "lockedAt": "2026-11-06T12:43:52.163Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 3,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "AJ Auxerre v Paris FC",
+   "lockedAt": "2026-11-06T12:43:34.133Z",
+   "pick": "A",
+   "score": "1-1",
+   "actual": {
+    "home": 0,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Nottingham Forest FC v Manchester City FC",
+   "lockedAt": "2026-11-06T12:42:31.940Z",
+   "pick": "A",
+   "score": "0-1",
+   "actual": {
+    "home": 3,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "CA Osasuna v Athletic Club",
+   "lockedAt": "2026-11-06T12:43:04.052Z",
+   "pick": "D",
+   "score": "0-0",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "VfB Stuttgart v SV Werder Bremen",
+   "lockedAt": "2026-11-06T12:42:02.187Z",
+   "pick": "H",
+   "score": "2-1",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Parma Calcio 1913 v Bologna FC 1909",
+   "lockedAt": "2026-11-06T12:41:31.110Z",
+   "pick": "A",
+   "score": "0-1",
+   "actual": {
+    "home": 1,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "RCD Espanyol de Barcelona v RC Deportivo La Coruña",
+   "lockedAt": "2026-11-06T03:33:50.249Z",
+   "pick": "A",
+   "score": "1-1",
+   "actual": {
+    "home": 0,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Fulham FC v Newcastle United FC",
+   "lockedAt": "2026-11-06T03:33:31.692Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Arsenal FC v Hull City AFC",
+   "lockedAt": "2026-11-06T03:33:13.006Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "RB Leipzig v FC Augsburg",
+   "lockedAt": "2026-11-06T03:32:54.405Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 5,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "Borussia Dortmund v SV 07 Elversberg",
+   "lockedAt": "2026-11-06T03:32:17.200Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 2,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "1. FSV Mainz 05 v FC Bayern München",
+   "lockedAt": "2026-11-06T03:31:59.246Z",
+   "pick": "A",
+   "score": "1-2",
+   "actual": {
+    "home": 1,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "SC Paderborn 07 v Eintracht Frankfurt",
+   "lockedAt": "2026-11-06T03:32:35.838Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 2,
+    "away": 2
+   },
+   "scorers": []
+  },
   {
    "match": "Torino FC v US Lecce",
    "lockedAt": "2026-11-06T03:31:10.534Z",
