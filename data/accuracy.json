@@ -1,22 +1,121 @@
 {
- "settled": 97,
+ "settled": 106,
  "outcome": {
-  "n": 97,
-  "hit": 51,
-  "rate": 0.5257731958762887
+  "n": 106,
+  "hit": 57,
+  "rate": 0.5377358490566038
  },
  "correctScore": {
-  "n": 97,
-  "hit": 10,
-  "rate": 0.10309278350515463
+  "n": 106,
+  "hit": 11,
+  "rate": 0.10377358490566038
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-08T11:40:04.818Z",
+ "updatedAt": "2026-11-08T16:59:03.095Z",
  "tracked": [
+  {
+   "match": "Genoa CFC v AC Milan",
+   "lockedAt": "2026-11-07T03:00:45.133Z",
+   "pick": "A",
+   "score": "0-1",
+   "actual": {
+    "home": 1,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "AC Monza v Atalanta BC",
+   "lockedAt": "2026-11-07T03:00:08.089Z",
+   "pick": "H",
+   "score": "2-1",
+   "actual": {
+    "home": 0,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Stade Rennais FC 1901 v Lille OSC",
+   "lockedAt": "2026-11-07T02:59:50.141Z",
+   "pick": "A",
+   "score": "1-1",
+   "actual": {
+    "home": 1,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "Crystal Palace FC v Liverpool FC",
+   "lockedAt": "2026-11-07T02:59:01.471Z",
+   "pick": "A",
+   "score": "0-2",
+   "actual": {
+    "home": 1,
+    "away": 3
+   },
+   "scorers": []
+  },
+  {
+   "match": "Sunderland AFC v Chelsea FC",
+   "lockedAt": "2026-11-07T03:00:26.570Z",
+   "pick": "A",
+   "score": "0-1",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Ipswich Town FC v AFC Bournemouth",
+   "lockedAt": "2026-11-07T02:59:18.328Z",
+   "pick": "A",
+   "score": "1-1",
+   "actual": {
+    "home": 1,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "Brighton & Hove Albion FC v Brentford FC",
+   "lockedAt": "2026-11-07T03:01:03.816Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 2,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Elche CF v Real Betis Balompié",
+   "lockedAt": "2026-11-07T02:58:30.173Z",
+   "pick": "A",
+   "score": "0-1",
+   "actual": {
+    "home": 0,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "SSC Napoli v SS Lazio",
+   "lockedAt": "2026-11-07T02:57:59.006Z",
+   "pick": "A",
+   "score": "0-2",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
   {
    "match": "Paris Saint-Germain FC v ES Troyes AC",
    "lockedAt": "2026-11-06T12:44:29.369Z",
@@ -1015,72 +1114,6 @@
    "actual": {
     "home": 2,
     "away": 2
-   },
-   "scorers": []
-  },
-  {
-   "match": "Frosinone Calcio v US Lecce",
-   "lockedAt": "2026-10-28T02:24:55.840Z",
-   "pick": "H",
-   "score": "1-1",
-   "actual": {
-    "home": 5,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Genoa CFC v Juventus FC",
-   "lockedAt": "2026-10-28T02:24:31.334Z",
-   "pick": "A",
-   "score": "0-1",
-   "actual": {
-    "home": 2,
-    "away": 0
-   },
-   "scorers": []
-  },
-  {
-   "match": "AC Monza v SSC Napoli",
-   "lockedAt": "2026-10-28T02:24:12.417Z",
-   "pick": "H",
-   "score": "1-1",
-   "actual": {
-    "home": 1,
-    "away": 4
-   },
-   "scorers": []
-  },
-  {
-   "match": "AC Milan v Bologna FC 1909",
-   "lockedAt": "2026-10-28T02:23:17.779Z",
-   "pick": "H",
-   "score": "1-0",
-   "actual": {
-    "home": 2,
-    "away": 4
-   },
-   "scorers": []
-  },
-  {
-   "match": "Venezia FC v FC Internazionale Milano",
-   "lockedAt": "2026-10-28T02:23:54.243Z",
-   "pick": "A",
-   "score": "0-2",
-   "actual": {
-    "home": 0,
-    "away": 2
-   },
-   "scorers": []
-  },
-  {
-   "match": "Parma Calcio 1913 v Udinese Calcio",
-   "lockedAt": "2026-10-28T02:23:35.293Z",
-   "pick": "A",
-   "score": "1-1",
-   "actual": {
-    "home": 0,
-    "away": 0
    },
    "scorers": []
   }
