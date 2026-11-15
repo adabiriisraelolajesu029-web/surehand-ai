@@ -1,0 +1,62 @@
+[
+ {
+  "id": "565859",
+  "kickoffUtc": "2026-11-20T19:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "5",
+   "name": "FC Bayern München",
+   "short": "FCB"
+  },
+  "away": {
+   "id": "1",
+   "name": "1. FC Köln",
+   "short": "KOE"
+  }
+ },
+ {
+  "id": "559622",
+  "kickoffUtc": "2026-11-20T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "531",
+   "name": "ES Troyes AC",
+   "short": "ETR"
+  },
+  "away": {
+   "id": "533",
+   "name": "Le Havre AC",
+   "short": "HAC"
+  }
+ },
+ {
+  "id": "564748",
+  "kickoffUtc": "2026-11-20T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "77",
+   "name": "Athletic Club",
+   "short": "ATH"
+  },
+  "away": {
+   "id": "80",
+   "name": "RCD Espanyol de Barcelona",
+   "short": "ESP"
+  }
+ }
+]
