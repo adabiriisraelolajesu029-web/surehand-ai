@@ -80,26 +80,6 @@
   }
  },
  {
-  "id": "565860",
-  "kickoffUtc": "2026-11-21T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "719",
-   "name": "SV 07 Elversberg",
-   "short": "ELV"
-  },
-  "away": {
-   "id": "17",
-   "name": "SC Freiburg",
-   "short": "SCF"
-  }
- },
- {
   "id": "565862",
   "kickoffUtc": "2026-11-21T14:30:00.000Z",
   "status": "scheduled",
@@ -137,6 +117,26 @@
    "id": "29",
    "name": "SC Paderborn 07",
    "short": "SCP"
+  }
+ },
+ {
+  "id": "565860",
+  "kickoffUtc": "2026-11-21T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "719",
+   "name": "SV 07 Elversberg",
+   "short": "ELV"
+  },
+  "away": {
+   "id": "17",
+   "name": "SC Freiburg",
+   "short": "SCF"
   }
  },
  {
@@ -440,26 +440,6 @@
   }
  },
  {
-  "id": "558527",
-  "kickoffUtc": "2026-11-21T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "113",
-   "name": "SSC Napoli",
-   "short": "NAP"
-  },
-  "away": {
-   "id": "586",
-   "name": "Torino FC",
-   "short": "TOR"
-  }
- },
- {
   "id": "559621",
   "kickoffUtc": "2026-11-21T19:45:00.000Z",
   "status": "scheduled",
@@ -497,6 +477,26 @@
    "id": "523",
    "name": "Olympique Lyonnais",
    "short": "LYO"
+  }
+ },
+ {
+  "id": "558527",
+  "kickoffUtc": "2026-11-21T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "113",
+   "name": "SSC Napoli",
+   "short": "NAP"
+  },
+  "away": {
+   "id": "586",
+   "name": "Torino FC",
+   "short": "TOR"
   }
  },
  {
