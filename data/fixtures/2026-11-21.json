@@ -240,26 +240,6 @@
   }
  },
  {
-  "id": "560650",
-  "kickoffUtc": "2026-11-21T15:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "1076",
-   "name": "Coventry City FC",
-   "short": "COV"
-  },
-  "away": {
-   "id": "354",
-   "name": "Crystal Palace FC",
-   "short": "CRY"
-  }
- },
- {
   "id": "560647",
   "kickoffUtc": "2026-11-21T15:00:00.000Z",
   "status": "scheduled",
@@ -277,6 +257,26 @@
    "id": "351",
    "name": "Nottingham Forest FC",
    "short": "NOT"
+  }
+ },
+ {
+  "id": "560650",
+  "kickoffUtc": "2026-11-21T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "1076",
+   "name": "Coventry City FC",
+   "short": "COV"
+  },
+  "away": {
+   "id": "354",
+   "name": "Crystal Palace FC",
+   "short": "CRY"
   }
  },
  {
