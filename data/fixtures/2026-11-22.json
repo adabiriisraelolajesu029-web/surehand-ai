@@ -40,26 +40,6 @@
   }
  },
  {
-  "id": "558524",
-  "kickoffUtc": "2026-11-22T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "471",
-   "name": "US Sassuolo Calcio",
-   "short": "SAS"
-  },
-  "away": {
-   "id": "107",
-   "name": "Genoa CFC",
-   "short": "GEN"
-  }
- },
- {
   "id": "559625",
   "kickoffUtc": "2026-11-22T14:00:00.000Z",
   "status": "scheduled",
@@ -117,6 +97,26 @@
    "id": "115",
    "name": "Udinese Calcio",
    "short": "UDI"
+  }
+ },
+ {
+  "id": "558524",
+  "kickoffUtc": "2026-11-22T14:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "471",
+   "name": "US Sassuolo Calcio",
+   "short": "SAS"
+  },
+  "away": {
+   "id": "107",
+   "name": "Genoa CFC",
+   "short": "GEN"
   }
  },
  {
