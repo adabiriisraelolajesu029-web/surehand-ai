@@ -1,0 +1,62 @@
+[
+ {
+  "id": "558519",
+  "kickoffUtc": "2026-11-23T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "5911",
+   "name": "AC Monza",
+   "short": "MON"
+  },
+  "away": {
+   "id": "99",
+   "name": "ACF Fiorentina",
+   "short": "FIO"
+  }
+ },
+ {
+  "id": "564757",
+  "kickoffUtc": "2026-11-23T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "88",
+   "name": "Levante UD",
+   "short": "LEV"
+  },
+  "away": {
+   "id": "285",
+   "name": "Elche CF",
+   "short": "ELC"
+  }
+ },
+ {
+  "id": "560649",
+  "kickoffUtc": "2026-11-23T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "402",
+   "name": "Brentford FC",
+   "short": "BRE"
+  },
+  "away": {
+   "id": "62",
+   "name": "Everton FC",
+   "short": "EVE"
+  }
+ }
+]
