@@ -100,6 +100,26 @@
   }
  },
  {
+  "id": "575401",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "7509",
+   "name": "ŠK Slovan Bratislava",
+   "short": "SBA"
+  },
+  "away": {
+   "id": "90",
+   "name": "Real Betis Balompié",
+   "short": "BET"
+  }
+ },
+ {
   "id": "575397",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
   "status": "scheduled",
@@ -157,26 +177,6 @@
    "id": "4",
    "name": "Borussia Dortmund",
    "short": "BVB"
-  }
- },
- {
-  "id": "575401",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "7509",
-   "name": "ŠK Slovan Bratislava",
-   "short": "SBA"
-  },
-  "away": {
-   "id": "90",
-   "name": "Real Betis Balompié",
-   "short": "BET"
   }
  }
 ]
