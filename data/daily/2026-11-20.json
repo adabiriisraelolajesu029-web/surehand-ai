@@ -1,0 +1,389 @@
+[
+ {
+  "fixture": {
+   "id": "559622",
+   "kickoffUtc": "2026-11-20T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "531",
+    "name": "ES Troyes AC",
+    "short": "ETR"
+   },
+   "away": {
+    "id": "533",
+    "name": "Le Havre AC",
+    "short": "HAC"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.299,
+    "draw": 0.241,
+    "awayWin": 0.46,
+    "pick": "A",
+    "confidence": 0.46,
+    "reasoning": "Poisson model: expected goals ES Troyes AC 1.29 vs Le Havre AC 1.65, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "ES Troyes AC at home: 1W-1D-3L, 5 scored and 11 conceded in 5 games.",
+     "Le Havre AC away: 0W-1D-3L, 6 scored and 9 conceded in 4 games.",
+     "League averages this season: home teams 1.63 goals per game, away teams 1.32.",
+     "Recent league form (newest first): ES Troyes AC LWDLL, Le Havre AC LLLLL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: ES Troyes AC has 5 home games and Le Havre AC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "4072",
+     "name": "Josh Maja",
+     "team": "Le Havre AC",
+     "probability": 0.521,
+     "confidence": 0.4,
+     "reasoning": "4 of Le Havre AC's 9 league goals this season (44%), applied to the 1.65 goals the model expects from them here.",
+     "evidence": [
+      "Josh Maja: 4 league goals in 10 appearances this season.",
+      "Le Havre AC have scored 9 league goals in 10 games; the model expects 1.65 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "215579",
+     "name": "Mbwana Samatta",
+     "team": "Le Havre AC",
+     "probability": 0.308,
+     "confidence": 0.246,
+     "reasoning": "2 of Le Havre AC's 9 league goals this season (22%), applied to the 1.65 goals the model expects from them here.",
+     "evidence": [
+      "Mbwana Samatta: 2 league goals in 10 appearances this season.",
+      "Le Havre AC have scored 9 league goals in 10 games; the model expects 1.65 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "276430",
+     "name": "Rayan Fofana",
+     "team": "Le Havre AC",
+     "probability": 0.308,
+     "confidence": 0.246,
+     "reasoning": "2 of Le Havre AC's 9 league goals this season (22%), applied to the 1.65 goals the model expects from them here.",
+     "evidence": [
+      "Rayan Fofana: 2 league goals in 10 appearances this season.",
+      "Le Havre AC have scored 9 league goals in 10 games; the model expects 1.65 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-1",
+     "probability": 0.112
+    },
+    "alternatives": [
+     {
+      "score": "1-2",
+      "probability": 0.093
+     },
+     {
+      "score": "0-1",
+      "probability": 0.087
+     },
+     {
+      "score": "2-1",
+      "probability": 0.072
+     }
+    ],
+    "confidence": 0.281,
+    "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.29 (ES Troyes AC) and 1.65 (Le Havre AC).",
+     "Top scorelines: 1-1 (11.2%), 1-2 (9.3%), 0-1 (8.7%), 2-1 (7.2%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: ES Troyes AC has 5 home games and Le Havre AC 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-19T14:06:20.986Z"
+ },
+ {
+  "fixture": {
+   "id": "564748",
+   "kickoffUtc": "2026-11-20T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "77",
+    "name": "Athletic Club",
+    "short": "ATH"
+   },
+   "away": {
+    "id": "80",
+    "name": "RCD Espanyol de Barcelona",
+    "short": "ESP"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.501,
+    "draw": 0.29,
+    "awayWin": 0.209,
+    "pick": "H",
+    "confidence": 0.501,
+    "reasoning": "Poisson model: expected goals Athletic Club 1.29 vs RCD Espanyol de Barcelona 0.72, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Athletic Club at home: 3W-2D-1L, 11 scored and 5 conceded in 6 games.",
+     "RCD Espanyol de Barcelona away: 2W-1D-3L, 7 scored and 7 conceded in 6 games.",
+     "League averages this season: home teams 1.61 goals per game, away teams 1.28.",
+     "Recent league form (newest first): Athletic Club DWWLD, RCD Espanyol de Barcelona DWLLD (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Athletic Club has 6 home games and RCD Espanyol de Barcelona 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "2294",
+     "name": "Álex Berenguer",
+     "team": "Athletic Club",
+     "probability": 0.292,
+     "confidence": 0.233,
+     "reasoning": "4 of Athletic Club's 15 league goals this season (27%), applied to the 1.29 goals the model expects from them here.",
+     "evidence": [
+      "Álex Berenguer: 4 league goals in 12 appearances this season.",
+      "Athletic Club have scored 15 league goals in 11 games; the model expects 1.29 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "180218",
+     "name": "Roberto Fernández",
+     "team": "RCD Espanyol de Barcelona",
+     "probability": 0.284,
+     "confidence": 0.227,
+     "reasoning": "6 of RCD Espanyol de Barcelona's 13 league goals this season (46%), applied to the 0.72 goals the model expects from them here.",
+     "evidence": [
+      "Roberto Fernández: 6 league goals in 12 appearances this season.",
+      "RCD Espanyol de Barcelona have scored 13 league goals in 12 games; the model expects 0.72 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "32629",
+     "name": "Iñaki Williams",
+     "team": "Athletic Club",
+     "probability": 0.228,
+     "confidence": 0.182,
+     "reasoning": "3 of Athletic Club's 15 league goals this season (20%), applied to the 1.29 goals the model expects from them here.",
+     "evidence": [
+      "Iñaki Williams: 3 league goals in 12 appearances this season.",
+      "Athletic Club have scored 15 league goals in 11 games; the model expects 1.29 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-0",
+     "probability": 0.172
+    },
+    "alternatives": [
+     {
+      "score": "0-0",
+      "probability": 0.133
+     },
+     {
+      "score": "1-1",
+      "probability": 0.125
+     },
+     {
+      "score": "2-0",
+      "probability": 0.111
+     }
+    ],
+    "confidence": 0.3,
+    "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.29 (Athletic Club) and 0.72 (RCD Espanyol de Barcelona).",
+     "Top scorelines: 1-0 (17.2%), 0-0 (13.3%), 1-1 (12.5%), 2-0 (11.1%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Athletic Club has 6 home games and RCD Espanyol de Barcelona 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-19T14:06:52.597Z"
+ },
+ {
+  "fixture": {
+   "id": "565859",
+   "kickoffUtc": "2026-11-20T19:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "5",
+    "name": "FC Bayern München",
+    "short": "FCB"
+   },
+   "away": {
+    "id": "1",
+    "name": "1. FC Köln",
+    "short": "KOE"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.862,
+    "draw": 0.098,
+    "awayWin": 0.04,
+    "pick": "H",
+    "confidence": 0.8,
+    "reasoning": "Poisson model: expected goals FC Bayern München 3.00 vs 1. FC Köln 0.53, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "FC Bayern München at home: 3W-1D-0L, 20 scored and 4 conceded in 4 games.",
+     "1. FC Köln away: 0W-1D-3L, 3 scored and 8 conceded in 4 games.",
+     "League averages this season: home teams 2.12 goals per game, away teams 1.36.",
+     "Recent league form (newest first): FC Bayern München WDWWD, 1. FC Köln LDDLW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: FC Bayern München has 4 home games and 1. FC Köln 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "113765",
+     "name": "Michael Olise",
+     "team": "FC Bayern München",
+     "probability": 0.462,
+     "confidence": 0.351,
+     "reasoning": "6 of FC Bayern München's 29 league goals this season (21%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Michael Olise: 6 league goals in 9 appearances this season.",
+      "FC Bayern München have scored 29 league goals in 9 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "22396",
+     "name": "Luis Díaz",
+     "team": "FC Bayern München",
+     "probability": 0.339,
+     "confidence": 0.258,
+     "reasoning": "4 of FC Bayern München's 29 league goals this season (14%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Luis Díaz: 4 league goals in 6 appearances this season.",
+      "FC Bayern München have scored 29 league goals in 9 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "8004",
+     "name": "Harry Kane",
+     "team": "FC Bayern München",
+     "probability": 0.339,
+     "confidence": 0.258,
+     "reasoning": "4 of FC Bayern München's 29 league goals this season (14%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Harry Kane: 4 league goals in 9 appearances this season.",
+      "FC Bayern München have scored 29 league goals in 9 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "2-0",
+     "probability": 0.132
+    },
+    "alternatives": [
+     {
+      "score": "3-0",
+      "probability": 0.132
+     },
+     {
+      "score": "4-0",
+      "probability": 0.099
+     },
+     {
+      "score": "1-0",
+      "probability": 0.088
+     }
+    ],
+    "confidence": 0.298,
+    "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 3.00 (FC Bayern München) and 0.53 (1. FC Köln).",
+     "Top scorelines: 2-0 (13.2%), 3-0 (13.2%), 4-0 (9.9%), 1-0 (8.8%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: FC Bayern München has 4 home games and 1. FC Köln 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-19T14:05:49.947Z"
+ }
+]
