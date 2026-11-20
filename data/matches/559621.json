@@ -1,0 +1,363 @@
+{
+ "fixtureId": "559621",
+ "kickoffUtc": "2026-11-21T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559621",
+   "kickoffUtc": "2026-11-21T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "548",
+    "name": "AS Monaco FC",
+    "short": "ASM"
+   },
+   "away": {
+    "id": "519",
+    "name": "AJ Auxerre",
+    "short": "AJA"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6333333333333333,
+   "awayGoals": 1.3222222222222222
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Le Mans FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Paris FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Lille OSC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "FC Lorient",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Toulouse FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Paris FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "RC Strasbourg Alsace",
+     "venue": "A",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "Le Mans FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Le Havre AC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "A",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 4,
+     "d": 4,
+     "l": 2,
+     "gf": 13,
+     "ga": 11
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 2,
+     "l": 0,
+     "gf": 7,
+     "ga": 4
+    },
+    "away": {
+     "p": 6,
+     "w": 2,
+     "d": 2,
+     "l": 2,
+     "gf": 6,
+     "ga": 7
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 3,
+     "d": 1,
+     "l": 6,
+     "gf": 13,
+     "ga": 24
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 6
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 0,
+     "l": 4,
+     "gf": 8,
+     "ga": 18
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-19",
+    "homeId": "548",
+    "awayId": "519",
+    "home": "AS Monaco FC",
+    "away": "AJ Auxerre",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2025-09-13",
+    "homeId": "519",
+    "awayId": "548",
+    "home": "AJ Auxerre",
+    "away": "AS Monaco FC",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-02-01",
+    "homeId": "548",
+    "awayId": "519",
+    "home": "AS Monaco FC",
+    "away": "AJ Auxerre",
+    "hg": 4,
+    "ag": 2
+   },
+   {
+    "date": "2024-09-14",
+    "homeId": "519",
+    "awayId": "548",
+    "home": "AJ Auxerre",
+    "away": "AS Monaco FC",
+    "hg": 0,
+    "ag": 3
+   },
+   {
+    "date": "2023-02-01",
+    "homeId": "548",
+    "awayId": "519",
+    "home": "AS Monaco FC",
+    "away": "AJ Auxerre",
+    "hg": 3,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "244696",
+    "name": "Paris Brunner",
+    "team": "AS Monaco FC",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "204238",
+    "name": "Edan Diop",
+    "team": "AS Monaco FC",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "128242",
+    "name": "Cameron Archer",
+    "team": "AJ Auxerre",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "4289",
+    "name": "Daniel Namaso",
+    "team": "AJ Auxerre",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.764,
+   "draw": 0.135,
+   "awayWin": 0.102,
+   "pick": "H",
+   "confidence": 0.764,
+   "reasoning": "Poisson model: expected goals AS Monaco FC 3.00 vs AJ Auxerre 1.05, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "AS Monaco FC at home: 2W-2D-0L, 7 scored and 4 conceded in 4 games.",
+    "AJ Auxerre away: 1W-0D-4L, 8 scored and 18 conceded in 5 games.",
+    "League averages this season: home teams 1.63 goals per game, away teams 1.32.",
+    "Recent league form (newest first): AS Monaco FC DLDLD, AJ Auxerre LLDWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AS Monaco FC has 4 home games and AJ Auxerre 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "244696",
+    "name": "Paris Brunner",
+    "team": "AS Monaco FC",
+    "probability": 0.603,
+    "confidence": 0.4,
+    "reasoning": "4 of AS Monaco FC's 13 league goals this season (31%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Paris Brunner: 4 league goals in 8 appearances this season.",
+     "AS Monaco FC have scored 13 league goals in 10 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "128242",
+    "name": "Cameron Archer",
+    "team": "AJ Auxerre",
+    "probability": 0.385,
+    "confidence": 0.308,
+    "reasoning": "6 of AJ Auxerre's 13 league goals this season (46%), applied to the 1.05 goals the model expects from them here.",
+    "evidence": [
+     "Cameron Archer: 6 league goals in 8 appearances this season.",
+     "AJ Auxerre have scored 13 league goals in 10 games; the model expects 1.05 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "204238",
+    "name": "Edan Diop",
+    "team": "AS Monaco FC",
+    "probability": 0.37,
+    "confidence": 0.296,
+    "reasoning": "2 of AS Monaco FC's 13 league goals this season (15%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Edan Diop: 2 league goals in 7 appearances this season.",
+     "AS Monaco FC have scored 13 league goals in 10 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-1",
+    "probability": 0.083
+   },
+   "alternatives": [
+    {
+     "score": "3-1",
+     "probability": 0.083
+    },
+    {
+     "score": "2-0",
+     "probability": 0.078
+    },
+    {
+     "score": "3-0",
+     "probability": 0.078
+    }
+   ],
+   "confidence": 0.207,
+   "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 3.00 (AS Monaco FC) and 1.05 (AJ Auxerre).",
+    "Top scorelines: 2-1 (8.3%), 3-1 (8.3%), 2-0 (7.8%), 3-0 (7.8%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AS Monaco FC has 4 home games and AJ Auxerre 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-20T13:51:12.781Z",
+ "lockedAt": "2026-11-20T13:51:31.288Z",
+ "result": null
+}

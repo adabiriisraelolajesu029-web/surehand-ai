@@ -1,0 +1,423 @@
+{
+ "fixtureId": "559627",
+ "kickoffUtc": "2026-11-21T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559627",
+   "kickoffUtc": "2026-11-21T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "576",
+    "name": "RC Strasbourg Alsace",
+    "short": "RC "
+   },
+   "away": {
+    "id": "512",
+    "name": "Stade Brestois 29",
+    "short": "BRE"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6333333333333333,
+   "awayGoals": 1.3222222222222222
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Toulouse FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "AJ Auxerre",
+     "venue": "H",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Paris Saint-Germain FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "OGC Nice",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Olympique Lyonnais",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Lorient",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "OGC Nice",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Lille OSC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Angers SCO",
+     "venue": "H",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 3,
+     "d": 1,
+     "l": 6,
+     "gf": 18,
+     "ga": 22
+    },
+    "home": {
+     "p": 4,
+     "w": 2,
+     "d": 1,
+     "l": 1,
+     "gf": 9,
+     "ga": 6
+    },
+    "away": {
+     "p": 6,
+     "w": 1,
+     "d": 0,
+     "l": 5,
+     "gf": 9,
+     "ga": 16
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 4,
+     "d": 3,
+     "l": 3,
+     "gf": 18,
+     "ga": 12
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 10,
+     "ga": 6
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 2,
+     "l": 1,
+     "gf": 8,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-13",
+    "homeId": "512",
+    "awayId": "576",
+    "home": "Stade Brestois 29",
+    "away": "RC Strasbourg Alsace",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-11-30",
+    "homeId": "576",
+    "awayId": "512",
+    "home": "RC Strasbourg Alsace",
+    "away": "Stade Brestois 29",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-02-23",
+    "homeId": "576",
+    "awayId": "512",
+    "home": "RC Strasbourg Alsace",
+    "away": "Stade Brestois 29",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2024-11-30",
+    "homeId": "512",
+    "awayId": "576",
+    "home": "Stade Brestois 29",
+    "away": "RC Strasbourg Alsace",
+    "hg": 3,
+    "ag": 1
+   },
+   {
+    "date": "2024-02-24",
+    "homeId": "576",
+    "awayId": "512",
+    "home": "RC Strasbourg Alsace",
+    "away": "Stade Brestois 29",
+    "hg": 0,
+    "ag": 3
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "245336",
+    "name": "Gessime Yassine",
+    "team": "RC Strasbourg Alsace",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "136733",
+    "name": "Gio Reyna",
+    "team": "RC Strasbourg Alsace",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "206809",
+    "name": "Samuel Amo-Ameyaw",
+    "team": "RC Strasbourg Alsace",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "206744",
+    "name": "Conrad Harder",
+    "team": "RC Strasbourg Alsace",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "165314",
+    "name": "Dario Essugo",
+    "team": "RC Strasbourg Alsace",
+    "pos": "Midfield",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "723",
+    "name": "Ludovic Ajorque",
+    "team": "Stade Brestois 29",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "175942",
+    "name": "Kamory Doumbia",
+    "team": "Stade Brestois 29",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "218249",
+    "name": "Pathé Mboup",
+    "team": "Stade Brestois 29",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "43707",
+    "name": "Mama Baldé",
+    "team": "Stade Brestois 29",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "212975",
+    "name": "Noah Edjouma",
+    "team": "Stade Brestois 29",
+    "pos": "Offence",
+    "apps": 6,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.302,
+   "draw": 0.21,
+   "awayWin": 0.489,
+   "pick": "A",
+   "confidence": 0.489,
+   "reasoning": "Poisson model: expected goals RC Strasbourg Alsace 1.63 vs Stade Brestois 29 2.10, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "RC Strasbourg Alsace at home: 2W-1D-1L, 9 scored and 6 conceded in 4 games.",
+    "Stade Brestois 29 away: 2W-2D-1L, 8 scored and 6 conceded in 5 games.",
+    "League averages this season: home teams 1.63 goals per game, away teams 1.32.",
+    "Recent league form (newest first): RC Strasbourg Alsace LWLLL, Stade Brestois 29 WWLDW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: RC Strasbourg Alsace has 4 home games and Stade Brestois 29 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "723",
+    "name": "Ludovic Ajorque",
+    "team": "Stade Brestois 29",
+    "probability": 0.443,
+    "confidence": 0.354,
+    "reasoning": "5 of Stade Brestois 29's 18 league goals this season (28%), applied to the 2.10 goals the model expects from them here.",
+    "evidence": [
+     "Ludovic Ajorque: 5 league goals in 10 appearances this season.",
+     "Stade Brestois 29 have scored 18 league goals in 10 games; the model expects 2.10 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "175942",
+    "name": "Kamory Doumbia",
+    "team": "Stade Brestois 29",
+    "probability": 0.374,
+    "confidence": 0.299,
+    "reasoning": "4 of Stade Brestois 29's 18 league goals this season (22%), applied to the 2.10 goals the model expects from them here.",
+    "evidence": [
+     "Kamory Doumbia: 4 league goals in 10 appearances this season.",
+     "Stade Brestois 29 have scored 18 league goals in 10 games; the model expects 2.10 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "245336",
+    "name": "Gessime Yassine",
+    "team": "RC Strasbourg Alsace",
+    "probability": 0.304,
+    "confidence": 0.243,
+    "reasoning": "4 of RC Strasbourg Alsace's 18 league goals this season (22%), applied to the 1.63 goals the model expects from them here.",
+    "evidence": [
+     "Gessime Yassine: 4 league goals in 10 appearances this season.",
+     "RC Strasbourg Alsace have scored 18 league goals in 10 games; the model expects 1.63 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-2",
+    "probability": 0.086
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.082
+    },
+    {
+     "score": "2-2",
+     "probability": 0.07
+    },
+    {
+     "score": "2-1",
+     "probability": 0.067
+    }
+   ],
+   "confidence": 0.216,
+   "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.63 (RC Strasbourg Alsace) and 2.10 (Stade Brestois 29).",
+    "Top scorelines: 1-2 (8.6%), 1-1 (8.2%), 2-2 (7.0%), 2-1 (6.7%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: RC Strasbourg Alsace has 4 home games and Stade Brestois 29 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-20T13:51:31.289Z",
+ "lockedAt": "2026-11-20T13:51:49.884Z",
+ "result": null
+}

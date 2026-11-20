@@ -1,0 +1,384 @@
+{
+ "fixtureId": "564754",
+ "kickoffUtc": "2026-11-21T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564754",
+   "kickoffUtc": "2026-11-21T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "86",
+    "name": "Real Madrid CF",
+    "short": "RMA"
+   },
+   "away": {
+    "id": "558",
+    "name": "RC Celta de Vigo",
+    "short": "CEL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6134453781512605,
+   "awayGoals": 1.2773109243697478
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Valencia CF",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Barcelona",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Sevilla FC",
+     "venue": "H",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Villarreal CF",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Levante UD",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Rayo Vallecano de Madrid",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Real Betis Balompié",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Deportivo Alavés",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Elche CF",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 12,
+     "w": 10,
+     "d": 0,
+     "l": 2,
+     "gf": 31,
+     "ga": 10
+    },
+    "home": {
+     "p": 5,
+     "w": 5,
+     "d": 0,
+     "l": 0,
+     "gf": 17,
+     "ga": 3
+    },
+    "away": {
+     "p": 7,
+     "w": 5,
+     "d": 0,
+     "l": 2,
+     "gf": 14,
+     "ga": 7
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 12,
+     "w": 2,
+     "d": 7,
+     "l": 3,
+     "gf": 10,
+     "ga": 10
+    },
+    "home": {
+     "p": 7,
+     "w": 2,
+     "d": 3,
+     "l": 2,
+     "gf": 9,
+     "ga": 6
+    },
+    "away": {
+     "p": 5,
+     "w": 0,
+     "d": 4,
+     "l": 1,
+     "gf": 1,
+     "ga": 4
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-03-06",
+    "homeId": "558",
+    "awayId": "86",
+    "home": "RC Celta de Vigo",
+    "away": "Real Madrid CF",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-12-07",
+    "homeId": "86",
+    "awayId": "558",
+    "home": "Real Madrid CF",
+    "away": "RC Celta de Vigo",
+    "hg": 0,
+    "ag": 2
+   },
+   {
+    "date": "2025-05-04",
+    "homeId": "86",
+    "awayId": "558",
+    "home": "Real Madrid CF",
+    "away": "RC Celta de Vigo",
+    "hg": 3,
+    "ag": 2
+   },
+   {
+    "date": "2024-10-19",
+    "homeId": "558",
+    "awayId": "86",
+    "home": "RC Celta de Vigo",
+    "away": "Real Madrid CF",
+    "hg": 1,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "3374",
+    "name": "Kylian Mbappé",
+    "team": "Real Madrid CF",
+    "pos": "Offence",
+    "apps": 12,
+    "goals": 13,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "125010",
+    "name": "Jude Bellingham",
+    "team": "Real Madrid CF",
+    "pos": "Midfield",
+    "apps": 12,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "169162",
+    "name": "Arda Guler",
+    "team": "Real Madrid CF",
+    "pos": "Midfield",
+    "apps": 12,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "277484",
+    "name": "Yan Diomandé",
+    "team": "Real Madrid CF",
+    "pos": "Offence",
+    "apps": 12,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "247061",
+    "name": "Carlos Espí",
+    "team": "Real Madrid CF",
+    "pos": "Offence",
+    "apps": 12,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "83406",
+    "name": "Ferran Jutglà",
+    "team": "RC Celta de Vigo",
+    "pos": "Offence",
+    "apps": 12,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "188859",
+    "name": "Pablo Duran",
+    "team": "RC Celta de Vigo",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.738,
+   "draw": 0.212,
+   "awayWin": 0.05,
+   "pick": "H",
+   "confidence": 0.738,
+   "reasoning": "Poisson model: expected goals Real Madrid CF 1.69 vs RC Celta de Vigo 0.25, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Real Madrid CF at home: 5W-0D-0L, 17 scored and 3 conceded in 5 games.",
+    "RC Celta de Vigo away: 0W-4D-1L, 1 scored and 4 conceded in 5 games.",
+    "League averages this season: home teams 1.61 goals per game, away teams 1.28.",
+    "Recent league form (newest first): Real Madrid CF WWWWW, RC Celta de Vigo DLDWD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Real Madrid CF has 5 home games and RC Celta de Vigo 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "3374",
+    "name": "Kylian Mbappé",
+    "team": "Real Madrid CF",
+    "probability": 0.507,
+    "confidence": 0.4,
+    "reasoning": "13 of Real Madrid CF's 31 league goals this season (42%), applied to the 1.69 goals the model expects from them here.",
+    "evidence": [
+     "Kylian Mbappé: 13 league goals in 12 appearances this season.",
+     "Real Madrid CF have scored 31 league goals in 12 games; the model expects 1.69 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "125010",
+    "name": "Jude Bellingham",
+    "team": "Real Madrid CF",
+    "probability": 0.195,
+    "confidence": 0.156,
+    "reasoning": "4 of Real Madrid CF's 31 league goals this season (13%), applied to the 1.69 goals the model expects from them here.",
+    "evidence": [
+     "Jude Bellingham: 4 league goals in 12 appearances this season.",
+     "Real Madrid CF have scored 31 league goals in 12 games; the model expects 1.69 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "169162",
+    "name": "Arda Guler",
+    "team": "Real Madrid CF",
+    "probability": 0.151,
+    "confidence": 0.12,
+    "reasoning": "3 of Real Madrid CF's 31 league goals this season (10%), applied to the 1.69 goals the model expects from them here.",
+    "evidence": [
+     "Arda Guler: 3 league goals in 12 appearances this season.",
+     "Real Madrid CF have scored 31 league goals in 12 games; the model expects 1.69 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.243
+   },
+   "alternatives": [
+    {
+     "score": "2-0",
+     "probability": 0.205
+    },
+    {
+     "score": "0-0",
+     "probability": 0.144
+    },
+    {
+     "score": "3-0",
+     "probability": 0.115
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.69 (Real Madrid CF) and 0.25 (RC Celta de Vigo).",
+    "Top scorelines: 1-0 (24.3%), 2-0 (20.5%), 0-0 (14.4%), 3-0 (11.5%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Real Madrid CF has 5 home games and RC Celta de Vigo 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-20T13:52:08.504Z",
+ "lockedAt": "2026-11-20T13:52:27.091Z",
+ "result": null
+}

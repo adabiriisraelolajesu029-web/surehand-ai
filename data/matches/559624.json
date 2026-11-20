@@ -1,0 +1,403 @@
+{
+ "fixtureId": "559624",
+ "kickoffUtc": "2026-11-21T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559624",
+   "kickoffUtc": "2026-11-21T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "521",
+    "name": "Lille OSC",
+    "short": "LIL"
+   },
+   "away": {
+    "id": "523",
+    "name": "Olympique Lyonnais",
+    "short": "LYO"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6333333333333333,
+   "awayGoals": 1.3222222222222222
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "AS Monaco FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Stade Brestois 29",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Le Havre AC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Stade Brestois 29",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Angers SCO",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Paris Saint-Germain FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "OGC Nice",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 6,
+     "d": 3,
+     "l": 1,
+     "gf": 14,
+     "ga": 7
+    },
+    "home": {
+     "p": 5,
+     "w": 3,
+     "d": 2,
+     "l": 0,
+     "gf": 7,
+     "ga": 3
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 1,
+     "l": 1,
+     "gf": 7,
+     "ga": 4
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 5,
+     "d": 2,
+     "l": 3,
+     "gf": 15,
+     "ga": 9
+    },
+    "home": {
+     "p": 5,
+     "w": 4,
+     "d": 1,
+     "l": 0,
+     "gf": 12,
+     "ga": 3
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 1,
+     "l": 3,
+     "gf": 3,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-02-01",
+    "homeId": "523",
+    "awayId": "521",
+    "home": "Olympique Lyonnais",
+    "away": "Lille OSC",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2025-09-28",
+    "homeId": "521",
+    "awayId": "523",
+    "home": "Lille OSC",
+    "away": "Olympique Lyonnais",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2025-04-05",
+    "homeId": "523",
+    "awayId": "521",
+    "home": "Olympique Lyonnais",
+    "away": "Lille OSC",
+    "hg": 2,
+    "ag": 1
+   },
+   {
+    "date": "2024-11-01",
+    "homeId": "521",
+    "awayId": "523",
+    "home": "Lille OSC",
+    "away": "Olympique Lyonnais",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2024-05-06",
+    "homeId": "521",
+    "awayId": "523",
+    "home": "Lille OSC",
+    "away": "Olympique Lyonnais",
+    "hg": 3,
+    "ag": 4
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "3371",
+    "name": "Olivier Giroud",
+    "team": "Lille OSC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "188087",
+    "name": "Tiago Santos",
+    "team": "Lille OSC",
+    "pos": "Defence",
+    "apps": 6,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "151295",
+    "name": "Dilane Bakwa",
+    "team": "Lille OSC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "119460",
+    "name": "Ayase Ueda",
+    "team": "Lille OSC",
+    "pos": "Offence",
+    "apps": 4,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "218468",
+    "name": "Ethan Mbappé",
+    "team": "Lille OSC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "184726",
+    "name": "Ernest Nuamah",
+    "team": "Olympique Lyonnais",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "256424",
+    "name": "Zachary Athekame",
+    "team": "Olympique Lyonnais",
+    "pos": "Defence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "366",
+    "name": "Corentin Tolisso",
+    "team": "Olympique Lyonnais",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.488,
+   "draw": 0.355,
+   "awayWin": 0.157,
+   "pick": "H",
+   "confidence": 0.488,
+   "reasoning": "Poisson model: expected goals Lille OSC 0.99 vs Olympique Lyonnais 0.43, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Lille OSC at home: 3W-2D-0L, 7 scored and 3 conceded in 5 games.",
+    "Olympique Lyonnais away: 1W-1D-3L, 3 scored and 6 conceded in 5 games.",
+    "League averages this season: home teams 1.63 goals per game, away teams 1.32.",
+    "Recent league form (newest first): Lille OSC WWDDW, Olympique Lyonnais LWLWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Lille OSC has 5 home games and Olympique Lyonnais 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "3371",
+    "name": "Olivier Giroud",
+    "team": "Lille OSC",
+    "probability": 0.192,
+    "confidence": 0.154,
+    "reasoning": "3 of Lille OSC's 14 league goals this season (21%), applied to the 0.99 goals the model expects from them here.",
+    "evidence": [
+     "Olivier Giroud: 3 league goals in 10 appearances this season.",
+     "Lille OSC have scored 14 league goals in 10 games; the model expects 0.99 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "188087",
+    "name": "Tiago Santos",
+    "team": "Lille OSC",
+    "probability": 0.132,
+    "confidence": 0.106,
+    "reasoning": "2 of Lille OSC's 14 league goals this season (14%), applied to the 0.99 goals the model expects from them here.",
+    "evidence": [
+     "Tiago Santos: 2 league goals in 6 appearances this season.",
+     "Lille OSC have scored 14 league goals in 10 games; the model expects 0.99 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "151295",
+    "name": "Dilane Bakwa",
+    "team": "Lille OSC",
+    "probability": 0.132,
+    "confidence": 0.106,
+    "reasoning": "2 of Lille OSC's 14 league goals this season (14%), applied to the 0.99 goals the model expects from them here.",
+    "evidence": [
+     "Dilane Bakwa: 2 league goals in 9 appearances this season.",
+     "Lille OSC have scored 14 league goals in 10 games; the model expects 0.99 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-0",
+    "probability": 0.241
+   },
+   "alternatives": [
+    {
+     "score": "1-0",
+     "probability": 0.239
+    },
+    {
+     "score": "2-0",
+     "probability": 0.119
+    },
+    {
+     "score": "0-1",
+     "probability": 0.103
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.99 (Lille OSC) and 0.43 (Olympique Lyonnais).",
+    "Top scorelines: 0-0 (24.1%), 1-0 (23.9%), 2-0 (11.9%), 0-1 (10.3%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Lille OSC has 5 home games and Olympique Lyonnais 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-20T13:50:35.438Z",
+ "lockedAt": "2026-11-20T13:50:54.083Z",
+ "result": null
+}
