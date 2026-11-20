@@ -1,0 +1,353 @@
+{
+ "fixtureId": "564751",
+ "kickoffUtc": "2026-11-21T15:15:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564751",
+   "kickoffUtc": "2026-11-21T15:15:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "87",
+    "name": "Rayo Vallecano de Madrid",
+    "short": "RAY"
+   },
+   "away": {
+    "id": "95",
+    "name": "Valencia CF",
+    "short": "VAL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6134453781512605,
+   "awayGoals": 1.2773109243697478
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Real Sociedad de Fútbol",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "RC Celta de Vigo",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Elche CF",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Getafe CF",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "CA Osasuna",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Real Madrid CF",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Elche CF",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Villarreal CF",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Athletic Club",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "A",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 3,
+     "d": 3,
+     "l": 5,
+     "gf": 15,
+     "ga": 21
+    },
+    "home": {
+     "p": 5,
+     "w": 3,
+     "d": 1,
+     "l": 1,
+     "gf": 9,
+     "ga": 7
+    },
+    "away": {
+     "p": 6,
+     "w": 0,
+     "d": 2,
+     "l": 4,
+     "gf": 6,
+     "ga": 14
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 12,
+     "w": 2,
+     "d": 3,
+     "l": 7,
+     "gf": 8,
+     "ga": 20
+    },
+    "home": {
+     "p": 7,
+     "w": 0,
+     "d": 2,
+     "l": 5,
+     "gf": 3,
+     "ga": 14
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-14",
+    "homeId": "95",
+    "awayId": "87",
+    "home": "Valencia CF",
+    "away": "Rayo Vallecano de Madrid",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2025-12-01",
+    "homeId": "87",
+    "awayId": "95",
+    "home": "Rayo Vallecano de Madrid",
+    "away": "Valencia CF",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2025-04-19",
+    "homeId": "87",
+    "awayId": "95",
+    "home": "Rayo Vallecano de Madrid",
+    "away": "Valencia CF",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2024-12-07",
+    "homeId": "95",
+    "awayId": "87",
+    "home": "Valencia CF",
+    "away": "Rayo Vallecano de Madrid",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2024-05-12",
+    "homeId": "95",
+    "awayId": "87",
+    "home": "Valencia CF",
+    "away": "Rayo Vallecano de Madrid",
+    "hg": 0,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "115175",
+    "name": "Sergio Camello",
+    "team": "Rayo Vallecano de Madrid",
+    "pos": "Offence",
+    "apps": 12,
+    "goals": 7,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "32312",
+    "name": "Álvaro García",
+    "team": "Rayo Vallecano de Madrid",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "7672",
+    "name": "Umar Sadiq",
+    "team": "Valencia CF",
+    "pos": "Offence",
+    "apps": 5,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.507,
+   "draw": 0.255,
+   "awayWin": 0.238,
+   "pick": "H",
+   "confidence": 0.507,
+   "reasoning": "Poisson model: expected goals Rayo Vallecano de Madrid 1.55 vs Valencia CF 0.98, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Rayo Vallecano de Madrid at home: 3W-1D-1L, 9 scored and 7 conceded in 5 games.",
+    "Valencia CF away: 2W-1D-2L, 5 scored and 6 conceded in 5 games.",
+    "League averages this season: home teams 1.61 goals per game, away teams 1.28.",
+    "Recent league form (newest first): Rayo Vallecano de Madrid LWLDD, Valencia CF LWLDD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Rayo Vallecano de Madrid has 5 home games and Valencia CF 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "115175",
+    "name": "Sergio Camello",
+    "team": "Rayo Vallecano de Madrid",
+    "probability": 0.515,
+    "confidence": 0.4,
+    "reasoning": "7 of Rayo Vallecano de Madrid's 15 league goals this season (47%), applied to the 1.55 goals the model expects from them here.",
+    "evidence": [
+     "Sergio Camello: 7 league goals in 12 appearances this season.",
+     "Rayo Vallecano de Madrid have scored 15 league goals in 11 games; the model expects 1.55 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "32312",
+    "name": "Álvaro García",
+    "team": "Rayo Vallecano de Madrid",
+    "probability": 0.267,
+    "confidence": 0.213,
+    "reasoning": "3 of Rayo Vallecano de Madrid's 15 league goals this season (20%), applied to the 1.55 goals the model expects from them here.",
+    "evidence": [
+     "Álvaro García: 3 league goals in 11 appearances this season.",
+     "Rayo Vallecano de Madrid have scored 15 league goals in 11 games; the model expects 1.55 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "7672",
+    "name": "Umar Sadiq",
+    "team": "Valencia CF",
+    "probability": 0.217,
+    "confidence": 0.173,
+    "reasoning": "2 of Valencia CF's 8 league goals this season (25%), applied to the 0.98 goals the model expects from them here.",
+    "evidence": [
+     "Umar Sadiq: 2 league goals in 5 appearances this season.",
+     "Valencia CF have scored 8 league goals in 12 games; the model expects 0.98 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.124
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.121
+    },
+    {
+     "score": "2-0",
+     "probability": 0.096
+    },
+    {
+     "score": "2-1",
+     "probability": 0.094
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.55 (Rayo Vallecano de Madrid) and 0.98 (Valencia CF).",
+    "Top scorelines: 1-0 (12.4%), 1-1 (12.1%), 2-0 (9.6%), 2-1 (9.4%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Rayo Vallecano de Madrid has 5 home games and Valencia CF 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-20T04:09:39.848Z",
+ "lockedAt": "2026-11-20T04:09:58.460Z",
+ "result": null
+}

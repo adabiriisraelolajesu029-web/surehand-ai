@@ -1,0 +1,374 @@
+{
+ "fixtureId": "558525",
+ "kickoffUtc": "2026-11-21T14:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558525",
+   "kickoffUtc": "2026-11-21T14:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "7397",
+    "name": "Como 1907",
+    "short": "COM"
+   },
+   "away": {
+    "id": "104",
+    "name": "Cagliari Calcio",
+    "short": "CAG"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6,
+   "awayGoals": 1.509090909090909
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Venezia FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "ACF Fiorentina",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Frosinone Calcio",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SS Lazio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "AS Roma",
+     "venue": "A",
+     "gf": 2,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Bologna FC 1909",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "AC Monza",
+     "venue": "A",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 7,
+     "d": 2,
+     "l": 2,
+     "gf": 18,
+     "ga": 10
+    },
+    "home": {
+     "p": 4,
+     "w": 3,
+     "d": 1,
+     "l": 0,
+     "gf": 5,
+     "ga": 1
+    },
+    "away": {
+     "p": 7,
+     "w": 4,
+     "d": 1,
+     "l": 2,
+     "gf": 13,
+     "ga": 9
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 5,
+     "d": 1,
+     "l": 5,
+     "gf": 10,
+     "ga": 15
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 3,
+     "ga": 4
+    },
+    "away": {
+     "p": 6,
+     "w": 3,
+     "d": 0,
+     "l": 3,
+     "gf": 7,
+     "ga": 11
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-03-07",
+    "homeId": "104",
+    "awayId": "7397",
+    "home": "Cagliari Calcio",
+    "away": "Como 1907",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-11-08",
+    "homeId": "7397",
+    "awayId": "104",
+    "home": "Como 1907",
+    "away": "Cagliari Calcio",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2025-05-10",
+    "homeId": "7397",
+    "awayId": "104",
+    "home": "Como 1907",
+    "away": "Cagliari Calcio",
+    "hg": 3,
+    "ag": 1
+   },
+   {
+    "date": "2024-08-26",
+    "homeId": "104",
+    "awayId": "7397",
+    "home": "Cagliari Calcio",
+    "away": "Como 1907",
+    "hg": 1,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "43285",
+    "name": "Anastasios Douvikas",
+    "team": "Como 1907",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "156912",
+    "name": "Martin Baturina",
+    "team": "Como 1907",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "203511",
+    "name": "Nico Paz",
+    "team": "Como 1907",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "218474",
+    "name": "Assane Diao",
+    "team": "Como 1907",
+    "pos": "Offence",
+    "apps": 6,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "247056",
+    "name": "Jacobo Ramón",
+    "team": "Como 1907",
+    "pos": "Defence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "136113",
+    "name": "Daniel Maldini",
+    "team": "Cagliari Calcio",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.657,
+   "draw": 0.249,
+   "awayWin": 0.093,
+   "pick": "H",
+   "confidence": 0.657,
+   "reasoning": "Poisson model: expected goals Como 1907 1.52 vs Cagliari Calcio 0.40, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Como 1907 at home: 3W-1D-0L, 5 scored and 1 conceded in 4 games.",
+    "Cagliari Calcio away: 3W-0D-3L, 7 scored and 11 conceded in 6 games.",
+    "League averages this season: home teams 1.60 goals per game, away teams 1.51.",
+    "Recent league form (newest first): Como 1907 LWWWW, Cagliari Calcio WLLLL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Como 1907 has 4 home games and Cagliari Calcio 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "43285",
+    "name": "Anastasios Douvikas",
+    "team": "Como 1907",
+    "probability": 0.345,
+    "confidence": 0.276,
+    "reasoning": "5 of Como 1907's 18 league goals this season (28%), applied to the 1.52 goals the model expects from them here.",
+    "evidence": [
+     "Anastasios Douvikas: 5 league goals in 11 appearances this season.",
+     "Como 1907 have scored 18 league goals in 11 games; the model expects 1.52 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "156912",
+    "name": "Martin Baturina",
+    "team": "Como 1907",
+    "probability": 0.224,
+    "confidence": 0.179,
+    "reasoning": "3 of Como 1907's 18 league goals this season (17%), applied to the 1.52 goals the model expects from them here.",
+    "evidence": [
+     "Martin Baturina: 3 league goals in 11 appearances this season.",
+     "Como 1907 have scored 18 league goals in 11 games; the model expects 1.52 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "203511",
+    "name": "Nico Paz",
+    "team": "Como 1907",
+    "probability": 0.224,
+    "confidence": 0.179,
+    "reasoning": "3 of Como 1907's 18 league goals this season (17%), applied to the 1.52 goals the model expects from them here.",
+    "evidence": [
+     "Nico Paz: 3 league goals in 11 appearances this season.",
+     "Como 1907 have scored 18 league goals in 11 games; the model expects 1.52 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.224
+   },
+   "alternatives": [
+    {
+     "score": "2-0",
+     "probability": 0.17
+    },
+    {
+     "score": "0-0",
+     "probability": 0.147
+    },
+    {
+     "score": "1-1",
+     "probability": 0.088
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.52 (Como 1907) and 0.40 (Cagliari Calcio).",
+    "Top scorelines: 1-0 (22.4%), 2-0 (17.0%), 0-0 (14.7%), 1-1 (8.8%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Como 1907 has 4 home games and Cagliari Calcio 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-20T04:05:33.420Z",
+ "lockedAt": "2026-11-20T04:06:03.310Z",
+ "result": null
+}
