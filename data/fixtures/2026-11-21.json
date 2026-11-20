@@ -80,6 +80,26 @@
   }
  },
  {
+  "id": "565865",
+  "kickoffUtc": "2026-11-21T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "19",
+   "name": "Eintracht Frankfurt",
+   "short": "SGE"
+  },
+  "away": {
+   "id": "2",
+   "name": "TSG 1899 Hoffenheim",
+   "short": "TSG"
+  }
+ },
+ {
   "id": "565858",
   "kickoffUtc": "2026-11-21T14:30:00.000Z",
   "status": "scheduled",
@@ -100,7 +120,7 @@
   }
  },
  {
-  "id": "565865",
+  "id": "565857",
   "kickoffUtc": "2026-11-21T14:30:00.000Z",
   "status": "scheduled",
   "league": {
@@ -109,14 +129,14 @@
    "country": "Germany"
   },
   "home": {
-   "id": "19",
-   "name": "Eintracht Frankfurt",
-   "short": "SGE"
+   "id": "3",
+   "name": "Bayer 04 Leverkusen",
+   "short": "B04"
   },
   "away": {
-   "id": "2",
-   "name": "TSG 1899 Hoffenheim",
-   "short": "TSG"
+   "id": "29",
+   "name": "SC Paderborn 07",
+   "short": "SCP"
   }
  },
  {
@@ -157,26 +177,6 @@
    "id": "4",
    "name": "Borussia Dortmund",
    "short": "BVB"
-  }
- },
- {
-  "id": "565857",
-  "kickoffUtc": "2026-11-21T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "3",
-   "name": "Bayer 04 Leverkusen",
-   "short": "B04"
-  },
-  "away": {
-   "id": "29",
-   "name": "SC Paderborn 07",
-   "short": "SCP"
   }
  },
  {
