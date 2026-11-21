@@ -40,26 +40,6 @@
   }
  },
  {
-  "id": "558528",
-  "kickoffUtc": "2026-11-21T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "110",
-   "name": "SS Lazio",
-   "short": "LAZ"
-  },
-  "away": {
-   "id": "5890",
-   "name": "US Lecce",
-   "short": "USL"
-  }
- },
- {
   "id": "558525",
   "kickoffUtc": "2026-11-21T14:00:00.000Z",
   "status": "scheduled",
@@ -80,63 +60,23 @@
   }
  },
  {
-  "id": "565860",
-  "kickoffUtc": "2026-11-21T14:30:00.000Z",
+  "id": "558528",
+  "kickoffUtc": "2026-11-21T14:00:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
   },
   "home": {
-   "id": "719",
-   "name": "SV 07 Elversberg",
-   "short": "ELV"
+   "id": "110",
+   "name": "SS Lazio",
+   "short": "LAZ"
   },
   "away": {
-   "id": "17",
-   "name": "SC Freiburg",
-   "short": "SCF"
-  }
- },
- {
-  "id": "565862",
-  "kickoffUtc": "2026-11-21T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "18",
-   "name": "Borussia Mönchengladbach",
-   "short": "BMG"
-  },
-  "away": {
-   "id": "4",
-   "name": "Borussia Dortmund",
-   "short": "BVB"
-  }
- },
- {
-  "id": "565857",
-  "kickoffUtc": "2026-11-21T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "3",
-   "name": "Bayer 04 Leverkusen",
-   "short": "B04"
-  },
-  "away": {
-   "id": "29",
-   "name": "SC Paderborn 07",
-   "short": "SCP"
+   "id": "5890",
+   "name": "US Lecce",
+   "short": "USL"
   }
  },
  {
@@ -180,63 +120,63 @@
   }
  },
  {
-  "id": "560648",
-  "kickoffUtc": "2026-11-21T15:00:00.000Z",
+  "id": "565862",
+  "kickoffUtc": "2026-11-21T14:30:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
   },
   "home": {
-   "id": "73",
-   "name": "Tottenham Hotspur FC",
-   "short": "TOT"
+   "id": "18",
+   "name": "Borussia Mönchengladbach",
+   "short": "BMG"
   },
   "away": {
-   "id": "349",
-   "name": "Ipswich Town FC",
-   "short": "IPS"
+   "id": "4",
+   "name": "Borussia Dortmund",
+   "short": "BVB"
   }
  },
  {
-  "id": "560642",
-  "kickoffUtc": "2026-11-21T15:00:00.000Z",
+  "id": "565857",
+  "kickoffUtc": "2026-11-21T14:30:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
   },
   "home": {
-   "id": "61",
-   "name": "Chelsea FC",
-   "short": "CHE"
+   "id": "3",
+   "name": "Bayer 04 Leverkusen",
+   "short": "B04"
   },
   "away": {
-   "id": "341",
-   "name": "Leeds United FC",
-   "short": "LEE"
+   "id": "29",
+   "name": "SC Paderborn 07",
+   "short": "SCP"
   }
  },
  {
-  "id": "560644",
-  "kickoffUtc": "2026-11-21T15:00:00.000Z",
+  "id": "565860",
+  "kickoffUtc": "2026-11-21T14:30:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
   },
   "home": {
-   "id": "58",
-   "name": "Aston Villa FC",
-   "short": "AVL"
+   "id": "719",
+   "name": "SV 07 Elversberg",
+   "short": "ELV"
   },
   "away": {
-   "id": "71",
-   "name": "Sunderland AFC",
-   "short": "SUN"
+   "id": "17",
+   "name": "SC Freiburg",
+   "short": "SCF"
   }
  },
  {
@@ -277,6 +217,66 @@
    "id": "351",
    "name": "Nottingham Forest FC",
    "short": "NOT"
+  }
+ },
+ {
+  "id": "560644",
+  "kickoffUtc": "2026-11-21T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "58",
+   "name": "Aston Villa FC",
+   "short": "AVL"
+  },
+  "away": {
+   "id": "71",
+   "name": "Sunderland AFC",
+   "short": "SUN"
+  }
+ },
+ {
+  "id": "560648",
+  "kickoffUtc": "2026-11-21T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "73",
+   "name": "Tottenham Hotspur FC",
+   "short": "TOT"
+  },
+  "away": {
+   "id": "349",
+   "name": "Ipswich Town FC",
+   "short": "IPS"
+  }
+ },
+ {
+  "id": "560642",
+  "kickoffUtc": "2026-11-21T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "61",
+   "name": "Chelsea FC",
+   "short": "CHE"
+  },
+  "away": {
+   "id": "341",
+   "name": "Leeds United FC",
+   "short": "LEE"
   }
  },
  {
@@ -340,6 +340,26 @@
   }
  },
  {
+  "id": "565861",
+  "kickoffUtc": "2026-11-21T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "6",
+   "name": "FC Schalke 04",
+   "short": "S04"
+  },
+  "away": {
+   "id": "10",
+   "name": "VfB Stuttgart",
+   "short": "VFB"
+  }
+ },
+ {
   "id": "564756",
   "kickoffUtc": "2026-11-21T17:30:00.000Z",
   "status": "scheduled",
@@ -380,86 +400,6 @@
   }
  },
  {
-  "id": "565861",
-  "kickoffUtc": "2026-11-21T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "6",
-   "name": "FC Schalke 04",
-   "short": "S04"
-  },
-  "away": {
-   "id": "10",
-   "name": "VfB Stuttgart",
-   "short": "VFB"
-  }
- },
- {
-  "id": "559627",
-  "kickoffUtc": "2026-11-21T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "576",
-   "name": "RC Strasbourg Alsace",
-   "short": "RC "
-  },
-  "away": {
-   "id": "512",
-   "name": "Stade Brestois 29",
-   "short": "BRE"
-  }
- },
- {
-  "id": "559623",
-  "kickoffUtc": "2026-11-21T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "546",
-   "name": "Racing Club de Lens",
-   "short": "RCL"
-  },
-  "away": {
-   "id": "511",
-   "name": "Toulouse FC",
-   "short": "TOU"
-  }
- },
- {
-  "id": "558527",
-  "kickoffUtc": "2026-11-21T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "113",
-   "name": "SSC Napoli",
-   "short": "NAP"
-  },
-  "away": {
-   "id": "586",
-   "name": "Torino FC",
-   "short": "TOR"
-  }
- },
- {
   "id": "559621",
   "kickoffUtc": "2026-11-21T19:45:00.000Z",
   "status": "scheduled",
@@ -497,6 +437,66 @@
    "id": "523",
    "name": "Olympique Lyonnais",
    "short": "LYO"
+  }
+ },
+ {
+  "id": "558527",
+  "kickoffUtc": "2026-11-21T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "113",
+   "name": "SSC Napoli",
+   "short": "NAP"
+  },
+  "away": {
+   "id": "586",
+   "name": "Torino FC",
+   "short": "TOR"
+  }
+ },
+ {
+  "id": "559623",
+  "kickoffUtc": "2026-11-21T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "546",
+   "name": "Racing Club de Lens",
+   "short": "RCL"
+  },
+  "away": {
+   "id": "511",
+   "name": "Toulouse FC",
+   "short": "TOU"
+  }
+ },
+ {
+  "id": "559627",
+  "kickoffUtc": "2026-11-21T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "576",
+   "name": "RC Strasbourg Alsace",
+   "short": "RC "
+  },
+  "away": {
+   "id": "512",
+   "name": "Stade Brestois 29",
+   "short": "BRE"
   }
  },
  {

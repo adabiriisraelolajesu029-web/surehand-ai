@@ -1,25 +1,5 @@
 [
  {
-  "id": "575404",
-  "kickoffUtc": "2026-11-25T17:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "10233",
-   "name": "Sabah FK",
-   "short": "SAB"
-  },
-  "away": {
-   "id": "81",
-   "name": "FC Barcelona",
-   "short": "FCB"
-  }
- },
- {
   "id": "575405",
   "kickoffUtc": "2026-11-25T17:45:00.000Z",
   "status": "scheduled",
@@ -40,8 +20,8 @@
   }
  },
  {
-  "id": "575410",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "id": "575404",
+  "kickoffUtc": "2026-11-25T17:45:00.000Z",
   "status": "scheduled",
   "league": {
    "id": "CL",
@@ -49,74 +29,14 @@
    "country": "Europe"
   },
   "home": {
-   "id": "521",
-   "name": "Lille OSC",
-   "short": "LIL"
+   "id": "10233",
+   "name": "Sabah FK",
+   "short": "SAB"
   },
   "away": {
-   "id": "5",
-   "name": "FC Bayern München",
+   "id": "81",
+   "name": "FC Barcelona",
    "short": "FCB"
-  }
- },
- {
-  "id": "575406",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "108",
-   "name": "FC Internazionale Milano",
-   "short": "INT"
-  },
-  "away": {
-   "id": "10",
-   "name": "VfB Stuttgart",
-   "short": "VFB"
-  }
- },
- {
-  "id": "575412",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "1887",
-   "name": "FK Shakhtar Donetsk",
-   "short": "SHD"
-  },
-  "away": {
-   "id": "613",
-   "name": "Fenerbahçe SK",
-   "short": "FEN"
-  }
- },
- {
-  "id": "575408",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "524",
-   "name": "Paris Saint-Germain FC",
-   "short": "PSG"
-  },
-  "away": {
-   "id": "100",
-   "name": "AS Roma",
-   "short": "ROM"
   }
  },
  {
@@ -177,6 +97,86 @@
    "id": "5720",
    "name": "Viking FK",
    "short": "VIK"
+  }
+ },
+ {
+  "id": "575408",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  },
+  "away": {
+   "id": "100",
+   "name": "AS Roma",
+   "short": "ROM"
+  }
+ },
+ {
+  "id": "575410",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "521",
+   "name": "Lille OSC",
+   "short": "LIL"
+  },
+  "away": {
+   "id": "5",
+   "name": "FC Bayern München",
+   "short": "FCB"
+  }
+ },
+ {
+  "id": "575406",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "108",
+   "name": "FC Internazionale Milano",
+   "short": "INT"
+  },
+  "away": {
+   "id": "10",
+   "name": "VfB Stuttgart",
+   "short": "VFB"
+  }
+ },
+ {
+  "id": "575412",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "1887",
+   "name": "FK Shakhtar Donetsk",
+   "short": "SHD"
+  },
+  "away": {
+   "id": "613",
+   "name": "Fenerbahçe SK",
+   "short": "FEN"
   }
  }
 ]

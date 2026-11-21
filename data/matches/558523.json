@@ -1,0 +1,376 @@
+{
+ "fixtureId": "558523",
+ "kickoffUtc": "2026-11-22T17:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558523",
+   "kickoffUtc": "2026-11-22T17:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "98",
+    "name": "AC Milan",
+    "short": "MIL"
+   },
+   "away": {
+    "id": "470",
+    "name": "Frosinone Calcio",
+    "short": "FRO"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6,
+   "awayGoals": 1.509090909090909
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Genoa CFC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Bologna FC 1909",
+     "venue": "H",
+     "gf": 2,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Udinese Calcio",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Atalanta BC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "H",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Atalanta BC",
+     "venue": "A",
+     "gf": 4,
+     "ga": 4,
+     "res": "D"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "H",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 7,
+     "d": 3,
+     "l": 1,
+     "gf": 23,
+     "ga": 13
+    },
+    "home": {
+     "p": 5,
+     "w": 4,
+     "d": 0,
+     "l": 1,
+     "gf": 13,
+     "ga": 7
+    },
+    "away": {
+     "p": 6,
+     "w": 3,
+     "d": 3,
+     "l": 0,
+     "gf": 10,
+     "ga": 6
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 6,
+     "d": 2,
+     "l": 3,
+     "gf": 24,
+     "ga": 15
+    },
+    "home": {
+     "p": 6,
+     "w": 5,
+     "d": 0,
+     "l": 1,
+     "gf": 16,
+     "ga": 6
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 2,
+     "l": 2,
+     "gf": 8,
+     "ga": 9
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2024-02-03",
+    "homeId": "470",
+    "awayId": "98",
+    "home": "Frosinone Calcio",
+    "away": "AC Milan",
+    "hg": 2,
+    "ag": 3
+   },
+   {
+    "date": "2023-12-02",
+    "homeId": "98",
+    "awayId": "470",
+    "home": "AC Milan",
+    "away": "Frosinone Calcio",
+    "hg": 3,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "192142",
+    "name": "Alphadjo Cisse",
+    "team": "AC Milan",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "3368",
+    "name": "Adrien Rabiot",
+    "team": "AC Milan",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "182192",
+    "name": "Diego Moreira",
+    "team": "AC Milan",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "145",
+    "name": "Christian Pulisic",
+    "team": "AC Milan",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "101431",
+    "name": "Gonçalo Ramos",
+    "team": "AC Milan",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "169216",
+    "name": "Antonio Raimondo",
+    "team": "Frosinone Calcio",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 8,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "40786",
+    "name": "Giacomo Calò",
+    "team": "Frosinone Calcio",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "211564",
+    "name": "Giorgi Kvernadze",
+    "team": "Frosinone Calcio",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.569,
+   "draw": 0.191,
+   "awayWin": 0.24,
+   "pick": "H",
+   "confidence": 0.569,
+   "reasoning": "Poisson model: expected goals AC Milan 2.44 vs Frosinone Calcio 1.56, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "AC Milan at home: 4W-0D-1L, 13 scored and 7 conceded in 5 games.",
+    "Frosinone Calcio away: 1W-2D-2L, 8 scored and 9 conceded in 5 games.",
+    "League averages this season: home teams 1.60 goals per game, away teams 1.51.",
+    "Recent league form (newest first): AC Milan WWLWW, Frosinone Calcio LWWDW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Milan has 5 home games and Frosinone Calcio 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "192142",
+    "name": "Alphadjo Cisse",
+    "team": "AC Milan",
+    "probability": 0.411,
+    "confidence": 0.329,
+    "reasoning": "5 of AC Milan's 23 league goals this season (22%), applied to the 2.44 goals the model expects from them here.",
+    "evidence": [
+     "Alphadjo Cisse: 5 league goals in 11 appearances this season.",
+     "AC Milan have scored 23 league goals in 11 games; the model expects 2.44 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "3368",
+    "name": "Adrien Rabiot",
+    "team": "AC Milan",
+    "probability": 0.411,
+    "confidence": 0.329,
+    "reasoning": "5 of AC Milan's 23 league goals this season (22%), applied to the 2.44 goals the model expects from them here.",
+    "evidence": [
+     "Adrien Rabiot: 5 league goals in 9 appearances this season.",
+     "AC Milan have scored 23 league goals in 11 games; the model expects 2.44 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "169216",
+    "name": "Antonio Raimondo",
+    "team": "Frosinone Calcio",
+    "probability": 0.406,
+    "confidence": 0.325,
+    "reasoning": "8 of Frosinone Calcio's 24 league goals this season (33%), applied to the 1.56 goals the model expects from them here.",
+    "evidence": [
+     "Antonio Raimondo: 8 league goals in 10 appearances this season.",
+     "Frosinone Calcio have scored 24 league goals in 11 games; the model expects 1.56 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-1",
+    "probability": 0.085
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.07
+    },
+    {
+     "score": "3-1",
+     "probability": 0.069
+    },
+    {
+     "score": "2-2",
+     "probability": 0.066
+    }
+   ],
+   "confidence": 0.213,
+   "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.44 (AC Milan) and 1.56 (Frosinone Calcio).",
+    "Top scorelines: 2-1 (8.5%), 1-1 (7.0%), 3-1 (6.9%), 2-2 (6.6%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Milan has 5 home games and Frosinone Calcio 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-21T13:14:39.563Z",
+ "lockedAt": "2026-11-21T13:15:17.677Z",
+ "result": null
+}

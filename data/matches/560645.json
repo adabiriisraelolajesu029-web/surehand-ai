@@ -1,0 +1,354 @@
+{
+ "fixtureId": "560645",
+ "kickoffUtc": "2026-11-22T16:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "560645",
+   "kickoffUtc": "2026-11-22T16:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "64",
+    "name": "Liverpool FC",
+    "short": "LIV"
+   },
+   "away": {
+    "id": "66",
+    "name": "Manchester United FC",
+    "short": "MUN"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.53,
+   "awayGoals": 1.2
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Crystal Palace FC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Arsenal FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Brighton & Hove Albion FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Brentford FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Manchester City FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Aston Villa FC",
+     "venue": "H",
+     "gf": 4,
+     "ga": 4,
+     "res": "D"
+    },
+    {
+     "opp": "Chelsea FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "AFC Bournemouth",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Leeds United FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Tottenham Hotspur FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 5,
+     "d": 3,
+     "l": 2,
+     "gf": 14,
+     "ga": 10
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 2,
+     "l": 2,
+     "gf": 4,
+     "ga": 6
+    },
+    "away": {
+     "p": 5,
+     "w": 4,
+     "d": 1,
+     "l": 0,
+     "gf": 10,
+     "ga": 4
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 1,
+     "d": 5,
+     "l": 4,
+     "gf": 14,
+     "ga": 19
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 2,
+     "l": 2,
+     "gf": 10,
+     "ga": 11
+    },
+    "away": {
+     "p": 5,
+     "w": 0,
+     "d": 3,
+     "l": 2,
+     "gf": 4,
+     "ga": 8
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-03",
+    "homeId": "66",
+    "awayId": "64",
+    "home": "Manchester United FC",
+    "away": "Liverpool FC",
+    "hg": 3,
+    "ag": 2
+   },
+   {
+    "date": "2025-10-19",
+    "homeId": "64",
+    "awayId": "66",
+    "home": "Liverpool FC",
+    "away": "Manchester United FC",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-01-05",
+    "homeId": "64",
+    "awayId": "66",
+    "home": "Liverpool FC",
+    "away": "Manchester United FC",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2024-09-01",
+    "homeId": "66",
+    "awayId": "64",
+    "home": "Manchester United FC",
+    "away": "Liverpool FC",
+    "hg": 0,
+    "ag": 3
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "6486",
+    "name": "Alexander Isak",
+    "team": "Liverpool FC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 7,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "273423",
+    "name": "Víctor Muñoz",
+    "team": "Liverpool FC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "3257",
+    "name": "Bruno Fernandes",
+    "team": "Manchester United FC",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8626",
+    "name": "Bryan Mbeumo",
+    "team": "Manchester United FC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.484,
+   "draw": 0.276,
+   "awayWin": 0.239,
+   "pick": "H",
+   "confidence": 0.484,
+   "reasoning": "Poisson model: expected goals Liverpool FC 1.37 vs Manchester United FC 0.87, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Liverpool FC at home: 1W-2D-2L, 4 scored and 6 conceded in 5 games.",
+    "Manchester United FC away: 0W-3D-2L, 4 scored and 8 conceded in 5 games.",
+    "League averages this season: home teams 1.53 goals per game, away teams 1.20.",
+    "Recent league form (newest first): Liverpool FC WLWWL, Manchester United FC DLLDD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Liverpool FC has 5 home games and Manchester United FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "6486",
+    "name": "Alexander Isak",
+    "team": "Liverpool FC",
+    "probability": 0.496,
+    "confidence": 0.397,
+    "reasoning": "7 of Liverpool FC's 14 league goals this season (50%), applied to the 1.37 goals the model expects from them here.",
+    "evidence": [
+     "Alexander Isak: 7 league goals in 9 appearances this season.",
+     "Liverpool FC have scored 14 league goals in 10 games; the model expects 1.37 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "3257",
+    "name": "Bruno Fernandes",
+    "team": "Manchester United FC",
+    "probability": 0.221,
+    "confidence": 0.177,
+    "reasoning": "4 of Manchester United FC's 14 league goals this season (29%), applied to the 0.87 goals the model expects from them here.",
+    "evidence": [
+     "Bruno Fernandes: 4 league goals in 10 appearances this season.",
+     "Manchester United FC have scored 14 league goals in 10 games; the model expects 0.87 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "8626",
+    "name": "Bryan Mbeumo",
+    "team": "Manchester United FC",
+    "probability": 0.221,
+    "confidence": 0.177,
+    "reasoning": "4 of Manchester United FC's 14 league goals this season (29%), applied to the 0.87 goals the model expects from them here.",
+    "evidence": [
+     "Bryan Mbeumo: 4 league goals in 10 appearances this season.",
+     "Manchester United FC have scored 14 league goals in 10 games; the model expects 0.87 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.145
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.127
+    },
+    {
+     "score": "0-0",
+     "probability": 0.106
+    },
+    {
+     "score": "2-0",
+     "probability": 0.1
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.37 (Liverpool FC) and 0.87 (Manchester United FC).",
+    "Top scorelines: 1-0 (14.5%), 1-1 (12.7%), 0-0 (10.6%), 2-0 (10.0%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Liverpool FC has 5 home games and Manchester United FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-21T13:14:07.659Z",
+ "lockedAt": "2026-11-21T13:14:39.562Z",
+ "result": null
+}

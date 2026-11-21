@@ -1,0 +1,307 @@
+{
+ "fixtureId": "564752",
+ "kickoffUtc": "2026-11-22T17:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564752",
+   "kickoffUtc": "2026-11-22T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "79",
+    "name": "CA Osasuna",
+    "short": "OSA"
+   },
+   "away": {
+    "id": "84",
+    "name": "Málaga CF",
+    "short": "MAL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6,
+   "awayGoals": 1.275
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Athletic Club",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "RC Deportivo La Coruña",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Sevilla FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Real Betis Balompié",
+     "venue": "A",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Real Betis Balompié",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Deportivo Alavés",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Real Sociedad de Fútbol",
+     "venue": "H",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "RCD Espanyol de Barcelona",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 12,
+     "w": 3,
+     "d": 3,
+     "l": 6,
+     "gf": 12,
+     "ga": 23
+    },
+    "home": {
+     "p": 6,
+     "w": 2,
+     "d": 3,
+     "l": 1,
+     "gf": 5,
+     "ga": 4
+    },
+    "away": {
+     "p": 6,
+     "w": 1,
+     "d": 0,
+     "l": 5,
+     "gf": 7,
+     "ga": 19
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 12,
+     "w": 0,
+     "d": 5,
+     "l": 7,
+     "gf": 9,
+     "ga": 23
+    },
+    "home": {
+     "p": 6,
+     "w": 0,
+     "d": 3,
+     "l": 3,
+     "gf": 6,
+     "ga": 12
+    },
+    "away": {
+     "p": 6,
+     "w": 0,
+     "d": 2,
+     "l": 4,
+     "gf": 3,
+     "ga": 11
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "2237",
+    "name": "Ante Budimir",
+    "team": "CA Osasuna",
+    "pos": "Offence",
+    "apps": 12,
+    "goals": 8,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "221308",
+    "name": "Adrián",
+    "team": "Málaga CF",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "189380",
+    "name": "Carlos Dotor",
+    "team": "Málaga CF",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.527,
+   "draw": 0.319,
+   "awayWin": 0.154,
+   "pick": "H",
+   "confidence": 0.527,
+   "reasoning": "Poisson model: expected goals CA Osasuna 1.15 vs Málaga CF 0.48, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "CA Osasuna at home: 2W-3D-1L, 5 scored and 4 conceded in 6 games.",
+    "Málaga CF away: 0W-2D-4L, 3 scored and 11 conceded in 6 games.",
+    "League averages this season: home teams 1.60 goals per game, away teams 1.27.",
+    "Recent league form (newest first): CA Osasuna DLLWL, Málaga CF LLDLD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: CA Osasuna has 6 home games and Málaga CF 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "2237",
+    "name": "Ante Budimir",
+    "team": "CA Osasuna",
+    "probability": 0.438,
+    "confidence": 0.351,
+    "reasoning": "8 of CA Osasuna's 12 league goals this season (50%), applied to the 1.15 goals the model expects from them here.",
+    "evidence": [
+     "Ante Budimir: 8 league goals in 12 appearances this season.",
+     "CA Osasuna have scored 12 league goals in 12 games; the model expects 1.15 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "221308",
+    "name": "Adrián",
+    "team": "Málaga CF",
+    "probability": 0.213,
+    "confidence": 0.171,
+    "reasoning": "5 of Málaga CF's 9 league goals this season (50%), applied to the 0.48 goals the model expects from them here.",
+    "evidence": [
+     "Adrián: 5 league goals in 8 appearances this season.",
+     "Málaga CF have scored 9 league goals in 12 games; the model expects 0.48 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "189380",
+    "name": "Carlos Dotor",
+    "team": "Málaga CF",
+    "probability": 0.101,
+    "confidence": 0.081,
+    "reasoning": "2 of Málaga CF's 9 league goals this season (22%), applied to the 0.48 goals the model expects from them here.",
+    "evidence": [
+     "Carlos Dotor: 2 league goals in 11 appearances this season.",
+     "Málaga CF have scored 9 league goals in 12 games; the model expects 0.48 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.225
+   },
+   "alternatives": [
+    {
+     "score": "0-0",
+     "probability": 0.195
+    },
+    {
+     "score": "2-0",
+     "probability": 0.13
+    },
+    {
+     "score": "1-1",
+     "probability": 0.108
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.15 (CA Osasuna) and 0.48 (Málaga CF).",
+    "Top scorelines: 1-0 (22.5%), 0-0 (19.5%), 2-0 (13.0%), 1-1 (10.8%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: CA Osasuna has 6 home games and Málaga CF 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-21T13:15:17.678Z",
+ "lockedAt": "2026-11-21T13:15:45.853Z",
+ "result": null
+}

@@ -1,25 +1,5 @@
 [
  {
-  "id": "575396",
-  "kickoffUtc": "2026-11-24T17:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "5721",
-   "name": "FK Bodø/Glimt",
-   "short": "FK"
-  },
-  "away": {
-   "id": "2016",
-   "name": "LASK Linz",
-   "short": "LIN"
-  }
- },
- {
   "id": "575395",
   "kickoffUtc": "2026-11-24T17:45:00.000Z",
   "status": "scheduled",
@@ -40,8 +20,8 @@
   }
  },
  {
-  "id": "575402",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "id": "575396",
+  "kickoffUtc": "2026-11-24T17:45:00.000Z",
   "status": "scheduled",
   "league": {
    "id": "CL",
@@ -49,18 +29,18 @@
    "country": "Europe"
   },
   "home": {
-   "id": "721",
-   "name": "RB Leipzig",
-   "short": "RBL"
+   "id": "5721",
+   "name": "FK Bodø/Glimt",
+   "short": "FK"
   },
   "away": {
-   "id": "546",
-   "name": "Racing Club de Lens",
-   "short": "RCL"
+   "id": "2016",
+   "name": "LASK Linz",
+   "short": "LIN"
   }
  },
  {
-  "id": "575398",
+  "id": "575401",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
   "status": "scheduled",
   "league": {
@@ -69,34 +49,14 @@
    "country": "Europe"
   },
   "home": {
-   "id": "65",
-   "name": "Manchester City FC",
-   "short": "MCI"
+   "id": "7509",
+   "name": "ŠK Slovan Bratislava",
+   "short": "SBA"
   },
   "away": {
-   "id": "113",
-   "name": "SSC Napoli",
-   "short": "NAP"
-  }
- },
- {
-  "id": "575400",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "675",
-   "name": "Feyenoord Rotterdam",
-   "short": "FEY"
-  },
-  "away": {
-   "id": "503",
-   "name": "FC Porto",
-   "short": "FCP"
+   "id": "90",
+   "name": "Real Betis Balompié",
+   "short": "BET"
   }
  },
  {
@@ -160,7 +120,7 @@
   }
  },
  {
-  "id": "575401",
+  "id": "575402",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
   "status": "scheduled",
   "league": {
@@ -169,14 +129,54 @@
    "country": "Europe"
   },
   "home": {
-   "id": "7509",
-   "name": "ŠK Slovan Bratislava",
-   "short": "SBA"
+   "id": "721",
+   "name": "RB Leipzig",
+   "short": "RBL"
   },
   "away": {
-   "id": "90",
-   "name": "Real Betis Balompié",
-   "short": "BET"
+   "id": "546",
+   "name": "Racing Club de Lens",
+   "short": "RCL"
+  }
+ },
+ {
+  "id": "575398",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "65",
+   "name": "Manchester City FC",
+   "short": "MCI"
+  },
+  "away": {
+   "id": "113",
+   "name": "SSC Napoli",
+   "short": "NAP"
+  }
+ },
+ {
+  "id": "575400",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "675",
+   "name": "Feyenoord Rotterdam",
+   "short": "FEY"
+  },
+  "away": {
+   "id": "503",
+   "name": "FC Porto",
+   "short": "FCP"
   }
  }
 ]

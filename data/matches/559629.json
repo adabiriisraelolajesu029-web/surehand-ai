@@ -1,0 +1,347 @@
+{
+ "fixtureId": "559629",
+ "kickoffUtc": "2026-11-22T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559629",
+   "kickoffUtc": "2026-11-22T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "516",
+    "name": "Olympique de Marseille",
+    "short": "MAR"
+   },
+   "away": {
+    "id": "535",
+    "name": "Le Mans FC",
+    "short": "LMF"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6483516483516483,
+   "awayGoals": 1.3186813186813187
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Toulouse FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Le Havre AC",
+     "venue": "H",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "opp": "Angers SCO",
+     "venue": "A",
+     "gf": 5,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "ES Troyes AC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "AS Monaco FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "ES Troyes AC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "AJ Auxerre",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Toulouse FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Paris Saint-Germain FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 6,
+     "d": 0,
+     "l": 4,
+     "gf": 22,
+     "ga": 14
+    },
+    "home": {
+     "p": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 13,
+     "ga": 8
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 9,
+     "ga": 6
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 1,
+     "d": 5,
+     "l": 4,
+     "gf": 12,
+     "ga": 19
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 3,
+     "l": 1,
+     "gf": 7,
+     "ga": 9
+    },
+    "away": {
+     "p": 5,
+     "w": 0,
+     "d": 2,
+     "l": 3,
+     "gf": 5,
+     "ga": 10
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "8476",
+    "name": "Amine Gouiri",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 7,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "3714",
+    "name": "Amine Harit",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "80754",
+    "name": "Himad Abdelli",
+    "team": "Olympique de Marseille",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "250795",
+    "name": "Keyliane Abdallah",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "119703",
+    "name": "Igor Paixão",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "124178",
+    "name": "Louis Mafouta",
+    "team": "Le Mans FC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "292172",
+    "name": "Adil Bourabaa",
+    "team": "Le Mans FC",
+    "pos": "Midfield",
+    "apps": 5,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.75,
+   "draw": 0.139,
+   "awayWin": 0.111,
+   "pick": "H",
+   "confidence": 0.75,
+   "reasoning": "Poisson model: expected goals Olympique de Marseille 3.00 vs Le Mans FC 1.13, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Olympique de Marseille at home: 3W-0D-2L, 13 scored and 8 conceded in 5 games.",
+    "Le Mans FC away: 0W-2D-3L, 5 scored and 10 conceded in 5 games.",
+    "League averages this season: home teams 1.65 goals per game, away teams 1.32.",
+    "Recent league form (newest first): Olympique de Marseille WWWWW, Le Mans FC DLDLL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Olympique de Marseille has 5 home games and Le Mans FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "8476",
+    "name": "Amine Gouiri",
+    "team": "Olympique de Marseille",
+    "probability": 0.615,
+    "confidence": 0.4,
+    "reasoning": "7 of Olympique de Marseille's 22 league goals this season (32%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Amine Gouiri: 7 league goals in 10 appearances this season.",
+     "Olympique de Marseille have scored 22 league goals in 10 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "3714",
+    "name": "Amine Harit",
+    "team": "Olympique de Marseille",
+    "probability": 0.336,
+    "confidence": 0.269,
+    "reasoning": "3 of Olympique de Marseille's 22 league goals this season (14%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Amine Harit: 3 league goals in 10 appearances this season.",
+     "Olympique de Marseille have scored 22 league goals in 10 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "80754",
+    "name": "Himad Abdelli",
+    "team": "Olympique de Marseille",
+    "probability": 0.336,
+    "confidence": 0.269,
+    "reasoning": "3 of Olympique de Marseille's 22 league goals this season (14%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Himad Abdelli: 3 league goals in 10 appearances this season.",
+     "Olympique de Marseille have scored 22 league goals in 10 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-1",
+    "probability": 0.082
+   },
+   "alternatives": [
+    {
+     "score": "3-1",
+     "probability": 0.082
+    },
+    {
+     "score": "2-0",
+     "probability": 0.073
+    },
+    {
+     "score": "3-0",
+     "probability": 0.073
+    }
+   ],
+   "confidence": 0.205,
+   "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 3.00 (Olympique de Marseille) and 1.13 (Le Mans FC).",
+    "Top scorelines: 2-1 (8.2%), 3-1 (8.2%), 2-0 (7.3%), 3-0 (7.3%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Olympique de Marseille has 5 home games and Le Mans FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-21T13:15:45.853Z",
+ "lockedAt": "2026-11-21T13:16:01.484Z",
+ "result": null
+}
