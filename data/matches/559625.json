@@ -1,0 +1,346 @@
+{
+ "fixtureId": "559625",
+ "kickoffUtc": "2026-11-22T14:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559625",
+   "kickoffUtc": "2026-11-22T14:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "1045",
+    "name": "Paris FC",
+    "short": "PFC"
+   },
+   "away": {
+    "id": "532",
+    "name": "Angers SCO",
+    "short": "ANG"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6483516483516483,
+   "awayGoals": 1.3186813186813187
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "AJ Auxerre",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "AS Monaco FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "H",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "opp": "FC Lorient",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "OGC Nice",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Olympique Lyonnais",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "FC Lorient",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Olympique de Marseille",
+     "venue": "H",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "Stade Brestois 29",
+     "venue": "A",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 6,
+     "d": 2,
+     "l": 2,
+     "gf": 17,
+     "ga": 10
+    },
+    "home": {
+     "p": 5,
+     "w": 4,
+     "d": 1,
+     "l": 0,
+     "gf": 12,
+     "ga": 5
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 2,
+     "d": 2,
+     "l": 6,
+     "gf": 9,
+     "ga": 19
+    },
+    "home": {
+     "p": 6,
+     "w": 1,
+     "d": 1,
+     "l": 4,
+     "gf": 5,
+     "ga": 11
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 4,
+     "ga": 8
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-01-25",
+    "homeId": "1045",
+    "awayId": "532",
+    "home": "Paris FC",
+    "away": "Angers SCO",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2025-08-17",
+    "homeId": "532",
+    "awayId": "1045",
+    "home": "Angers SCO",
+    "away": "Paris FC",
+    "hg": 1,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "552",
+    "name": "Lassine Sinayoko",
+    "team": "Paris FC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 9,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "177248",
+    "name": "Pablo Pagis",
+    "team": "Paris FC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8352",
+    "name": "Maxime López",
+    "team": "Paris FC",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "137515",
+    "name": "Amine El Ouazzani",
+    "team": "Angers SCO",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "278087",
+    "name": "Prosper Peter",
+    "team": "Angers SCO",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.806,
+   "draw": 0.129,
+   "awayWin": 0.065,
+   "pick": "H",
+   "confidence": 0.8,
+   "reasoning": "Poisson model: expected goals Paris FC 2.71 vs Angers SCO 0.65, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Paris FC at home: 4W-1D-0L, 12 scored and 5 conceded in 5 games.",
+    "Angers SCO away: 1W-1D-2L, 4 scored and 8 conceded in 4 games.",
+    "League averages this season: home teams 1.65 goals per game, away teams 1.32.",
+    "Recent league form (newest first): Paris FC WWLWL, Angers SCO LLDLL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Paris FC has 5 home games and Angers SCO 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "552",
+    "name": "Lassine Sinayoko",
+    "team": "Paris FC",
+    "probability": 0.7,
+    "confidence": 0.4,
+    "reasoning": "9 of Paris FC's 17 league goals this season (50%), applied to the 2.71 goals the model expects from them here.",
+    "evidence": [
+     "Lassine Sinayoko: 9 league goals in 10 appearances this season.",
+     "Paris FC have scored 17 league goals in 10 games; the model expects 2.71 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "177248",
+    "name": "Pablo Pagis",
+    "team": "Paris FC",
+    "probability": 0.273,
+    "confidence": 0.218,
+    "reasoning": "2 of Paris FC's 17 league goals this season (12%), applied to the 2.71 goals the model expects from them here.",
+    "evidence": [
+     "Pablo Pagis: 2 league goals in 10 appearances this season.",
+     "Paris FC have scored 17 league goals in 10 games; the model expects 2.71 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "8352",
+    "name": "Maxime López",
+    "team": "Paris FC",
+    "probability": 0.273,
+    "confidence": 0.218,
+    "reasoning": "2 of Paris FC's 17 league goals this season (12%), applied to the 2.71 goals the model expects from them here.",
+    "evidence": [
+     "Maxime López: 2 league goals in 10 appearances this season.",
+     "Paris FC have scored 17 league goals in 10 games; the model expects 2.71 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-0",
+    "probability": 0.128
+   },
+   "alternatives": [
+    {
+     "score": "3-0",
+     "probability": 0.116
+    },
+    {
+     "score": "1-0",
+     "probability": 0.094
+    },
+    {
+     "score": "2-1",
+     "probability": 0.083
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.71 (Paris FC) and 0.65 (Angers SCO).",
+    "Top scorelines: 2-0 (12.8%), 3-0 (11.6%), 1-0 (9.4%), 2-1 (8.3%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Paris FC has 5 home games and Angers SCO 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-21T04:07:35.233Z",
+ "lockedAt": "2026-11-21T04:08:06.749Z",
+ "result": null
+}

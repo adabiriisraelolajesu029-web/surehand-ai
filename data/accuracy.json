@@ -1,22 +1,55 @@
 {
- "settled": 121,
+ "settled": 124,
  "outcome": {
-  "n": 121,
+  "n": 124,
   "hit": 65,
-  "rate": 0.5371900826446281
+  "rate": 0.5241935483870968
  },
  "correctScore": {
-  "n": 121,
+  "n": 124,
   "hit": 13,
-  "rate": 0.10743801652892562
+  "rate": 0.10483870967741936
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-20T19:00:57.109Z",
+ "updatedAt": "2026-11-21T04:10:10.334Z",
  "tracked": [
+  {
+   "match": "Athletic Club v RCD Espanyol de Barcelona",
+   "lockedAt": "2026-11-19T14:06:52.597Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 0,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "ES Troyes AC v Le Havre AC",
+   "lockedAt": "2026-11-19T14:06:20.986Z",
+   "pick": "A",
+   "score": "1-1",
+   "actual": {
+    "home": 3,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "FC Bayern München v 1. FC Köln",
+   "lockedAt": "2026-11-19T14:05:49.947Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
   {
    "match": "Club Atlético de Madrid v FC Barcelona",
    "lockedAt": "2026-11-07T11:33:18.584Z",
@@ -1081,39 +1114,6 @@
    "actual": {
     "home": 0,
     "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "AFC Bournemouth v Leeds United FC",
-   "lockedAt": "2026-10-30T11:10:09.267Z",
-   "pick": "A",
-   "score": "0-0",
-   "actual": {
-    "home": 2,
-    "away": 0
-   },
-   "scorers": []
-  },
-  {
-   "match": "Coventry City FC v Sunderland AFC",
-   "lockedAt": "2026-10-30T11:11:20.851Z",
-   "pick": "A",
-   "score": "1-1",
-   "actual": {
-    "home": 3,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Hull City AFC v Ipswich Town FC",
-   "lockedAt": "2026-10-30T11:11:02.420Z",
-   "pick": "H",
-   "score": "2-1",
-   "actual": {
-    "home": 2,
-    "away": 2
    },
    "scorers": []
   }

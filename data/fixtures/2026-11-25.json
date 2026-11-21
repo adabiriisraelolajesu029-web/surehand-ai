@@ -120,6 +120,26 @@
   }
  },
  {
+  "id": "575409",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "851",
+   "name": "Club Brugge KV",
+   "short": "BRU"
+  },
+  "away": {
+   "id": "64",
+   "name": "Liverpool FC",
+   "short": "LIV"
+  }
+ },
+ {
   "id": "575411",
   "kickoffUtc": "2026-11-25T20:00:00.000Z",
   "status": "scheduled",
@@ -157,26 +177,6 @@
    "id": "5720",
    "name": "Viking FK",
    "short": "VIK"
-  }
- },
- {
-  "id": "575409",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "851",
-   "name": "Club Brugge KV",
-   "short": "BRU"
-  },
-  "away": {
-   "id": "64",
-   "name": "Liverpool FC",
-   "short": "LIV"
   }
  }
 ]
