@@ -1,25 +1,5 @@
 [
  {
-  "id": "575395",
-  "kickoffUtc": "2026-11-24T17:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "610",
-   "name": "Galatasaray SK",
-   "short": "GAL"
-  },
-  "away": {
-   "id": "58",
-   "name": "Aston Villa FC",
-   "short": "AVL"
-  }
- },
- {
   "id": "575396",
   "kickoffUtc": "2026-11-24T17:45:00.000Z",
   "status": "scheduled",
@@ -40,8 +20,8 @@
   }
  },
  {
-  "id": "575401",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "id": "575395",
+  "kickoffUtc": "2026-11-24T17:45:00.000Z",
   "status": "scheduled",
   "league": {
    "id": "CL",
@@ -49,74 +29,14 @@
    "country": "Europe"
   },
   "home": {
-   "id": "7509",
-   "name": "ŠK Slovan Bratislava",
-   "short": "SBA"
+   "id": "610",
+   "name": "Galatasaray SK",
+   "short": "GAL"
   },
   "away": {
-   "id": "90",
-   "name": "Real Betis Balompié",
-   "short": "BET"
-  }
- },
- {
-  "id": "575397",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "86",
-   "name": "Real Madrid CF",
-   "short": "RMA"
-  },
-  "away": {
-   "id": "674",
-   "name": "PSV",
-   "short": "PSV"
-  }
- },
- {
-  "id": "575403",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "7397",
-   "name": "Como 1907",
-   "short": "COM"
-  },
-  "away": {
-   "id": "1899",
-   "name": "PAE AEK",
-   "short": "AEK"
-  }
- },
- {
-  "id": "575399",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "57",
-   "name": "Arsenal FC",
-   "short": "ARS"
-  },
-  "away": {
-   "id": "4",
-   "name": "Borussia Dortmund",
-   "short": "BVB"
+   "id": "58",
+   "name": "Aston Villa FC",
+   "short": "AVL"
   }
  },
  {
@@ -177,6 +97,86 @@
    "id": "113",
    "name": "SSC Napoli",
    "short": "NAP"
+  }
+ },
+ {
+  "id": "575399",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "57",
+   "name": "Arsenal FC",
+   "short": "ARS"
+  },
+  "away": {
+   "id": "4",
+   "name": "Borussia Dortmund",
+   "short": "BVB"
+  }
+ },
+ {
+  "id": "575401",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "7509",
+   "name": "ŠK Slovan Bratislava",
+   "short": "SBA"
+  },
+  "away": {
+   "id": "90",
+   "name": "Real Betis Balompié",
+   "short": "BET"
+  }
+ },
+ {
+  "id": "575397",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "86",
+   "name": "Real Madrid CF",
+   "short": "RMA"
+  },
+  "away": {
+   "id": "674",
+   "name": "PSV",
+   "short": "PSV"
+  }
+ },
+ {
+  "id": "575403",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "7397",
+   "name": "Como 1907",
+   "short": "COM"
+  },
+  "away": {
+   "id": "1899",
+   "name": "PAE AEK",
+   "short": "AEK"
   }
  }
 ]

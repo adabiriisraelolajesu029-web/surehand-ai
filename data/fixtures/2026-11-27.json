@@ -1,0 +1,102 @@
+[
+ {
+  "id": "565869",
+  "kickoffUtc": "2026-11-27T19:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "12",
+   "name": "SV Werder Bremen",
+   "short": "SVW"
+  },
+  "away": {
+   "id": "18",
+   "name": "Borussia Mönchengladbach",
+   "short": "BMG"
+  }
+ },
+ {
+  "id": "558515",
+  "kickoffUtc": "2026-11-27T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "454",
+   "name": "Venezia FC",
+   "short": "VEN"
+  },
+  "away": {
+   "id": "103",
+   "name": "Bologna FC 1909",
+   "short": "BOL"
+  }
+ },
+ {
+  "id": "559616",
+  "kickoffUtc": "2026-11-27T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "512",
+   "name": "Stade Brestois 29",
+   "short": "BRE"
+  },
+  "away": {
+   "id": "1045",
+   "name": "Paris FC",
+   "short": "PFC"
+  }
+ },
+ {
+  "id": "564765",
+  "kickoffUtc": "2026-11-27T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "88",
+   "name": "Levante UD",
+   "short": "LEV"
+  },
+  "away": {
+   "id": "5335",
+   "name": "Real Racing Club de Santander",
+   "short": "SAN"
+  }
+ },
+ {
+  "id": "560658",
+  "kickoffUtc": "2026-11-27T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "351",
+   "name": "Nottingham Forest FC",
+   "short": "NOT"
+  },
+  "away": {
+   "id": "61",
+   "name": "Chelsea FC",
+   "short": "CHE"
+  }
+ }
+]

@@ -1,25 +1,5 @@
 [
  {
-  "id": "575405",
-  "kickoffUtc": "2026-11-25T17:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "930",
-   "name": "SK Slavia Praha",
-   "short": "SLP"
-  },
-  "away": {
-   "id": "94",
-   "name": "Villarreal CF",
-   "short": "VIL"
-  }
- },
- {
   "id": "575404",
   "kickoffUtc": "2026-11-25T17:45:00.000Z",
   "status": "scheduled",
@@ -40,8 +20,8 @@
   }
  },
  {
-  "id": "575409",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "id": "575405",
+  "kickoffUtc": "2026-11-25T17:45:00.000Z",
   "status": "scheduled",
   "league": {
    "id": "CL",
@@ -49,74 +29,14 @@
    "country": "Europe"
   },
   "home": {
-   "id": "851",
-   "name": "Club Brugge KV",
-   "short": "BRU"
+   "id": "930",
+   "name": "SK Slavia Praha",
+   "short": "SLP"
   },
   "away": {
-   "id": "64",
-   "name": "Liverpool FC",
-   "short": "LIV"
-  }
- },
- {
-  "id": "575411",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "498",
-   "name": "Sporting Clube de Portugal",
-   "short": "SPO"
-  },
-  "away": {
-   "id": "66",
-   "name": "Manchester United FC",
-   "short": "MUN"
-  }
- },
- {
-  "id": "575407",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "78",
-   "name": "Club Atlético de Madrid",
-   "short": "ATL"
-  },
-  "away": {
-   "id": "5720",
-   "name": "Viking FK",
-   "short": "VIK"
-  }
- },
- {
-  "id": "575408",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "524",
-   "name": "Paris Saint-Germain FC",
-   "short": "PSG"
-  },
-  "away": {
-   "id": "100",
-   "name": "AS Roma",
-   "short": "ROM"
+   "id": "94",
+   "name": "Villarreal CF",
+   "short": "VIL"
   }
  },
  {
@@ -177,6 +97,86 @@
    "id": "613",
    "name": "Fenerbahçe SK",
    "short": "FEN"
+  }
+ },
+ {
+  "id": "575408",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  },
+  "away": {
+   "id": "100",
+   "name": "AS Roma",
+   "short": "ROM"
+  }
+ },
+ {
+  "id": "575409",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "851",
+   "name": "Club Brugge KV",
+   "short": "BRU"
+  },
+  "away": {
+   "id": "64",
+   "name": "Liverpool FC",
+   "short": "LIV"
+  }
+ },
+ {
+  "id": "575411",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "498",
+   "name": "Sporting Clube de Portugal",
+   "short": "SPO"
+  },
+  "away": {
+   "id": "66",
+   "name": "Manchester United FC",
+   "short": "MUN"
+  }
+ },
+ {
+  "id": "575407",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "78",
+   "name": "Club Atlético de Madrid",
+   "short": "ATL"
+  },
+  "away": {
+   "id": "5720",
+   "name": "Viking FK",
+   "short": "VIK"
   }
  }
 ]

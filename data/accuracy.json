@@ -1,22 +1,143 @@
 {
- "settled": 137,
+ "settled": 150,
  "outcome": {
-  "n": 137,
-  "hit": 75,
-  "rate": 0.5474452554744526
+  "n": 150,
+  "hit": 81,
+  "rate": 0.54
  },
  "correctScore": {
-  "n": 137,
-  "hit": 13,
-  "rate": 0.0948905109489051
+  "n": 150,
+  "hit": 16,
+  "rate": 0.10666666666666667
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-21T17:57:18.716Z",
+ "updatedAt": "2026-11-22T03:19:37.508Z",
  "tracked": [
+  {
+   "match": "Real Madrid CF v RC Celta de Vigo",
+   "lockedAt": "2026-11-20T13:52:27.091Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 2,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "SSC Napoli v Torino FC",
+   "lockedAt": "2026-11-20T13:51:12.781Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "AS Monaco FC v AJ Auxerre",
+   "lockedAt": "2026-11-20T13:51:31.288Z",
+   "pick": "H",
+   "score": "2-1",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Racing Club de Lens v Toulouse FC",
+   "lockedAt": "2026-11-20T13:52:08.504Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Lille OSC v Olympique Lyonnais",
+   "lockedAt": "2026-11-20T13:50:54.083Z",
+   "pick": "H",
+   "score": "0-0",
+   "actual": {
+    "home": 0,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "RC Strasbourg Alsace v Stade Brestois 29",
+   "lockedAt": "2026-11-20T13:51:49.884Z",
+   "pick": "A",
+   "score": "1-2",
+   "actual": {
+    "home": 0,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Newcastle United FC v Arsenal FC",
+   "lockedAt": "2026-11-20T13:50:35.438Z",
+   "pick": "A",
+   "score": "0-1",
+   "actual": {
+    "home": 2,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "Sevilla FC v Real Betis Balompié",
+   "lockedAt": "2026-11-20T13:50:05.249Z",
+   "pick": "A",
+   "score": "1-1",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "FC Schalke 04 v VfB Stuttgart",
+   "lockedAt": "2026-11-20T13:49:34.551Z",
+   "pick": "A",
+   "score": "0-0",
+   "actual": {
+    "home": 0,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Parma Calcio 1913 v AS Roma",
+   "lockedAt": "2026-11-20T13:49:07.698Z",
+   "pick": "A",
+   "score": "0-2",
+   "actual": {
+    "home": 1,
+    "away": 5
+   },
+   "scorers": []
+  },
+  {
+   "match": "OGC Nice v Paris Saint-Germain FC",
+   "lockedAt": "2026-11-20T13:48:32.343Z",
+   "pick": "A",
+   "score": "1-1",
+   "actual": {
+    "home": 2,
+    "away": 3
+   },
+   "scorers": []
+  },
   {
    "match": "Rayo Vallecano de Madrid v Valencia CF",
    "lockedAt": "2026-11-20T04:09:58.460Z",
@@ -36,6 +157,17 @@
    "actual": {
     "home": 1,
     "away": 4
+   },
+   "scorers": []
+  },
+  {
+   "match": "Aston Villa FC v Sunderland AFC",
+   "lockedAt": "2026-11-20T04:09:02.695Z",
+   "pick": "H",
+   "score": "2-1",
+   "actual": {
+    "home": 0,
+    "away": 0
    },
    "scorers": []
   },
@@ -80,6 +212,17 @@
    "actual": {
     "home": 4,
     "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "1. FC Union Berlin v RB Leipzig",
+   "lockedAt": "2026-11-20T04:07:11.007Z",
+   "pick": "A",
+   "score": "1-1",
+   "actual": {
+    "home": 1,
+    "away": 5
    },
    "scorers": []
   },
@@ -971,149 +1114,6 @@
    "actual": {
     "home": 2,
     "away": 4
-   },
-   "scorers": []
-  },
-  {
-   "match": "Athletic Club v Real Sociedad de Fútbol",
-   "lockedAt": "2026-10-31T10:46:33.246Z",
-   "pick": "H",
-   "score": "2-1",
-   "actual": {
-    "home": 2,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Juventus FC v SSC Napoli",
-   "lockedAt": "2026-10-31T10:46:14.643Z",
-   "pick": "A",
-   "score": "0-1",
-   "actual": {
-    "home": 2,
-    "away": 0
-   },
-   "scorers": []
-  },
-  {
-   "match": "Olympique de Marseille v Toulouse FC",
-   "lockedAt": "2026-10-31T10:45:56.288Z",
-   "pick": "H",
-   "score": "2-2",
-   "actual": {
-    "home": 2,
-    "away": 0
-   },
-   "scorers": []
-  },
-  {
-   "match": "Elche CF v Valencia CF",
-   "lockedAt": "2026-10-31T10:45:37.707Z",
-   "pick": "H",
-   "score": "1-1",
-   "actual": {
-    "home": 0,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "US Lecce v Genoa CFC",
-   "lockedAt": "2026-10-31T10:45:20.000Z",
-   "pick": "H",
-   "score": "1-0",
-   "actual": {
-    "home": 1,
-    "away": 2
-   },
-   "scorers": []
-  },
-  {
-   "match": "Liverpool FC v Arsenal FC",
-   "lockedAt": "2026-10-31T10:44:48.374Z",
-   "pick": "A",
-   "score": "0-1",
-   "actual": {
-    "home": 0,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Eintracht Frankfurt v Hamburger SV",
-   "lockedAt": "2026-10-31T10:44:17.388Z",
-   "pick": "H",
-   "score": "1-0",
-   "actual": {
-    "home": 3,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Olympique Lyonnais v Angers SCO",
-   "lockedAt": "2026-10-31T10:43:27.795Z",
-   "pick": "H",
-   "score": "2-0",
-   "actual": {
-    "home": 2,
-    "away": 0
-   },
-   "scorers": []
-  },
-  {
-   "match": "Paris FC v AS Monaco FC",
-   "lockedAt": "2026-10-31T10:43:45.973Z",
-   "pick": "H",
-   "score": "1-0",
-   "actual": {
-    "home": 3,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Real Racing Club de Santander v Real Madrid CF",
-   "lockedAt": "2026-10-31T10:42:57.320Z",
-   "pick": "A",
-   "score": "1-2",
-   "actual": {
-    "home": 0,
-    "away": 3
-   },
-   "scorers": []
-  },
-  {
-   "match": "1. FC Union Berlin v 1. FC Köln",
-   "lockedAt": "2026-10-31T02:36:14.824Z",
-   "pick": "H",
-   "score": "1-0",
-   "actual": {
-    "home": 1,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Frosinone Calcio v Torino FC",
-   "lockedAt": "2026-10-31T02:35:42.942Z",
-   "pick": "H",
-   "score": "2-1",
-   "actual": {
-    "home": 2,
-    "away": 0
-   },
-   "scorers": []
-  },
-  {
-   "match": "SS Lazio v Cagliari Calcio",
-   "lockedAt": "2026-10-31T02:35:24.402Z",
-   "pick": "H",
-   "score": "2-0",
-   "actual": {
-    "home": 2,
-    "away": 1
    },
    "scorers": []
   }
