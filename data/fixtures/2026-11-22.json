@@ -2,7 +2,7 @@
  {
   "id": "558521",
   "kickoffUtc": "2026-11-22T11:30:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "SA",
    "name": "Serie A",
@@ -37,26 +37,6 @@
    "id": "94",
    "name": "Villarreal CF",
    "short": "VIL"
-  }
- },
- {
-  "id": "559625",
-  "kickoffUtc": "2026-11-22T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "1045",
-   "name": "Paris FC",
-   "short": "PFC"
-  },
-  "away": {
-   "id": "532",
-   "name": "Angers SCO",
-   "short": "ANG"
   }
  },
  {
@@ -117,6 +97,26 @@
    "id": "107",
    "name": "Genoa CFC",
    "short": "GEN"
+  }
+ },
+ {
+  "id": "559625",
+  "kickoffUtc": "2026-11-22T14:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "1045",
+   "name": "Paris FC",
+   "short": "PFC"
+  },
+  "away": {
+   "id": "532",
+   "name": "Angers SCO",
+   "short": "ANG"
   }
  },
  {
@@ -260,26 +260,6 @@
   }
  },
  {
-  "id": "558520",
-  "kickoffUtc": "2026-11-22T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "102",
-   "name": "Atalanta BC",
-   "short": "ATA"
-  },
-  "away": {
-   "id": "108",
-   "name": "FC Internazionale Milano",
-   "short": "INT"
-  }
- },
- {
   "id": "559629",
   "kickoffUtc": "2026-11-22T19:45:00.000Z",
   "status": "scheduled",
@@ -297,6 +277,26 @@
    "id": "535",
    "name": "Le Mans FC",
    "short": "LMF"
+  }
+ },
+ {
+  "id": "558520",
+  "kickoffUtc": "2026-11-22T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "102",
+   "name": "Atalanta BC",
+   "short": "ATA"
+  },
+  "away": {
+   "id": "108",
+   "name": "FC Internazionale Milano",
+   "short": "INT"
   }
  },
  {

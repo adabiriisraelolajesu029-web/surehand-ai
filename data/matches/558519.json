@@ -1,0 +1,373 @@
+{
+ "fixtureId": "558519",
+ "kickoffUtc": "2026-11-23T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558519",
+   "kickoffUtc": "2026-11-23T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "5911",
+    "name": "AC Monza",
+    "short": "MON"
+   },
+   "away": {
+    "id": "99",
+    "name": "ACF Fiorentina",
+    "short": "FIO"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.605263157894737,
+   "awayGoals": 1.5
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Atalanta BC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Bologna FC 1909",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "SSC Napoli",
+     "venue": "H",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Juventus FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "A",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "Atalanta BC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "FC Internazionale Milano",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Como 1907",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 2,
+     "d": 1,
+     "l": 8,
+     "gf": 17,
+     "ga": 25
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 0,
+     "l": 3,
+     "gf": 9,
+     "ga": 9
+    },
+    "away": {
+     "p": 6,
+     "w": 0,
+     "d": 1,
+     "l": 5,
+     "gf": 8,
+     "ga": 16
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 2,
+     "d": 3,
+     "l": 6,
+     "gf": 17,
+     "ga": 25
+    },
+    "home": {
+     "p": 6,
+     "w": 0,
+     "d": 3,
+     "l": 3,
+     "gf": 7,
+     "ga": 13
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 0,
+     "l": 3,
+     "gf": 10,
+     "ga": 12
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2025-01-13",
+    "homeId": "5911",
+    "awayId": "99",
+    "home": "AC Monza",
+    "away": "ACF Fiorentina",
+    "hg": 2,
+    "ag": 1
+   },
+   {
+    "date": "2024-09-01",
+    "homeId": "99",
+    "awayId": "5911",
+    "home": "ACF Fiorentina",
+    "away": "AC Monza",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2024-05-13",
+    "homeId": "99",
+    "awayId": "5911",
+    "home": "ACF Fiorentina",
+    "away": "AC Monza",
+    "hg": 2,
+    "ag": 1
+   },
+   {
+    "date": "2023-12-22",
+    "homeId": "5911",
+    "awayId": "99",
+    "home": "AC Monza",
+    "away": "ACF Fiorentina",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2023-04-23",
+    "homeId": "5911",
+    "awayId": "99",
+    "home": "AC Monza",
+    "away": "ACF Fiorentina",
+    "hg": 3,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "252836",
+    "name": "Gustavo Varela",
+    "team": "AC Monza",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 9,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "265567",
+    "name": "Jay Robinson",
+    "team": "AC Monza",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "157538",
+    "name": "Mateo Pellegrino",
+    "team": "ACF Fiorentina",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "250304",
+    "name": "Franco Mastantuono",
+    "team": "ACF Fiorentina",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "246508",
+    "name": "Alieu Njie",
+    "team": "ACF Fiorentina",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.441,
+   "draw": 0.186,
+   "awayWin": 0.373,
+   "pick": "H",
+   "confidence": 0.441,
+   "reasoning": "Poisson model: expected goals AC Monza 2.53 vs ACF Fiorentina 2.34, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "AC Monza at home: 2W-0D-3L, 9 scored and 9 conceded in 5 games.",
+    "ACF Fiorentina away: 2W-0D-3L, 10 scored and 12 conceded in 5 games.",
+    "League averages this season: home teams 1.61 goals per game, away teams 1.50.",
+    "Recent league form (newest first): AC Monza LLLLW, ACF Fiorentina DWDLL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Monza has 5 home games and ACF Fiorentina 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "252836",
+    "name": "Gustavo Varela",
+    "team": "AC Monza",
+    "probability": 0.7,
+    "confidence": 0.4,
+    "reasoning": "9 of AC Monza's 17 league goals this season (50%), applied to the 2.53 goals the model expects from them here.",
+    "evidence": [
+     "Gustavo Varela: 9 league goals in 10 appearances this season.",
+     "AC Monza have scored 17 league goals in 11 games; the model expects 2.53 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "157538",
+    "name": "Mateo Pellegrino",
+    "team": "ACF Fiorentina",
+    "probability": 0.423,
+    "confidence": 0.338,
+    "reasoning": "4 of ACF Fiorentina's 17 league goals this season (24%), applied to the 2.34 goals the model expects from them here.",
+    "evidence": [
+     "Mateo Pellegrino: 4 league goals in 11 appearances this season.",
+     "ACF Fiorentina have scored 17 league goals in 11 games; the model expects 2.34 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "250304",
+    "name": "Franco Mastantuono",
+    "team": "ACF Fiorentina",
+    "probability": 0.423,
+    "confidence": 0.338,
+    "reasoning": "4 of ACF Fiorentina's 17 league goals this season (24%), applied to the 2.34 goals the model expects from them here.",
+    "evidence": [
+     "Franco Mastantuono: 4 league goals in 11 appearances this season.",
+     "ACF Fiorentina have scored 17 league goals in 11 games; the model expects 2.34 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-2",
+    "probability": 0.067
+   },
+   "alternatives": [
+    {
+     "score": "2-1",
+     "probability": 0.058
+    },
+    {
+     "score": "3-2",
+     "probability": 0.057
+    },
+    {
+     "score": "1-2",
+     "probability": 0.053
+    }
+   ],
+   "confidence": 0.168,
+   "reasoning": "2–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.53 (AC Monza) and 2.34 (ACF Fiorentina).",
+    "Top scorelines: 2-2 (6.7%), 2-1 (5.8%), 3-2 (5.7%), 1-2 (5.3%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AC Monza has 5 home games and ACF Fiorentina 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-22T13:01:42.821Z",
+ "lockedAt": "2026-11-22T13:02:17.228Z",
+ "result": null
+}

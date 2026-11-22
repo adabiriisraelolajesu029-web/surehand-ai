@@ -1,0 +1,389 @@
+[
+ {
+  "fixture": {
+   "id": "558519",
+   "kickoffUtc": "2026-11-23T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "5911",
+    "name": "AC Monza",
+    "short": "MON"
+   },
+   "away": {
+    "id": "99",
+    "name": "ACF Fiorentina",
+    "short": "FIO"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.441,
+    "draw": 0.186,
+    "awayWin": 0.373,
+    "pick": "H",
+    "confidence": 0.441,
+    "reasoning": "Poisson model: expected goals AC Monza 2.53 vs ACF Fiorentina 2.34, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "AC Monza at home: 2W-0D-3L, 9 scored and 9 conceded in 5 games.",
+     "ACF Fiorentina away: 2W-0D-3L, 10 scored and 12 conceded in 5 games.",
+     "League averages this season: home teams 1.61 goals per game, away teams 1.50.",
+     "Recent league form (newest first): AC Monza LLLLW, ACF Fiorentina DWDLL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: AC Monza has 5 home games and ACF Fiorentina 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "252836",
+     "name": "Gustavo Varela",
+     "team": "AC Monza",
+     "probability": 0.7,
+     "confidence": 0.4,
+     "reasoning": "9 of AC Monza's 17 league goals this season (50%), applied to the 2.53 goals the model expects from them here.",
+     "evidence": [
+      "Gustavo Varela: 9 league goals in 10 appearances this season.",
+      "AC Monza have scored 17 league goals in 11 games; the model expects 2.53 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "157538",
+     "name": "Mateo Pellegrino",
+     "team": "ACF Fiorentina",
+     "probability": 0.423,
+     "confidence": 0.338,
+     "reasoning": "4 of ACF Fiorentina's 17 league goals this season (24%), applied to the 2.34 goals the model expects from them here.",
+     "evidence": [
+      "Mateo Pellegrino: 4 league goals in 11 appearances this season.",
+      "ACF Fiorentina have scored 17 league goals in 11 games; the model expects 2.34 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "250304",
+     "name": "Franco Mastantuono",
+     "team": "ACF Fiorentina",
+     "probability": 0.423,
+     "confidence": 0.338,
+     "reasoning": "4 of ACF Fiorentina's 17 league goals this season (24%), applied to the 2.34 goals the model expects from them here.",
+     "evidence": [
+      "Franco Mastantuono: 4 league goals in 11 appearances this season.",
+      "ACF Fiorentina have scored 17 league goals in 11 games; the model expects 2.34 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "2-2",
+     "probability": 0.067
+    },
+    "alternatives": [
+     {
+      "score": "2-1",
+      "probability": 0.058
+     },
+     {
+      "score": "3-2",
+      "probability": 0.057
+     },
+     {
+      "score": "1-2",
+      "probability": 0.053
+     }
+    ],
+    "confidence": 0.168,
+    "reasoning": "2–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 2.53 (AC Monza) and 2.34 (ACF Fiorentina).",
+     "Top scorelines: 2-2 (6.7%), 2-1 (5.8%), 3-2 (5.7%), 1-2 (5.3%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: AC Monza has 5 home games and ACF Fiorentina 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-22T13:02:17.228Z"
+ },
+ {
+  "fixture": {
+   "id": "560649",
+   "kickoffUtc": "2026-11-23T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "402",
+    "name": "Brentford FC",
+    "short": "BRE"
+   },
+   "away": {
+    "id": "62",
+    "name": "Everton FC",
+    "short": "EVE"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.546,
+    "draw": 0.29,
+    "awayWin": 0.164,
+    "pick": "H",
+    "confidence": 0.546,
+    "reasoning": "Poisson model: expected goals Brentford FC 1.31 vs Everton FC 0.58, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Brentford FC at home: 3W-1D-1L, 10 scored and 3 conceded in 5 games.",
+     "Everton FC away: 1W-3D-1L, 4 scored and 5 conceded in 5 games.",
+     "League averages this season: home teams 1.53 goals per game, away teams 1.21.",
+     "Recent league form (newest first): Brentford FC LWDLD, Everton FC WWLLD (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Brentford FC has 5 home games and Everton FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "171995",
+     "name": "Thierno Barry",
+     "team": "Everton FC",
+     "probability": 0.251,
+     "confidence": 0.201,
+     "reasoning": "6 of Everton FC's 12 league goals this season (50%), applied to the 0.58 goals the model expects from them here.",
+     "evidence": [
+      "Thierno Barry: 6 league goals in 10 appearances this season.",
+      "Everton FC have scored 12 league goals in 10 games; the model expects 0.58 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "123286",
+     "name": "Kevin Schade",
+     "team": "Brentford FC",
+     "probability": 0.218,
+     "confidence": 0.174,
+     "reasoning": "3 of Brentford FC's 16 league goals this season (19%), applied to the 1.31 goals the model expects from them here.",
+     "evidence": [
+      "Kevin Schade: 3 league goals in 10 appearances this season.",
+      "Brentford FC have scored 16 league goals in 10 games; the model expects 1.31 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "101910",
+     "name": "Keane Lewis-Potter",
+     "team": "Brentford FC",
+     "probability": 0.151,
+     "confidence": 0.121,
+     "reasoning": "2 of Brentford FC's 16 league goals this season (13%), applied to the 1.31 goals the model expects from them here.",
+     "evidence": [
+      "Keane Lewis-Potter: 2 league goals in 10 appearances this season.",
+      "Brentford FC have scored 16 league goals in 10 games; the model expects 1.31 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-0",
+     "probability": 0.198
+    },
+    "alternatives": [
+     {
+      "score": "0-0",
+      "probability": 0.151
+     },
+     {
+      "score": "2-0",
+      "probability": 0.13
+     },
+     {
+      "score": "1-1",
+      "probability": 0.115
+     }
+    ],
+    "confidence": 0.3,
+    "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.31 (Brentford FC) and 0.58 (Everton FC).",
+     "Top scorelines: 1-0 (19.8%), 0-0 (15.1%), 2-0 (13.0%), 1-1 (11.5%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Brentford FC has 5 home games and Everton FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-22T13:03:16.688Z"
+ },
+ {
+  "fixture": {
+   "id": "564757",
+   "kickoffUtc": "2026-11-23T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "88",
+    "name": "Levante UD",
+    "short": "LEV"
+   },
+   "away": {
+    "id": "285",
+    "name": "Elche CF",
+    "short": "ELC"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.307,
+    "draw": 0.201,
+    "awayWin": 0.492,
+    "pick": "A",
+    "confidence": 0.492,
+    "reasoning": "Poisson model: expected goals Levante UD 1.77 vs Elche CF 2.26, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Levante UD at home: 2W-1D-2L, 13 scored and 12 conceded in 5 games.",
+     "Elche CF away: 2W-3D-1L, 10 scored and 6 conceded in 6 games.",
+     "League averages this season: home teams 1.60 goals per game, away teams 1.27.",
+     "Recent league form (newest first): Levante UD DLLWD, Elche CF LLWDD (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Levante UD has 5 home games and Elche CF 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "214497",
+     "name": "Fer Niño",
+     "team": "Elche CF",
+     "probability": 0.62,
+     "confidence": 0.4,
+     "reasoning": "6 of Elche CF's 14 league goals this season (43%), applied to the 2.26 goals the model expects from them here.",
+     "evidence": [
+      "Fer Niño: 6 league goals in 12 appearances this season.",
+      "Elche CF have scored 14 league goals in 12 games; the model expects 2.26 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "180282",
+     "name": "Brugui",
+     "team": "Levante UD",
+     "probability": 0.425,
+     "confidence": 0.34,
+     "reasoning": "5 of Levante UD's 16 league goals this season (31%), applied to the 1.77 goals the model expects from them here.",
+     "evidence": [
+      "Brugui: 5 league goals in 11 appearances this season.",
+      "Levante UD have scored 16 league goals in 12 games; the model expects 1.77 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "156746",
+     "name": "Iván Romero",
+     "team": "Levante UD",
+     "probability": 0.283,
+     "confidence": 0.226,
+     "reasoning": "3 of Levante UD's 16 league goals this season (19%), applied to the 1.77 goals the model expects from them here.",
+     "evidence": [
+      "Iván Romero: 3 league goals in 12 appearances this season.",
+      "Levante UD have scored 16 league goals in 12 games; the model expects 1.77 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-2",
+     "probability": 0.08
+    },
+    "alternatives": [
+     {
+      "score": "1-1",
+      "probability": 0.071
+     },
+     {
+      "score": "2-2",
+      "probability": 0.071
+     },
+     {
+      "score": "2-1",
+      "probability": 0.063
+     }
+    ],
+    "confidence": 0.201,
+    "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.77 (Levante UD) and 2.26 (Elche CF).",
+     "Top scorelines: 1-2 (8.0%), 1-1 (7.1%), 2-2 (7.1%), 2-1 (6.3%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Levante UD has 5 home games and Elche CF 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-22T13:02:45.528Z"
+ }
+]
