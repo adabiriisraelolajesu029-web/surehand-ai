@@ -2,7 +2,7 @@
  {
   "id": "558521",
   "kickoffUtc": "2026-11-22T11:30:00.000Z",
-  "status": "live",
+  "status": "finished",
   "league": {
    "id": "SA",
    "name": "Serie A",
@@ -22,7 +22,7 @@
  {
   "id": "564749",
   "kickoffUtc": "2026-11-22T13:00:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "PD",
    "name": "Primera Division",
@@ -40,49 +40,9 @@
   }
  },
  {
-  "id": "560646",
-  "kickoffUtc": "2026-11-22T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "322",
-   "name": "Hull City AFC",
-   "short": "HUL"
-  },
-  "away": {
-   "id": "397",
-   "name": "Brighton & Hove Albion FC",
-   "short": "BHA"
-  }
- },
- {
-  "id": "558522",
-  "kickoffUtc": "2026-11-22T14:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "103",
-   "name": "Bologna FC 1909",
-   "short": "BOL"
-  },
-  "away": {
-   "id": "115",
-   "name": "Udinese Calcio",
-   "short": "UDI"
-  }
- },
- {
   "id": "558524",
   "kickoffUtc": "2026-11-22T14:00:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "SA",
    "name": "Serie A",
@@ -102,7 +62,7 @@
  {
   "id": "559625",
   "kickoffUtc": "2026-11-22T14:00:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "FL1",
    "name": "Ligue 1",
@@ -120,9 +80,49 @@
   }
  },
  {
+  "id": "560646",
+  "kickoffUtc": "2026-11-22T14:00:00.000Z",
+  "status": "finished",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "322",
+   "name": "Hull City AFC",
+   "short": "HUL"
+  },
+  "away": {
+   "id": "397",
+   "name": "Brighton & Hove Albion FC",
+   "short": "BHA"
+  }
+ },
+ {
+  "id": "558522",
+  "kickoffUtc": "2026-11-22T14:00:00.000Z",
+  "status": "finished",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "103",
+   "name": "Bologna FC 1909",
+   "short": "BOL"
+  },
+  "away": {
+   "id": "115",
+   "name": "Udinese Calcio",
+   "short": "UDI"
+  }
+ },
+ {
   "id": "565864",
   "kickoffUtc": "2026-11-22T14:30:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "BL1",
    "name": "Bundesliga",
@@ -142,7 +142,7 @@
  {
   "id": "564750",
   "kickoffUtc": "2026-11-22T15:15:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "PD",
    "name": "Primera Division",
@@ -162,7 +162,7 @@
  {
   "id": "559626",
   "kickoffUtc": "2026-11-22T16:15:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "FL1",
    "name": "Ligue 1",
@@ -182,7 +182,7 @@
  {
   "id": "560645",
   "kickoffUtc": "2026-11-22T16:30:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "PL",
    "name": "Premier League",
@@ -202,7 +202,7 @@
  {
   "id": "565863",
   "kickoffUtc": "2026-11-22T16:30:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "BL1",
    "name": "Bundesliga",
@@ -222,7 +222,7 @@
  {
   "id": "558523",
   "kickoffUtc": "2026-11-22T17:00:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "SA",
    "name": "Serie A",
@@ -242,7 +242,7 @@
  {
   "id": "564752",
   "kickoffUtc": "2026-11-22T17:30:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "PD",
    "name": "Primera Division",

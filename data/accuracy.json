@@ -1,22 +1,88 @@
 {
- "settled": 150,
+ "settled": 156,
  "outcome": {
-  "n": 150,
-  "hit": 81,
-  "rate": 0.54
+  "n": 156,
+  "hit": 83,
+  "rate": 0.532051282051282
  },
  "correctScore": {
-  "n": 150,
-  "hit": 16,
-  "rate": 0.10666666666666667
+  "n": 156,
+  "hit": 17,
+  "rate": 0.10897435897435898
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-22T13:03:39.981Z",
+ "updatedAt": "2026-11-22T18:23:06.777Z",
  "tracked": [
+  {
+   "match": "Real Racing Club de Santander v Real Sociedad de Fútbol",
+   "lockedAt": "2026-11-21T04:09:26.914Z",
+   "pick": "A",
+   "score": "2-2",
+   "actual": {
+    "home": 3,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "FC Augsburg v 1. FSV Mainz 05",
+   "lockedAt": "2026-11-21T04:09:09.587Z",
+   "pick": "A",
+   "score": "2-2",
+   "actual": {
+    "home": 3,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Bologna FC 1909 v Udinese Calcio",
+   "lockedAt": "2026-11-21T04:07:16.656Z",
+   "pick": "H",
+   "score": "1-1",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Paris FC v Angers SCO",
+   "lockedAt": "2026-11-21T04:08:06.749Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 4,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Hull City AFC v Brighton & Hove Albion FC",
+   "lockedAt": "2026-11-21T04:08:38.287Z",
+   "pick": "A",
+   "score": "0-1",
+   "actual": {
+    "home": 2,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Juventus FC v Venezia FC",
+   "lockedAt": "2026-11-21T04:06:27.466Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 4,
+    "away": 0
+   },
+   "scorers": []
+  },
   {
    "match": "Real Madrid CF v RC Celta de Vigo",
    "lockedAt": "2026-11-20T13:52:27.091Z",
@@ -1048,72 +1114,6 @@
    "actual": {
     "home": 0,
     "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Galatasaray SK v VfB Stuttgart",
-   "lockedAt": "2026-11-02T13:03:18.453Z",
-   "pick": "A",
-   "score": "0-2",
-   "actual": {
-    "home": 2,
-    "away": 0
-   },
-   "scorers": []
-  },
-  {
-   "match": "Newcastle United FC v Everton FC",
-   "lockedAt": "2026-11-01T11:40:39.459Z",
-   "pick": "H",
-   "score": "1-1",
-   "actual": {
-    "home": 0,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "RC Deportivo La Coruña v CA Osasuna",
-   "lockedAt": "2026-11-01T11:40:10.635Z",
-   "pick": "H",
-   "score": "2-0",
-   "actual": {
-    "home": 2,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Atalanta BC v Parma Calcio 1913",
-   "lockedAt": "2026-11-01T11:39:05.643Z",
-   "pick": "H",
-   "score": "2-0",
-   "actual": {
-    "home": 0,
-    "away": 3
-   },
-   "scorers": []
-  },
-  {
-   "match": "FC Lorient v Stade Brestois 29",
-   "lockedAt": "2026-11-01T11:39:37.382Z",
-   "pick": "H",
-   "score": "1-0",
-   "actual": {
-    "home": 0,
-    "away": 2
-   },
-   "scorers": []
-  },
-  {
-   "match": "US Sassuolo Calcio v ACF Fiorentina",
-   "lockedAt": "2026-11-01T11:38:50.603Z",
-   "pick": "H",
-   "score": "2-2",
-   "actual": {
-    "home": 2,
-    "away": 4
    },
    "scorers": []
   }

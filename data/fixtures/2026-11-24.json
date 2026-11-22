@@ -40,46 +40,6 @@
   }
  },
  {
-  "id": "575403",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "7397",
-   "name": "Como 1907",
-   "short": "COM"
-  },
-  "away": {
-   "id": "1899",
-   "name": "PAE AEK",
-   "short": "AEK"
-  }
- },
- {
-  "id": "575399",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "57",
-   "name": "Arsenal FC",
-   "short": "ARS"
-  },
-  "away": {
-   "id": "4",
-   "name": "Borussia Dortmund",
-   "short": "BVB"
-  }
- },
- {
   "id": "575401",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
   "status": "scheduled",
@@ -120,6 +80,66 @@
   }
  },
  {
+  "id": "575403",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "7397",
+   "name": "Como 1907",
+   "short": "COM"
+  },
+  "away": {
+   "id": "1899",
+   "name": "PAE AEK",
+   "short": "AEK"
+  }
+ },
+ {
+  "id": "575399",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "57",
+   "name": "Arsenal FC",
+   "short": "ARS"
+  },
+  "away": {
+   "id": "4",
+   "name": "Borussia Dortmund",
+   "short": "BVB"
+  }
+ },
+ {
+  "id": "575402",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "721",
+   "name": "RB Leipzig",
+   "short": "RBL"
+  },
+  "away": {
+   "id": "546",
+   "name": "Racing Club de Lens",
+   "short": "RCL"
+  }
+ },
+ {
   "id": "575398",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
   "status": "scheduled",
@@ -157,26 +177,6 @@
    "id": "503",
    "name": "FC Porto",
    "short": "FCP"
-  }
- },
- {
-  "id": "575402",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "721",
-   "name": "RB Leipzig",
-   "short": "RBL"
-  },
-  "away": {
-   "id": "546",
-   "name": "Racing Club de Lens",
-   "short": "RCL"
   }
  }
 ]
