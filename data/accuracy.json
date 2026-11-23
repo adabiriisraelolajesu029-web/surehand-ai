@@ -1,22 +1,33 @@
 {
- "settled": 166,
+ "settled": 167,
  "outcome": {
-  "n": 166,
-  "hit": 89,
-  "rate": 0.536144578313253
+  "n": 167,
+  "hit": 90,
+  "rate": 0.5389221556886228
  },
  "correctScore": {
-  "n": 166,
+  "n": 167,
   "hit": 19,
-  "rate": 0.1144578313253012
+  "rate": 0.11377245508982035
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-23T15:42:11.966Z",
+ "updatedAt": "2026-11-23T22:30:21.891Z",
  "tracked": [
+  {
+   "match": "AC Monza v ACF Fiorentina",
+   "lockedAt": "2026-11-22T13:02:17.228Z",
+   "pick": "H",
+   "score": "2-2",
+   "actual": {
+    "home": 3,
+    "away": 0
+   },
+   "scorers": []
+  },
   {
    "match": "Getafe CF v Club Atlético de Madrid",
    "lockedAt": "2026-11-21T13:16:38.715Z",
@@ -1103,17 +1114,6 @@
    "actual": {
     "home": 1,
     "away": 9
-   },
-   "scorers": []
-  },
-  {
-   "match": "Viking FK v Sabah FK",
-   "lockedAt": "2026-11-03T12:38:03.132Z",
-   "pick": "H",
-   "score": "2-0",
-   "actual": {
-    "home": 4,
-    "away": 1
    },
    "scorers": []
   }

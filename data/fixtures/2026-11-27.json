@@ -20,26 +20,6 @@
   }
  },
  {
-  "id": "558515",
-  "kickoffUtc": "2026-11-27T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "454",
-   "name": "Venezia FC",
-   "short": "VEN"
-  },
-  "away": {
-   "id": "103",
-   "name": "Bologna FC 1909",
-   "short": "BOL"
-  }
- },
- {
   "id": "559616",
   "kickoffUtc": "2026-11-27T19:45:00.000Z",
   "status": "scheduled",
@@ -60,23 +40,23 @@
   }
  },
  {
-  "id": "564765",
-  "kickoffUtc": "2026-11-27T20:00:00.000Z",
+  "id": "558515",
+  "kickoffUtc": "2026-11-27T19:45:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PD",
-   "name": "Primera Division",
-   "country": "Spain"
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
   },
   "home": {
-   "id": "88",
-   "name": "Levante UD",
-   "short": "LEV"
+   "id": "454",
+   "name": "Venezia FC",
+   "short": "VEN"
   },
   "away": {
-   "id": "5335",
-   "name": "Real Racing Club de Santander",
-   "short": "SAN"
+   "id": "103",
+   "name": "Bologna FC 1909",
+   "short": "BOL"
   }
  },
  {
@@ -97,6 +77,26 @@
    "id": "61",
    "name": "Chelsea FC",
    "short": "CHE"
+  }
+ },
+ {
+  "id": "564765",
+  "kickoffUtc": "2026-11-27T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "88",
+   "name": "Levante UD",
+   "short": "LEV"
+  },
+  "away": {
+   "id": "5335",
+   "name": "Real Racing Club de Santander",
+   "short": "SAN"
   }
  }
 ]
