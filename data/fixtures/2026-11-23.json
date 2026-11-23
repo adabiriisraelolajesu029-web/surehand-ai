@@ -20,26 +20,6 @@
   }
  },
  {
-  "id": "564757",
-  "kickoffUtc": "2026-11-23T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PD",
-   "name": "Primera Division",
-   "country": "Spain"
-  },
-  "home": {
-   "id": "88",
-   "name": "Levante UD",
-   "short": "LEV"
-  },
-  "away": {
-   "id": "285",
-   "name": "Elche CF",
-   "short": "ELC"
-  }
- },
- {
   "id": "560649",
   "kickoffUtc": "2026-11-23T20:00:00.000Z",
   "status": "scheduled",
@@ -57,6 +37,26 @@
    "id": "62",
    "name": "Everton FC",
    "short": "EVE"
+  }
+ },
+ {
+  "id": "564757",
+  "kickoffUtc": "2026-11-23T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "88",
+   "name": "Levante UD",
+   "short": "LEV"
+  },
+  "away": {
+   "id": "285",
+   "name": "Elche CF",
+   "short": "ELC"
   }
  }
 ]

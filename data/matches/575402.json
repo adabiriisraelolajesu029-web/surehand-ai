@@ -1,0 +1,240 @@
+{
+ "fixtureId": "575402",
+ "kickoffUtc": "2026-11-24T20:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "575402",
+   "kickoffUtc": "2026-11-24T20:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "721",
+    "name": "RB Leipzig",
+    "short": "RBL"
+   },
+   "away": {
+    "id": "546",
+    "name": "Racing Club de Lens",
+    "short": "RCL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.3194444444444446,
+   "awayGoals": 1.7222222222222223
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Manchester City FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Real Madrid CF",
+     "venue": "A",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "PSV",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Como 1907",
+     "venue": "A",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Como 1907",
+     "venue": "H",
+     "gf": 1,
+     "ga": 9,
+     "res": "L"
+    },
+    {
+     "opp": "Club Brugge KV",
+     "venue": "A",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Sporting Clube de Portugal",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "SK Slavia Praha",
+     "venue": "A",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 4,
+     "w": 1,
+     "d": 0,
+     "l": 3,
+     "gf": 5,
+     "ga": 11
+    },
+    "home": {
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 3,
+     "ga": 3
+    },
+    "away": {
+     "p": 2,
+     "w": 0,
+     "d": 0,
+     "l": 2,
+     "gf": 2,
+     "ga": 8
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 4,
+     "w": 1,
+     "d": 0,
+     "l": 3,
+     "gf": 4,
+     "ga": 16
+    },
+    "home": {
+     "p": 2,
+     "w": 0,
+     "d": 0,
+     "l": 2,
+     "gf": 1,
+     "ga": 11
+    },
+    "away": {
+     "p": 2,
+     "w": 1,
+     "d": 0,
+     "l": 1,
+     "gf": 3,
+     "ga": 5
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [],
+  "away": [
+   {
+    "id": "8372",
+    "name": "Ruben Aguilar",
+    "team": "Racing Club de Lens",
+    "pos": "Defence",
+    "apps": 4,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.63,
+   "draw": 0.184,
+   "awayWin": 0.186,
+   "pick": "H",
+   "confidence": 0.479,
+   "reasoning": "Poisson model: expected goals RB Leipzig 2.45 vs Racing Club de Lens 1.28, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "RB Leipzig at home: 1W-0D-1L, 3 scored and 3 conceded in 2 games.",
+    "Racing Club de Lens away: 1W-0D-1L, 3 scored and 5 conceded in 2 games.",
+    "League averages this season: home teams 2.32 goals per game, away teams 1.72.",
+    "Recent league form (newest first): RB Leipzig LLWL, Racing Club de Lens LLLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: RB Leipzig has 2 home games and Racing Club de Lens 2 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "8372",
+    "name": "Ruben Aguilar",
+    "team": "Racing Club de Lens",
+    "probability": 0.472,
+    "confidence": 0.265,
+    "reasoning": "2 of Racing Club de Lens's 4 league goals this season (50%), applied to the 1.28 goals the model expects from them here.",
+    "evidence": [
+     "Ruben Aguilar: 2 league goals in 4 appearances this season.",
+     "Racing Club de Lens have scored 4 league goals in 4 games; the model expects 1.28 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-1",
+    "probability": 0.092
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.076
+    },
+    {
+     "score": "3-1",
+     "probability": 0.075
+    },
+    {
+     "score": "2-0",
+     "probability": 0.072
+    }
+   ],
+   "confidence": 0.092,
+   "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.45 (RB Leipzig) and 1.28 (Racing Club de Lens).",
+    "Top scorelines: 2-1 (9.2%), 1-1 (7.6%), 3-1 (7.5%), 2-0 (7.2%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: RB Leipzig has 2 home games and Racing Club de Lens 2 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-23T15:39:53.993Z",
+ "lockedAt": "2026-11-23T15:40:12.624Z",
+ "result": null
+}

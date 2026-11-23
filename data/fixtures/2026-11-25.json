@@ -100,26 +100,6 @@
   }
  },
  {
-  "id": "575408",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "524",
-   "name": "Paris Saint-Germain FC",
-   "short": "PSG"
-  },
-  "away": {
-   "id": "100",
-   "name": "AS Roma",
-   "short": "ROM"
-  }
- },
- {
   "id": "575410",
   "kickoffUtc": "2026-11-25T20:00:00.000Z",
   "status": "scheduled",
@@ -177,6 +157,26 @@
    "id": "613",
    "name": "Fenerbahçe SK",
    "short": "FEN"
+  }
+ },
+ {
+  "id": "575408",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  },
+  "away": {
+   "id": "100",
+   "name": "AS Roma",
+   "short": "ROM"
   }
  }
 ]
