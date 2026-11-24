@@ -2,7 +2,7 @@
  {
   "id": "575395",
   "kickoffUtc": "2026-11-24T17:45:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "CL",
    "name": "UEFA Champions League",
@@ -22,7 +22,7 @@
  {
   "id": "575396",
   "kickoffUtc": "2026-11-24T17:45:00.000Z",
-  "status": "scheduled",
+  "status": "finished",
   "league": {
    "id": "CL",
    "name": "UEFA Champions League",
@@ -40,9 +40,29 @@
   }
  },
  {
+  "id": "575399",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "live",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "57",
+   "name": "Arsenal FC",
+   "short": "ARS"
+  },
+  "away": {
+   "id": "4",
+   "name": "Borussia Dortmund",
+   "short": "BVB"
+  }
+ },
+ {
   "id": "575401",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "CL",
    "name": "UEFA Champions League",
@@ -62,7 +82,7 @@
  {
   "id": "575397",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "CL",
    "name": "UEFA Champions League",
@@ -82,7 +102,7 @@
  {
   "id": "575403",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "CL",
    "name": "UEFA Champions League",
@@ -100,29 +120,29 @@
   }
  },
  {
-  "id": "575399",
+  "id": "575400",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "CL",
    "name": "UEFA Champions League",
    "country": "Europe"
   },
   "home": {
-   "id": "57",
-   "name": "Arsenal FC",
-   "short": "ARS"
+   "id": "675",
+   "name": "Feyenoord Rotterdam",
+   "short": "FEY"
   },
   "away": {
-   "id": "4",
-   "name": "Borussia Dortmund",
-   "short": "BVB"
+   "id": "503",
+   "name": "FC Porto",
+   "short": "FCP"
   }
  },
  {
   "id": "575402",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "CL",
    "name": "UEFA Champions League",
@@ -142,7 +162,7 @@
  {
   "id": "575398",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "CL",
    "name": "UEFA Champions League",
@@ -157,26 +177,6 @@
    "id": "113",
    "name": "SSC Napoli",
    "short": "NAP"
-  }
- },
- {
-  "id": "575400",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "675",
-   "name": "Feyenoord Rotterdam",
-   "short": "FEY"
-  },
-  "away": {
-   "id": "503",
-   "name": "FC Porto",
-   "short": "FCP"
   }
  }
 ]

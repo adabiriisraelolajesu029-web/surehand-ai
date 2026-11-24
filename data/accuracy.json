@@ -1,22 +1,44 @@
 {
- "settled": 169,
+ "settled": 171,
  "outcome": {
-  "n": 169,
+  "n": 171,
   "hit": 91,
-  "rate": 0.5384615384615384
+  "rate": 0.5321637426900585
  },
  "correctScore": {
-  "n": 169,
+  "n": 171,
   "hit": 19,
-  "rate": 0.11242603550295859
+  "rate": 0.1111111111111111
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-24T15:31:54.022Z",
+ "updatedAt": "2026-11-24T21:02:49.011Z",
  "tracked": [
+  {
+   "match": "Galatasaray SK v Aston Villa FC",
+   "lockedAt": "2026-11-23T15:39:35.464Z",
+   "pick": "A",
+   "score": "1-2",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "FK Bodø/Glimt v LASK Linz",
+   "lockedAt": "2026-11-23T15:39:17.524Z",
+   "pick": "A",
+   "score": "0-1",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
   {
    "match": "Brentford FC v Everton FC",
    "lockedAt": "2026-11-22T13:03:16.688Z",
@@ -1092,28 +1114,6 @@
    "actual": {
     "home": 1,
     "away": 2
-   },
-   "scorers": []
-  },
-  {
-   "match": "PSV v Club Brugge KV",
-   "lockedAt": "2026-11-03T12:38:21.737Z",
-   "pick": "A",
-   "score": "0-1",
-   "actual": {
-    "home": 1,
-    "away": 2
-   },
-   "scorers": []
-  },
-  {
-   "match": "Borussia Dortmund v Real Betis Balompié",
-   "lockedAt": "2026-11-03T12:37:07.394Z",
-   "pick": "A",
-   "score": "1-1",
-   "actual": {
-    "home": 2,
-    "away": 1
    },
    "scorers": []
   }
