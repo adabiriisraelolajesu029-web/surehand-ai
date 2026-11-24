@@ -1,0 +1,264 @@
+[
+ {
+  "fixture": {
+   "id": "575404",
+   "kickoffUtc": "2026-11-25T17:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "10233",
+    "name": "Sabah FK",
+    "short": "SAB"
+   },
+   "away": {
+    "id": "81",
+    "name": "FC Barcelona",
+    "short": "FCB"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.105,
+    "draw": 0.136,
+    "awayWin": 0.759,
+    "pick": "A",
+    "confidence": 0.577,
+    "reasoning": "Poisson model: expected goals Sabah FK 1.08 vs FC Barcelona 3.00, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Sabah FK at home: 1W-0D-1L, 3 scored and 2 conceded in 2 games.",
+     "FC Barcelona away: 1W-0D-1L, 6 scored and 5 conceded in 2 games.",
+     "League averages this season: home teams 2.32 goals per game, away teams 1.72.",
+     "Recent league form (newest first): Sabah FK LLWL, FC Barcelona WLWW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Sabah FK has 2 home games and FC Barcelona 2 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "37428",
+     "name": "Raphinha",
+     "team": "FC Barcelona",
+     "probability": 0.576,
+     "confidence": 0.28,
+     "reasoning": "4 of FC Barcelona's 14 league goals this season (29%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Raphinha: 4 league goals in 3 appearances this season.",
+      "FC Barcelona have scored 14 league goals in 4 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "202283",
+     "name": "Lamine Yamal",
+     "team": "FC Barcelona",
+     "probability": 0.474,
+     "confidence": 0.266,
+     "reasoning": "3 of FC Barcelona's 14 league goals this season (21%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Lamine Yamal: 3 league goals in 4 appearances this season.",
+      "FC Barcelona have scored 14 league goals in 4 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "82515",
+     "name": "Karim Adeyemi",
+     "team": "FC Barcelona",
+     "probability": 0.349,
+     "confidence": 0.195,
+     "reasoning": "2 of FC Barcelona's 14 league goals this season (14%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Karim Adeyemi: 2 league goals in 4 appearances this season.",
+      "FC Barcelona have scored 14 league goals in 4 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-2",
+     "probability": 0.082
+    },
+    "alternatives": [
+     {
+      "score": "1-3",
+      "probability": 0.082
+     },
+     {
+      "score": "0-2",
+      "probability": 0.076
+     },
+     {
+      "score": "0-3",
+      "probability": 0.076
+     }
+    ],
+    "confidence": 0.082,
+    "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.08 (Sabah FK) and 3.00 (FC Barcelona).",
+     "Top scorelines: 1-2 (8.2%), 1-3 (8.2%), 0-2 (7.6%), 0-3 (7.6%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Sabah FK has 2 home games and FC Barcelona 2 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-24T07:00:46.246Z"
+ },
+ {
+  "fixture": {
+   "id": "575405",
+   "kickoffUtc": "2026-11-25T17:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "CL",
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "home": {
+    "id": "930",
+    "name": "SK Slavia Praha",
+    "short": "SLP"
+   },
+   "away": {
+    "id": "94",
+    "name": "Villarreal CF",
+    "short": "VIL"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.406,
+    "draw": 0.187,
+    "awayWin": 0.406,
+    "pick": "A",
+    "confidence": 0.309,
+    "reasoning": "Poisson model: expected goals SK Slavia Praha 2.41 vs Villarreal CF 2.42, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "SK Slavia Praha at home: 0W-0D-2L, 3 scored and 5 conceded in 2 games.",
+     "Villarreal CF away: 0W-0D-2L, 5 scored and 7 conceded in 2 games.",
+     "League averages this season: home teams 2.32 goals per game, away teams 1.72.",
+     "Recent league form (newest first): SK Slavia Praha LDLL, Villarreal CF LLWL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: SK Slavia Praha has 2 home games and Villarreal CF 2 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "183277",
+     "name": "Danijel Sturm",
+     "team": "SK Slavia Praha",
+     "probability": 0.619,
+     "confidence": 0.28,
+     "reasoning": "2 of SK Slavia Praha's 5 league goals this season (40%), applied to the 2.41 goals the model expects from them here.",
+     "evidence": [
+      "Danijel Sturm: 2 league goals in 4 appearances this season.",
+      "SK Slavia Praha have scored 5 league goals in 4 games; the model expects 2.41 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "212858",
+     "name": "Santiago Mouriño",
+     "team": "Villarreal CF",
+     "probability": 0.453,
+     "confidence": 0.254,
+     "reasoning": "2 of Villarreal CF's 8 league goals this season (25%), applied to the 2.42 goals the model expects from them here.",
+     "evidence": [
+      "Santiago Mouriño: 2 league goals in 4 appearances this season.",
+      "Villarreal CF have scored 8 league goals in 4 games; the model expects 2.42 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "136646",
+     "name": "Georges Mikautadze",
+     "team": "Villarreal CF",
+     "probability": 0.453,
+     "confidence": 0.254,
+     "reasoning": "2 of Villarreal CF's 8 league goals this season (25%), applied to the 2.42 goals the model expects from them here.",
+     "evidence": [
+      "Georges Mikautadze: 2 league goals in 4 appearances this season.",
+      "Villarreal CF have scored 8 league goals in 4 games; the model expects 2.42 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "2-2",
+     "probability": 0.068
+    },
+    "alternatives": [
+     {
+      "score": "1-2",
+      "probability": 0.056
+     },
+     {
+      "score": "2-1",
+      "probability": 0.056
+     },
+     {
+      "score": "2-3",
+      "probability": 0.055
+     }
+    ],
+    "confidence": 0.068,
+    "reasoning": "2–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 2.41 (SK Slavia Praha) and 2.42 (Villarreal CF).",
+     "Top scorelines: 2-2 (6.8%), 1-2 (5.6%), 2-1 (5.6%), 2-3 (5.5%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: SK Slavia Praha has 2 home games and Villarreal CF 2 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Champions League: the model only sees this competition's matches (few games per team), not domestic form or club strength, so treat it as rough.",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-24T07:00:28.574Z"
+ }
+]

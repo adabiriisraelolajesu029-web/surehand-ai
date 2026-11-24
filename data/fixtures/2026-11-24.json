@@ -120,6 +120,26 @@
   }
  },
  {
+  "id": "575400",
+  "kickoffUtc": "2026-11-24T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "675",
+   "name": "Feyenoord Rotterdam",
+   "short": "FEY"
+  },
+  "away": {
+   "id": "503",
+   "name": "FC Porto",
+   "short": "FCP"
+  }
+ },
+ {
   "id": "575402",
   "kickoffUtc": "2026-11-24T20:00:00.000Z",
   "status": "scheduled",
@@ -157,26 +177,6 @@
    "id": "113",
    "name": "SSC Napoli",
    "short": "NAP"
-  }
- },
- {
-  "id": "575400",
-  "kickoffUtc": "2026-11-24T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "675",
-   "name": "Feyenoord Rotterdam",
-   "short": "FEY"
-  },
-  "away": {
-   "id": "503",
-   "name": "FC Porto",
-   "short": "FCP"
   }
  }
 ]

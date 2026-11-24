@@ -1,22 +1,44 @@
 {
- "settled": 167,
+ "settled": 169,
  "outcome": {
-  "n": 167,
-  "hit": 90,
-  "rate": 0.5389221556886228
+  "n": 169,
+  "hit": 91,
+  "rate": 0.5384615384615384
  },
  "correctScore": {
-  "n": 167,
+  "n": 169,
   "hit": 19,
-  "rate": 0.11377245508982035
+  "rate": 0.11242603550295859
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-23T22:30:21.891Z",
+ "updatedAt": "2026-11-24T07:01:23.466Z",
  "tracked": [
+  {
+   "match": "Brentford FC v Everton FC",
+   "lockedAt": "2026-11-22T13:03:16.688Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 4,
+    "away": 0
+   },
+   "scorers": []
+  },
+  {
+   "match": "Levante UD v Elche CF",
+   "lockedAt": "2026-11-22T13:02:45.528Z",
+   "pick": "A",
+   "score": "1-2",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
   {
    "match": "AC Monza v ACF Fiorentina",
    "lockedAt": "2026-11-22T13:02:17.228Z",
@@ -1092,28 +1114,6 @@
    "actual": {
     "home": 2,
     "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "FC Porto v SSC Napoli",
-   "lockedAt": "2026-11-03T12:37:25.915Z",
-   "pick": "A",
-   "score": "0-1",
-   "actual": {
-    "home": 4,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Racing Club de Lens v Como 1907",
-   "lockedAt": "2026-11-03T12:36:30.107Z",
-   "pick": "A",
-   "score": "0-2",
-   "actual": {
-    "home": 1,
-    "away": 9
    },
    "scorers": []
   }
