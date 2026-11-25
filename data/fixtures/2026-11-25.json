@@ -40,26 +40,6 @@
   }
  },
  {
-  "id": "575411",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "498",
-   "name": "Sporting Clube de Portugal",
-   "short": "SPO"
-  },
-  "away": {
-   "id": "66",
-   "name": "Manchester United FC",
-   "short": "MUN"
-  }
- },
- {
   "id": "575407",
   "kickoffUtc": "2026-11-25T20:00:00.000Z",
   "status": "scheduled",
@@ -100,7 +80,7 @@
   }
  },
  {
-  "id": "575406",
+  "id": "575411",
   "kickoffUtc": "2026-11-25T20:00:00.000Z",
   "status": "scheduled",
   "league": {
@@ -109,14 +89,14 @@
    "country": "Europe"
   },
   "home": {
-   "id": "108",
-   "name": "FC Internazionale Milano",
-   "short": "INT"
+   "id": "498",
+   "name": "Sporting Clube de Portugal",
+   "short": "SPO"
   },
   "away": {
-   "id": "10",
-   "name": "VfB Stuttgart",
-   "short": "VFB"
+   "id": "66",
+   "name": "Manchester United FC",
+   "short": "MUN"
   }
  },
  {
@@ -177,6 +157,26 @@
    "id": "5",
    "name": "FC Bayern München",
    "short": "FCB"
+  }
+ },
+ {
+  "id": "575406",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "108",
+   "name": "FC Internazionale Milano",
+   "short": "INT"
+  },
+  "away": {
+   "id": "10",
+   "name": "VfB Stuttgart",
+   "short": "VFB"
   }
  }
 ]

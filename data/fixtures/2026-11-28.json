@@ -60,26 +60,6 @@
   }
  },
  {
-  "id": "565874",
-  "kickoffUtc": "2026-11-28T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "7",
-   "name": "Hamburger SV",
-   "short": "HSV"
-  },
-  "away": {
-   "id": "5",
-   "name": "FC Bayern München",
-   "short": "FCB"
-  }
- },
- {
   "id": "565866",
   "kickoffUtc": "2026-11-28T14:30:00.000Z",
   "status": "scheduled",
@@ -120,23 +100,23 @@
   }
  },
  {
-  "id": "560652",
-  "kickoffUtc": "2026-11-28T15:00:00.000Z",
+  "id": "565874",
+  "kickoffUtc": "2026-11-28T14:30:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
   },
   "home": {
-   "id": "341",
-   "name": "Leeds United FC",
-   "short": "LEE"
+   "id": "7",
+   "name": "Hamburger SV",
+   "short": "HSV"
   },
   "away": {
-   "id": "1076",
-   "name": "Coventry City FC",
-   "short": "COV"
+   "id": "5",
+   "name": "FC Bayern München",
+   "short": "FCB"
   }
  },
  {
@@ -157,6 +137,26 @@
    "id": "402",
    "name": "Brentford FC",
    "short": "BRE"
+  }
+ },
+ {
+  "id": "560652",
+  "kickoffUtc": "2026-11-28T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "341",
+   "name": "Leeds United FC",
+   "short": "LEE"
+  },
+  "away": {
+   "id": "1076",
+   "name": "Coventry City FC",
+   "short": "COV"
   }
  },
  {
@@ -220,26 +220,6 @@
   }
  },
  {
-  "id": "560653",
-  "kickoffUtc": "2026-11-28T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "349",
-   "name": "Ipswich Town FC",
-   "short": "IPS"
-  },
-  "away": {
-   "id": "58",
-   "name": "Aston Villa FC",
-   "short": "AVL"
-  }
- },
- {
   "id": "564759",
   "kickoffUtc": "2026-11-28T17:30:00.000Z",
   "status": "scheduled",
@@ -280,23 +260,23 @@
   }
  },
  {
-  "id": "559620",
-  "kickoffUtc": "2026-11-28T19:45:00.000Z",
+  "id": "560653",
+  "kickoffUtc": "2026-11-28T17:30:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
   },
   "home": {
-   "id": "522",
-   "name": "OGC Nice",
-   "short": "NIC"
+   "id": "349",
+   "name": "Ipswich Town FC",
+   "short": "IPS"
   },
   "away": {
-   "id": "531",
-   "name": "ES Troyes AC",
-   "short": "ETR"
+   "id": "58",
+   "name": "Aston Villa FC",
+   "short": "AVL"
   }
  },
  {
@@ -320,7 +300,7 @@
   }
  },
  {
-  "id": "559617",
+  "id": "559620",
   "kickoffUtc": "2026-11-28T19:45:00.000Z",
   "status": "scheduled",
   "league": {
@@ -329,14 +309,14 @@
    "country": "France"
   },
   "home": {
-   "id": "535",
-   "name": "Le Mans FC",
-   "short": "LMF"
+   "id": "522",
+   "name": "OGC Nice",
+   "short": "NIC"
   },
   "away": {
-   "id": "521",
-   "name": "Lille OSC",
-   "short": "LIL"
+   "id": "531",
+   "name": "ES Troyes AC",
+   "short": "ETR"
   }
  },
  {
@@ -377,6 +357,26 @@
    "id": "107",
    "name": "Genoa CFC",
    "short": "GEN"
+  }
+ },
+ {
+  "id": "559617",
+  "kickoffUtc": "2026-11-28T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "535",
+   "name": "Le Mans FC",
+   "short": "LMF"
+  },
+  "away": {
+   "id": "521",
+   "name": "Lille OSC",
+   "short": "LIL"
   }
  },
  {

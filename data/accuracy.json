@@ -1,22 +1,44 @@
 {
- "settled": 178,
+ "settled": 180,
  "outcome": {
-  "n": 178,
-  "hit": 96,
-  "rate": 0.5393258426966292
+  "n": 180,
+  "hit": 98,
+  "rate": 0.5444444444444444
  },
  "correctScore": {
-  "n": 178,
+  "n": 180,
   "hit": 20,
-  "rate": 0.11235955056179775
+  "rate": 0.1111111111111111
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-25T15:16:20.521Z",
+ "updatedAt": "2026-11-25T20:25:34.192Z",
  "tracked": [
+  {
+   "match": "Sabah FK v FC Barcelona",
+   "lockedAt": "2026-11-24T07:00:46.246Z",
+   "pick": "A",
+   "score": "1-2",
+   "actual": {
+    "home": 1,
+    "away": 4
+   },
+   "scorers": []
+  },
+  {
+   "match": "SK Slavia Praha v Villarreal CF",
+   "lockedAt": "2026-11-24T07:00:28.574Z",
+   "pick": "A",
+   "score": "2-2",
+   "actual": {
+    "home": 0,
+    "away": 1
+   },
+   "scorers": []
+  },
   {
    "match": "Real Madrid CF v PSV",
    "lockedAt": "2026-11-23T15:41:27.022Z",
@@ -1089,28 +1111,6 @@
    "lockedAt": "2026-11-06T03:31:27.623Z",
    "pick": "A",
    "score": "0-1",
-   "actual": {
-    "home": 1,
-    "away": 0
-   },
-   "scorers": []
-  },
-  {
-   "match": "Málaga CF v Real Racing Club de Santander",
-   "lockedAt": "2026-11-06T03:30:39.588Z",
-   "pick": "H",
-   "score": "1-1",
-   "actual": {
-    "home": 1,
-    "away": 2
-   },
-   "scorers": []
-  },
-  {
-   "match": "Leeds United FC v Tottenham Hotspur FC",
-   "lockedAt": "2026-11-06T03:30:10.201Z",
-   "pick": "H",
-   "score": "0-0",
    "actual": {
     "home": 1,
     "away": 0
