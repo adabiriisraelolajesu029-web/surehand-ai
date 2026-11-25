@@ -1,22 +1,99 @@
 {
- "settled": 171,
+ "settled": 178,
  "outcome": {
-  "n": 171,
-  "hit": 91,
-  "rate": 0.5321637426900585
+  "n": 178,
+  "hit": 96,
+  "rate": 0.5393258426966292
  },
  "correctScore": {
-  "n": 171,
-  "hit": 19,
-  "rate": 0.1111111111111111
+  "n": 178,
+  "hit": 20,
+  "rate": 0.11235955056179775
  },
  "goalscorer": {
   "n": 0,
   "hit": 0,
   "rate": null
  },
- "updatedAt": "2026-11-24T21:02:49.011Z",
+ "updatedAt": "2026-11-25T05:32:38.576Z",
  "tracked": [
+  {
+   "match": "Real Madrid CF v PSV",
+   "lockedAt": "2026-11-23T15:41:27.022Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 5,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Manchester City FC v SSC Napoli",
+   "lockedAt": "2026-11-23T15:40:31.199Z",
+   "pick": "H",
+   "score": "2-1",
+   "actual": {
+    "home": 2,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "Arsenal FC v Borussia Dortmund",
+   "lockedAt": "2026-11-23T15:40:49.811Z",
+   "pick": "H",
+   "score": "1-0",
+   "actual": {
+    "home": 1,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Feyenoord Rotterdam v FC Porto",
+   "lockedAt": "2026-11-23T15:39:53.992Z",
+   "pick": "A",
+   "score": "1-1",
+   "actual": {
+    "home": 0,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "ŠK Slovan Bratislava v Real Betis Balompié",
+   "lockedAt": "2026-11-23T15:41:08.416Z",
+   "pick": "A",
+   "score": "0-2",
+   "actual": {
+    "home": 0,
+    "away": 2
+   },
+   "scorers": []
+  },
+  {
+   "match": "RB Leipzig v Racing Club de Lens",
+   "lockedAt": "2026-11-23T15:40:12.624Z",
+   "pick": "H",
+   "score": "2-1",
+   "actual": {
+    "home": 3,
+    "away": 1
+   },
+   "scorers": []
+  },
+  {
+   "match": "Como 1907 v PAE AEK",
+   "lockedAt": "2026-11-23T15:41:45.625Z",
+   "pick": "H",
+   "score": "2-0",
+   "actual": {
+    "home": 1,
+    "away": 0
+   },
+   "scorers": []
+  },
   {
    "match": "Galatasaray SK v Aston Villa FC",
    "lockedAt": "2026-11-23T15:39:35.464Z",
@@ -1037,83 +1114,6 @@
    "actual": {
     "home": 1,
     "away": 0
-   },
-   "scorers": []
-  },
-  {
-   "match": "Everton FC v Coventry City FC",
-   "lockedAt": "2026-11-05T12:57:56.168Z",
-   "pick": "H",
-   "score": "1-0",
-   "actual": {
-    "home": 3,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Sevilla FC v Deportivo Alavés",
-   "lockedAt": "2026-11-05T12:57:26.010Z",
-   "pick": "H",
-   "score": "1-1",
-   "actual": {
-    "home": 0,
-    "away": 0
-   },
-   "scorers": []
-  },
-  {
-   "match": "Venezia FC v Udinese Calcio",
-   "lockedAt": "2026-11-05T12:56:24.804Z",
-   "pick": "A",
-   "score": "0-1",
-   "actual": {
-    "home": 2,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Toulouse FC v RC Strasbourg Alsace",
-   "lockedAt": "2026-11-05T12:56:54.272Z",
-   "pick": "H",
-   "score": "1-1",
-   "actual": {
-    "home": 3,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "Hamburger SV v Borussia Mönchengladbach",
-   "lockedAt": "2026-11-05T12:55:52.333Z",
-   "pick": "H",
-   "score": "1-1",
-   "actual": {
-    "home": 3,
-    "away": 1
-   },
-   "scorers": []
-  },
-  {
-   "match": "RB Leipzig v Manchester City FC",
-   "lockedAt": "2026-11-03T12:37:44.844Z",
-   "pick": "A",
-   "score": "0-2",
-   "actual": {
-    "home": 2,
-    "away": 3
-   },
-   "scorers": []
-  },
-  {
-   "match": "SK Slavia Praha v Arsenal FC",
-   "lockedAt": "2026-11-03T12:36:48.717Z",
-   "pick": "A",
-   "score": "0-1",
-   "actual": {
-    "home": 1,
-    "away": 2
    },
    "scorers": []
   }

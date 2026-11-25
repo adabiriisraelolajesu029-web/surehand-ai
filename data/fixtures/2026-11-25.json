@@ -40,6 +40,26 @@
   }
  },
  {
+  "id": "575409",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "851",
+   "name": "Club Brugge KV",
+   "short": "BRU"
+  },
+  "away": {
+   "id": "64",
+   "name": "Liverpool FC",
+   "short": "LIV"
+  }
+ },
+ {
   "id": "575411",
   "kickoffUtc": "2026-11-25T20:00:00.000Z",
   "status": "scheduled",
@@ -80,7 +100,7 @@
   }
  },
  {
-  "id": "575409",
+  "id": "575410",
   "kickoffUtc": "2026-11-25T20:00:00.000Z",
   "status": "scheduled",
   "league": {
@@ -89,14 +109,34 @@
    "country": "Europe"
   },
   "home": {
-   "id": "851",
-   "name": "Club Brugge KV",
-   "short": "BRU"
+   "id": "521",
+   "name": "Lille OSC",
+   "short": "LIL"
   },
   "away": {
-   "id": "64",
-   "name": "Liverpool FC",
-   "short": "LIV"
+   "id": "5",
+   "name": "FC Bayern München",
+   "short": "FCB"
+  }
+ },
+ {
+  "id": "575406",
+  "kickoffUtc": "2026-11-25T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "CL",
+   "name": "UEFA Champions League",
+   "country": "Europe"
+  },
+  "home": {
+   "id": "108",
+   "name": "FC Internazionale Milano",
+   "short": "INT"
+  },
+  "away": {
+   "id": "10",
+   "name": "VfB Stuttgart",
+   "short": "VFB"
   }
  },
  {
@@ -137,46 +177,6 @@
    "id": "100",
    "name": "AS Roma",
    "short": "ROM"
-  }
- },
- {
-  "id": "575410",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "521",
-   "name": "Lille OSC",
-   "short": "LIL"
-  },
-  "away": {
-   "id": "5",
-   "name": "FC Bayern München",
-   "short": "FCB"
-  }
- },
- {
-  "id": "575406",
-  "kickoffUtc": "2026-11-25T20:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "CL",
-   "name": "UEFA Champions League",
-   "country": "Europe"
-  },
-  "home": {
-   "id": "108",
-   "name": "FC Internazionale Milano",
-   "short": "INT"
-  },
-  "away": {
-   "id": "10",
-   "name": "VfB Stuttgart",
-   "short": "VFB"
   }
  }
 ]

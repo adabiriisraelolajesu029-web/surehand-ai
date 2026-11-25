@@ -1,0 +1,62 @@
+[
+ {
+  "id": "558516",
+  "kickoffUtc": "2026-11-30T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "5890",
+   "name": "US Lecce",
+   "short": "USL"
+  },
+  "away": {
+   "id": "102",
+   "name": "Atalanta BC",
+   "short": "ATA"
+  }
+ },
+ {
+  "id": "558510",
+  "kickoffUtc": "2026-11-30T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "104",
+   "name": "Cagliari Calcio",
+   "short": "CAG"
+  },
+  "away": {
+   "id": "98",
+   "name": "AC Milan",
+   "short": "MIL"
+  }
+ },
+ {
+  "id": "564763",
+  "kickoffUtc": "2026-11-30T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PD",
+   "name": "Primera Division",
+   "country": "Spain"
+  },
+  "home": {
+   "id": "80",
+   "name": "RCD Espanyol de Barcelona",
+   "short": "ESP"
+  },
+  "away": {
+   "id": "82",
+   "name": "Getafe CF",
+   "short": "GET"
+  }
+ }
+]
