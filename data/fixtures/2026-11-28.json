@@ -40,6 +40,26 @@
   }
  },
  {
+  "id": "565867",
+  "kickoffUtc": "2026-11-28T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "15",
+   "name": "1. FSV Mainz 05",
+   "short": "M05"
+  },
+  "away": {
+   "id": "28",
+   "name": "1. FC Union Berlin",
+   "short": "UNB"
+  }
+ },
+ {
   "id": "565874",
   "kickoffUtc": "2026-11-28T14:30:00.000Z",
   "status": "scheduled",
@@ -97,26 +117,6 @@
    "id": "6",
    "name": "FC Schalke 04",
    "short": "S04"
-  }
- },
- {
-  "id": "565867",
-  "kickoffUtc": "2026-11-28T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "15",
-   "name": "1. FSV Mainz 05",
-   "short": "M05"
-  },
-  "away": {
-   "id": "28",
-   "name": "1. FC Union Berlin",
-   "short": "UNB"
   }
  },
  {
@@ -220,26 +220,6 @@
   }
  },
  {
-  "id": "565870",
-  "kickoffUtc": "2026-11-28T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "10",
-   "name": "VfB Stuttgart",
-   "short": "VFB"
-  },
-  "away": {
-   "id": "19",
-   "name": "Eintracht Frankfurt",
-   "short": "SGE"
-  }
- },
- {
   "id": "560653",
   "kickoffUtc": "2026-11-28T17:30:00.000Z",
   "status": "scheduled",
@@ -277,6 +257,66 @@
    "id": "78",
    "name": "Club Atlético de Madrid",
    "short": "ATL"
+  }
+ },
+ {
+  "id": "565870",
+  "kickoffUtc": "2026-11-28T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "10",
+   "name": "VfB Stuttgart",
+   "short": "VFB"
+  },
+  "away": {
+   "id": "19",
+   "name": "Eintracht Frankfurt",
+   "short": "SGE"
+  }
+ },
+ {
+  "id": "559620",
+  "kickoffUtc": "2026-11-28T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "522",
+   "name": "OGC Nice",
+   "short": "NIC"
+  },
+  "away": {
+   "id": "531",
+   "name": "ES Troyes AC",
+   "short": "ETR"
+  }
+ },
+ {
+  "id": "559614",
+  "kickoffUtc": "2026-11-28T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  },
+  "away": {
+   "id": "525",
+   "name": "FC Lorient",
+   "short": "FCL"
   }
  },
  {
@@ -337,46 +377,6 @@
    "id": "107",
    "name": "Genoa CFC",
    "short": "GEN"
-  }
- },
- {
-  "id": "559614",
-  "kickoffUtc": "2026-11-28T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "524",
-   "name": "Paris Saint-Germain FC",
-   "short": "PSG"
-  },
-  "away": {
-   "id": "525",
-   "name": "FC Lorient",
-   "short": "FCL"
-  }
- },
- {
-  "id": "559620",
-  "kickoffUtc": "2026-11-28T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "522",
-   "name": "OGC Nice",
-   "short": "NIC"
-  },
-  "away": {
-   "id": "531",
-   "name": "ES Troyes AC",
-   "short": "ETR"
   }
  },
  {
