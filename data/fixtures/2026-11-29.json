@@ -240,26 +240,6 @@
   }
  },
  {
-  "id": "565871",
-  "kickoffUtc": "2026-11-29T16:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "2",
-   "name": "TSG 1899 Hoffenheim",
-   "short": "TSG"
-  },
-  "away": {
-   "id": "16",
-   "name": "FC Augsburg",
-   "short": "FCA"
-  }
- },
- {
   "id": "560654",
   "kickoffUtc": "2026-11-29T16:30:00.000Z",
   "status": "scheduled",
@@ -277,6 +257,26 @@
    "id": "65",
    "name": "Manchester City FC",
    "short": "MCI"
+  }
+ },
+ {
+  "id": "565871",
+  "kickoffUtc": "2026-11-29T16:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "2",
+   "name": "TSG 1899 Hoffenheim",
+   "short": "TSG"
+  },
+  "away": {
+   "id": "16",
+   "name": "FC Augsburg",
+   "short": "FCA"
   }
  },
  {

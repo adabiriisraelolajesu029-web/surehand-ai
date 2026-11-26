@@ -1,0 +1,22 @@
+[
+ {
+  "id": "560668",
+  "kickoffUtc": "2026-12-01T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "1076",
+   "name": "Coventry City FC",
+   "short": "COV"
+  },
+  "away": {
+   "id": "349",
+   "name": "Ipswich Town FC",
+   "short": "IPS"
+  }
+ }
+]
