@@ -1,0 +1,376 @@
+{
+ "fixtureId": "559616",
+ "kickoffUtc": "2026-11-27T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559616",
+   "kickoffUtc": "2026-11-27T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "512",
+    "name": "Stade Brestois 29",
+    "short": "BRE"
+   },
+   "away": {
+    "id": "1045",
+    "name": "Paris FC",
+    "short": "PFC"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6262626262626263,
+   "awayGoals": 1.3232323232323233
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "RC Strasbourg Alsace",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Olympique Lyonnais",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Lorient",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "OGC Nice",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Lille OSC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Angers SCO",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "AJ Auxerre",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "AS Monaco FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "H",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 5,
+     "d": 3,
+     "l": 3,
+     "gf": 19,
+     "ga": 12
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 10,
+     "ga": 6
+    },
+    "away": {
+     "p": 6,
+     "w": 3,
+     "d": 2,
+     "l": 1,
+     "gf": 9,
+     "ga": 6
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 7,
+     "d": 2,
+     "l": 2,
+     "gf": 21,
+     "ga": 10
+    },
+    "home": {
+     "p": 6,
+     "w": 5,
+     "d": 1,
+     "l": 0,
+     "gf": 16,
+     "ga": 5
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 5
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-03",
+    "homeId": "1045",
+    "awayId": "512",
+    "home": "Paris FC",
+    "away": "Stade Brestois 29",
+    "hg": 4,
+    "ag": 0
+   },
+   {
+    "date": "2025-09-14",
+    "homeId": "512",
+    "awayId": "1045",
+    "home": "Stade Brestois 29",
+    "away": "Paris FC",
+    "hg": 1,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "723",
+    "name": "Ludovic Ajorque",
+    "team": "Stade Brestois 29",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "175942",
+    "name": "Kamory Doumbia",
+    "team": "Stade Brestois 29",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "212975",
+    "name": "Noah Edjouma",
+    "team": "Stade Brestois 29",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "218249",
+    "name": "Pathé Mboup",
+    "team": "Stade Brestois 29",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "43707",
+    "name": "Mama Baldé",
+    "team": "Stade Brestois 29",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "552",
+    "name": "Lassine Sinayoko",
+    "team": "Paris FC",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 9,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8352",
+    "name": "Maxime López",
+    "team": "Paris FC",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "177248",
+    "name": "Pablo Pagis",
+    "team": "Paris FC",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.385,
+   "draw": 0.283,
+   "awayWin": 0.332,
+   "pick": "H",
+   "confidence": 0.385,
+   "reasoning": "Poisson model: expected goals Stade Brestois 29 1.21 vs Paris FC 1.10, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Stade Brestois 29 at home: 2W-1D-2L, 10 scored and 6 conceded in 5 games.",
+    "Paris FC away: 2W-1D-2L, 5 scored and 5 conceded in 5 games.",
+    "League averages this season: home teams 1.63 goals per game, away teams 1.32.",
+    "Recent league form (newest first): Stade Brestois 29 WWWLD, Paris FC WWWLW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Stade Brestois 29 has 5 home games and Paris FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "552",
+    "name": "Lassine Sinayoko",
+    "team": "Paris FC",
+    "probability": 0.375,
+    "confidence": 0.3,
+    "reasoning": "9 of Paris FC's 21 league goals this season (43%), applied to the 1.10 goals the model expects from them here.",
+    "evidence": [
+     "Lassine Sinayoko: 9 league goals in 11 appearances this season.",
+     "Paris FC have scored 21 league goals in 11 games; the model expects 1.10 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "723",
+    "name": "Ludovic Ajorque",
+    "team": "Stade Brestois 29",
+    "probability": 0.272,
+    "confidence": 0.217,
+    "reasoning": "5 of Stade Brestois 29's 19 league goals this season (26%), applied to the 1.21 goals the model expects from them here.",
+    "evidence": [
+     "Ludovic Ajorque: 5 league goals in 11 appearances this season.",
+     "Stade Brestois 29 have scored 19 league goals in 11 games; the model expects 1.21 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "175942",
+    "name": "Kamory Doumbia",
+    "team": "Stade Brestois 29",
+    "probability": 0.224,
+    "confidence": 0.179,
+    "reasoning": "4 of Stade Brestois 29's 19 league goals this season (21%), applied to the 1.21 goals the model expects from them here.",
+    "evidence": [
+     "Kamory Doumbia: 4 league goals in 10 appearances this season.",
+     "Stade Brestois 29 have scored 19 league goals in 11 games; the model expects 1.21 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-1",
+    "probability": 0.132
+   },
+   "alternatives": [
+    {
+     "score": "1-0",
+     "probability": 0.121
+    },
+    {
+     "score": "0-1",
+     "probability": 0.11
+    },
+    {
+     "score": "0-0",
+     "probability": 0.1
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.21 (Stade Brestois 29) and 1.10 (Paris FC).",
+    "Top scorelines: 1-1 (13.2%), 1-0 (12.1%), 0-1 (11.0%), 0-0 (10.0%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Stade Brestois 29 has 5 home games and Paris FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-26T14:41:41.738Z",
+ "lockedAt": "2026-11-26T14:42:12.062Z",
+ "result": null
+}

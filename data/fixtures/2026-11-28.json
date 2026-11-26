@@ -40,7 +40,7 @@
   }
  },
  {
-  "id": "565866",
+  "id": "565867",
   "kickoffUtc": "2026-11-28T14:30:00.000Z",
   "status": "scheduled",
   "league": {
@@ -49,14 +49,14 @@
    "country": "Germany"
   },
   "home": {
-   "id": "1",
-   "name": "1. FC Köln",
-   "short": "KOE"
+   "id": "15",
+   "name": "1. FSV Mainz 05",
+   "short": "M05"
   },
   "away": {
-   "id": "719",
-   "name": "SV 07 Elversberg",
-   "short": "ELV"
+   "id": "28",
+   "name": "1. FC Union Berlin",
+   "short": "UNB"
   }
  },
  {
@@ -100,7 +100,7 @@
   }
  },
  {
-  "id": "565867",
+  "id": "565866",
   "kickoffUtc": "2026-11-28T14:30:00.000Z",
   "status": "scheduled",
   "league": {
@@ -109,14 +109,14 @@
    "country": "Germany"
   },
   "home": {
-   "id": "15",
-   "name": "1. FSV Mainz 05",
-   "short": "M05"
+   "id": "1",
+   "name": "1. FC Köln",
+   "short": "KOE"
   },
   "away": {
-   "id": "28",
-   "name": "1. FC Union Berlin",
-   "short": "UNB"
+   "id": "719",
+   "name": "SV 07 Elversberg",
+   "short": "ELV"
   }
  },
  {
@@ -280,6 +280,46 @@
   }
  },
  {
+  "id": "559614",
+  "kickoffUtc": "2026-11-28T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "524",
+   "name": "Paris Saint-Germain FC",
+   "short": "PSG"
+  },
+  "away": {
+   "id": "525",
+   "name": "FC Lorient",
+   "short": "FCL"
+  }
+ },
+ {
+  "id": "559620",
+  "kickoffUtc": "2026-11-28T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "522",
+   "name": "OGC Nice",
+   "short": "NIC"
+  },
+  "away": {
+   "id": "531",
+   "name": "ES Troyes AC",
+   "short": "ETR"
+  }
+ },
+ {
   "id": "559613",
   "kickoffUtc": "2026-11-28T19:45:00.000Z",
   "status": "scheduled",
@@ -337,46 +377,6 @@
    "id": "521",
    "name": "Lille OSC",
    "short": "LIL"
-  }
- },
- {
-  "id": "559614",
-  "kickoffUtc": "2026-11-28T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "524",
-   "name": "Paris Saint-Germain FC",
-   "short": "PSG"
-  },
-  "away": {
-   "id": "525",
-   "name": "FC Lorient",
-   "short": "FCL"
-  }
- },
- {
-  "id": "559620",
-  "kickoffUtc": "2026-11-28T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "522",
-   "name": "OGC Nice",
-   "short": "NIC"
-  },
-  "away": {
-   "id": "531",
-   "name": "ES Troyes AC",
-   "short": "ETR"
   }
  },
  {
