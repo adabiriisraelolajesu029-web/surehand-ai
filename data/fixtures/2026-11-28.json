@@ -40,26 +40,6 @@
   }
  },
  {
-  "id": "565874",
-  "kickoffUtc": "2026-11-28T14:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "7",
-   "name": "Hamburger SV",
-   "short": "HSV"
-  },
-  "away": {
-   "id": "5",
-   "name": "FC Bayern München",
-   "short": "FCB"
-  }
- },
- {
   "id": "565866",
   "kickoffUtc": "2026-11-28T14:30:00.000Z",
   "status": "scheduled",
@@ -100,6 +80,26 @@
   }
  },
  {
+  "id": "565874",
+  "kickoffUtc": "2026-11-28T14:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "7",
+   "name": "Hamburger SV",
+   "short": "HSV"
+  },
+  "away": {
+   "id": "5",
+   "name": "FC Bayern München",
+   "short": "FCB"
+  }
+ },
+ {
   "id": "565867",
   "kickoffUtc": "2026-11-28T14:30:00.000Z",
   "status": "scheduled",
@@ -120,26 +120,6 @@
   }
  },
  {
-  "id": "560652",
-  "kickoffUtc": "2026-11-28T15:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "341",
-   "name": "Leeds United FC",
-   "short": "LEE"
-  },
-  "away": {
-   "id": "1076",
-   "name": "Coventry City FC",
-   "short": "COV"
-  }
- },
- {
   "id": "560655",
   "kickoffUtc": "2026-11-28T15:00:00.000Z",
   "status": "scheduled",
@@ -157,6 +137,26 @@
    "id": "402",
    "name": "Brentford FC",
    "short": "BRE"
+  }
+ },
+ {
+  "id": "560652",
+  "kickoffUtc": "2026-11-28T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "341",
+   "name": "Leeds United FC",
+   "short": "LEE"
+  },
+  "away": {
+   "id": "1076",
+   "name": "Coventry City FC",
+   "short": "COV"
   }
  },
  {
@@ -220,26 +220,6 @@
   }
  },
  {
-  "id": "565870",
-  "kickoffUtc": "2026-11-28T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "10",
-   "name": "VfB Stuttgart",
-   "short": "VFB"
-  },
-  "away": {
-   "id": "19",
-   "name": "Eintracht Frankfurt",
-   "short": "SGE"
-  }
- },
- {
   "id": "560653",
   "kickoffUtc": "2026-11-28T17:30:00.000Z",
   "status": "scheduled",
@@ -277,6 +257,46 @@
    "id": "78",
    "name": "Club Atlético de Madrid",
    "short": "ATL"
+  }
+ },
+ {
+  "id": "565870",
+  "kickoffUtc": "2026-11-28T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "10",
+   "name": "VfB Stuttgart",
+   "short": "VFB"
+  },
+  "away": {
+   "id": "19",
+   "name": "Eintracht Frankfurt",
+   "short": "SGE"
+  }
+ },
+ {
+  "id": "559613",
+  "kickoffUtc": "2026-11-28T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "533",
+   "name": "Le Havre AC",
+   "short": "HAC"
+  },
+  "away": {
+   "id": "576",
+   "name": "RC Strasbourg Alsace",
+   "short": "RC "
   }
  },
  {
@@ -320,7 +340,7 @@
   }
  },
  {
-  "id": "559613",
+  "id": "559620",
   "kickoffUtc": "2026-11-28T19:45:00.000Z",
   "status": "scheduled",
   "league": {
@@ -329,14 +349,14 @@
    "country": "France"
   },
   "home": {
-   "id": "533",
-   "name": "Le Havre AC",
-   "short": "HAC"
+   "id": "522",
+   "name": "OGC Nice",
+   "short": "NIC"
   },
   "away": {
-   "id": "576",
-   "name": "RC Strasbourg Alsace",
-   "short": "RC "
+   "id": "531",
+   "name": "ES Troyes AC",
+   "short": "ETR"
   }
  },
  {
@@ -357,26 +377,6 @@
    "id": "525",
    "name": "FC Lorient",
    "short": "FCL"
-  }
- },
- {
-  "id": "559620",
-  "kickoffUtc": "2026-11-28T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "522",
-   "name": "OGC Nice",
-   "short": "NIC"
-  },
-  "away": {
-   "id": "531",
-   "name": "ES Troyes AC",
-   "short": "ETR"
   }
  },
  {

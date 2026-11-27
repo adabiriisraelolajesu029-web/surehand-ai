@@ -2,7 +2,7 @@
  {
   "id": "565869",
   "kickoffUtc": "2026-11-27T19:30:00.000Z",
-  "status": "scheduled",
+  "status": "live",
   "league": {
    "id": "BL1",
    "name": "Bundesliga",
@@ -17,26 +17,6 @@
    "id": "18",
    "name": "Borussia Mönchengladbach",
    "short": "BMG"
-  }
- },
- {
-  "id": "559616",
-  "kickoffUtc": "2026-11-27T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "512",
-   "name": "Stade Brestois 29",
-   "short": "BRE"
-  },
-  "away": {
-   "id": "1045",
-   "name": "Paris FC",
-   "short": "PFC"
   }
  },
  {
@@ -60,23 +40,23 @@
   }
  },
  {
-  "id": "560658",
-  "kickoffUtc": "2026-11-27T20:00:00.000Z",
+  "id": "559616",
+  "kickoffUtc": "2026-11-27T19:45:00.000Z",
   "status": "scheduled",
   "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
   },
   "home": {
-   "id": "351",
-   "name": "Nottingham Forest FC",
-   "short": "NOT"
+   "id": "512",
+   "name": "Stade Brestois 29",
+   "short": "BRE"
   },
   "away": {
-   "id": "61",
-   "name": "Chelsea FC",
-   "short": "CHE"
+   "id": "1045",
+   "name": "Paris FC",
+   "short": "PFC"
   }
  },
  {
@@ -97,6 +77,26 @@
    "id": "5335",
    "name": "Real Racing Club de Santander",
    "short": "SAN"
+  }
+ },
+ {
+  "id": "560658",
+  "kickoffUtc": "2026-11-27T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "351",
+   "name": "Nottingham Forest FC",
+   "short": "NOT"
+  },
+  "away": {
+   "id": "61",
+   "name": "Chelsea FC",
+   "short": "CHE"
   }
  }
 ]
