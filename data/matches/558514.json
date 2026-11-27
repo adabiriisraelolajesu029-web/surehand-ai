@@ -1,0 +1,363 @@
+{
+ "fixtureId": "558514",
+ "kickoffUtc": "2026-11-28T17:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558514",
+   "kickoffUtc": "2026-11-28T17:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "586",
+    "name": "Torino FC",
+    "short": "TOR"
+   },
+   "away": {
+    "id": "110",
+    "name": "SS Lazio",
+    "short": "LAZ"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6666666666666667,
+   "awayGoals": 1.4916666666666667
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "SSC Napoli",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Frosinone Calcio",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Como 1907",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "AC Monza",
+     "venue": "H",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "US Lecce",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SSC Napoli",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "US Sassuolo Calcio",
+     "venue": "A",
+     "gf": 6,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "Parma Calcio 1913",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 12,
+     "w": 4,
+     "d": 2,
+     "l": 6,
+     "gf": 15,
+     "ga": 18
+    },
+    "home": {
+     "p": 6,
+     "w": 2,
+     "d": 1,
+     "l": 3,
+     "gf": 8,
+     "ga": 11
+    },
+    "away": {
+     "p": 6,
+     "w": 2,
+     "d": 1,
+     "l": 3,
+     "gf": 7,
+     "ga": 7
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 12,
+     "w": 10,
+     "d": 2,
+     "l": 0,
+     "gf": 28,
+     "ga": 9
+    },
+    "home": {
+     "p": 6,
+     "w": 5,
+     "d": 1,
+     "l": 0,
+     "gf": 13,
+     "ga": 5
+    },
+    "away": {
+     "p": 6,
+     "w": 5,
+     "d": 1,
+     "l": 0,
+     "gf": 15,
+     "ga": 4
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-03-01",
+    "homeId": "586",
+    "awayId": "110",
+    "home": "Torino FC",
+    "away": "SS Lazio",
+    "hg": 2,
+    "ag": 0
+   },
+   {
+    "date": "2025-10-04",
+    "homeId": "110",
+    "awayId": "586",
+    "home": "SS Lazio",
+    "away": "Torino FC",
+    "hg": 3,
+    "ag": 3
+   },
+   {
+    "date": "2025-03-31",
+    "homeId": "110",
+    "awayId": "586",
+    "home": "SS Lazio",
+    "away": "Torino FC",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2024-09-29",
+    "homeId": "586",
+    "awayId": "110",
+    "home": "Torino FC",
+    "away": "SS Lazio",
+    "hg": 2,
+    "ag": 3
+   },
+   {
+    "date": "2024-02-22",
+    "homeId": "586",
+    "awayId": "110",
+    "home": "Torino FC",
+    "away": "SS Lazio",
+    "hg": 0,
+    "ag": 2
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "4119",
+    "name": "Che Adams",
+    "team": "Torino FC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "171448",
+    "name": "Tijjani Noslin",
+    "team": "SS Lazio",
+    "pos": "Offence",
+    "apps": 12,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "2200",
+    "name": "Davide Frattesi",
+    "team": "SS Lazio",
+    "pos": "Midfield",
+    "apps": 12,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "128007",
+    "name": "Gustav Isaksen",
+    "team": "SS Lazio",
+    "pos": "Offence",
+    "apps": 12,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.057,
+   "draw": 0.127,
+   "awayWin": 0.816,
+   "pick": "A",
+   "confidence": 0.8,
+   "reasoning": "Poisson model: expected goals Torino FC 0.57 vs SS Lazio 2.66, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Torino FC at home: 2W-1D-3L, 8 scored and 11 conceded in 6 games.",
+    "SS Lazio away: 5W-1D-0L, 15 scored and 4 conceded in 6 games.",
+    "League averages this season: home teams 1.67 goals per game, away teams 1.49.",
+    "Recent league form (newest first): Torino FC LDLLW, SS Lazio WDWWW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Torino FC has 6 home games and SS Lazio 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "171448",
+    "name": "Tijjani Noslin",
+    "team": "SS Lazio",
+    "probability": 0.435,
+    "confidence": 0.348,
+    "reasoning": "6 of SS Lazio's 28 league goals this season (21%), applied to the 2.66 goals the model expects from them here.",
+    "evidence": [
+     "Tijjani Noslin: 6 league goals in 12 appearances this season.",
+     "SS Lazio have scored 28 league goals in 12 games; the model expects 2.66 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "2200",
+    "name": "Davide Frattesi",
+    "team": "SS Lazio",
+    "probability": 0.378,
+    "confidence": 0.303,
+    "reasoning": "5 of SS Lazio's 28 league goals this season (18%), applied to the 2.66 goals the model expects from them here.",
+    "evidence": [
+     "Davide Frattesi: 5 league goals in 12 appearances this season.",
+     "SS Lazio have scored 28 league goals in 12 games; the model expects 2.66 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "128007",
+    "name": "Gustav Isaksen",
+    "team": "SS Lazio",
+    "probability": 0.316,
+    "confidence": 0.253,
+    "reasoning": "4 of SS Lazio's 28 league goals this season (14%), applied to the 2.66 goals the model expects from them here.",
+    "evidence": [
+     "Gustav Isaksen: 4 league goals in 12 appearances this season.",
+     "SS Lazio have scored 28 league goals in 12 games; the model expects 2.66 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.14
+   },
+   "alternatives": [
+    {
+     "score": "0-3",
+     "probability": 0.124
+    },
+    {
+     "score": "0-1",
+     "probability": 0.105
+    },
+    {
+     "score": "0-4",
+     "probability": 0.083
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.57 (Torino FC) and 2.66 (SS Lazio).",
+    "Top scorelines: 0-2 (14.0%), 0-3 (12.4%), 0-1 (10.5%), 0-4 (8.3%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Torino FC has 6 home games and SS Lazio 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-27T05:16:03.870Z",
+ "lockedAt": "2026-11-27T05:16:20.500Z",
+ "result": null
+}

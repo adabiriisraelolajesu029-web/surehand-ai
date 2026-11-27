@@ -120,26 +120,6 @@
   }
  },
  {
-  "id": "560655",
-  "kickoffUtc": "2026-11-28T15:00:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "66",
-   "name": "Manchester United FC",
-   "short": "MUN"
-  },
-  "away": {
-   "id": "402",
-   "name": "Brentford FC",
-   "short": "BRE"
-  }
- },
- {
   "id": "560652",
   "kickoffUtc": "2026-11-28T15:00:00.000Z",
   "status": "scheduled",
@@ -157,6 +137,26 @@
    "id": "1076",
    "name": "Coventry City FC",
    "short": "COV"
+  }
+ },
+ {
+  "id": "560655",
+  "kickoffUtc": "2026-11-28T15:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "66",
+   "name": "Manchester United FC",
+   "short": "MUN"
+  },
+  "away": {
+   "id": "402",
+   "name": "Brentford FC",
+   "short": "BRE"
   }
  },
  {
@@ -220,6 +220,26 @@
   }
  },
  {
+  "id": "565870",
+  "kickoffUtc": "2026-11-28T17:30:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "BL1",
+   "name": "Bundesliga",
+   "country": "Germany"
+  },
+  "home": {
+   "id": "10",
+   "name": "VfB Stuttgart",
+   "short": "VFB"
+  },
+  "away": {
+   "id": "19",
+   "name": "Eintracht Frankfurt",
+   "short": "SGE"
+  }
+ },
+ {
   "id": "560653",
   "kickoffUtc": "2026-11-28T17:30:00.000Z",
   "status": "scheduled",
@@ -257,26 +277,6 @@
    "id": "78",
    "name": "Club Atlético de Madrid",
    "short": "ATL"
-  }
- },
- {
-  "id": "565870",
-  "kickoffUtc": "2026-11-28T17:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "BL1",
-   "name": "Bundesliga",
-   "country": "Germany"
-  },
-  "home": {
-   "id": "10",
-   "name": "VfB Stuttgart",
-   "short": "VFB"
-  },
-  "away": {
-   "id": "19",
-   "name": "Eintracht Frankfurt",
-   "short": "SGE"
   }
  },
  {
@@ -340,26 +340,6 @@
   }
  },
  {
-  "id": "559620",
-  "kickoffUtc": "2026-11-28T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "FL1",
-   "name": "Ligue 1",
-   "country": "France"
-  },
-  "home": {
-   "id": "522",
-   "name": "OGC Nice",
-   "short": "NIC"
-  },
-  "away": {
-   "id": "531",
-   "name": "ES Troyes AC",
-   "short": "ETR"
-  }
- },
- {
   "id": "559614",
   "kickoffUtc": "2026-11-28T19:45:00.000Z",
   "status": "scheduled",
@@ -377,6 +357,26 @@
    "id": "525",
    "name": "FC Lorient",
    "short": "FCL"
+  }
+ },
+ {
+  "id": "559620",
+  "kickoffUtc": "2026-11-28T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "FL1",
+   "name": "Ligue 1",
+   "country": "France"
+  },
+  "home": {
+   "id": "522",
+   "name": "OGC Nice",
+   "short": "NIC"
+  },
+  "away": {
+   "id": "531",
+   "name": "ES Troyes AC",
+   "short": "ETR"
   }
  },
  {

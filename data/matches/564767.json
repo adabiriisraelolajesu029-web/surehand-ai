@@ -1,0 +1,347 @@
+{
+ "fixtureId": "564767",
+ "kickoffUtc": "2026-11-28T15:15:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564767",
+   "kickoffUtc": "2026-11-28T15:15:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "84",
+    "name": "Málaga CF",
+    "short": "MAL"
+   },
+   "away": {
+    "id": "77",
+    "name": "Athletic Club",
+    "short": "ATH"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.5968992248062015,
+   "awayGoals": 1.2790697674418605
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "CA Osasuna",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Real Racing Club de Santander",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Real Betis Balompié",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Deportivo Alavés",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Real Sociedad de Fútbol",
+     "venue": "H",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "RCD Espanyol de Barcelona",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "CA Osasuna",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Real Sociedad de Fútbol",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Getafe CF",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Levante UD",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 13,
+     "w": 0,
+     "d": 5,
+     "l": 8,
+     "gf": 9,
+     "ga": 24
+    },
+    "home": {
+     "p": 6,
+     "w": 0,
+     "d": 3,
+     "l": 3,
+     "gf": 6,
+     "ga": 12
+    },
+    "away": {
+     "p": 7,
+     "w": 0,
+     "d": 2,
+     "l": 5,
+     "gf": 3,
+     "ga": 12
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 12,
+     "w": 4,
+     "d": 4,
+     "l": 4,
+     "gf": 15,
+     "ga": 12
+    },
+    "home": {
+     "p": 7,
+     "w": 3,
+     "d": 2,
+     "l": 2,
+     "gf": 11,
+     "ga": 6
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 2,
+     "l": 2,
+     "gf": 4,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "221308",
+    "name": "Adrián",
+    "team": "Málaga CF",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "189380",
+    "name": "Carlos Dotor",
+    "team": "Málaga CF",
+    "pos": "Midfield",
+    "apps": 12,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "2294",
+    "name": "Álex Berenguer",
+    "team": "Athletic Club",
+    "pos": "Offence",
+    "apps": 13,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "32629",
+    "name": "Iñaki Williams",
+    "team": "Athletic Club",
+    "pos": "Offence",
+    "apps": 13,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "151439",
+    "name": "Aitor Paredes Casamichana",
+    "team": "Athletic Club",
+    "pos": "Defence",
+    "apps": 12,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "101870",
+    "name": "Roberto Navarro",
+    "team": "Athletic Club",
+    "pos": "Offence",
+    "apps": 13,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "157135",
+    "name": "Nico Williams",
+    "team": "Athletic Club",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.181,
+   "draw": 0.281,
+   "awayWin": 0.539,
+   "pick": "A",
+   "confidence": 0.539,
+   "reasoning": "Poisson model: expected goals Málaga CF 0.66 vs Athletic Club 1.36, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Málaga CF at home: 0W-3D-3L, 6 scored and 12 conceded in 6 games.",
+    "Athletic Club away: 1W-2D-2L, 4 scored and 6 conceded in 5 games.",
+    "League averages this season: home teams 1.60 goals per game, away teams 1.28.",
+    "Recent league form (newest first): Málaga CF LLLDL, Athletic Club LDWWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Málaga CF has 6 home games and Athletic Club 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "2294",
+    "name": "Álex Berenguer",
+    "team": "Athletic Club",
+    "probability": 0.305,
+    "confidence": 0.244,
+    "reasoning": "4 of Athletic Club's 15 league goals this season (27%), applied to the 1.36 goals the model expects from them here.",
+    "evidence": [
+     "Álex Berenguer: 4 league goals in 13 appearances this season.",
+     "Athletic Club have scored 15 league goals in 12 games; the model expects 1.36 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "221308",
+    "name": "Adrián",
+    "team": "Málaga CF",
+    "probability": 0.281,
+    "confidence": 0.225,
+    "reasoning": "5 of Málaga CF's 9 league goals this season (50%), applied to the 0.66 goals the model expects from them here.",
+    "evidence": [
+     "Adrián: 5 league goals in 9 appearances this season.",
+     "Málaga CF have scored 9 league goals in 13 games; the model expects 0.66 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "32629",
+    "name": "Iñaki Williams",
+    "team": "Athletic Club",
+    "probability": 0.239,
+    "confidence": 0.191,
+    "reasoning": "3 of Athletic Club's 15 league goals this season (20%), applied to the 1.36 goals the model expects from them here.",
+    "evidence": [
+     "Iñaki Williams: 3 league goals in 13 appearances this season.",
+     "Athletic Club have scored 15 league goals in 12 games; the model expects 1.36 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-1",
+    "probability": 0.18
+   },
+   "alternatives": [
+    {
+     "score": "0-0",
+     "probability": 0.132
+    },
+    {
+     "score": "0-2",
+     "probability": 0.123
+    },
+    {
+     "score": "1-1",
+     "probability": 0.119
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.66 (Málaga CF) and 1.36 (Athletic Club).",
+    "Top scorelines: 0-1 (18.0%), 0-0 (13.2%), 0-2 (12.3%), 1-1 (11.9%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Málaga CF has 6 home games and Athletic Club 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-27T05:15:12.298Z",
+ "lockedAt": "2026-11-27T05:15:30.796Z",
+ "result": null
+}

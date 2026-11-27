@@ -1,0 +1,373 @@
+{
+ "fixtureId": "565867",
+ "kickoffUtc": "2026-11-28T14:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565867",
+   "kickoffUtc": "2026-11-28T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "15",
+    "name": "1. FSV Mainz 05",
+    "short": "M05"
+   },
+   "away": {
+    "id": "28",
+    "name": "1. FC Union Berlin",
+    "short": "UNB"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.066666666666667,
+   "awayGoals": 1.3222222222222222
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "FC Augsburg",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "FC Bayern München",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "SV 07 Elversberg",
+     "venue": "A",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "SV Werder Bremen",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "FC Schalke 04",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "RB Leipzig",
+     "venue": "H",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "SC Freiburg",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "1. FC Köln",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "FC Augsburg",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Borussia Dortmund",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 3,
+     "d": 1,
+     "l": 6,
+     "gf": 19,
+     "ga": 22
+    },
+    "home": {
+     "p": 5,
+     "w": 0,
+     "d": 1,
+     "l": 4,
+     "gf": 7,
+     "ga": 12
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 12,
+     "ga": 10
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 1,
+     "d": 4,
+     "l": 5,
+     "gf": 8,
+     "ga": 26
+    },
+    "home": {
+     "p": 6,
+     "w": 1,
+     "d": 3,
+     "l": 2,
+     "gf": 7,
+     "ga": 12
+    },
+    "away": {
+     "p": 4,
+     "w": 0,
+     "d": 1,
+     "l": 3,
+     "gf": 1,
+     "ga": 14
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-10",
+    "homeId": "15",
+    "awayId": "28",
+    "home": "1. FSV Mainz 05",
+    "away": "1. FC Union Berlin",
+    "hg": 1,
+    "ag": 3
+   },
+   {
+    "date": "2026-01-10",
+    "homeId": "28",
+    "awayId": "15",
+    "home": "1. FC Union Berlin",
+    "away": "1. FSV Mainz 05",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2025-01-19",
+    "homeId": "28",
+    "awayId": "15",
+    "home": "1. FC Union Berlin",
+    "away": "1. FSV Mainz 05",
+    "hg": 2,
+    "ag": 1
+   },
+   {
+    "date": "2024-08-24",
+    "homeId": "15",
+    "awayId": "28",
+    "home": "1. FSV Mainz 05",
+    "away": "1. FC Union Berlin",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2024-02-07",
+    "homeId": "15",
+    "awayId": "28",
+    "home": "1. FSV Mainz 05",
+    "away": "1. FC Union Berlin",
+    "hg": 1,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "45593",
+    "name": "Phillip Tietz",
+    "team": "1. FSV Mainz 05",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8785",
+    "name": "Anthony Caci",
+    "team": "1. FSV Mainz 05",
+    "pos": "Defence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "7633",
+    "name": "Sheraldo Becker",
+    "team": "1. FSV Mainz 05",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "137302",
+    "name": "Ransford Königsdörffer",
+    "team": "1. FSV Mainz 05",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "7029",
+    "name": "Tim Skarke",
+    "team": "1. FC Union Berlin",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.823,
+   "draw": 0.117,
+   "awayWin": 0.06,
+   "pick": "H",
+   "confidence": 0.8,
+   "reasoning": "Poisson model: expected goals 1. FSV Mainz 05 2.92 vs 1. FC Union Berlin 0.69, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "1. FSV Mainz 05 at home: 0W-1D-4L, 7 scored and 12 conceded in 5 games.",
+    "1. FC Union Berlin away: 0W-1D-3L, 1 scored and 14 conceded in 4 games.",
+    "League averages this season: home teams 2.07 goals per game, away teams 1.32.",
+    "Recent league form (newest first): 1. FSV Mainz 05 LLLLW, 1. FC Union Berlin LLDDD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: 1. FSV Mainz 05 has 5 home games and 1. FC Union Berlin 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "45593",
+    "name": "Phillip Tietz",
+    "team": "1. FSV Mainz 05",
+    "probability": 0.602,
+    "confidence": 0.4,
+    "reasoning": "6 of 1. FSV Mainz 05's 19 league goals this season (32%), applied to the 2.92 goals the model expects from them here.",
+    "evidence": [
+     "Phillip Tietz: 6 league goals in 10 appearances this season.",
+     "1. FSV Mainz 05 have scored 19 league goals in 10 games; the model expects 2.92 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "8785",
+    "name": "Anthony Caci",
+    "team": "1. FSV Mainz 05",
+    "probability": 0.369,
+    "confidence": 0.295,
+    "reasoning": "3 of 1. FSV Mainz 05's 19 league goals this season (16%), applied to the 2.92 goals the model expects from them here.",
+    "evidence": [
+     "Anthony Caci: 3 league goals in 10 appearances this season.",
+     "1. FSV Mainz 05 have scored 19 league goals in 10 games; the model expects 2.92 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "7633",
+    "name": "Sheraldo Becker",
+    "team": "1. FSV Mainz 05",
+    "probability": 0.264,
+    "confidence": 0.212,
+    "reasoning": "2 of 1. FSV Mainz 05's 19 league goals this season (11%), applied to the 2.92 goals the model expects from them here.",
+    "evidence": [
+     "Sheraldo Becker: 2 league goals in 10 appearances this season.",
+     "1. FSV Mainz 05 have scored 19 league goals in 10 games; the model expects 2.92 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-0",
+    "probability": 0.115
+   },
+   "alternatives": [
+    {
+     "score": "3-0",
+     "probability": 0.112
+    },
+    {
+     "score": "4-0",
+     "probability": 0.082
+    },
+    {
+     "score": "2-1",
+     "probability": 0.08
+    }
+   ],
+   "confidence": 0.289,
+   "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.92 (1. FSV Mainz 05) and 0.69 (1. FC Union Berlin).",
+    "Top scorelines: 2-0 (11.5%), 3-0 (11.2%), 4-0 (8.2%), 2-1 (8.0%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: 1. FSV Mainz 05 has 5 home games and 1. FC Union Berlin 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-27T05:14:03.988Z",
+ "lockedAt": "2026-11-27T05:14:22.602Z",
+ "result": null
+}

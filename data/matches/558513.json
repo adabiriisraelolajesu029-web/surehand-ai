@@ -1,0 +1,327 @@
+{
+ "fixtureId": "558513",
+ "kickoffUtc": "2026-11-28T14:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "558513",
+   "kickoffUtc": "2026-11-28T14:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "470",
+    "name": "Frosinone Calcio",
+    "short": "FRO"
+   },
+   "away": {
+    "id": "112",
+    "name": "Parma Calcio 1913",
+    "short": "PAR"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6666666666666667,
+   "awayGoals": 1.4916666666666667
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "AC Milan",
+     "venue": "A",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "Cagliari Calcio",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Torino FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "US Lecce",
+     "venue": "H",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Atalanta BC",
+     "venue": "A",
+     "gf": 4,
+     "ga": 4,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "AS Roma",
+     "venue": "H",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "Bologna FC 1909",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Atalanta BC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Udinese Calcio",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "SS Lazio",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 12,
+     "w": 6,
+     "d": 2,
+     "l": 4,
+     "gf": 25,
+     "ga": 20
+    },
+    "home": {
+     "p": 6,
+     "w": 5,
+     "d": 0,
+     "l": 1,
+     "gf": 16,
+     "ga": 6
+    },
+    "away": {
+     "p": 6,
+     "w": 1,
+     "d": 2,
+     "l": 3,
+     "gf": 9,
+     "ga": 14
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 12,
+     "w": 2,
+     "d": 2,
+     "l": 8,
+     "gf": 10,
+     "ga": 22
+    },
+    "home": {
+     "p": 7,
+     "w": 1,
+     "d": 2,
+     "l": 4,
+     "gf": 5,
+     "ga": 13
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 0,
+     "l": 4,
+     "gf": 5,
+     "ga": 9
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "169216",
+    "name": "Antonio Raimondo",
+    "team": "Frosinone Calcio",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 8,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "40786",
+    "name": "Giacomo Calò",
+    "team": "Frosinone Calcio",
+    "pos": "Midfield",
+    "apps": 12,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "211564",
+    "name": "Giorgi Kvernadze",
+    "team": "Frosinone Calcio",
+    "pos": "Offence",
+    "apps": 12,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "299423",
+    "name": "Simone Lontani",
+    "team": "Parma Calcio 1913",
+    "pos": "Offence",
+    "apps": 12,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "165857",
+    "name": "José Romero",
+    "team": "Parma Calcio 1913",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.794,
+   "draw": 0.132,
+   "awayWin": 0.075,
+   "pick": "H",
+   "confidence": 0.794,
+   "reasoning": "Poisson model: expected goals Frosinone Calcio 2.77 vs Parma Calcio 1913 0.75, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Frosinone Calcio at home: 5W-0D-1L, 16 scored and 6 conceded in 6 games.",
+    "Parma Calcio 1913 away: 1W-0D-4L, 5 scored and 9 conceded in 5 games.",
+    "League averages this season: home teams 1.67 goals per game, away teams 1.49.",
+    "Recent league form (newest first): Frosinone Calcio LLWWD, Parma Calcio 1913 LLWDL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Frosinone Calcio has 6 home games and Parma Calcio 1913 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "169216",
+    "name": "Antonio Raimondo",
+    "team": "Frosinone Calcio",
+    "probability": 0.587,
+    "confidence": 0.4,
+    "reasoning": "8 of Frosinone Calcio's 25 league goals this season (32%), applied to the 2.77 goals the model expects from them here.",
+    "evidence": [
+     "Antonio Raimondo: 8 league goals in 10 appearances this season.",
+     "Frosinone Calcio have scored 25 league goals in 12 games; the model expects 2.77 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "40786",
+    "name": "Giacomo Calò",
+    "team": "Frosinone Calcio",
+    "probability": 0.425,
+    "confidence": 0.34,
+    "reasoning": "5 of Frosinone Calcio's 25 league goals this season (20%), applied to the 2.77 goals the model expects from them here.",
+    "evidence": [
+     "Giacomo Calò: 5 league goals in 12 appearances this season.",
+     "Frosinone Calcio have scored 25 league goals in 12 games; the model expects 2.77 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "211564",
+    "name": "Giorgi Kvernadze",
+    "team": "Frosinone Calcio",
+    "probability": 0.283,
+    "confidence": 0.226,
+    "reasoning": "3 of Frosinone Calcio's 25 league goals this season (12%), applied to the 2.77 goals the model expects from them here.",
+    "evidence": [
+     "Giorgi Kvernadze: 3 league goals in 12 appearances this season.",
+     "Frosinone Calcio have scored 25 league goals in 12 games; the model expects 2.77 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-0",
+    "probability": 0.114
+   },
+   "alternatives": [
+    {
+     "score": "3-0",
+     "probability": 0.105
+    },
+    {
+     "score": "2-1",
+     "probability": 0.085
+    },
+    {
+     "score": "1-0",
+     "probability": 0.083
+    }
+   ],
+   "confidence": 0.286,
+   "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.77 (Frosinone Calcio) and 0.75 (Parma Calcio 1913).",
+    "Top scorelines: 2-0 (11.4%), 3-0 (10.5%), 2-1 (8.5%), 1-0 (8.3%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Frosinone Calcio has 6 home games and Parma Calcio 1913 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-27T05:12:25.260Z",
+ "lockedAt": "2026-11-27T05:12:59.053Z",
+ "result": null
+}

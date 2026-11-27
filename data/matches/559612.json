@@ -1,0 +1,373 @@
+{
+ "fixtureId": "559612",
+ "kickoffUtc": "2026-11-28T16:15:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559612",
+   "kickoffUtc": "2026-11-28T16:15:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "532",
+    "name": "Angers SCO",
+    "short": "ANG"
+   },
+   "away": {
+    "id": "546",
+    "name": "Racing Club de Lens",
+    "short": "RCL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6262626262626263,
+   "awayGoals": 1.3232323232323233
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Paris FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "OGC Nice",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Olympique Lyonnais",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "FC Lorient",
+     "venue": "H",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Olympique de Marseille",
+     "venue": "H",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Toulouse FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Olympique de Marseille",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Lille OSC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Paris FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "ES Troyes AC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 2,
+     "d": 2,
+     "l": 7,
+     "gf": 9,
+     "ga": 23
+    },
+    "home": {
+     "p": 6,
+     "w": 1,
+     "d": 1,
+     "l": 4,
+     "gf": 5,
+     "ga": 11
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 1,
+     "l": 3,
+     "gf": 4,
+     "ga": 12
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 4,
+     "d": 2,
+     "l": 5,
+     "gf": 18,
+     "ga": 16
+    },
+    "home": {
+     "p": 6,
+     "w": 3,
+     "d": 1,
+     "l": 2,
+     "gf": 11,
+     "ga": 8
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 1,
+     "l": 3,
+     "gf": 7,
+     "ga": 8
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-03-20",
+    "homeId": "546",
+    "awayId": "532",
+    "home": "Racing Club de Lens",
+    "away": "Angers SCO",
+    "hg": 5,
+    "ag": 1
+   },
+   {
+    "date": "2025-11-30",
+    "homeId": "532",
+    "awayId": "546",
+    "home": "Angers SCO",
+    "away": "Racing Club de Lens",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-01-26",
+    "homeId": "546",
+    "awayId": "532",
+    "home": "Racing Club de Lens",
+    "away": "Angers SCO",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2024-08-18",
+    "homeId": "532",
+    "awayId": "546",
+    "home": "Angers SCO",
+    "away": "Racing Club de Lens",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2023-03-18",
+    "homeId": "546",
+    "awayId": "532",
+    "home": "Racing Club de Lens",
+    "away": "Angers SCO",
+    "hg": 3,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "137515",
+    "name": "Amine El Ouazzani",
+    "team": "Angers SCO",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "278087",
+    "name": "Prosper Peter",
+    "team": "Angers SCO",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "3370",
+    "name": "Florian Thauvin",
+    "team": "Racing Club de Lens",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "183643",
+    "name": "Franjo Ivanovic",
+    "team": "Racing Club de Lens",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8717",
+    "name": "Matthieu Udol",
+    "team": "Racing Club de Lens",
+    "pos": "Defence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.151,
+   "draw": 0.207,
+   "awayWin": 0.643,
+   "pick": "A",
+   "confidence": 0.643,
+   "reasoning": "Poisson model: expected goals Angers SCO 0.85 vs Racing Club de Lens 2.00, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Angers SCO at home: 1W-1D-4L, 5 scored and 11 conceded in 6 games.",
+    "Racing Club de Lens away: 1W-1D-3L, 7 scored and 8 conceded in 5 games.",
+    "League averages this season: home teams 1.63 goals per game, away teams 1.32.",
+    "Recent league form (newest first): Angers SCO LLLDL, Racing Club de Lens DLLWW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Angers SCO has 6 home games and Racing Club de Lens 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "3370",
+    "name": "Florian Thauvin",
+    "team": "Racing Club de Lens",
+    "probability": 0.426,
+    "confidence": 0.341,
+    "reasoning": "5 of Racing Club de Lens's 18 league goals this season (28%), applied to the 2.00 goals the model expects from them here.",
+    "evidence": [
+     "Florian Thauvin: 5 league goals in 11 appearances this season.",
+     "Racing Club de Lens have scored 18 league goals in 11 games; the model expects 2.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "183643",
+    "name": "Franjo Ivanovic",
+    "team": "Racing Club de Lens",
+    "probability": 0.199,
+    "confidence": 0.159,
+    "reasoning": "2 of Racing Club de Lens's 18 league goals this season (11%), applied to the 2.00 goals the model expects from them here.",
+    "evidence": [
+     "Franjo Ivanovic: 2 league goals in 9 appearances this season.",
+     "Racing Club de Lens have scored 18 league goals in 11 games; the model expects 2.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "8717",
+    "name": "Matthieu Udol",
+    "team": "Racing Club de Lens",
+    "probability": 0.199,
+    "confidence": 0.159,
+    "reasoning": "2 of Racing Club de Lens's 18 league goals this season (11%), applied to the 2.00 goals the model expects from them here.",
+    "evidence": [
+     "Matthieu Udol: 2 league goals in 10 appearances this season.",
+     "Racing Club de Lens have scored 18 league goals in 11 games; the model expects 2.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.116
+   },
+   "alternatives": [
+    {
+     "score": "0-1",
+     "probability": 0.116
+    },
+    {
+     "score": "1-2",
+     "probability": 0.098
+    },
+    {
+     "score": "1-1",
+     "probability": 0.098
+    }
+   ],
+   "confidence": 0.29,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.85 (Angers SCO) and 2.00 (Racing Club de Lens).",
+    "Top scorelines: 0-2 (11.6%), 0-1 (11.6%), 1-2 (9.8%), 1-1 (9.8%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Angers SCO has 6 home games and Racing Club de Lens 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-27T05:15:30.796Z",
+ "lockedAt": "2026-11-27T05:16:03.870Z",
+ "result": null
+}

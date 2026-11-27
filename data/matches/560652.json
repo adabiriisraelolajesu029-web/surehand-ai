@@ -1,0 +1,354 @@
+{
+ "fixtureId": "560652",
+ "kickoffUtc": "2026-11-28T15:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "560652",
+   "kickoffUtc": "2026-11-28T15:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "341",
+    "name": "Leeds United FC",
+    "short": "LEE"
+   },
+   "away": {
+    "id": "1076",
+    "name": "Coventry City FC",
+    "short": "COV"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.5818181818181818,
+   "awayGoals": 1.1727272727272726
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Chelsea FC",
+     "venue": "A",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Tottenham Hotspur FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "AFC Bournemouth",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Sunderland AFC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Manchester United FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Crystal Palace FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "Everton FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Sunderland AFC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Fulham FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Tottenham Hotspur FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 4,
+     "d": 5,
+     "l": 2,
+     "gf": 14,
+     "ga": 9
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 3,
+     "l": 0,
+     "gf": 7,
+     "ga": 3
+    },
+    "away": {
+     "p": 6,
+     "w": 2,
+     "d": 2,
+     "l": 2,
+     "gf": 7,
+     "ga": 6
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 4,
+     "d": 0,
+     "l": 7,
+     "gf": 13,
+     "ga": 21
+    },
+    "home": {
+     "p": 6,
+     "w": 3,
+     "d": 0,
+     "l": 3,
+     "gf": 10,
+     "ga": 11
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 0,
+     "l": 4,
+     "gf": 3,
+     "ga": 10
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2025-02-05",
+    "homeId": "1076",
+    "awayId": "341",
+    "home": "Coventry City FC",
+    "away": "Leeds United FC",
+    "hg": 0,
+    "ag": 2
+   },
+   {
+    "date": "2024-09-28",
+    "homeId": "341",
+    "awayId": "1076",
+    "home": "Leeds United FC",
+    "away": "Coventry City FC",
+    "hg": 3,
+    "ag": 0
+   },
+   {
+    "date": "2024-04-06",
+    "homeId": "1076",
+    "awayId": "341",
+    "home": "Coventry City FC",
+    "away": "Leeds United FC",
+    "hg": 2,
+    "ag": 1
+   },
+   {
+    "date": "2023-12-16",
+    "homeId": "341",
+    "awayId": "1076",
+    "home": "Leeds United FC",
+    "away": "Coventry City FC",
+    "hg": 1,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "7839",
+    "name": "Dominic Calvert-Lewin",
+    "team": "Leeds United FC",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "16058",
+    "name": "Noah Okafor",
+    "team": "Leeds United FC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "4184",
+    "name": "Jayden Bogle",
+    "team": "Leeds United FC",
+    "pos": "Defence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "114123",
+    "name": "Jack Rudoni",
+    "team": "Coventry City FC",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.728,
+   "draw": 0.197,
+   "awayWin": 0.076,
+   "pick": "H",
+   "confidence": 0.728,
+   "reasoning": "Poisson model: expected goals Leeds United FC 1.88 vs Coventry City FC 0.43, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Leeds United FC at home: 2W-3D-0L, 7 scored and 3 conceded in 5 games.",
+    "Coventry City FC away: 1W-0D-4L, 3 scored and 10 conceded in 5 games.",
+    "League averages this season: home teams 1.58 goals per game, away teams 1.17.",
+    "Recent league form (newest first): Leeds United FC WWLDD, Coventry City FC WLWLL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Leeds United FC has 5 home games and Coventry City FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "7839",
+    "name": "Dominic Calvert-Lewin",
+    "team": "Leeds United FC",
+    "probability": 0.416,
+    "confidence": 0.333,
+    "reasoning": "4 of Leeds United FC's 14 league goals this season (29%), applied to the 1.88 goals the model expects from them here.",
+    "evidence": [
+     "Dominic Calvert-Lewin: 4 league goals in 11 appearances this season.",
+     "Leeds United FC have scored 14 league goals in 11 games; the model expects 1.88 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "16058",
+    "name": "Noah Okafor",
+    "team": "Leeds United FC",
+    "probability": 0.416,
+    "confidence": 0.333,
+    "reasoning": "4 of Leeds United FC's 14 league goals this season (29%), applied to the 1.88 goals the model expects from them here.",
+    "evidence": [
+     "Noah Okafor: 4 league goals in 10 appearances this season.",
+     "Leeds United FC have scored 14 league goals in 11 games; the model expects 1.88 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "4184",
+    "name": "Jayden Bogle",
+    "team": "Leeds United FC",
+    "probability": 0.236,
+    "confidence": 0.189,
+    "reasoning": "2 of Leeds United FC's 14 league goals this season (14%), applied to the 1.88 goals the model expects from them here.",
+    "evidence": [
+     "Jayden Bogle: 2 league goals in 11 appearances this season.",
+     "Leeds United FC have scored 14 league goals in 11 games; the model expects 1.88 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.187
+   },
+   "alternatives": [
+    {
+     "score": "2-0",
+     "probability": 0.176
+    },
+    {
+     "score": "3-0",
+     "probability": 0.11
+    },
+    {
+     "score": "0-0",
+     "probability": 0.099
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.88 (Leeds United FC) and 0.43 (Coventry City FC).",
+    "Top scorelines: 1-0 (18.7%), 2-0 (17.6%), 3-0 (11.0%), 0-0 (9.9%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Leeds United FC has 5 home games and Coventry City FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-27T05:14:22.602Z",
+ "lockedAt": "2026-11-27T05:14:54.856Z",
+ "result": null
+}
