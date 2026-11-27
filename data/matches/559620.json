@@ -1,0 +1,364 @@
+{
+ "fixtureId": "559620",
+ "kickoffUtc": "2026-11-28T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559620",
+   "kickoffUtc": "2026-11-28T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "522",
+    "name": "OGC Nice",
+    "short": "NIC"
+   },
+   "away": {
+    "id": "531",
+    "name": "ES Troyes AC",
+    "short": "ETR"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6262626262626263,
+   "awayGoals": 1.3232323232323233
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Paris Saint-Germain FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Angers SCO",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "H",
+     "gf": 5,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "Stade Brestois 29",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Olympique Lyonnais",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Le Havre AC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Paris Saint-Germain FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Le Mans FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Toulouse FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 5,
+     "d": 2,
+     "l": 4,
+     "gf": 17,
+     "ga": 15
+    },
+    "home": {
+     "p": 6,
+     "w": 3,
+     "d": 2,
+     "l": 1,
+     "gf": 12,
+     "ga": 8
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 0,
+     "l": 3,
+     "gf": 5,
+     "ga": 7
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 3,
+     "d": 2,
+     "l": 6,
+     "gf": 10,
+     "ga": 18
+    },
+    "home": {
+     "p": 6,
+     "w": 2,
+     "d": 1,
+     "l": 3,
+     "gf": 8,
+     "ga": 12
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 1,
+     "l": 3,
+     "gf": 2,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2023-04-30",
+    "homeId": "531",
+    "awayId": "522",
+    "home": "ES Troyes AC",
+    "away": "OGC Nice",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2022-10-09",
+    "homeId": "522",
+    "awayId": "531",
+    "home": "OGC Nice",
+    "away": "ES Troyes AC",
+    "hg": 3,
+    "ag": 2
+   },
+   {
+    "date": "2022-04-24",
+    "homeId": "522",
+    "awayId": "531",
+    "home": "OGC Nice",
+    "away": "ES Troyes AC",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2021-10-17",
+    "homeId": "531",
+    "awayId": "522",
+    "home": "ES Troyes AC",
+    "away": "OGC Nice",
+    "hg": 1,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "156808",
+    "name": "Sepe Elye Wahi",
+    "team": "OGC Nice",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "180827",
+    "name": "Mohammed Amoura",
+    "team": "OGC Nice",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "1023",
+    "name": "Jonathan Clauss",
+    "team": "OGC Nice",
+    "pos": "Defence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "134600",
+    "name": "Antoine Mille",
+    "team": "ES Troyes AC",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "851",
+    "name": "Renaud Ripart",
+    "team": "ES Troyes AC",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.649,
+   "draw": 0.231,
+   "awayWin": 0.12,
+   "pick": "H",
+   "confidence": 0.649,
+   "reasoning": "Poisson model: expected goals OGC Nice 1.70 vs ES Troyes AC 0.57, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "OGC Nice at home: 3W-2D-1L, 12 scored and 8 conceded in 6 games.",
+    "ES Troyes AC away: 1W-1D-3L, 2 scored and 6 conceded in 5 games.",
+    "League averages this season: home teams 1.63 goals per game, away teams 1.32.",
+    "Recent league form (newest first): OGC Nice LWWWL, ES Troyes AC WLWDL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: OGC Nice has 6 home games and ES Troyes AC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "156808",
+    "name": "Sepe Elye Wahi",
+    "team": "OGC Nice",
+    "probability": 0.451,
+    "confidence": 0.361,
+    "reasoning": "6 of OGC Nice's 17 league goals this season (35%), applied to the 1.70 goals the model expects from them here.",
+    "evidence": [
+     "Sepe Elye Wahi: 6 league goals in 10 appearances this season.",
+     "OGC Nice have scored 17 league goals in 11 games; the model expects 1.70 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "180827",
+    "name": "Mohammed Amoura",
+    "team": "OGC Nice",
+    "probability": 0.259,
+    "confidence": 0.207,
+    "reasoning": "3 of OGC Nice's 17 league goals this season (18%), applied to the 1.70 goals the model expects from them here.",
+    "evidence": [
+     "Mohammed Amoura: 3 league goals in 9 appearances this season.",
+     "OGC Nice have scored 17 league goals in 11 games; the model expects 1.70 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "1023",
+    "name": "Jonathan Clauss",
+    "team": "OGC Nice",
+    "probability": 0.259,
+    "confidence": 0.207,
+    "reasoning": "3 of OGC Nice's 17 league goals this season (18%), applied to the 1.70 goals the model expects from them here.",
+    "evidence": [
+     "Jonathan Clauss: 3 league goals in 11 appearances this season.",
+     "OGC Nice have scored 17 league goals in 11 games; the model expects 1.70 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-0",
+    "probability": 0.176
+   },
+   "alternatives": [
+    {
+     "score": "2-0",
+     "probability": 0.149
+    },
+    {
+     "score": "0-0",
+     "probability": 0.103
+    },
+    {
+     "score": "1-1",
+     "probability": 0.1
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.70 (OGC Nice) and 0.57 (ES Troyes AC).",
+    "Top scorelines: 1-0 (17.6%), 2-0 (14.9%), 0-0 (10.3%), 1-1 (10.0%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: OGC Nice has 6 home games and ES Troyes AC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-27T14:41:53.133Z",
+ "lockedAt": "2026-11-27T14:42:11.573Z",
+ "result": null
+}

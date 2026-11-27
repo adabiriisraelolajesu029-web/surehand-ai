@@ -1,0 +1,347 @@
+{
+ "fixtureId": "559617",
+ "kickoffUtc": "2026-11-28T19:45:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559617",
+   "kickoffUtc": "2026-11-28T19:45:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "535",
+    "name": "Le Mans FC",
+    "short": "LMF"
+   },
+   "away": {
+    "id": "521",
+    "name": "Lille OSC",
+    "short": "LIL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.6262626262626263,
+   "awayGoals": 1.3232323232323233
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Olympique de Marseille",
+     "venue": "A",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "AS Monaco FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "ES Troyes AC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "AJ Auxerre",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Toulouse FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Olympique Lyonnais",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Stade Rennais FC 1901",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "AS Monaco FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Stade Brestois 29",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 2,
+     "d": 5,
+     "l": 4,
+     "gf": 15,
+     "ga": 21
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 3,
+     "l": 1,
+     "gf": 7,
+     "ga": 9
+    },
+    "away": {
+     "p": 6,
+     "w": 1,
+     "d": 2,
+     "l": 3,
+     "gf": 8,
+     "ga": 12
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 6,
+     "d": 3,
+     "l": 2,
+     "gf": 14,
+     "ga": 8
+    },
+    "home": {
+     "p": 6,
+     "w": 3,
+     "d": 2,
+     "l": 1,
+     "gf": 7,
+     "ga": 4
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 1,
+     "l": 1,
+     "gf": 7,
+     "ga": 4
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "124178",
+    "name": "Louis Mafouta",
+    "team": "Le Mans FC",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "292172",
+    "name": "Adil Bourabaa",
+    "team": "Le Mans FC",
+    "pos": "Midfield",
+    "apps": 5,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "3371",
+    "name": "Olivier Giroud",
+    "team": "Lille OSC",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "188087",
+    "name": "Tiago Santos",
+    "team": "Lille OSC",
+    "pos": "Defence",
+    "apps": 6,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "151295",
+    "name": "Dilane Bakwa",
+    "team": "Lille OSC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "119460",
+    "name": "Ayase Ueda",
+    "team": "Lille OSC",
+    "pos": "Offence",
+    "apps": 5,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "218468",
+    "name": "Ethan Mbappé",
+    "team": "Lille OSC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.152,
+   "draw": 0.234,
+   "awayWin": 0.614,
+   "pick": "A",
+   "confidence": 0.614,
+   "reasoning": "Poisson model: expected goals Le Mans FC 0.71 vs Lille OSC 1.71, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Le Mans FC at home: 1W-3D-1L, 7 scored and 9 conceded in 5 games.",
+    "Lille OSC away: 3W-1D-1L, 7 scored and 4 conceded in 5 games.",
+    "League averages this season: home teams 1.63 goals per game, away teams 1.32.",
+    "Recent league form (newest first): Le Mans FC WDLDL, Lille OSC LWWDD (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Le Mans FC has 5 home games and Lille OSC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "3371",
+    "name": "Olivier Giroud",
+    "team": "Lille OSC",
+    "probability": 0.307,
+    "confidence": 0.246,
+    "reasoning": "3 of Lille OSC's 14 league goals this season (21%), applied to the 1.71 goals the model expects from them here.",
+    "evidence": [
+     "Olivier Giroud: 3 league goals in 11 appearances this season.",
+     "Lille OSC have scored 14 league goals in 11 games; the model expects 1.71 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "188087",
+    "name": "Tiago Santos",
+    "team": "Lille OSC",
+    "probability": 0.217,
+    "confidence": 0.173,
+    "reasoning": "2 of Lille OSC's 14 league goals this season (14%), applied to the 1.71 goals the model expects from them here.",
+    "evidence": [
+     "Tiago Santos: 2 league goals in 6 appearances this season.",
+     "Lille OSC have scored 14 league goals in 11 games; the model expects 1.71 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "151295",
+    "name": "Dilane Bakwa",
+    "team": "Lille OSC",
+    "probability": 0.217,
+    "confidence": 0.173,
+    "reasoning": "2 of Lille OSC's 14 league goals this season (14%), applied to the 1.71 goals the model expects from them here.",
+    "evidence": [
+     "Dilane Bakwa: 2 league goals in 10 appearances this season.",
+     "Lille OSC have scored 14 league goals in 11 games; the model expects 1.71 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-1",
+    "probability": 0.152
+   },
+   "alternatives": [
+    {
+     "score": "0-2",
+     "probability": 0.13
+    },
+    {
+     "score": "1-1",
+     "probability": 0.108
+    },
+    {
+     "score": "1-2",
+     "probability": 0.092
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.71 (Le Mans FC) and 1.71 (Lille OSC).",
+    "Top scorelines: 0-1 (15.2%), 0-2 (13.0%), 1-1 (10.8%), 1-2 (9.2%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Le Mans FC has 5 home games and Lille OSC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-27T14:40:48.147Z",
+ "lockedAt": "2026-11-27T14:41:17.194Z",
+ "result": null
+}

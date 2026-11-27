@@ -280,6 +280,26 @@
   }
  },
  {
+  "id": "558518",
+  "kickoffUtc": "2026-11-28T19:45:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "SA",
+   "name": "Serie A",
+   "country": "Italy"
+  },
+  "home": {
+   "id": "108",
+   "name": "FC Internazionale Milano",
+   "short": "INT"
+  },
+  "away": {
+   "id": "107",
+   "name": "Genoa CFC",
+   "short": "GEN"
+  }
+ },
+ {
   "id": "559617",
   "kickoffUtc": "2026-11-28T19:45:00.000Z",
   "status": "scheduled",
@@ -317,26 +337,6 @@
    "id": "576",
    "name": "RC Strasbourg Alsace",
    "short": "RC "
-  }
- },
- {
-  "id": "558518",
-  "kickoffUtc": "2026-11-28T19:45:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "SA",
-   "name": "Serie A",
-   "country": "Italy"
-  },
-  "home": {
-   "id": "108",
-   "name": "FC Internazionale Milano",
-   "short": "INT"
-  },
-  "away": {
-   "id": "107",
-   "name": "Genoa CFC",
-   "short": "GEN"
   }
  },
  {

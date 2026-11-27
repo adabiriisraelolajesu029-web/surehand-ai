@@ -1,0 +1,384 @@
+{
+ "fixtureId": "564759",
+ "kickoffUtc": "2026-11-28T17:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "564759",
+   "kickoffUtc": "2026-11-28T17:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "285",
+    "name": "Elche CF",
+    "short": "ELC"
+   },
+   "away": {
+    "id": "78",
+    "name": "Club Atlético de Madrid",
+    "short": "ATL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.5968992248062015,
+   "awayGoals": 1.2790697674418605
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Levante UD",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Real Betis Balompié",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Valencia CF",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Rayo Vallecano de Madrid",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Villarreal CF",
+     "venue": "A",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Getafe CF",
+     "venue": "A",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Barcelona",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Levante UD",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "RC Deportivo La Coruña",
+     "venue": "H",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "RCD Espanyol de Barcelona",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 13,
+     "w": 2,
+     "d": 5,
+     "l": 6,
+     "gf": 15,
+     "ga": 21
+    },
+    "home": {
+     "p": 6,
+     "w": 0,
+     "d": 1,
+     "l": 5,
+     "gf": 4,
+     "ga": 14
+    },
+    "away": {
+     "p": 7,
+     "w": 2,
+     "d": 4,
+     "l": 1,
+     "gf": 11,
+     "ga": 7
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 13,
+     "w": 10,
+     "d": 1,
+     "l": 2,
+     "gf": 26,
+     "ga": 10
+    },
+    "home": {
+     "p": 6,
+     "w": 4,
+     "d": 1,
+     "l": 1,
+     "gf": 12,
+     "ga": 5
+    },
+    "away": {
+     "p": 7,
+     "w": 6,
+     "d": 0,
+     "l": 1,
+     "gf": 14,
+     "ga": 5
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-22",
+    "homeId": "285",
+    "awayId": "78",
+    "home": "Elche CF",
+    "away": "Club Atlético de Madrid",
+    "hg": 3,
+    "ag": 2
+   },
+   {
+    "date": "2025-08-23",
+    "homeId": "78",
+    "awayId": "285",
+    "home": "Club Atlético de Madrid",
+    "away": "Elche CF",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2023-05-14",
+    "homeId": "285",
+    "awayId": "78",
+    "home": "Elche CF",
+    "away": "Club Atlético de Madrid",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2022-12-29",
+    "homeId": "78",
+    "awayId": "285",
+    "home": "Club Atlético de Madrid",
+    "away": "Elche CF",
+    "hg": 2,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "214497",
+    "name": "Fer Niño",
+    "team": "Elche CF",
+    "pos": "Offence",
+    "apps": 13,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "137485",
+    "name": "Germán Valera",
+    "team": "Elche CF",
+    "pos": "Offence",
+    "apps": 13,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "213278",
+    "name": "Álex Baena",
+    "team": "Club Atlético de Madrid",
+    "pos": "Midfield",
+    "apps": 13,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "16739",
+    "name": "Alejandro Grimaldo",
+    "team": "Club Atlético de Madrid",
+    "pos": "Defence",
+    "apps": 13,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "171964",
+    "name": "Giuliano Simeone",
+    "team": "Club Atlético de Madrid",
+    "pos": "Offence",
+    "apps": 13,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8924",
+    "name": "Jonathan David",
+    "team": "Club Atlético de Madrid",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "213217",
+    "name": "Kang-in Lee",
+    "team": "Club Atlético de Madrid",
+    "pos": "Midfield",
+    "apps": 13,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.032,
+   "draw": 0.093,
+   "awayWin": 0.875,
+   "pick": "A",
+   "confidence": 0.8,
+   "reasoning": "Poisson model: expected goals Elche CF 0.44 vs Club Atlético de Madrid 2.96, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Elche CF at home: 0W-1D-5L, 4 scored and 14 conceded in 6 games.",
+    "Club Atlético de Madrid away: 6W-0D-1L, 14 scored and 5 conceded in 7 games.",
+    "League averages this season: home teams 1.60 goals per game, away teams 1.28.",
+    "Recent league form (newest first): Elche CF DLLWD, Club Atlético de Madrid WLWWW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Elche CF has 6 home games and Club Atlético de Madrid 7 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "213278",
+    "name": "Álex Baena",
+    "team": "Club Atlético de Madrid",
+    "probability": 0.495,
+    "confidence": 0.396,
+    "reasoning": "6 of Club Atlético de Madrid's 26 league goals this season (23%), applied to the 2.96 goals the model expects from them here.",
+    "evidence": [
+     "Álex Baena: 6 league goals in 13 appearances this season.",
+     "Club Atlético de Madrid have scored 26 league goals in 13 games; the model expects 2.96 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "16739",
+    "name": "Alejandro Grimaldo",
+    "team": "Club Atlético de Madrid",
+    "probability": 0.434,
+    "confidence": 0.348,
+    "reasoning": "5 of Club Atlético de Madrid's 26 league goals this season (19%), applied to the 2.96 goals the model expects from them here.",
+    "evidence": [
+     "Alejandro Grimaldo: 5 league goals in 13 appearances this season.",
+     "Club Atlético de Madrid have scored 26 league goals in 13 games; the model expects 2.96 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "171964",
+    "name": "Giuliano Simeone",
+    "team": "Club Atlético de Madrid",
+    "probability": 0.366,
+    "confidence": 0.293,
+    "reasoning": "4 of Club Atlético de Madrid's 26 league goals this season (15%), applied to the 2.96 goals the model expects from them here.",
+    "evidence": [
+     "Giuliano Simeone: 4 league goals in 13 appearances this season.",
+     "Club Atlético de Madrid have scored 26 league goals in 13 games; the model expects 2.96 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-2",
+    "probability": 0.147
+   },
+   "alternatives": [
+    {
+     "score": "0-3",
+     "probability": 0.145
+    },
+    {
+     "score": "0-4",
+     "probability": 0.108
+    },
+    {
+     "score": "0-1",
+     "probability": 0.099
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.44 (Elche CF) and 2.96 (Club Atlético de Madrid).",
+    "Top scorelines: 0-2 (14.7%), 0-3 (14.5%), 0-4 (10.8%), 0-1 (9.9%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Elche CF has 6 home games and Club Atlético de Madrid 7 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-27T14:39:44.142Z",
+ "lockedAt": "2026-11-27T14:40:16.008Z",
+ "result": null
+}
