@@ -1,0 +1,1791 @@
+[
+ {
+  "fixture": {
+   "id": "558509",
+   "kickoffUtc": "2026-11-29T14:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "471",
+    "name": "US Sassuolo Calcio",
+    "short": "SAS"
+   },
+   "away": {
+    "id": "113",
+    "name": "SSC Napoli",
+    "short": "NAP"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.159,
+    "draw": 0.17,
+    "awayWin": 0.671,
+    "pick": "A",
+    "confidence": 0.671,
+    "reasoning": "Poisson model: expected goals US Sassuolo Calcio 1.22 vs SSC Napoli 2.61, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "US Sassuolo Calcio at home: 2W-1D-3L, 10 scored and 16 conceded in 6 games.",
+     "SSC Napoli away: 2W-1D-3L, 9 scored and 8 conceded in 6 games.",
+     "League averages this season: home teams 1.65 goals per game, away teams 1.48.",
+     "Recent league form (newest first): US Sassuolo Calcio LLLLL, SSC Napoli WDLWD (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: US Sassuolo Calcio has 6 home games and SSC Napoli 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "3654",
+     "name": "Kevin De Bruyne",
+     "team": "SSC Napoli",
+     "probability": 0.423,
+     "confidence": 0.338,
+     "reasoning": "4 of SSC Napoli's 19 league goals this season (21%), applied to the 2.61 goals the model expects from them here.",
+     "evidence": [
+      "Kevin De Bruyne: 4 league goals in 12 appearances this season.",
+      "SSC Napoli have scored 19 league goals in 12 games; the model expects 2.61 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "152770",
+     "name": "Rasmus Højlund",
+     "team": "SSC Napoli",
+     "probability": 0.338,
+     "confidence": 0.27,
+     "reasoning": "3 of SSC Napoli's 19 league goals this season (16%), applied to the 2.61 goals the model expects from them here.",
+     "evidence": [
+      "Rasmus Højlund: 3 league goals in 11 appearances this season.",
+      "SSC Napoli have scored 19 league goals in 12 games; the model expects 2.61 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "7905",
+     "name": "Scott McTominay",
+     "team": "SSC Napoli",
+     "probability": 0.338,
+     "confidence": 0.27,
+     "reasoning": "3 of SSC Napoli's 19 league goals this season (16%), applied to the 2.61 goals the model expects from them here.",
+     "evidence": [
+      "Scott McTominay: 3 league goals in 9 appearances this season.",
+      "SSC Napoli have scored 19 league goals in 12 games; the model expects 2.61 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-2",
+     "probability": 0.09
+    },
+    "alternatives": [
+     {
+      "score": "1-3",
+      "probability": 0.079
+     },
+     {
+      "score": "0-2",
+      "probability": 0.074
+     },
+     {
+      "score": "1-1",
+      "probability": 0.069
+     }
+    ],
+    "confidence": 0.226,
+    "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.22 (US Sassuolo Calcio) and 2.61 (SSC Napoli).",
+     "Top scorelines: 1-2 (9.0%), 1-3 (7.9%), 0-2 (7.4%), 1-1 (6.9%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: US Sassuolo Calcio has 6 home games and SSC Napoli 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:49:28.801Z"
+ },
+ {
+  "fixture": {
+   "id": "558517",
+   "kickoffUtc": "2026-11-29T11:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "SA",
+    "name": "Serie A",
+    "country": "Italy"
+   },
+   "home": {
+    "id": "115",
+    "name": "Udinese Calcio",
+    "short": "UDI"
+   },
+   "away": {
+    "id": "99",
+    "name": "ACF Fiorentina",
+    "short": "FIO"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.205,
+    "draw": 0.194,
+    "awayWin": 0.601,
+    "pick": "A",
+    "confidence": 0.601,
+    "reasoning": "Poisson model: expected goals Udinese Calcio 1.29 vs ACF Fiorentina 2.30, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Udinese Calcio at home: 0W-1D-5L, 4 scored and 14 conceded in 6 games.",
+     "ACF Fiorentina away: 2W-0D-4L, 10 scored and 15 conceded in 6 games.",
+     "League averages this season: home teams 1.65 goals per game, away teams 1.48.",
+     "Recent league form (newest first): Udinese Calcio DLLDL, ACF Fiorentina LDWDL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Udinese Calcio has 6 home games and ACF Fiorentina 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "157538",
+     "name": "Mateo Pellegrino",
+     "team": "ACF Fiorentina",
+     "probability": 0.418,
+     "confidence": 0.335,
+     "reasoning": "4 of ACF Fiorentina's 17 league goals this season (24%), applied to the 2.30 goals the model expects from them here.",
+     "evidence": [
+      "Mateo Pellegrino: 4 league goals in 12 appearances this season.",
+      "ACF Fiorentina have scored 17 league goals in 12 games; the model expects 2.30 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "250304",
+     "name": "Franco Mastantuono",
+     "team": "ACF Fiorentina",
+     "probability": 0.418,
+     "confidence": 0.335,
+     "reasoning": "4 of ACF Fiorentina's 17 league goals this season (24%), applied to the 2.30 goals the model expects from them here.",
+     "evidence": [
+      "Franco Mastantuono: 4 league goals in 12 appearances this season.",
+      "ACF Fiorentina have scored 17 league goals in 12 games; the model expects 2.30 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "246508",
+     "name": "Alieu Njie",
+     "team": "ACF Fiorentina",
+     "probability": 0.334,
+     "confidence": 0.267,
+     "reasoning": "3 of ACF Fiorentina's 17 league goals this season (18%), applied to the 2.30 goals the model expects from them here.",
+     "evidence": [
+      "Alieu Njie: 3 league goals in 12 appearances this season.",
+      "ACF Fiorentina have scored 17 league goals in 12 games; the model expects 2.30 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-2",
+     "probability": 0.094
+    },
+    "alternatives": [
+     {
+      "score": "1-1",
+      "probability": 0.082
+     },
+     {
+      "score": "0-2",
+      "probability": 0.073
+     },
+     {
+      "score": "1-3",
+      "probability": 0.072
+     }
+    ],
+    "confidence": 0.236,
+    "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.29 (Udinese Calcio) and 2.30 (ACF Fiorentina).",
+     "Top scorelines: 1-2 (9.4%), 1-1 (8.2%), 0-2 (7.3%), 1-3 (7.2%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Udinese Calcio has 6 home games and ACF Fiorentina 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:48:10.207Z"
+ },
+ {
+  "fixture": {
+   "id": "559618",
+   "kickoffUtc": "2026-11-29T16:15:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "511",
+    "name": "Toulouse FC",
+    "short": "TOU"
+   },
+   "away": {
+    "id": "529",
+    "name": "Stade Rennais FC 1901",
+    "short": "REN"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.536,
+    "draw": 0.201,
+    "awayWin": 0.263,
+    "pick": "H",
+    "confidence": 0.536,
+    "reasoning": "Poisson model: expected goals Toulouse FC 2.26 vs Stade Rennais FC 1901 1.55, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Toulouse FC at home: 2W-1D-2L, 6 scored and 6 conceded in 5 games.",
+     "Stade Rennais FC 1901 away: 1W-1D-3L, 8 scored and 15 conceded in 5 games.",
+     "League averages this season: home teams 1.62 goals per game, away teams 1.31.",
+     "Recent league form (newest first): Toulouse FC DWLDW, Stade Rennais FC 1901 DLLWL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Toulouse FC has 5 home games and Stade Rennais FC 1901 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "129381",
+     "name": "Casper Tengstedt",
+     "team": "Toulouse FC",
+     "probability": 0.506,
+     "confidence": 0.4,
+     "reasoning": "5 of Toulouse FC's 16 league goals this season (31%), applied to the 2.26 goals the model expects from them here.",
+     "evidence": [
+      "Casper Tengstedt: 5 league goals in 9 appearances this season.",
+      "Toulouse FC have scored 16 league goals in 11 games; the model expects 2.26 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "149850",
+     "name": "Esteban Lepaul",
+     "team": "Stade Rennais FC 1901",
+     "probability": 0.39,
+     "confidence": 0.312,
+     "reasoning": "7 of Stade Rennais FC 1901's 22 league goals this season (32%), applied to the 1.55 goals the model expects from them here.",
+     "evidence": [
+      "Esteban Lepaul: 7 league goals in 8 appearances this season.",
+      "Stade Rennais FC 1901 have scored 22 league goals in 11 games; the model expects 1.55 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "182406",
+     "name": "Jacen Russell-Rowe",
+     "team": "Toulouse FC",
+     "probability": 0.345,
+     "confidence": 0.276,
+     "reasoning": "3 of Toulouse FC's 16 league goals this season (19%), applied to the 2.26 goals the model expects from them here.",
+     "evidence": [
+      "Jacen Russell-Rowe: 3 league goals in 11 appearances this season.",
+      "Toulouse FC have scored 16 league goals in 11 games; the model expects 2.26 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "2-1",
+     "probability": 0.088
+    },
+    "alternatives": [
+     {
+      "score": "1-1",
+      "probability": 0.078
+     },
+     {
+      "score": "2-2",
+      "probability": 0.068
+     },
+     {
+      "score": "3-1",
+      "probability": 0.066
+     }
+    ],
+    "confidence": 0.219,
+    "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 2.26 (Toulouse FC) and 1.55 (Stade Rennais FC 1901).",
+     "Top scorelines: 2-1 (8.8%), 1-1 (7.8%), 2-2 (6.8%), 3-1 (6.6%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Toulouse FC has 5 home games and Stade Rennais FC 1901 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:52:22.536Z"
+ },
+ {
+  "fixture": {
+   "id": "559619",
+   "kickoffUtc": "2026-11-29T14:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "519",
+    "name": "AJ Auxerre",
+    "short": "AJA"
+   },
+   "away": {
+    "id": "516",
+    "name": "Olympique de Marseille",
+    "short": "MAR"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.164,
+    "draw": 0.192,
+    "awayWin": 0.644,
+    "pick": "A",
+    "confidence": 0.644,
+    "reasoning": "Poisson model: expected goals AJ Auxerre 1.04 vs Olympique de Marseille 2.24, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "AJ Auxerre at home: 2W-1D-2L, 5 scored and 6 conceded in 5 games.",
+     "Olympique de Marseille away: 3W-0D-2L, 9 scored and 6 conceded in 5 games.",
+     "League averages this season: home teams 1.62 goals per game, away teams 1.31.",
+     "Recent league form (newest first): AJ Auxerre DLLDW, Olympique de Marseille LWWWW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: AJ Auxerre has 5 home games and Olympique de Marseille 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "8476",
+     "name": "Amine Gouiri",
+     "team": "Olympique de Marseille",
+     "probability": 0.526,
+     "confidence": 0.4,
+     "reasoning": "8 of Olympique de Marseille's 24 league goals this season (33%), applied to the 2.24 goals the model expects from them here.",
+     "evidence": [
+      "Amine Gouiri: 8 league goals in 11 appearances this season.",
+      "Olympique de Marseille have scored 24 league goals in 11 games; the model expects 2.24 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "128242",
+     "name": "Cameron Archer",
+     "team": "AJ Auxerre",
+     "probability": 0.36,
+     "confidence": 0.288,
+     "reasoning": "6 of AJ Auxerre's 14 league goals this season (43%), applied to the 1.04 goals the model expects from them here.",
+     "evidence": [
+      "Cameron Archer: 6 league goals in 9 appearances this season.",
+      "AJ Auxerre have scored 14 league goals in 11 games; the model expects 1.04 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "3714",
+     "name": "Amine Harit",
+     "team": "Olympique de Marseille",
+     "probability": 0.244,
+     "confidence": 0.195,
+     "reasoning": "3 of Olympique de Marseille's 24 league goals this season (13%), applied to the 2.24 goals the model expects from them here.",
+     "evidence": [
+      "Amine Harit: 3 league goals in 11 appearances this season.",
+      "Olympique de Marseille have scored 24 league goals in 11 games; the model expects 2.24 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-2",
+     "probability": 0.098
+    },
+    "alternatives": [
+     {
+      "score": "0-2",
+      "probability": 0.094
+     },
+     {
+      "score": "1-1",
+      "probability": 0.088
+     },
+     {
+      "score": "0-1",
+      "probability": 0.084
+     }
+    ],
+    "confidence": 0.246,
+    "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.04 (AJ Auxerre) and 2.24 (Olympique de Marseille).",
+     "Top scorelines: 1-2 (9.8%), 0-2 (9.4%), 1-1 (8.8%), 0-1 (8.4%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: AJ Auxerre has 5 home games and Olympique de Marseille 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:50:01.276Z"
+ },
+ {
+  "fixture": {
+   "id": "560654",
+   "kickoffUtc": "2026-11-29T16:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "57",
+    "name": "Arsenal FC",
+    "short": "ARS"
+   },
+   "away": {
+    "id": "65",
+    "name": "Manchester City FC",
+    "short": "MCI"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.574,
+    "draw": 0.253,
+    "awayWin": 0.173,
+    "pick": "H",
+    "confidence": 0.574,
+    "reasoning": "Poisson model: expected goals Arsenal FC 1.57 vs Manchester City FC 0.73, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Arsenal FC at home: 5W-0D-0L, 10 scored and 2 conceded in 5 games.",
+     "Manchester City FC away: 3W-0D-2L, 10 scored and 6 conceded in 5 games.",
+     "League averages this season: home teams 1.59 goals per game, away teams 1.18.",
+     "Recent league form (newest first): Arsenal FC DWWWW, Manchester City FC DLLLW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Arsenal FC has 5 home games and Manchester City FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "38101",
+     "name": "Erling Haaland",
+     "team": "Manchester City FC",
+     "probability": 0.259,
+     "confidence": 0.207,
+     "reasoning": "9 of Manchester City FC's 22 league goals this season (41%), applied to the 0.73 goals the model expects from them here.",
+     "evidence": [
+      "Erling Haaland: 9 league goals in 11 appearances this season.",
+      "Manchester City FC have scored 22 league goals in 11 games; the model expects 0.73 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "171",
+     "name": "Kai Havertz",
+     "team": "Arsenal FC",
+     "probability": 0.242,
+     "confidence": 0.194,
+     "reasoning": "3 of Arsenal FC's 17 league goals this season (18%), applied to the 1.57 goals the model expects from them here.",
+     "evidence": [
+      "Kai Havertz: 3 league goals in 11 appearances this season.",
+      "Arsenal FC have scored 17 league goals in 11 games; the model expects 1.57 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "99813",
+     "name": "Bukayo Saka",
+     "team": "Arsenal FC",
+     "probability": 0.242,
+     "confidence": 0.194,
+     "reasoning": "3 of Arsenal FC's 17 league goals this season (18%), applied to the 1.57 goals the model expects from them here.",
+     "evidence": [
+      "Bukayo Saka: 3 league goals in 7 appearances this season.",
+      "Arsenal FC have scored 17 league goals in 11 games; the model expects 1.57 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-0",
+     "probability": 0.157
+    },
+    "alternatives": [
+     {
+      "score": "2-0",
+      "probability": 0.123
+     },
+     {
+      "score": "1-1",
+      "probability": 0.115
+     },
+     {
+      "score": "0-0",
+      "probability": 0.1
+     }
+    ],
+    "confidence": 0.3,
+    "reasoning": "1–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.57 (Arsenal FC) and 0.73 (Manchester City FC).",
+     "Top scorelines: 1-0 (15.7%), 2-0 (12.3%), 1-1 (11.5%), 0-0 (10.0%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Arsenal FC has 5 home games and Manchester City FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:52:41.048Z"
+ },
+ {
+  "fixture": {
+   "id": "560656",
+   "kickoffUtc": "2026-11-29T12:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "62",
+    "name": "Everton FC",
+    "short": "EVE"
+   },
+   "away": {
+    "id": "64",
+    "name": "Liverpool FC",
+    "short": "LIV"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.204,
+    "draw": 0.259,
+    "awayWin": 0.537,
+    "pick": "A",
+    "confidence": 0.537,
+    "reasoning": "Poisson model: expected goals Everton FC 0.82 vs Liverpool FC 1.52, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Everton FC at home: 3W-1D-1L, 8 scored and 5 conceded in 5 games.",
+     "Liverpool FC away: 4W-1D-0L, 10 scored and 4 conceded in 5 games.",
+     "League averages this season: home teams 1.59 goals per game, away teams 1.18.",
+     "Recent league form (newest first): Everton FC LWWLL, Liverpool FC WWLWW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Everton FC has 5 home games and Liverpool FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "6486",
+     "name": "Alexander Isak",
+     "team": "Liverpool FC",
+     "probability": 0.446,
+     "confidence": 0.357,
+     "reasoning": "7 of Liverpool FC's 18 league goals this season (39%), applied to the 1.52 goals the model expects from them here.",
+     "evidence": [
+      "Alexander Isak: 7 league goals in 10 appearances this season.",
+      "Liverpool FC have scored 18 league goals in 11 games; the model expects 1.52 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "171995",
+     "name": "Thierno Barry",
+     "team": "Everton FC",
+     "probability": 0.338,
+     "confidence": 0.27,
+     "reasoning": "6 of Everton FC's 12 league goals this season (50%), applied to the 0.82 goals the model expects from them here.",
+     "evidence": [
+      "Thierno Barry: 6 league goals in 11 appearances this season.",
+      "Everton FC have scored 12 league goals in 11 games; the model expects 0.82 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "273423",
+     "name": "Víctor Muñoz",
+     "team": "Liverpool FC",
+     "probability": 0.224,
+     "confidence": 0.179,
+     "reasoning": "3 of Liverpool FC's 18 league goals this season (17%), applied to the 1.52 goals the model expects from them here.",
+     "evidence": [
+      "Víctor Muñoz: 3 league goals in 10 appearances this season.",
+      "Liverpool FC have scored 18 league goals in 11 games; the model expects 1.52 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-1",
+     "probability": 0.146
+    },
+    "alternatives": [
+     {
+      "score": "1-1",
+      "probability": 0.12
+     },
+     {
+      "score": "0-2",
+      "probability": 0.111
+     },
+     {
+      "score": "0-0",
+      "probability": 0.096
+     }
+    ],
+    "confidence": 0.3,
+    "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.82 (Everton FC) and 1.52 (Liverpool FC).",
+     "Top scorelines: 0-1 (14.6%), 1-1 (12.0%), 0-2 (11.1%), 0-0 (9.6%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Everton FC has 5 home games and Liverpool FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:48:40.808Z"
+ },
+ {
+  "fixture": {
+   "id": "560657",
+   "kickoffUtc": "2026-11-29T14:05:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "63",
+    "name": "Fulham FC",
+    "short": "FUL"
+   },
+   "away": {
+    "id": "1044",
+    "name": "AFC Bournemouth",
+    "short": "BOU"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.3,
+    "draw": 0.227,
+    "awayWin": 0.472,
+    "pick": "A",
+    "confidence": 0.472,
+    "reasoning": "Poisson model: expected goals Fulham FC 1.42 vs AFC Bournemouth 1.83, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Fulham FC at home: 1W-2D-2L, 7 scored and 8 conceded in 5 games.",
+     "AFC Bournemouth away: 2W-1D-2L, 9 scored and 10 conceded in 5 games.",
+     "League averages this season: home teams 1.59 goals per game, away teams 1.18.",
+     "Recent league form (newest first): Fulham FC DDDWW, AFC Bournemouth WWWWW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Fulham FC has 5 home games and AFC Bournemouth 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "131260",
+     "name": "Evanilson",
+     "team": "AFC Bournemouth",
+     "probability": 0.457,
+     "confidence": 0.366,
+     "reasoning": "6 of AFC Bournemouth's 18 league goals this season (33%), applied to the 1.83 goals the model expects from them here.",
+     "evidence": [
+      "Evanilson: 6 league goals in 11 appearances this season.",
+      "AFC Bournemouth have scored 18 league goals in 11 games; the model expects 1.83 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "6396",
+     "name": "Marcus Tavernier",
+     "team": "AFC Bournemouth",
+     "probability": 0.399,
+     "confidence": 0.319,
+     "reasoning": "5 of AFC Bournemouth's 18 league goals this season (28%), applied to the 1.83 goals the model expects from them here.",
+     "evidence": [
+      "Marcus Tavernier: 5 league goals in 11 appearances this season.",
+      "AFC Bournemouth have scored 18 league goals in 11 games; the model expects 1.83 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "246418",
+     "name": "Joshua King",
+     "team": "Fulham FC",
+     "probability": 0.228,
+     "confidence": 0.182,
+     "reasoning": "2 of Fulham FC's 11 league goals this season (18%), applied to the 1.42 goals the model expects from them here.",
+     "evidence": [
+      "Joshua King: 2 league goals in 11 appearances this season.",
+      "Fulham FC have scored 11 league goals in 11 games; the model expects 1.42 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "1-1",
+     "probability": 0.101
+    },
+    "alternatives": [
+     {
+      "score": "1-2",
+      "probability": 0.092
+     },
+     {
+      "score": "2-1",
+      "probability": 0.072
+     },
+     {
+      "score": "0-1",
+      "probability": 0.071
+     }
+    ],
+    "confidence": 0.251,
+    "reasoning": "1–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 1.42 (Fulham FC) and 1.83 (AFC Bournemouth).",
+     "Top scorelines: 1-1 (10.1%), 1-2 (9.2%), 2-1 (7.2%), 0-1 (7.1%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Fulham FC has 5 home games and AFC Bournemouth 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:50:18.467Z"
+ },
+ {
+  "fixture": {
+   "id": "560659",
+   "kickoffUtc": "2026-11-29T14:05:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "397",
+    "name": "Brighton & Hove Albion FC",
+    "short": "BHA"
+   },
+   "away": {
+    "id": "67",
+    "name": "Newcastle United FC",
+    "short": "NEW"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.874,
+    "draw": 0.093,
+    "awayWin": 0.033,
+    "pick": "H",
+    "confidence": 0.8,
+    "reasoning": "Poisson model: expected goals Brighton & Hove Albion FC 3.00 vs Newcastle United FC 0.46, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Brighton & Hove Albion FC at home: 4W-1D-0L, 15 scored and 1 conceded in 5 games.",
+     "Newcastle United FC away: 2W-1D-2L, 7 scored and 9 conceded in 5 games.",
+     "League averages this season: home teams 1.59 goals per game, away teams 1.18.",
+     "Recent league form (newest first): Brighton & Hove Albion FC LWWLW, Newcastle United FC DDLWL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Brighton & Hove Albion FC has 5 home games and Newcastle United FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "8273",
+     "name": "Pascal Groß",
+     "team": "Brighton & Hove Albion FC",
+     "probability": 0.37,
+     "confidence": 0.296,
+     "reasoning": "4 of Brighton & Hove Albion FC's 26 league goals this season (15%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Pascal Groß: 4 league goals in 11 appearances this season.",
+      "Brighton & Hove Albion FC have scored 26 league goals in 11 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "190851",
+     "name": "Jack Hinshelwood",
+     "team": "Brighton & Hove Albion FC",
+     "probability": 0.293,
+     "confidence": 0.234,
+     "reasoning": "3 of Brighton & Hove Albion FC's 26 league goals this season (12%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Jack Hinshelwood: 3 league goals in 6 appearances this season.",
+      "Brighton & Hove Albion FC have scored 26 league goals in 11 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "264300",
+     "name": "Charalampos Kostoulas",
+     "team": "Brighton & Hove Albion FC",
+     "probability": 0.293,
+     "confidence": 0.234,
+     "reasoning": "3 of Brighton & Hove Albion FC's 26 league goals this season (12%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Charalampos Kostoulas: 3 league goals in 11 appearances this season.",
+      "Brighton & Hove Albion FC have scored 26 league goals in 11 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "2-0",
+     "probability": 0.142
+    },
+    "alternatives": [
+     {
+      "score": "3-0",
+      "probability": 0.142
+     },
+     {
+      "score": "4-0",
+      "probability": 0.106
+     },
+     {
+      "score": "1-0",
+      "probability": 0.095
+     }
+    ],
+    "confidence": 0.3,
+    "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 3.00 (Brighton & Hove Albion FC) and 0.46 (Newcastle United FC).",
+     "Top scorelines: 2-0 (14.2%), 3-0 (14.2%), 4-0 (10.6%), 1-0 (9.5%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Brighton & Hove Albion FC has 5 home games and Newcastle United FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:51:14.209Z"
+ },
+ {
+  "fixture": {
+   "id": "560660",
+   "kickoffUtc": "2026-11-29T14:05:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "71",
+    "name": "Sunderland AFC",
+    "short": "SUN"
+   },
+   "away": {
+    "id": "73",
+    "name": "Tottenham Hotspur FC",
+    "short": "TOT"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.193,
+    "draw": 0.448,
+    "awayWin": 0.36,
+    "pick": "D",
+    "confidence": 0.448,
+    "reasoning": "Poisson model: expected goals Sunderland AFC 0.40 vs Tottenham Hotspur FC 0.65, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Sunderland AFC at home: 2W-1D-2L, 2 scored and 4 conceded in 5 games.",
+     "Tottenham Hotspur FC away: 1W-2D-2L, 3 scored and 5 conceded in 5 games.",
+     "League averages this season: home teams 1.59 goals per game, away teams 1.18.",
+     "Recent league form (newest first): Sunderland AFC DWLDL, Tottenham Hotspur FC WLWWW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Sunderland AFC has 5 home games and Tottenham Hotspur FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "99664",
+     "name": "Enzo Le Fée",
+     "team": "Sunderland AFC",
+     "probability": 0.138,
+     "confidence": 0.111,
+     "reasoning": "3 of Sunderland AFC's 8 league goals this season (38%), applied to the 0.40 goals the model expects from them here.",
+     "evidence": [
+      "Enzo Le Fée: 3 league goals in 11 appearances this season.",
+      "Sunderland AFC have scored 8 league goals in 11 games; the model expects 0.40 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "97535",
+     "name": "Brian Brobbey",
+     "team": "Sunderland AFC",
+     "probability": 0.138,
+     "confidence": 0.111,
+     "reasoning": "3 of Sunderland AFC's 8 league goals this season (38%), applied to the 0.40 goals the model expects from them here.",
+     "evidence": [
+      "Brian Brobbey: 3 league goals in 8 appearances this season.",
+      "Sunderland AFC have scored 8 league goals in 11 games; the model expects 0.40 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "98566",
+     "name": "Jan Paul van Hecke",
+     "team": "Tottenham Hotspur FC",
+     "probability": 0.103,
+     "confidence": 0.082,
+     "reasoning": "2 of Tottenham Hotspur FC's 12 league goals this season (17%), applied to the 0.65 goals the model expects from them here.",
+     "evidence": [
+      "Jan Paul van Hecke: 2 league goals in 11 appearances this season.",
+      "Tottenham Hotspur FC have scored 12 league goals in 11 games; the model expects 0.65 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-0",
+     "probability": 0.351
+    },
+    "alternatives": [
+     {
+      "score": "0-1",
+      "probability": 0.228
+     },
+     {
+      "score": "1-0",
+      "probability": 0.139
+     },
+     {
+      "score": "1-1",
+      "probability": 0.091
+     }
+    ],
+    "confidence": 0.3,
+    "reasoning": "0–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.40 (Sunderland AFC) and 0.65 (Tottenham Hotspur FC).",
+     "Top scorelines: 0-0 (35.1%), 0-1 (22.8%), 1-0 (13.9%), 1-1 (9.1%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Sunderland AFC has 5 home games and Tottenham Hotspur FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:50:36.988Z"
+ },
+ {
+  "fixture": {
+   "id": "560661",
+   "kickoffUtc": "2026-11-29T14:05:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "354",
+    "name": "Crystal Palace FC",
+    "short": "CRY"
+   },
+   "away": {
+    "id": "322",
+    "name": "Hull City AFC",
+    "short": "HUL"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.206,
+    "draw": 0.231,
+    "awayWin": 0.563,
+    "pick": "A",
+    "confidence": 0.563,
+    "reasoning": "Poisson model: expected goals Crystal Palace FC 0.99 vs Hull City AFC 1.79, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Crystal Palace FC at home: 1W-0D-4L, 7 scored and 13 conceded in 5 games.",
+     "Hull City AFC away: 1W-1D-3L, 4 scored and 6 conceded in 5 games.",
+     "League averages this season: home teams 1.59 goals per game, away teams 1.18.",
+     "Recent league form (newest first): Crystal Palace FC LLLLL, Hull City AFC WLDDL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Crystal Palace FC has 5 home games and Hull City AFC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "4359",
+     "name": "Oliver McBurnie",
+     "team": "Hull City AFC",
+     "probability": 0.424,
+     "confidence": 0.339,
+     "reasoning": "4 of Hull City AFC's 13 league goals this season (31%), applied to the 1.79 goals the model expects from them here.",
+     "evidence": [
+      "Oliver McBurnie: 4 league goals in 11 appearances this season.",
+      "Hull City AFC have scored 13 league goals in 11 games; the model expects 1.79 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "213072",
+     "name": "Mohamed Belloumi",
+     "team": "Hull City AFC",
+     "probability": 0.339,
+     "confidence": 0.271,
+     "reasoning": "3 of Hull City AFC's 13 league goals this season (23%), applied to the 1.79 goals the model expects from them here.",
+     "evidence": [
+      "Mohamed Belloumi: 3 league goals in 10 appearances this season.",
+      "Hull City AFC have scored 13 league goals in 11 games; the model expects 1.79 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "137068",
+     "name": "Tyrick Mitchell",
+     "team": "Crystal Palace FC",
+     "probability": 0.152,
+     "confidence": 0.121,
+     "reasoning": "2 of Crystal Palace FC's 12 league goals this season (17%), applied to the 0.99 goals the model expects from them here.",
+     "evidence": [
+      "Tyrick Mitchell: 2 league goals in 11 appearances this season.",
+      "Crystal Palace FC have scored 12 league goals in 11 games; the model expects 0.99 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-1",
+     "probability": 0.111
+    },
+    "alternatives": [
+     {
+      "score": "1-1",
+      "probability": 0.11
+     },
+     {
+      "score": "0-2",
+      "probability": 0.1
+     },
+     {
+      "score": "1-2",
+      "probability": 0.098
+     }
+    ],
+    "confidence": 0.279,
+    "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.99 (Crystal Palace FC) and 1.79 (Hull City AFC).",
+     "Top scorelines: 0-1 (11.1%), 1-1 (11.0%), 0-2 (10.0%), 1-2 (9.8%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Crystal Palace FC has 5 home games and Hull City AFC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:50:55.585Z"
+ },
+ {
+  "fixture": {
+   "id": "564761",
+   "kickoffUtc": "2026-11-29T13:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "95",
+    "name": "Valencia CF",
+    "short": "VAL"
+   },
+   "away": {
+    "id": "79",
+    "name": "CA Osasuna",
+    "short": "OSA"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.241,
+    "draw": 0.266,
+    "awayWin": 0.493,
+    "pick": "A",
+    "confidence": 0.493,
+    "reasoning": "Poisson model: expected goals Valencia CF 0.93 vs CA Osasuna 1.45, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "Valencia CF at home: 0W-2D-5L, 3 scored and 14 conceded in 7 games.",
+     "CA Osasuna away: 1W-0D-5L, 7 scored and 19 conceded in 6 games.",
+     "League averages this season: home teams 1.59 goals per game, away teams 1.29.",
+     "Recent league form (newest first): Valencia CF WLWLD, CA Osasuna WDLLW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Valencia CF has 7 home games and CA Osasuna 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "2237",
+     "name": "Ante Budimir",
+     "team": "CA Osasuna",
+     "probability": 0.516,
+     "confidence": 0.4,
+     "reasoning": "9 of CA Osasuna's 13 league goals this season (50%), applied to the 1.45 goals the model expects from them here.",
+     "evidence": [
+      "Ante Budimir: 9 league goals in 13 appearances this season.",
+      "CA Osasuna have scored 13 league goals in 13 games; the model expects 1.45 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "7672",
+     "name": "Umar Sadiq",
+     "team": "Valencia CF",
+     "probability": 0.186,
+     "confidence": 0.149,
+     "reasoning": "2 of Valencia CF's 9 league goals this season (22%), applied to the 0.93 goals the model expects from them here.",
+     "evidence": [
+      "Umar Sadiq: 2 league goals in 6 appearances this season.",
+      "Valencia CF have scored 9 league goals in 13 games; the model expects 0.93 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-1",
+     "probability": 0.134
+    },
+    "alternatives": [
+     {
+      "score": "1-1",
+      "probability": 0.125
+     },
+     {
+      "score": "0-2",
+      "probability": 0.098
+     },
+     {
+      "score": "0-0",
+      "probability": 0.093
+     }
+    ],
+    "confidence": 0.3,
+    "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.93 (Valencia CF) and 1.45 (CA Osasuna).",
+     "Top scorelines: 0-1 (13.4%), 1-1 (12.5%), 0-2 (9.8%), 0-0 (9.3%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: Valencia CF has 7 home games and CA Osasuna 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:49:11.366Z"
+ },
+ {
+  "fixture": {
+   "id": "564766",
+   "kickoffUtc": "2026-11-29T15:15:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PD",
+    "name": "Primera Division",
+    "country": "Spain"
+   },
+   "home": {
+    "id": "560",
+    "name": "RC Deportivo La Coruña",
+    "short": "DEP"
+   },
+   "away": {
+    "id": "81",
+    "name": "FC Barcelona",
+    "short": "FCB"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.086,
+    "draw": 0.128,
+    "awayWin": 0.786,
+    "pick": "A",
+    "confidence": 0.786,
+    "reasoning": "Poisson model: expected goals RC Deportivo La Coruña 0.94 vs FC Barcelona 3.00, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "RC Deportivo La Coruña at home: 2W-3D-1L, 8 scored and 6 conceded in 6 games.",
+     "FC Barcelona away: 6W-0D-0L, 24 scored and 6 conceded in 6 games.",
+     "League averages this season: home teams 1.59 goals per game, away teams 1.29.",
+     "Recent league form (newest first): RC Deportivo La Coruña LDWLD, FC Barcelona WWWLW (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: RC Deportivo La Coruña has 6 home games and FC Barcelona 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "37428",
+     "name": "Raphinha",
+     "team": "FC Barcelona",
+     "probability": 0.586,
+     "confidence": 0.4,
+     "reasoning": "15 of FC Barcelona's 51 league goals this season (29%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Raphinha: 15 league goals in 12 appearances this season.",
+      "FC Barcelona have scored 51 league goals in 13 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "202283",
+     "name": "Lamine Yamal",
+     "team": "FC Barcelona",
+     "probability": 0.445,
+     "confidence": 0.356,
+     "reasoning": "10 of FC Barcelona's 51 league goals this season (20%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Lamine Yamal: 10 league goals in 13 appearances this season.",
+      "FC Barcelona have scored 51 league goals in 13 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "214533",
+     "name": "Fermín López",
+     "team": "FC Barcelona",
+     "probability": 0.375,
+     "confidence": 0.3,
+     "reasoning": "8 of FC Barcelona's 51 league goals this season (16%), applied to the 3.00 goals the model expects from them here.",
+     "evidence": [
+      "Fermín López: 8 league goals in 13 appearances this season.",
+      "FC Barcelona have scored 51 league goals in 13 games; the model expects 3.00 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "0-2",
+     "probability": 0.088
+    },
+    "alternatives": [
+     {
+      "score": "0-3",
+      "probability": 0.088
+     },
+     {
+      "score": "1-2",
+      "probability": 0.083
+     },
+     {
+      "score": "1-3",
+      "probability": 0.083
+     }
+    ],
+    "confidence": 0.22,
+    "reasoning": "0–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 0.94 (RC Deportivo La Coruña) and 3.00 (FC Barcelona).",
+     "Top scorelines: 0-2 (8.8%), 0-3 (8.8%), 1-2 (8.3%), 1-3 (8.3%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: RC Deportivo La Coruña has 6 home games and FC Barcelona 6 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:52:04.254Z"
+ },
+ {
+  "fixture": {
+   "id": "565871",
+   "kickoffUtc": "2026-11-29T16:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "2",
+    "name": "TSG 1899 Hoffenheim",
+    "short": "TSG"
+   },
+   "away": {
+    "id": "16",
+    "name": "FC Augsburg",
+    "short": "FCA"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.469,
+    "draw": 0.174,
+    "awayWin": 0.358,
+    "pick": "H",
+    "confidence": 0.469,
+    "reasoning": "Poisson model: expected goals TSG 1899 Hoffenheim 2.91 vs FC Augsburg 2.58, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "TSG 1899 Hoffenheim at home: 3W-0D-2L, 11 scored and 8 conceded in 5 games.",
+     "FC Augsburg away: 1W-0D-3L, 11 scored and 13 conceded in 4 games.",
+     "League averages this season: home teams 2.08 goals per game, away teams 1.34.",
+     "Recent league form (newest first): TSG 1899 Hoffenheim LWLWW, FC Augsburg WLLDL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: TSG 1899 Hoffenheim has 5 home games and FC Augsburg 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "6661",
+     "name": "Michael Gregoritsch",
+     "team": "FC Augsburg",
+     "probability": 0.543,
+     "confidence": 0.4,
+     "reasoning": "7 of FC Augsburg's 23 league goals this season (30%), applied to the 2.58 goals the model expects from them here.",
+     "evidence": [
+      "Michael Gregoritsch: 7 league goals in 10 appearances this season.",
+      "FC Augsburg have scored 23 league goals in 10 games; the model expects 2.58 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "182004",
+     "name": "Adam Daghim",
+     "team": "TSG 1899 Hoffenheim",
+     "probability": 0.305,
+     "confidence": 0.244,
+     "reasoning": "2 of TSG 1899 Hoffenheim's 16 league goals this season (13%), applied to the 2.91 goals the model expects from them here.",
+     "evidence": [
+      "Adam Daghim: 2 league goals in 10 appearances this season.",
+      "TSG 1899 Hoffenheim have scored 16 league goals in 10 games; the model expects 2.91 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "144433",
+     "name": "Tim Lemperle",
+     "team": "TSG 1899 Hoffenheim",
+     "probability": 0.305,
+     "confidence": 0.244,
+     "reasoning": "2 of TSG 1899 Hoffenheim's 16 league goals this season (13%), applied to the 2.91 goals the model expects from them here.",
+     "evidence": [
+      "Tim Lemperle: 2 league goals in 8 appearances this season.",
+      "TSG 1899 Hoffenheim have scored 16 league goals in 10 games; the model expects 2.91 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "2-2",
+     "probability": 0.058
+    },
+    "alternatives": [
+     {
+      "score": "3-2",
+      "probability": 0.057
+     },
+     {
+      "score": "2-3",
+      "probability": 0.05
+     },
+     {
+      "score": "3-3",
+      "probability": 0.049
+     }
+    ],
+    "confidence": 0.146,
+    "reasoning": "2–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 2.91 (TSG 1899 Hoffenheim) and 2.58 (FC Augsburg).",
+     "Top scorelines: 2-2 (5.8%), 3-2 (5.7%), 2-3 (5.0%), 3-3 (4.9%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: TSG 1899 Hoffenheim has 5 home games and FC Augsburg 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:52:59.669Z"
+ },
+ {
+  "fixture": {
+   "id": "565873",
+   "kickoffUtc": "2026-11-29T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "17",
+    "name": "SC Freiburg",
+    "short": "SCF"
+   },
+   "away": {
+    "id": "721",
+    "name": "RB Leipzig",
+    "short": "RBL"
+   }
+  },
+  "prediction": {
+   "method": "statistical-model",
+   "outcome": {
+    "homeWin": 0.645,
+    "draw": 0.171,
+    "awayWin": 0.184,
+    "pick": "H",
+    "confidence": 0.645,
+    "reasoning": "Poisson model: expected goals SC Freiburg 2.71 vs RB Leipzig 1.43, from each side's season scoring and conceding rates at this venue.",
+    "evidence": [
+     "SC Freiburg at home: 4W-0D-1L, 14 scored and 5 conceded in 5 games.",
+     "RB Leipzig away: 2W-0D-3L, 9 scored and 12 conceded in 5 games.",
+     "League averages this season: home teams 2.08 goals per game, away teams 1.34.",
+     "Recent league form (newest first): SC Freiburg WWWLL, RB Leipzig WWWWL (shown for context, not used by the model)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: SC Freiburg has 5 home games and RB Leipzig 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Simple Poisson models tend to slightly underestimate draws."
+    ]
+   },
+   "goalscorers": [
+    {
+     "playerId": "145293",
+     "name": "Yuito Suzuki",
+     "team": "SC Freiburg",
+     "probability": 0.475,
+     "confidence": 0.38,
+     "reasoning": "5 of SC Freiburg's 21 league goals this season (24%), applied to the 2.71 goals the model expects from them here.",
+     "evidence": [
+      "Yuito Suzuki: 5 league goals in 9 appearances this season.",
+      "SC Freiburg have scored 21 league goals in 10 games; the model expects 2.71 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "156629",
+     "name": "Igor Matanovic",
+     "team": "SC Freiburg",
+     "probability": 0.475,
+     "confidence": 0.38,
+     "reasoning": "5 of SC Freiburg's 21 league goals this season (24%), applied to the 2.71 goals the model expects from them here.",
+     "evidence": [
+      "Igor Matanovic: 5 league goals in 10 appearances this season.",
+      "SC Freiburg have scored 21 league goals in 10 games; the model expects 2.71 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    },
+    {
+     "playerId": "9452",
+     "name": "Maximilian Eggestein",
+     "team": "SC Freiburg",
+     "probability": 0.321,
+     "confidence": 0.257,
+     "reasoning": "3 of SC Freiburg's 21 league goals this season (14%), applied to the 2.71 goals the model expects from them here.",
+     "evidence": [
+      "Maximilian Eggestein: 3 league goals in 10 appearances this season.",
+      "SC Freiburg have scored 21 league goals in 10 games; the model expects 2.71 in this match."
+     ],
+     "uncertainties": [
+      "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+      "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+      "Only the league's top scorers are considered; other players may score too."
+     ]
+    }
+   ],
+   "correctScore": {
+    "top": {
+     "score": "2-1",
+     "probability": 0.084
+    },
+    "alternatives": [
+     {
+      "score": "3-1",
+      "probability": 0.076
+     },
+     {
+      "score": "1-1",
+      "probability": 0.062
+     },
+     {
+      "score": "2-2",
+      "probability": 0.06
+     }
+    ],
+    "confidence": 0.21,
+    "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+    "evidence": [
+     "Expected goals 2.71 (SC Freiburg) and 1.43 (RB Leipzig).",
+     "Top scorelines: 2-1 (8.4%), 3-1 (7.6%), 1-1 (6.2%), 2-2 (6.0%)."
+    ],
+    "uncertainties": [
+     "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+     "Small sample: SC Freiburg has 5 home games and RB Leipzig 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+     "Exact scores depend heavily on chance; no model predicts them reliably."
+    ]
+   }
+  },
+  "lockedAt": "2026-11-28T04:51:46.714Z"
+ }
+]

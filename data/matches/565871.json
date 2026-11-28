@@ -1,0 +1,403 @@
+{
+ "fixtureId": "565871",
+ "kickoffUtc": "2026-11-29T16:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565871",
+   "kickoffUtc": "2026-11-29T16:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "2",
+    "name": "TSG 1899 Hoffenheim",
+    "short": "TSG"
+   },
+   "away": {
+    "id": "16",
+    "name": "FC Augsburg",
+    "short": "FCA"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.076923076923077,
+   "awayGoals": 1.3406593406593406
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Eintracht Frankfurt",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "FC Schalke 04",
+     "venue": "H",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "SV Werder Bremen",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Bayer 04 Leverkusen",
+     "venue": "H",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Borussia Mönchengladbach",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "1. FSV Mainz 05",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "RB Leipzig",
+     "venue": "A",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "SC Freiburg",
+     "venue": "H",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "1. FC Union Berlin",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "SV 07 Elversberg",
+     "venue": "A",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 4,
+     "d": 0,
+     "l": 6,
+     "gf": 16,
+     "ga": 18
+    },
+    "home": {
+     "p": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 11,
+     "ga": 8
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 0,
+     "l": 4,
+     "gf": 5,
+     "ga": 10
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 3,
+     "d": 3,
+     "l": 4,
+     "gf": 23,
+     "ga": 21
+    },
+    "home": {
+     "p": 6,
+     "w": 2,
+     "d": 3,
+     "l": 1,
+     "gf": 12,
+     "ga": 8
+    },
+    "away": {
+     "p": 4,
+     "w": 1,
+     "d": 0,
+     "l": 3,
+     "gf": 11,
+     "ga": 13
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-10",
+    "homeId": "16",
+    "awayId": "2",
+    "home": "FC Augsburg",
+    "away": "TSG 1899 Hoffenheim",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2025-11-29",
+    "homeId": "2",
+    "awayId": "16",
+    "home": "TSG 1899 Hoffenheim",
+    "away": "FC Augsburg",
+    "hg": 3,
+    "ag": 0
+   },
+   {
+    "date": "2025-03-29",
+    "homeId": "2",
+    "awayId": "16",
+    "home": "TSG 1899 Hoffenheim",
+    "away": "FC Augsburg",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2024-11-10",
+    "homeId": "16",
+    "awayId": "2",
+    "home": "FC Augsburg",
+    "away": "TSG 1899 Hoffenheim",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2024-04-07",
+    "homeId": "2",
+    "awayId": "16",
+    "home": "TSG 1899 Hoffenheim",
+    "away": "FC Augsburg",
+    "hg": 3,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "182004",
+    "name": "Adam Daghim",
+    "team": "TSG 1899 Hoffenheim",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "144433",
+    "name": "Tim Lemperle",
+    "team": "TSG 1899 Hoffenheim",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "99042",
+    "name": "Adam Hložek",
+    "team": "TSG 1899 Hoffenheim",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "6661",
+    "name": "Michael Gregoritsch",
+    "team": "FC Augsburg",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 7,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "65692",
+    "name": "Robin Fellhauer",
+    "team": "FC Augsburg",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "175963",
+    "name": "Anton Kade",
+    "team": "FC Augsburg",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "178772",
+    "name": "Rodrigo Ribeiro",
+    "team": "FC Augsburg",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "152692",
+    "name": "Fabian Rieder",
+    "team": "FC Augsburg",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.469,
+   "draw": 0.174,
+   "awayWin": 0.358,
+   "pick": "H",
+   "confidence": 0.469,
+   "reasoning": "Poisson model: expected goals TSG 1899 Hoffenheim 2.91 vs FC Augsburg 2.58, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "TSG 1899 Hoffenheim at home: 3W-0D-2L, 11 scored and 8 conceded in 5 games.",
+    "FC Augsburg away: 1W-0D-3L, 11 scored and 13 conceded in 4 games.",
+    "League averages this season: home teams 2.08 goals per game, away teams 1.34.",
+    "Recent league form (newest first): TSG 1899 Hoffenheim LWLWW, FC Augsburg WLLDL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: TSG 1899 Hoffenheim has 5 home games and FC Augsburg 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "6661",
+    "name": "Michael Gregoritsch",
+    "team": "FC Augsburg",
+    "probability": 0.543,
+    "confidence": 0.4,
+    "reasoning": "7 of FC Augsburg's 23 league goals this season (30%), applied to the 2.58 goals the model expects from them here.",
+    "evidence": [
+     "Michael Gregoritsch: 7 league goals in 10 appearances this season.",
+     "FC Augsburg have scored 23 league goals in 10 games; the model expects 2.58 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "182004",
+    "name": "Adam Daghim",
+    "team": "TSG 1899 Hoffenheim",
+    "probability": 0.305,
+    "confidence": 0.244,
+    "reasoning": "2 of TSG 1899 Hoffenheim's 16 league goals this season (13%), applied to the 2.91 goals the model expects from them here.",
+    "evidence": [
+     "Adam Daghim: 2 league goals in 10 appearances this season.",
+     "TSG 1899 Hoffenheim have scored 16 league goals in 10 games; the model expects 2.91 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "144433",
+    "name": "Tim Lemperle",
+    "team": "TSG 1899 Hoffenheim",
+    "probability": 0.305,
+    "confidence": 0.244,
+    "reasoning": "2 of TSG 1899 Hoffenheim's 16 league goals this season (13%), applied to the 2.91 goals the model expects from them here.",
+    "evidence": [
+     "Tim Lemperle: 2 league goals in 8 appearances this season.",
+     "TSG 1899 Hoffenheim have scored 16 league goals in 10 games; the model expects 2.91 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-2",
+    "probability": 0.058
+   },
+   "alternatives": [
+    {
+     "score": "3-2",
+     "probability": 0.057
+    },
+    {
+     "score": "2-3",
+     "probability": 0.05
+    },
+    {
+     "score": "3-3",
+     "probability": 0.049
+    }
+   ],
+   "confidence": 0.146,
+   "reasoning": "2–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.91 (TSG 1899 Hoffenheim) and 2.58 (FC Augsburg).",
+    "Top scorelines: 2-2 (5.8%), 3-2 (5.7%), 2-3 (5.0%), 3-3 (4.9%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: TSG 1899 Hoffenheim has 5 home games and FC Augsburg 4 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-28T04:52:41.048Z",
+ "lockedAt": "2026-11-28T04:52:59.669Z",
+ "result": null
+}

@@ -1,0 +1,317 @@
+{
+ "fixtureId": "560661",
+ "kickoffUtc": "2026-11-29T14:05:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "560661",
+   "kickoffUtc": "2026-11-29T14:05:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "354",
+    "name": "Crystal Palace FC",
+    "short": "CRY"
+   },
+   "away": {
+    "id": "322",
+    "name": "Hull City AFC",
+    "short": "HUL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.5945945945945945,
+   "awayGoals": 1.1801801801801801
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Coventry City FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Liverpool FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Tottenham Hotspur FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Newcastle United FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Brighton & Hove Albion FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 5,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Brighton & Hove Albion FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Arsenal FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Ipswich Town FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Brentford FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Fulham FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 2,
+     "d": 1,
+     "l": 8,
+     "gf": 12,
+     "ga": 27
+    },
+    "home": {
+     "p": 5,
+     "w": 1,
+     "d": 0,
+     "l": 4,
+     "gf": 7,
+     "ga": 13
+    },
+    "away": {
+     "p": 6,
+     "w": 1,
+     "d": 1,
+     "l": 4,
+     "gf": 5,
+     "ga": 14
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 3,
+     "d": 5,
+     "l": 3,
+     "gf": 13,
+     "ga": 11
+    },
+    "home": {
+     "p": 6,
+     "w": 2,
+     "d": 4,
+     "l": 0,
+     "gf": 9,
+     "ga": 5
+    },
+    "away": {
+     "p": 5,
+     "w": 1,
+     "d": 1,
+     "l": 3,
+     "gf": 4,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": []
+ },
+ "players": {
+  "home": [
+   {
+    "id": "137068",
+    "name": "Tyrick Mitchell",
+    "team": "Crystal Palace FC",
+    "pos": "Defence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "213269",
+    "name": "Jørgen Strand Larsen",
+    "team": "Crystal Palace FC",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "4359",
+    "name": "Oliver McBurnie",
+    "team": "Hull City AFC",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "213072",
+    "name": "Mohamed Belloumi",
+    "team": "Hull City AFC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.206,
+   "draw": 0.231,
+   "awayWin": 0.563,
+   "pick": "A",
+   "confidence": 0.563,
+   "reasoning": "Poisson model: expected goals Crystal Palace FC 0.99 vs Hull City AFC 1.79, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Crystal Palace FC at home: 1W-0D-4L, 7 scored and 13 conceded in 5 games.",
+    "Hull City AFC away: 1W-1D-3L, 4 scored and 6 conceded in 5 games.",
+    "League averages this season: home teams 1.59 goals per game, away teams 1.18.",
+    "Recent league form (newest first): Crystal Palace FC LLLLL, Hull City AFC WLDDL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Crystal Palace FC has 5 home games and Hull City AFC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "4359",
+    "name": "Oliver McBurnie",
+    "team": "Hull City AFC",
+    "probability": 0.424,
+    "confidence": 0.339,
+    "reasoning": "4 of Hull City AFC's 13 league goals this season (31%), applied to the 1.79 goals the model expects from them here.",
+    "evidence": [
+     "Oliver McBurnie: 4 league goals in 11 appearances this season.",
+     "Hull City AFC have scored 13 league goals in 11 games; the model expects 1.79 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "213072",
+    "name": "Mohamed Belloumi",
+    "team": "Hull City AFC",
+    "probability": 0.339,
+    "confidence": 0.271,
+    "reasoning": "3 of Hull City AFC's 13 league goals this season (23%), applied to the 1.79 goals the model expects from them here.",
+    "evidence": [
+     "Mohamed Belloumi: 3 league goals in 10 appearances this season.",
+     "Hull City AFC have scored 13 league goals in 11 games; the model expects 1.79 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "137068",
+    "name": "Tyrick Mitchell",
+    "team": "Crystal Palace FC",
+    "probability": 0.152,
+    "confidence": 0.121,
+    "reasoning": "2 of Crystal Palace FC's 12 league goals this season (17%), applied to the 0.99 goals the model expects from them here.",
+    "evidence": [
+     "Tyrick Mitchell: 2 league goals in 11 appearances this season.",
+     "Crystal Palace FC have scored 12 league goals in 11 games; the model expects 0.99 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-1",
+    "probability": 0.111
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.11
+    },
+    {
+     "score": "0-2",
+     "probability": 0.1
+    },
+    {
+     "score": "1-2",
+     "probability": 0.098
+    }
+   ],
+   "confidence": 0.279,
+   "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.99 (Crystal Palace FC) and 1.79 (Hull City AFC).",
+    "Top scorelines: 0-1 (11.1%), 1-1 (11.0%), 0-2 (10.0%), 1-2 (9.8%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Crystal Palace FC has 5 home games and Hull City AFC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-28T04:50:36.988Z",
+ "lockedAt": "2026-11-28T04:50:55.585Z",
+ "result": null
+}

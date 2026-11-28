@@ -1,0 +1,403 @@
+{
+ "fixtureId": "559619",
+ "kickoffUtc": "2026-11-29T14:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "559619",
+   "kickoffUtc": "2026-11-29T14:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "FL1",
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "home": {
+    "id": "519",
+    "name": "AJ Auxerre",
+    "short": "AJA"
+   },
+   "away": {
+    "id": "516",
+    "name": "Olympique de Marseille",
+    "short": "MAR"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.62,
+   "awayGoals": 1.31
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "AS Monaco FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Paris FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "RC Strasbourg Alsace",
+     "venue": "A",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "opp": "Le Mans FC",
+     "venue": "H",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Le Havre AC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Le Mans FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Racing Club de Lens",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Toulouse FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Le Havre AC",
+     "venue": "H",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "opp": "Angers SCO",
+     "venue": "A",
+     "gf": 5,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 3,
+     "d": 2,
+     "l": 6,
+     "gf": 14,
+     "ga": 25
+    },
+    "home": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 5,
+     "ga": 6
+    },
+    "away": {
+     "p": 6,
+     "w": 1,
+     "d": 1,
+     "l": 4,
+     "gf": 9,
+     "ga": 19
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 6,
+     "d": 0,
+     "l": 5,
+     "gf": 24,
+     "ga": 17
+    },
+    "home": {
+     "p": 6,
+     "w": 3,
+     "d": 0,
+     "l": 3,
+     "gf": 15,
+     "ga": 11
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 0,
+     "l": 2,
+     "gf": 9,
+     "ga": 6
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-03-13",
+    "homeId": "516",
+    "awayId": "519",
+    "home": "Olympique de Marseille",
+    "away": "AJ Auxerre",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2025-11-01",
+    "homeId": "519",
+    "awayId": "516",
+    "home": "AJ Auxerre",
+    "away": "Olympique de Marseille",
+    "hg": 0,
+    "ag": 1
+   },
+   {
+    "date": "2025-02-22",
+    "homeId": "519",
+    "awayId": "516",
+    "home": "AJ Auxerre",
+    "away": "Olympique de Marseille",
+    "hg": 3,
+    "ag": 0
+   },
+   {
+    "date": "2024-11-08",
+    "homeId": "516",
+    "awayId": "519",
+    "home": "Olympique de Marseille",
+    "away": "AJ Auxerre",
+    "hg": 1,
+    "ag": 3
+   },
+   {
+    "date": "2023-04-30",
+    "homeId": "516",
+    "awayId": "519",
+    "home": "Olympique de Marseille",
+    "away": "AJ Auxerre",
+    "hg": 2,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "128242",
+    "name": "Cameron Archer",
+    "team": "AJ Auxerre",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "4289",
+    "name": "Daniel Namaso",
+    "team": "AJ Auxerre",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8762",
+    "name": "Romain Faivre",
+    "team": "AJ Auxerre",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "8476",
+    "name": "Amine Gouiri",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 8,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "3714",
+    "name": "Amine Harit",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "80754",
+    "name": "Himad Abdelli",
+    "team": "Olympique de Marseille",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "119703",
+    "name": "Igor Paixão",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "250795",
+    "name": "Keyliane Abdallah",
+    "team": "Olympique de Marseille",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.164,
+   "draw": 0.192,
+   "awayWin": 0.644,
+   "pick": "A",
+   "confidence": 0.644,
+   "reasoning": "Poisson model: expected goals AJ Auxerre 1.04 vs Olympique de Marseille 2.24, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "AJ Auxerre at home: 2W-1D-2L, 5 scored and 6 conceded in 5 games.",
+    "Olympique de Marseille away: 3W-0D-2L, 9 scored and 6 conceded in 5 games.",
+    "League averages this season: home teams 1.62 goals per game, away teams 1.31.",
+    "Recent league form (newest first): AJ Auxerre DLLDW, Olympique de Marseille LWWWW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AJ Auxerre has 5 home games and Olympique de Marseille 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "8476",
+    "name": "Amine Gouiri",
+    "team": "Olympique de Marseille",
+    "probability": 0.526,
+    "confidence": 0.4,
+    "reasoning": "8 of Olympique de Marseille's 24 league goals this season (33%), applied to the 2.24 goals the model expects from them here.",
+    "evidence": [
+     "Amine Gouiri: 8 league goals in 11 appearances this season.",
+     "Olympique de Marseille have scored 24 league goals in 11 games; the model expects 2.24 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "128242",
+    "name": "Cameron Archer",
+    "team": "AJ Auxerre",
+    "probability": 0.36,
+    "confidence": 0.288,
+    "reasoning": "6 of AJ Auxerre's 14 league goals this season (43%), applied to the 1.04 goals the model expects from them here.",
+    "evidence": [
+     "Cameron Archer: 6 league goals in 9 appearances this season.",
+     "AJ Auxerre have scored 14 league goals in 11 games; the model expects 1.04 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "3714",
+    "name": "Amine Harit",
+    "team": "Olympique de Marseille",
+    "probability": 0.244,
+    "confidence": 0.195,
+    "reasoning": "3 of Olympique de Marseille's 24 league goals this season (13%), applied to the 2.24 goals the model expects from them here.",
+    "evidence": [
+     "Amine Harit: 3 league goals in 11 appearances this season.",
+     "Olympique de Marseille have scored 24 league goals in 11 games; the model expects 2.24 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "1-2",
+    "probability": 0.098
+   },
+   "alternatives": [
+    {
+     "score": "0-2",
+     "probability": 0.094
+    },
+    {
+     "score": "1-1",
+     "probability": 0.088
+    },
+    {
+     "score": "0-1",
+     "probability": 0.084
+    }
+   ],
+   "confidence": 0.246,
+   "reasoning": "1–2 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 1.04 (AJ Auxerre) and 2.24 (Olympique de Marseille).",
+    "Top scorelines: 1-2 (9.8%), 0-2 (9.4%), 1-1 (8.8%), 0-1 (8.4%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: AJ Auxerre has 5 home games and Olympique de Marseille 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-28T04:49:28.801Z",
+ "lockedAt": "2026-11-28T04:50:01.276Z",
+ "result": null
+}

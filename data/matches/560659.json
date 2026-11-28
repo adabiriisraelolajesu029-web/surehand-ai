@@ -1,0 +1,404 @@
+{
+ "fixtureId": "560659",
+ "kickoffUtc": "2026-11-29T14:05:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "560659",
+   "kickoffUtc": "2026-11-29T14:05:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "397",
+    "name": "Brighton & Hove Albion FC",
+    "short": "BHA"
+   },
+   "away": {
+    "id": "67",
+    "name": "Newcastle United FC",
+    "short": "NEW"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.5945945945945945,
+   "awayGoals": 1.1801801801801801
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Hull City AFC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Brentford FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Manchester City FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Liverpool FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Crystal Palace FC",
+     "venue": "H",
+     "gf": 5,
+     "ga": 0,
+     "res": "W"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Arsenal FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "opp": "Fulham FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "opp": "Everton FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Crystal Palace FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Aston Villa FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 7,
+     "d": 1,
+     "l": 3,
+     "gf": 26,
+     "ga": 9
+    },
+    "home": {
+     "p": 5,
+     "w": 4,
+     "d": 1,
+     "l": 0,
+     "gf": 15,
+     "ga": 1
+    },
+    "away": {
+     "p": 6,
+     "w": 3,
+     "d": 0,
+     "l": 3,
+     "gf": 11,
+     "ga": 8
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 3,
+     "d": 4,
+     "l": 4,
+     "gf": 15,
+     "ga": 18
+    },
+    "home": {
+     "p": 6,
+     "w": 1,
+     "d": 3,
+     "l": 2,
+     "gf": 8,
+     "ga": 9
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 1,
+     "l": 2,
+     "gf": 7,
+     "ga": 9
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-02",
+    "homeId": "67",
+    "awayId": "397",
+    "home": "Newcastle United FC",
+    "away": "Brighton & Hove Albion FC",
+    "hg": 3,
+    "ag": 1
+   },
+   {
+    "date": "2025-10-18",
+    "homeId": "397",
+    "awayId": "67",
+    "home": "Brighton & Hove Albion FC",
+    "away": "Newcastle United FC",
+    "hg": 2,
+    "ag": 1
+   },
+   {
+    "date": "2025-05-04",
+    "homeId": "397",
+    "awayId": "67",
+    "home": "Brighton & Hove Albion FC",
+    "away": "Newcastle United FC",
+    "hg": 1,
+    "ag": 1
+   },
+   {
+    "date": "2024-10-19",
+    "homeId": "67",
+    "awayId": "397",
+    "home": "Newcastle United FC",
+    "away": "Brighton & Hove Albion FC",
+    "hg": 0,
+    "ag": 1
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "8273",
+    "name": "Pascal Groß",
+    "team": "Brighton & Hove Albion FC",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 4,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "190851",
+    "name": "Jack Hinshelwood",
+    "team": "Brighton & Hove Albion FC",
+    "pos": "Midfield",
+    "apps": 6,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "264300",
+    "name": "Charalampos Kostoulas",
+    "team": "Brighton & Hove Albion FC",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "145613",
+    "name": "Yasin Ayari",
+    "team": "Brighton & Hove Albion FC",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "142075",
+    "name": "Maxim De Cuyper",
+    "team": "Brighton & Hove Albion FC",
+    "pos": "Defence",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "246670",
+    "name": "Malick Yalcouyé",
+    "team": "Brighton & Hove Albion FC",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "8076",
+    "name": "Harvey Barnes",
+    "team": "Newcastle United FC",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "166376",
+    "name": "Anthony Elanga",
+    "team": "Newcastle United FC",
+    "pos": "Offence",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "7798",
+    "name": "Joe Willock",
+    "team": "Newcastle United FC",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.874,
+   "draw": 0.093,
+   "awayWin": 0.033,
+   "pick": "H",
+   "confidence": 0.8,
+   "reasoning": "Poisson model: expected goals Brighton & Hove Albion FC 3.00 vs Newcastle United FC 0.46, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Brighton & Hove Albion FC at home: 4W-1D-0L, 15 scored and 1 conceded in 5 games.",
+    "Newcastle United FC away: 2W-1D-2L, 7 scored and 9 conceded in 5 games.",
+    "League averages this season: home teams 1.59 goals per game, away teams 1.18.",
+    "Recent league form (newest first): Brighton & Hove Albion FC LWWLW, Newcastle United FC DDLWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Brighton & Hove Albion FC has 5 home games and Newcastle United FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "8273",
+    "name": "Pascal Groß",
+    "team": "Brighton & Hove Albion FC",
+    "probability": 0.37,
+    "confidence": 0.296,
+    "reasoning": "4 of Brighton & Hove Albion FC's 26 league goals this season (15%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Pascal Groß: 4 league goals in 11 appearances this season.",
+     "Brighton & Hove Albion FC have scored 26 league goals in 11 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "190851",
+    "name": "Jack Hinshelwood",
+    "team": "Brighton & Hove Albion FC",
+    "probability": 0.293,
+    "confidence": 0.234,
+    "reasoning": "3 of Brighton & Hove Albion FC's 26 league goals this season (12%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Jack Hinshelwood: 3 league goals in 6 appearances this season.",
+     "Brighton & Hove Albion FC have scored 26 league goals in 11 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "264300",
+    "name": "Charalampos Kostoulas",
+    "team": "Brighton & Hove Albion FC",
+    "probability": 0.293,
+    "confidence": 0.234,
+    "reasoning": "3 of Brighton & Hove Albion FC's 26 league goals this season (12%), applied to the 3.00 goals the model expects from them here.",
+    "evidence": [
+     "Charalampos Kostoulas: 3 league goals in 11 appearances this season.",
+     "Brighton & Hove Albion FC have scored 26 league goals in 11 games; the model expects 3.00 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-0",
+    "probability": 0.142
+   },
+   "alternatives": [
+    {
+     "score": "3-0",
+     "probability": 0.142
+    },
+    {
+     "score": "4-0",
+     "probability": 0.106
+    },
+    {
+     "score": "1-0",
+     "probability": 0.095
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "2–0 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 3.00 (Brighton & Hove Albion FC) and 0.46 (Newcastle United FC).",
+    "Top scorelines: 2-0 (14.2%), 3-0 (14.2%), 4-0 (10.6%), 1-0 (9.5%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Brighton & Hove Albion FC has 5 home games and Newcastle United FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-28T04:50:55.585Z",
+ "lockedAt": "2026-11-28T04:51:14.209Z",
+ "result": null
+}

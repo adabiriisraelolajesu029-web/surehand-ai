@@ -1,0 +1,433 @@
+{
+ "fixtureId": "565873",
+ "kickoffUtc": "2026-11-29T14:30:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "565873",
+   "kickoffUtc": "2026-11-29T14:30:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "BL1",
+    "name": "Bundesliga",
+    "country": "Germany"
+   },
+   "home": {
+    "id": "17",
+    "name": "SC Freiburg",
+    "short": "SCF"
+   },
+   "away": {
+    "id": "721",
+    "name": "RB Leipzig",
+    "short": "RBL"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 2.076923076923077,
+   "awayGoals": 1.3406593406593406
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "SV 07 Elversberg",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "1. FC Union Berlin",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Augsburg",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "FC Bayern München",
+     "venue": "H",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "opp": "Bayer 04 Leverkusen",
+     "venue": "A",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "1. FC Union Berlin",
+     "venue": "A",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "FC Augsburg",
+     "venue": "H",
+     "gf": 5,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "opp": "FC Schalke 04",
+     "venue": "A",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "SV 07 Elversberg",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "FC Bayern München",
+     "venue": "A",
+     "gf": 1,
+     "ga": 6,
+     "res": "L"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 10,
+     "w": 7,
+     "d": 1,
+     "l": 2,
+     "gf": 21,
+     "ga": 10
+    },
+    "home": {
+     "p": 5,
+     "w": 4,
+     "d": 0,
+     "l": 1,
+     "gf": 14,
+     "ga": 5
+    },
+    "away": {
+     "p": 5,
+     "w": 3,
+     "d": 1,
+     "l": 1,
+     "gf": 7,
+     "ga": 5
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 10,
+     "w": 7,
+     "d": 0,
+     "l": 3,
+     "gf": 32,
+     "ga": 14
+    },
+    "home": {
+     "p": 5,
+     "w": 5,
+     "d": 0,
+     "l": 0,
+     "gf": 23,
+     "ga": 2
+    },
+    "away": {
+     "p": 5,
+     "w": 2,
+     "d": 0,
+     "l": 3,
+     "gf": 9,
+     "ga": 12
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-05-16",
+    "homeId": "17",
+    "awayId": "721",
+    "home": "SC Freiburg",
+    "away": "RB Leipzig",
+    "hg": 4,
+    "ag": 1
+   },
+   {
+    "date": "2026-01-14",
+    "homeId": "721",
+    "awayId": "17",
+    "home": "RB Leipzig",
+    "away": "SC Freiburg",
+    "hg": 2,
+    "ag": 0
+   },
+   {
+    "date": "2025-03-08",
+    "homeId": "17",
+    "awayId": "721",
+    "home": "SC Freiburg",
+    "away": "RB Leipzig",
+    "hg": 0,
+    "ag": 0
+   },
+   {
+    "date": "2024-10-26",
+    "homeId": "721",
+    "awayId": "17",
+    "home": "RB Leipzig",
+    "away": "SC Freiburg",
+    "hg": 3,
+    "ag": 1
+   },
+   {
+    "date": "2024-04-06",
+    "homeId": "17",
+    "awayId": "721",
+    "home": "SC Freiburg",
+    "away": "RB Leipzig",
+    "hg": 1,
+    "ag": 4
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "145293",
+    "name": "Yuito Suzuki",
+    "team": "SC Freiburg",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "156629",
+    "name": "Igor Matanovic",
+    "team": "SC Freiburg",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "9452",
+    "name": "Maximilian Eggestein",
+    "team": "SC Freiburg",
+    "pos": "Midfield",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "123277",
+    "name": "Yannik Engelhardt",
+    "team": "SC Freiburg",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "175704",
+    "name": "Derry Scherhant",
+    "team": "SC Freiburg",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "178783",
+    "name": "Romulo Cruz",
+    "team": "RB Leipzig",
+    "pos": "Offence",
+    "apps": 8,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "169295",
+    "name": "Antonio Nusa",
+    "team": "RB Leipzig",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "8484",
+    "name": "Christopher Nkunku",
+    "team": "RB Leipzig",
+    "pos": "Offence",
+    "apps": 9,
+    "goals": 5,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "6634",
+    "name": "Ridle Baku",
+    "team": "RB Leipzig",
+    "pos": "Defence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "211796",
+    "name": "Tidiam Gomis",
+    "team": "RB Leipzig",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "150517",
+    "name": "Rocco Reitz",
+    "team": "RB Leipzig",
+    "pos": "Midfield",
+    "apps": 7,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.645,
+   "draw": 0.171,
+   "awayWin": 0.184,
+   "pick": "H",
+   "confidence": 0.645,
+   "reasoning": "Poisson model: expected goals SC Freiburg 2.71 vs RB Leipzig 1.43, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "SC Freiburg at home: 4W-0D-1L, 14 scored and 5 conceded in 5 games.",
+    "RB Leipzig away: 2W-0D-3L, 9 scored and 12 conceded in 5 games.",
+    "League averages this season: home teams 2.08 goals per game, away teams 1.34.",
+    "Recent league form (newest first): SC Freiburg WWWLL, RB Leipzig WWWWL (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: SC Freiburg has 5 home games and RB Leipzig 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "145293",
+    "name": "Yuito Suzuki",
+    "team": "SC Freiburg",
+    "probability": 0.475,
+    "confidence": 0.38,
+    "reasoning": "5 of SC Freiburg's 21 league goals this season (24%), applied to the 2.71 goals the model expects from them here.",
+    "evidence": [
+     "Yuito Suzuki: 5 league goals in 9 appearances this season.",
+     "SC Freiburg have scored 21 league goals in 10 games; the model expects 2.71 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "156629",
+    "name": "Igor Matanovic",
+    "team": "SC Freiburg",
+    "probability": 0.475,
+    "confidence": 0.38,
+    "reasoning": "5 of SC Freiburg's 21 league goals this season (24%), applied to the 2.71 goals the model expects from them here.",
+    "evidence": [
+     "Igor Matanovic: 5 league goals in 10 appearances this season.",
+     "SC Freiburg have scored 21 league goals in 10 games; the model expects 2.71 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "9452",
+    "name": "Maximilian Eggestein",
+    "team": "SC Freiburg",
+    "probability": 0.321,
+    "confidence": 0.257,
+    "reasoning": "3 of SC Freiburg's 21 league goals this season (14%), applied to the 2.71 goals the model expects from them here.",
+    "evidence": [
+     "Maximilian Eggestein: 3 league goals in 10 appearances this season.",
+     "SC Freiburg have scored 21 league goals in 10 games; the model expects 2.71 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "2-1",
+    "probability": 0.084
+   },
+   "alternatives": [
+    {
+     "score": "3-1",
+     "probability": 0.076
+    },
+    {
+     "score": "1-1",
+     "probability": 0.062
+    },
+    {
+     "score": "2-2",
+     "probability": 0.06
+    }
+   ],
+   "confidence": 0.21,
+   "reasoning": "2–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 2.71 (SC Freiburg) and 1.43 (RB Leipzig).",
+    "Top scorelines: 2-1 (8.4%), 3-1 (7.6%), 1-1 (6.2%), 2-2 (6.0%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: SC Freiburg has 5 home games and RB Leipzig 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-28T04:51:14.209Z",
+ "lockedAt": "2026-11-28T04:51:46.714Z",
+ "result": null
+}

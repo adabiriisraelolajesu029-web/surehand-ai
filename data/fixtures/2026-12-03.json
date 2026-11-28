@@ -1,0 +1,22 @@
+[
+ {
+  "id": "560662",
+  "kickoffUtc": "2026-12-03T20:00:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "73",
+   "name": "Tottenham Hotspur FC",
+   "short": "TOT"
+  },
+  "away": {
+   "id": "63",
+   "name": "Fulham FC",
+   "short": "FUL"
+  }
+ }
+]

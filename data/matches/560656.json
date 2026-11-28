@@ -1,0 +1,373 @@
+{
+ "fixtureId": "560656",
+ "kickoffUtc": "2026-11-29T12:00:00.000Z",
+ "context": {
+  "fixture": {
+   "id": "560656",
+   "kickoffUtc": "2026-11-29T12:00:00.000Z",
+   "status": "scheduled",
+   "league": {
+    "id": "PL",
+    "name": "Premier League",
+    "country": "England"
+   },
+   "home": {
+    "id": "62",
+    "name": "Everton FC",
+    "short": "EVE"
+   },
+   "away": {
+    "id": "64",
+    "name": "Liverpool FC",
+    "short": "LIV"
+   }
+  },
+  "leagueAvg": {
+   "homeGoals": 1.5945945945945945,
+   "awayGoals": 1.1801801801801801
+  },
+  "form": {
+   "home": [
+    {
+     "opp": "Brentford FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "opp": "Coventry City FC",
+     "venue": "H",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Newcastle United FC",
+     "venue": "A",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Arsenal FC",
+     "venue": "A",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "opp": "Chelsea FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ],
+   "away": [
+    {
+     "opp": "Manchester United FC",
+     "venue": "H",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Crystal Palace FC",
+     "venue": "A",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "opp": "Arsenal FC",
+     "venue": "H",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "opp": "Brighton & Hove Albion FC",
+     "venue": "H",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "opp": "Brentford FC",
+     "venue": "A",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "stats": {
+   "home": {
+    "overall": {
+     "p": 11,
+     "w": 4,
+     "d": 4,
+     "l": 3,
+     "gf": 12,
+     "ga": 14
+    },
+    "home": {
+     "p": 5,
+     "w": 3,
+     "d": 1,
+     "l": 1,
+     "gf": 8,
+     "ga": 5
+    },
+    "away": {
+     "p": 6,
+     "w": 1,
+     "d": 3,
+     "l": 2,
+     "gf": 4,
+     "ga": 9
+    }
+   },
+   "away": {
+    "overall": {
+     "p": 11,
+     "w": 6,
+     "d": 3,
+     "l": 2,
+     "gf": 18,
+     "ga": 10
+    },
+    "home": {
+     "p": 6,
+     "w": 2,
+     "d": 2,
+     "l": 2,
+     "gf": 8,
+     "ga": 6
+    },
+    "away": {
+     "p": 5,
+     "w": 4,
+     "d": 1,
+     "l": 0,
+     "gf": 10,
+     "ga": 4
+    }
+   },
+   "sample": "League matches this season to date"
+  },
+  "h2h": [
+   {
+    "date": "2026-04-19",
+    "homeId": "62",
+    "awayId": "64",
+    "home": "Everton FC",
+    "away": "Liverpool FC",
+    "hg": 1,
+    "ag": 2
+   },
+   {
+    "date": "2025-09-20",
+    "homeId": "64",
+    "awayId": "62",
+    "home": "Liverpool FC",
+    "away": "Everton FC",
+    "hg": 2,
+    "ag": 1
+   },
+   {
+    "date": "2025-04-02",
+    "homeId": "64",
+    "awayId": "62",
+    "home": "Liverpool FC",
+    "away": "Everton FC",
+    "hg": 1,
+    "ag": 0
+   },
+   {
+    "date": "2025-02-12",
+    "homeId": "62",
+    "awayId": "64",
+    "home": "Everton FC",
+    "away": "Liverpool FC",
+    "hg": 2,
+    "ag": 2
+   },
+   {
+    "date": "2024-04-24",
+    "homeId": "62",
+    "awayId": "64",
+    "home": "Everton FC",
+    "away": "Liverpool FC",
+    "hg": 2,
+    "ag": 0
+   }
+  ]
+ },
+ "players": {
+  "home": [
+   {
+    "id": "171995",
+    "name": "Thierno Barry",
+    "team": "Everton FC",
+    "pos": "Offence",
+    "apps": 11,
+    "goals": 6,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "140194",
+    "name": "Kiernan Dewsbury Hall",
+    "team": "Everton FC",
+    "pos": "Midfield",
+    "apps": 11,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ],
+  "away": [
+   {
+    "id": "6486",
+    "name": "Alexander Isak",
+    "team": "Liverpool FC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 7,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "273423",
+    "name": "Víctor Muñoz",
+    "team": "Liverpool FC",
+    "pos": "Offence",
+    "apps": 10,
+    "goals": 3,
+    "minutes": null,
+    "shotsPer90": null
+   },
+   {
+    "id": "16347",
+    "name": "Dominik Szoboszlai",
+    "team": "Liverpool FC",
+    "pos": "Midfield",
+    "apps": 9,
+    "goals": 2,
+    "minutes": null,
+    "shotsPer90": null
+   }
+  ]
+ },
+ "prediction": {
+  "method": "statistical-model",
+  "outcome": {
+   "homeWin": 0.204,
+   "draw": 0.259,
+   "awayWin": 0.537,
+   "pick": "A",
+   "confidence": 0.537,
+   "reasoning": "Poisson model: expected goals Everton FC 0.82 vs Liverpool FC 1.52, from each side's season scoring and conceding rates at this venue.",
+   "evidence": [
+    "Everton FC at home: 3W-1D-1L, 8 scored and 5 conceded in 5 games.",
+    "Liverpool FC away: 4W-1D-0L, 10 scored and 4 conceded in 5 games.",
+    "League averages this season: home teams 1.59 goals per game, away teams 1.18.",
+    "Recent league form (newest first): Everton FC LWWLL, Liverpool FC WWLWW (shown for context, not used by the model)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Everton FC has 5 home games and Liverpool FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Simple Poisson models tend to slightly underestimate draws."
+   ]
+  },
+  "goalscorers": [
+   {
+    "playerId": "6486",
+    "name": "Alexander Isak",
+    "team": "Liverpool FC",
+    "probability": 0.446,
+    "confidence": 0.357,
+    "reasoning": "7 of Liverpool FC's 18 league goals this season (39%), applied to the 1.52 goals the model expects from them here.",
+    "evidence": [
+     "Alexander Isak: 7 league goals in 10 appearances this season.",
+     "Liverpool FC have scored 18 league goals in 11 games; the model expects 1.52 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "171995",
+    "name": "Thierno Barry",
+    "team": "Everton FC",
+    "probability": 0.338,
+    "confidence": 0.27,
+    "reasoning": "6 of Everton FC's 12 league goals this season (50%), applied to the 0.82 goals the model expects from them here.",
+    "evidence": [
+     "Thierno Barry: 6 league goals in 11 appearances this season.",
+     "Everton FC have scored 12 league goals in 11 games; the model expects 0.82 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   },
+   {
+    "playerId": "273423",
+    "name": "Víctor Muñoz",
+    "team": "Liverpool FC",
+    "probability": 0.224,
+    "confidence": 0.179,
+    "reasoning": "3 of Liverpool FC's 18 league goals this season (17%), applied to the 1.52 goals the model expects from them here.",
+    "evidence": [
+     "Víctor Muñoz: 3 league goals in 10 appearances this season.",
+     "Liverpool FC have scored 18 league goals in 11 games; the model expects 1.52 in this match."
+    ],
+    "uncertainties": [
+     "Injury, suspension and lineup status are not available from the data source, so he may not play.",
+     "Goal share includes penalties and ignores how well this particular opponent defends against individual players.",
+     "Only the league's top scorers are considered; other players may score too."
+    ]
+   }
+  ],
+  "correctScore": {
+   "top": {
+    "score": "0-1",
+    "probability": 0.146
+   },
+   "alternatives": [
+    {
+     "score": "1-1",
+     "probability": 0.12
+    },
+    {
+     "score": "0-2",
+     "probability": 0.111
+    },
+    {
+     "score": "0-0",
+     "probability": 0.096
+    }
+   ],
+   "confidence": 0.3,
+   "reasoning": "0–1 is the single likeliest scoreline in the model's score grid, but even the best exact score is a low-probability outcome.",
+   "evidence": [
+    "Expected goals 0.82 (Everton FC) and 1.52 (Liverpool FC).",
+    "Top scorelines: 0-1 (14.6%), 1-1 (12.0%), 0-2 (11.1%), 0-0 (9.6%)."
+   ],
+   "uncertainties": [
+    "Statistical model only: it ignores injuries, suspensions, lineups, tactics, motivation, fixture congestion and weather.",
+    "Small sample: Everton FC has 5 home games and Liverpool FC 5 away games this season, so venue-specific rates are noisy (they are blended with overall strength).",
+    "Exact scores depend heavily on chance; no model predicts them reliably."
+   ]
+  }
+ },
+ "dataSnapshotAt": "2026-11-28T04:48:10.207Z",
+ "lockedAt": "2026-11-28T04:48:40.808Z",
+ "result": null
+}

@@ -20,46 +20,6 @@
   }
  },
  {
-  "id": "560663",
-  "kickoffUtc": "2026-12-02T19:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "64",
-   "name": "Liverpool FC",
-   "short": "LIV"
-  },
-  "away": {
-   "id": "71",
-   "name": "Sunderland AFC",
-   "short": "SUN"
-  }
- },
- {
-  "id": "560665",
-  "kickoffUtc": "2026-12-02T19:30:00.000Z",
-  "status": "scheduled",
-  "league": {
-   "id": "PL",
-   "name": "Premier League",
-   "country": "England"
-  },
-  "home": {
-   "id": "61",
-   "name": "Chelsea FC",
-   "short": "CHE"
-  },
-  "away": {
-   "id": "354",
-   "name": "Crystal Palace FC",
-   "short": "CRY"
-  }
- },
- {
   "id": "560669",
   "kickoffUtc": "2026-12-02T19:30:00.000Z",
   "status": "scheduled",
@@ -100,8 +60,8 @@
   }
  },
  {
-  "id": "560670",
-  "kickoffUtc": "2026-12-02T20:15:00.000Z",
+  "id": "560663",
+  "kickoffUtc": "2026-12-02T19:30:00.000Z",
   "status": "scheduled",
   "league": {
    "id": "PL",
@@ -109,19 +69,19 @@
    "country": "England"
   },
   "home": {
-   "id": "67",
-   "name": "Newcastle United FC",
-   "short": "NEW"
+   "id": "64",
+   "name": "Liverpool FC",
+   "short": "LIV"
   },
   "away": {
-   "id": "66",
-   "name": "Manchester United FC",
-   "short": "MUN"
+   "id": "71",
+   "name": "Sunderland AFC",
+   "short": "SUN"
   }
  },
  {
-  "id": "560667",
-  "kickoffUtc": "2026-12-02T20:15:00.000Z",
+  "id": "560665",
+  "kickoffUtc": "2026-12-02T19:30:00.000Z",
   "status": "scheduled",
   "league": {
    "id": "PL",
@@ -129,14 +89,14 @@
    "country": "England"
   },
   "home": {
-   "id": "402",
-   "name": "Brentford FC",
-   "short": "BRE"
+   "id": "61",
+   "name": "Chelsea FC",
+   "short": "CHE"
   },
   "away": {
-   "id": "57",
-   "name": "Arsenal FC",
-   "short": "ARS"
+   "id": "354",
+   "name": "Crystal Palace FC",
+   "short": "CRY"
   }
  },
  {
@@ -177,6 +137,46 @@
    "id": "62",
    "name": "Everton FC",
    "short": "EVE"
+  }
+ },
+ {
+  "id": "560667",
+  "kickoffUtc": "2026-12-02T20:15:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "402",
+   "name": "Brentford FC",
+   "short": "BRE"
+  },
+  "away": {
+   "id": "57",
+   "name": "Arsenal FC",
+   "short": "ARS"
+  }
+ },
+ {
+  "id": "560670",
+  "kickoffUtc": "2026-12-02T20:15:00.000Z",
+  "status": "scheduled",
+  "league": {
+   "id": "PL",
+   "name": "Premier League",
+   "country": "England"
+  },
+  "home": {
+   "id": "67",
+   "name": "Newcastle United FC",
+   "short": "NEW"
+  },
+  "away": {
+   "id": "66",
+   "name": "Manchester United FC",
+   "short": "MUN"
   }
  },
  {
